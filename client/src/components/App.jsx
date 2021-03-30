@@ -1,25 +1,28 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const Main = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 const Banner = styled.img`
-  height: 5vh;
-  widht: 80vw;
+  position: relative;
+  margin: -10px auto 0 auto;
+  height: 15vh;
 `;
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      name: 'abinth',
-    };
+    this.state = { };
   }
 
   render() {
     return (
-      <div>
-        <Banner src="../dist/Banner.png" alt="abinth: all news, no comments banner" />
-        <div>{this.state.name}</div>
-      </div>
+      <Main>
+        <Banner src="./images/abinth_banner.jpg" alt="abinth: all news, no comments banner" />
+      </Main>
     );
   }
 }

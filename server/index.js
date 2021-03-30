@@ -9,7 +9,7 @@ const staticMiddlware = express.static(path.join(__dirname, '../client/dist'));
 app.use('/', staticMiddlware);
 
 app.get('/', (req, res) => {
-  res.send('hello world');
+  res.send(201);
 });
 
 app.listen(port);
