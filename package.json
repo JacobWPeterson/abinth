@@ -1,0 +1,70 @@
+{
+  "name": "abinth",
+  "version": "1.0.0",
+  "description": "A Twitter-based morning news digest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test-u": "npm run test -- -u",
+    "react-dev": "webpack",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JacobWPeterson/abinth.git"
+  },
+  "keywords": [
+    "full-stack",
+    "react",
+    "node",
+    "postgres"
+  ],
+  "author": "Jacob Peterson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacobWPeterson/abinth/issues"
+  },
+  "homepage": "https://github.com/JacobWPeterson/abinth#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/preset-react": "^7.12.13",
+    "@testing-library/react": "^11.2.5",
+    "async-wait-until": "^2.0.3",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-styled-components": "^1.12.0",
+    "brotli-gzip-webpack-plugin": "^0.5.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.1",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^26.6.3",
+    "jest-enzyme": "^7.1.2",
+    "jest-styled-components": "^7.0.3",
+    "react-test-renderer": "^16.14.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-fontawesome": "^1.7.1",
+    "styled-components": "^5.2.1"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>tests/setupTests.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  }
+}
