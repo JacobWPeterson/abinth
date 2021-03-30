@@ -1,5 +1,5 @@
-<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/client/dist/images/abinth_banner.jpg" width="500">
-*by*
+<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/client/dist/images/abinth_banner.jpg" width="1000">
+*by* \
 [Jacob Peterson](https://github.com/JacobWPeterson)
 
 ---
