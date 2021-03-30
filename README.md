@@ -1,5 +1,4 @@
-# abinth
-## A Twitter-based morning news digest
+<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/client/dist/images/abinth_banner.jpg" width="500">
 *by*
 [Jacob Peterson](https://github.com/JacobWPeterson)
 
