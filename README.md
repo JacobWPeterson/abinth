@@ -1,9 +1,11 @@
-<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/client/dist/images/abinth_banner.jpg" width="1100">
+<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/blue_banner.png" width="1100">
 
 # abinth
-## a twitter-based news digest
+### a twitter-based news digest
 *by*
 [Jacob Peterson](https://github.com/JacobWPeterson)
+
+---
 
 ## Technologies Used
 1. React.js
