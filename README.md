@@ -1,5 +1,4 @@
 <img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/client/dist/images/abinth_banner.jpg" width="1100">
----
 
 # abinth
 ## a twitter-based news digest
