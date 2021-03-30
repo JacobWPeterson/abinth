@@ -1,5 +1,7 @@
+<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/blue_banner.png" width="1100">
+
 # abinth
-## A Twitter-based morning news digest
+### a twitter-based news digest
 *by*
 [Jacob Peterson](https://github.com/JacobWPeterson)
 
