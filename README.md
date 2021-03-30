@@ -12,6 +12,6 @@
 2. Node
 3. Express.js
 4. Postgres
-5. Styled-Components
+5. Material UI
 6. Jest
 7. Enzyme
