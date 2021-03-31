@@ -71,5 +71,3 @@ const followed = [
     username: 'POTUS',
   },
 ];
-
-export default followed;

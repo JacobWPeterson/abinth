@@ -2,13 +2,20 @@ const express = require('express');
 const path = require('path');
 
 const api = require('./api_handler.js');
+const filter = require('./filterData.js');
 
 const app = express();
 const port = 3000;
 
 const staticMiddlware = express.static(path.join(__dirname, '../client/dist'));
 
-app.use('/', staticMiddlware);
+app.use(staticMiddlware);
+
+app.get('/home', (req, res) => {
+  filter.findMostInteractedTweet((data) => {
+    res.status(200).send(data);
+  });
+});
 
 app.get('/BayArea', (req, res) => {
   // const tweets = [];

@@ -10602,6 +10602,6 @@ const tweets = [
           "author_id": "1349149096909668363"
       }
   ]
-]
+];
 
-export default tweets;
+module.exports.tweets = tweets;
