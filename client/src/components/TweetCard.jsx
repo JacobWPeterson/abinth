@@ -10,8 +10,7 @@ const Wrapper = styled.div`
   position: relative;
   display: flex;
   align-items: center;
-  width: 40vw;
-  min-width: 400px;
+  width: max(30vw, 400px);
   min-height: 20vh;
   // max-height: 60vh;
   padding-top: max(10px, 2vh);
