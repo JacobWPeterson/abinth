@@ -11,7 +11,7 @@ const staticMiddlware = express.static(path.join(__dirname, '../client/dist'));
 
 app.use(staticMiddlware);
 
-app.get('/home', (req, res) => {
+app.get('/tweets', (req, res) => {
   filter.findMostInteractedTweet((data) => {
     res.status(200).send(data);
   });
@@ -20,7 +20,7 @@ app.get('/home', (req, res) => {
 app.get('/BayArea', (req, res) => {
   // const tweets = [];
   api.fetchUsers('1376270016786558979', async (follows) => {
-    // console.log(follows.data);
+    // res.send(follows.data);
     // follows.data.forEach((user) => {
     //   api.fetchUserTweets(user.id, (userTweets) => {
     //     tweets.push(userTweets);

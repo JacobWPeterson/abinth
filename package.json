@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --coverage",
     "test-u": "npm run test -- -u",
-    "react-dev": "webpack",
+    "react-dev": "webpack --watch",
     "start": "nodemon server/index.js"
   },
   "repository": {

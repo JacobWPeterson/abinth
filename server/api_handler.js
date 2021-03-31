@@ -6,7 +6,7 @@ axios.defaults.headers.common.Authorization = BEARER_TOKEN.BEARER_TOKEN;
 const API_BASE_URL = 'https://api.twitter.com/2/users/';
 
 const fetchUsers = (userID, callback) => {
-  axios.get(`${API_BASE_URL}${userID}/following`)
+  axios.get(`${API_BASE_URL}${userID}/following?user.fields=id,location,profile_image_url`)
     .then((data) => {
       callback(data.data);
     })
