@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import FontAwesome from 'react-fontawesome';
 
+import TweetBody from './TweetBody.jsx';
+
 import followed from '../../../dummyData/followed.js';
 
 const Wrapper = styled.div`
@@ -92,10 +94,6 @@ const Username = styled.div`
   font-style: italic;
 `;
 
-const Body = styled.div`
-  font-weight: 300;
-`;
-
 class TweetCard extends React.Component {
   constructor(props) {
     super(props);
@@ -147,7 +145,7 @@ class TweetCard extends React.Component {
                   <Username>{`@${this.state.username}`}</Username>
                 </Handles>
               </User>
-              <Body>{this.props.tweet.text}</Body>
+              <TweetBody text={this.props.tweet.text} />
             </Box>
           </Card>
           <RightArrow onClick={this.clickHandler}><FontAwesome id="1" name="chevron-right" /></RightArrow>
