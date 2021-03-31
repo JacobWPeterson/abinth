@@ -62,8 +62,16 @@ class TweetBody extends React.Component {
     }
   }
 
+  // eslint-disable-next-line class-methods-use-this
   async dissectTweet(text, callback) {
     let words = text.split(' ');
+    const lastWord = words[words.length - 1];
+    if (lastWord.includes('http') && lastWord.indexOf('http') !== 0) {
+      const word1 = lastWord.substring(0, lastWord.indexOf('http'));
+      const word2 = lastWord.substring(lastWord.indexOf('http'));
+      words[words.length - 1] = word1;
+      words.push(word2);
+    }
     words = words.filter((word) => {
       if (word.match(urlPattern)) {
         resolveURI(word).then((x) => {
@@ -78,14 +86,14 @@ class TweetBody extends React.Component {
         return word;
       }
     });
-    // console.log(words.join(' '));
+    console.log('joined ', words.join(' '));
     callback(words.join(' '));
-    console.log(this.state.textToRender);
+    // console.log(this.state.textToRender);
   }
 
   render() {
     if (this.state.textToRender) {
-      return <div className="some_text_class">{this.state.textToRender}</div>;
+      return <div className="some_text_class">{this.props.text}</div>;
     }
     return <div />;
   }
