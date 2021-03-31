@@ -29,7 +29,7 @@ twoDaysAgo = twoDaysAgo.toISOString().substring(0, 10);
 const PDTStartTime = `${twoDaysAgo}T17:00:00Z`;
 const PDTEndTime = `${yesterday}T16:59:59Z`;
 
-const feedParams = `?start_time=${PDTStartTime}&end_time=${PDTEndTime}&exclude=retweets,replies&max_results=10&tweet.fields=attachments,author_id,context_annotations,conversation_id,created_at,entities,geo,id,in_reply_to_user_id,lang,possibly_sensitive,public_metrics,referenced_tweets,reply_settings,source,text,withheld&user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld&expansions=author_id,referenced_tweets.id,referenced_tweets.id.author_id,entities.mentions.username,attachments.poll_ids,attachments.media_keys,in_reply_to_user_id,geo.place_id&place.fields=contained_within,country,country_code,full_name,geo,id,name,place_type`;
+const feedParams = `?start_time=${PDTStartTime}&end_time=${PDTEndTime}&exclude=retweets,replies&max_results=10&tweet.fields=attachments,author_id,conversation_id,created_at,entities,geo,id,possibly_sensitive,public_metrics,referenced_tweets,text,withheld&user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld&expansions=author_id,referenced_tweets.id,referenced_tweets.id.author_id,entities.mentions.username,attachments.poll_ids,attachments.media_keys,in_reply_to_user_id,geo.place_id&place.fields=contained_within,country,country_code,full_name,geo,id,name,place_type`;
 
 const fetchUserTweets = (userID, callback) => {
   axios.get(`${API_BASE_URL}${userID}/tweets${feedParams}`)
@@ -76,7 +76,7 @@ async function getUserTweets(userID) {
     const response = await axios.get(`${API_BASE_URL}${userID}/tweets${feedParams}`);
     return response.data.data;
   } catch (error) {
-    console.error(error);
+    return error;
   }
 }
 
