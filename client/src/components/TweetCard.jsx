@@ -147,7 +147,7 @@ class TweetCard extends React.Component {
                 <ProfilePhoto src={this.state.profilePhoto} alt={`${this.state.name}`} />
                 <Handles>
                   <Name>{this.state.name}</Name>
-                  <Username target="_blank" href={`https://twitter.com/${this.state.username}`}>{`@${this.state.username}`}</Username>
+                  <Username target="_blank" rel="noreferrer" href={`https://twitter.com/${this.state.username}`}>{`@${this.state.username}`}</Username>
                 </Handles>
               </User>
               <TweetBody tweet={this.props.tweet} />

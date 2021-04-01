@@ -67,9 +67,9 @@ const Icon = styled.div`
 const LinkPreview = ({
   imageUrl, title, description, link,
 }) => (
-  <Wrapper target="_blank" href={link}>
+  <Wrapper target="_blank" rel="noreferrer" href={link}>
     <ImageContainer>
-      <Image src={imageUrl} />
+      <Image src={imageUrl} alt="link preview" />
     </ImageContainer>
     <Content>
       <Title>{title}</Title>
