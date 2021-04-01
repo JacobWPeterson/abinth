@@ -78,8 +78,9 @@ const LinkPreview = ({
         <Icon>
           <FontAwesome name="fas fa-link" />
         </Icon>
+        { link.includes('.pl') && link.substring(8, link.indexOf('.pl/') + 3)}
         { link.includes('.com') && link.substring(link.indexOf('www.'), link.indexOf('.com') + 4)}
-        { !link.includes('.com') && link}
+        { !link.includes('.com') && !link.includes('.pl') && link}
       </LinkArea>
     </Content>
   </Wrapper>

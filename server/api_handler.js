@@ -18,11 +18,11 @@ const fetchUsers = (userID, callback) => {
 const today = new Date();
 let yesterday = new Date(today);
 let twoDaysAgo = new Date(today);
-yesterday.setDate(yesterday.getDate() - 2);
+yesterday.setDate(yesterday.getDate() - 3);
 yesterday.toTimeString();
 yesterday = yesterday.toISOString().substring(0, 10);
 
-twoDaysAgo.setDate(twoDaysAgo.getDate() - 3);
+twoDaysAgo.setDate(twoDaysAgo.getDate() - 4);
 twoDaysAgo.toTimeString();
 twoDaysAgo = twoDaysAgo.toISOString().substring(0, 10);
 
@@ -53,6 +53,20 @@ const fetchUserTweets = (userID, callback) => {
 //       console.log(err.response);
 //     });
 // };
+
+const tweetParams = `?media.fields=url,type&tweet.fields=attachments,author_id,conversation_id,created_at,entities,geo,id,possibly_sensitive,public_metrics,referenced_tweets,text,withheld&user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld&expansions=author_id,referenced_tweets.id,referenced_tweets.id.author_id,entities.mentions.username,attachments.poll_ids,attachments.media_keys,in_reply_to_user_id,geo.place_id&place.fields=contained_within,country,country_code,full_name,geo,id,name,place_type`;
+
+// Get polish tweet for Rob
+const getPolishTweet = (tweetID, callback) => {
+  axios.get(`https://api.twitter.com/2/tweets/${tweetID}${tweetParams}`)
+    .then((data) => {
+      // console.log(data.data.data);
+      callback(data.data.data);
+    })
+    .catch((err) => {
+      console.log(err.response);
+    });
+};
 
 // const responseTweetsArray = [];
 
@@ -108,3 +122,4 @@ module.exports.fetchUserTweets = fetchUserTweets;
 module.exports.getUserTweets = getUserTweets;
 // module.exports.fetchTweets = fetchTweets;
 // module.exports.getMedia = getMedia;
+module.exports.getPolishTweet = getPolishTweet;

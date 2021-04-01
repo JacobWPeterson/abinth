@@ -17,6 +17,14 @@ app.get('/tweets', (req, res) => {
   });
 });
 
+// Get polish tweet for Rob
+app.get('/poland', (req, res) => {
+  api.getPolishTweet('1377580125521383425', (media) => {
+    // console.log('UT ', userTweets);
+    res.status(200).send(media);
+  });
+});
+
 // Twitter does not allow me to complete this request
 // app.get('/media', (req, res) => {
 //   api.getMedia('2557521', (media) => {
