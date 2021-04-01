@@ -1,18 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
 import Linkify from 'react-linkify';
-
-const Body = styled.div`
-  font-weight: 300;
-`;
-
-const URL = styled.a`
-  &:hover {
-    color: #56b8f5;
-    transform: scale(1.1);
-    cursor: pointer;
-  };
-`;
 
 const urlPattern = /^(https?|ftp|torrent|image|irc):\/\/(-\.)?([^\s/?.#]+\.?)+(\/[^\s]*)?$/i;
 

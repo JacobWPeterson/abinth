@@ -17,6 +17,14 @@ app.get('/tweets', (req, res) => {
   });
 });
 
+// Twitter does not allow me to complete this request
+// app.get('/media', (req, res) => {
+//   api.getMedia('2557521', (media) => {
+//     // console.log('UT ', userTweets);
+//     res.status(200).send(media);
+//   });
+// });
+
 app.get('/BayArea', (req, res) => {
   // const tweets = [];
   api.fetchUsers('1376270016786558979', async (follows) => {

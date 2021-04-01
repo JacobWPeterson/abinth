@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import FontAwesome from 'react-fontawesome';
 
 import TweetBody from './TweetBody.jsx';
+import Images from './Images.jsx';
 
 import followed from '../../../dummyData/followed.js';
 
@@ -15,7 +16,7 @@ const Wrapper = styled.div`
   // max-height: 60vh;
   padding-top: max(10px, 2vh);
   padding-bottom: max(10px, 2vh);
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.16), 0 3px 10px rgba(0,0,0,0.23);
 `;
 
@@ -145,6 +146,7 @@ class TweetCard extends React.Component {
                 </Handles>
               </User>
               <TweetBody tweet={this.props.tweet} />
+              {this.props.tweet.entities.urls[0].expanded_url.includes('https://twitter.com/') && <Images images={this.props.tweet} />}
             </Box>
           </Card>
           <RightArrow onClick={this.clickHandler}><FontAwesome id="1" name="chevron-right" /></RightArrow>
