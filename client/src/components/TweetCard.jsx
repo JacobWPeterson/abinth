@@ -144,7 +144,7 @@ class TweetCard extends React.Component {
                   <Username>{`@${this.state.username}`}</Username>
                 </Handles>
               </User>
-              <TweetBody text={this.props.tweet.text} />
+              <TweetBody tweet={this.props.tweet} />
             </Box>
           </Card>
           <RightArrow onClick={this.clickHandler}><FontAwesome id="1" name="chevron-right" /></RightArrow>
