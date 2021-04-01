@@ -5,7 +5,7 @@ class CardStack extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      index: 10,
+      index: 0,
     };
     this.changeIndex = this.changeIndex.bind(this);
   }

@@ -16,7 +16,6 @@ const Banner = styled.img`
   position: relative;
   margin: 0px auto 5vh auto;
   height: 15vh;
-  
 `;
 
 class App extends React.Component {
