@@ -4,6 +4,7 @@ import FontAwesome from 'react-fontawesome';
 
 import TweetBody from './TweetBody.jsx';
 import Images from './Images.jsx';
+import LinkPreview from './LinkPreview.jsx';
 
 import followed from '../../../dummyData/followed.js';
 
@@ -89,9 +90,13 @@ const Name = styled.div`
   font-weight: 400;
 `;
 
-const Username = styled.div`
+const Username = styled.a`
+  text-decoration: none;
+  color: inherit;
   font-weight: 300;
   font-style: italic;
+  font-size: .9rem;
+  &:hover { color: #1DA1F2; };
 `;
 
 class TweetCard extends React.Component {
@@ -142,11 +147,20 @@ class TweetCard extends React.Component {
                 <ProfilePhoto src={this.state.profilePhoto} alt={`${this.state.name}`} />
                 <Handles>
                   <Name>{this.state.name}</Name>
-                  <Username>{`@${this.state.username}`}</Username>
+                  <Username target="_blank" href={`https://twitter.com/${this.state.username}`}>{`@${this.state.username}`}</Username>
                 </Handles>
               </User>
               <TweetBody tweet={this.props.tweet} />
               {this.props.tweet.entities.urls[0].expanded_url.includes('https://twitter.com/') && <Images images={this.props.tweet} />}
+              {this.props.tweet.entities.urls[0].images
+              && (
+              <LinkPreview
+                imageUrl={this.props.tweet.entities.urls[0].images[0].url}
+                title={this.props.tweet.entities.urls[0].title}
+                description={this.props.tweet.entities.urls[0].description}
+                link={this.props.tweet.entities.urls[0].unwound_url}
+              />
+              )}
             </Box>
           </Card>
           <RightArrow onClick={this.clickHandler}><FontAwesome id="1" name="chevron-right" /></RightArrow>

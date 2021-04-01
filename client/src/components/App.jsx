@@ -7,7 +7,8 @@ import CardStack from './CardStack.jsx';
 const Main = styled.div`
   font-family: 'Roboto', sans-serif;
   color: #424242;
-  line-height: 1.4rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
