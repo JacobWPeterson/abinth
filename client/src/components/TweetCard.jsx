@@ -166,28 +166,30 @@ class TweetCard extends React.Component {
   }
 
   render() {
+    const { tweet } = this.props;
+    const { visible, profilePhoto, name } = this.state;
     if (this.state.name) {
       return (
-        <Wrapper out={!this.state.visible}>
+        <Wrapper out={!visible}>
           <LeftArrow onClick={this.clickHandler}><FontAwesome id="-1" name="chevron-left" /></LeftArrow>
           <Card>
             <Box>
               <User>
-                <ProfilePhoto src={this.state.profilePhoto} alt={`${this.state.name}`} />
+                <ProfilePhoto src={profilePhoto} alt={`${this.state.name}`} />
                 <Handles>
-                  <Name>{this.state.name}</Name>
+                  <Name>{name}</Name>
                   <Username target="_blank" rel="noreferrer" href={`https://twitter.com/${this.state.username}`}>{`@${this.state.username}`}</Username>
                 </Handles>
               </User>
-              <TweetBody out={!this.state.visible} tweet={this.props.tweet} />
-              {this.props.tweet.entities.urls[0].expanded_url.includes('https://twitter.com/') && <Images images={this.props.tweet} />}
-              {this.props.tweet.entities.urls[0].images
+              <TweetBody tweet={tweet} />
+              {tweet.entities && tweet.entities.urls && tweet.entities.urls[0].expanded_url.includes('https://twitter.com/') && <Images images={tweet} />}
+              {tweet.entities && tweet.entities.urls && tweet.entities.urls[0].images
               && (
               <LinkPreview
-                imageUrl={this.props.tweet.entities.urls[0].images[0].url}
-                title={this.props.tweet.entities.urls[0].title}
-                description={this.props.tweet.entities.urls[0].description}
-                link={this.props.tweet.entities.urls[0].unwound_url}
+                imageUrl={tweet.entities.urls[0].images[0].url}
+                title={tweet.entities.urls[0].title}
+                description={tweet.entities.urls[0].description}
+                link={tweet.entities.urls[0].unwound_url}
               />
               )}
             </Box>
