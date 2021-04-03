@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import FontAwesome from 'react-fontawesome';
 
 import TweetBody from './TweetBody.jsx';
@@ -7,6 +7,30 @@ import Images from './Images.jsx';
 import LinkPreview from './LinkPreview.jsx';
 
 import followed from '../../../dummyData/followed.js';
+
+const fadeIn = keyframes`
+  from {
+    transform: scale(.25);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+`;
+
+const fadeOut = keyframes`
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(.25);
+    opacity: 0;
+  }
+`;
 
 const Wrapper = styled.div`
   position: relative;
@@ -19,6 +43,10 @@ const Wrapper = styled.div`
   padding-bottom: max(10px, 2vh);
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.16), 0 3px 10px rgba(0,0,0,0.23);
+
+  visibility: ${(props) => (props.out ? 'hidden' : 'visible')};
+  animation: ${(props) => (props.out ? fadeOut : fadeIn)} 1s linear;
+  transition: visibility 1s linear;
 `;
 
 const Card = styled.div`
@@ -105,6 +133,7 @@ class TweetCard extends React.Component {
     this.state = {
       name: null,
       username: null,
+      visible: true,
     };
     this.findAuthorName = this.findAuthorName.bind(this);
     this.clickHandler = this.clickHandler.bind(this);
@@ -139,7 +168,7 @@ class TweetCard extends React.Component {
   render() {
     if (this.state.name) {
       return (
-        <Wrapper>
+        <Wrapper out={!this.state.visible}>
           <LeftArrow onClick={this.clickHandler}><FontAwesome id="-1" name="chevron-left" /></LeftArrow>
           <Card>
             <Box>
@@ -150,7 +179,7 @@ class TweetCard extends React.Component {
                   <Username target="_blank" rel="noreferrer" href={`https://twitter.com/${this.state.username}`}>{`@${this.state.username}`}</Username>
                 </Handles>
               </User>
-              <TweetBody tweet={this.props.tweet} />
+              <TweetBody out={!this.state.visible} tweet={this.props.tweet} />
               {this.props.tweet.entities.urls[0].expanded_url.includes('https://twitter.com/') && <Images images={this.props.tweet} />}
               {this.props.tweet.entities.urls[0].images
               && (
