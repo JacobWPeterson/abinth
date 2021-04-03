@@ -25,4 +25,4 @@
 <img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/sample_card.png" width="1100">
 
 ### End of Card Deck
-<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/end_of_deck.png" width="1100">
+<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/end.png" width="1100">
