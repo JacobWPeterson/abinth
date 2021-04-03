@@ -69,7 +69,7 @@ const Button = styled.button`
   text-transform: uppercase;
   letter-spacing: 1.3px;
   font-weight: 700;
-  color: #E7E6E6;
+  color: #fff;
   background: #1DA1F2;
   // background: radial-gradient(ellipse at center, rgba(79,182,255,1) 0%, rgba(29,161,242,1) 100%);
   border: none;
@@ -94,8 +94,8 @@ const Button = styled.button`
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: ${ring} 1.5s infinite;
-    animation-play-state: ${(props) => (props.ringIt ? 'running' : 'paused')};
+    animation: 1.5s 3 both ${ring};
+    // animation-play-state: ${(props) => (props.ringIt ? 'running' : 'paused')};
     display: ${(props) => (props.ringIt ? 'inline' : 'none')};
   };
 `;
