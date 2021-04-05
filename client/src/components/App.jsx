@@ -16,17 +16,25 @@ const Main = styled.div`
 
 const Banner = styled.img`
   position: relative;
-  margin: -10px auto 5vh auto;
+  margin: auto;
   height: 15vh;
+
+  @media (min-width: 313px) {
+    margin: -10px auto 5vh auto;
+  }
 `;
 
 const Display = styled.div`
-  margin-top: 5vh;
+  margin-top: 15vh;
   text-decoration: none;
   padding: 1vh 1.5vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+
+  @media (min-width: 313px) {
+    margin-top: 5vh;
+  }
 `;
 
 const Message = styled.div`
@@ -38,12 +46,20 @@ const Message = styled.div`
 
 const Greeting = styled.p`
   margin: 0 auto;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
+
+  @media (min-width: 313px) {
+    font-size: 1.75rem;
+  }
 `;
 
 const DeckInfo = styled.p`
   margin: 0 auto;
-  font-size: 1.1rem;
+  font-size: .9rem;
+
+  @media (min-width: 313px) {
+    font-size: 1.1rem;
+  }
 `;
 
 const ring = keyframes`
@@ -62,18 +78,19 @@ const ring = keyframes`
 `;
 
 const Button = styled.button`
-  min-width: 300px;
+  margin: auto;
+  animation: none;
+  width: 70vw;
   min-height: 7vh;
   font: inherit;
-  font-size: 22px;
+  font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 1.3px;
   font-weight: 700;
   color: #fff;
   background: #1DA1F2;
   // background: radial-gradient(ellipse at center, rgba(79,182,255,1) 0%, rgba(29,161,242,1) 100%);
   border: none;
-  border-radius: 1000px;
+  border-radius: 100px;
   box-shadow: 12px 12px 24px rgba(29,161,242,.64);
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
@@ -81,24 +98,31 @@ const Button = styled.button`
   position: relative;
   padding: 10px;
 
-  &:hover, .button:focus {
-    color: #313133;
-    transform: translateY(-6px);
-  }
 
-  &:after {
-    content: '';
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    border: 6px solid #1DA1F2;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: 1.5s 3 both ${ring};
-    // animation-play-state: ${(props) => (props.ringIt ? 'running' : 'paused')};
-    display: ${(props) => (props.ringIt ? 'inline' : 'none')};
-  };
+  @media (min-width: 313px) {
+    width: 300px;
+    font-size: 22px;
+    letter-spacing: 1.3px;
+
+    &:hover, .button:focus {
+      color: #313133;
+      transform: translateY(-6px);
+    }
+
+    &:after {
+      content: '';
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+      border: 6px solid #1DA1F2;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation: 1.5s 3 both ${ring};
+      // animation-play-state: ${(props) => (props.ringIt ? 'running' : 'paused')};
+      display: ${(props) => (props.ringIt ? 'inline' : 'none')};
+    };
+  }
 `;
 
 const Closing = styled.p`
@@ -112,17 +136,21 @@ class App extends React.Component {
     super(props);
     this.state = {
       tweets: null,
+      screenSize: null,
       greetingOn: true,
       deckOpen: false,
       deckFinished: false,
       greeting: 'Good morning!',
     };
     this.getTweets = this.getTweets.bind(this);
+    this.updateScreenSize = this.updateScreenSize.bind(this);
     this.closeDeck = this.closeDeck.bind(this);
   }
 
   componentDidMount() {
     this.getTweets();
+    this.updateScreenSize();
+    window.addEventListener('resize', this.updateScreenSize);
     const hour = new Date().getHours();
     if (hour >= 12 && hour < 16) {
       this.setState({ greeting: 'Good afternoon!' });
@@ -131,6 +159,14 @@ class App extends React.Component {
     } else if (hour >= 20 && hour <= 24) {
       this.setState({ greeting: 'Hey there!' });
     }
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateScreenSize);
+  }
+
+  updateScreenSize() {
+    this.setState({ screenSize: window.innerWidth });
   }
 
   getTweets() {
@@ -149,11 +185,16 @@ class App extends React.Component {
 
   render() {
     const {
-      greeting, tweets, greetingOn, deckOpen, deckFinished,
+      greeting, screenSize, tweets, greetingOn, deckOpen, deckFinished,
     } = this.state;
     return (
       <Main>
-        <Banner src="./images/alt_abinth_banner.png" alt="abinth: all news, no comments banner" height="137" width="897" />
+        {screenSize <= 313 &&
+        <Banner src="./images/abinth_watch_banner.png" alt="abinth: all news, no comments banner" height="37" width="162"/> }
+        {screenSize > 313 && screenSize < 897  &&
+        <Banner src="./images/abinth_stacked_banner.png" alt="abinth: all news, no comments banner" height="137" width="313" /> }
+        {screenSize > 897 &&
+        <Banner src="./images/alt_abinth_banner.png" alt="abinth: all news, no comments banner" height="137" width="897" /> }
         {tweets && greetingOn && !deckOpen && (
         <Display>
           <Message>

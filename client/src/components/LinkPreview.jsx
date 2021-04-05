@@ -8,7 +8,7 @@ const Wrapper = styled.a`
   color: inherit;
   flex-direction: column;
   width: 100%;
-  height: 40vh;
+  min-height: 40vh;
   border: 1px solid #e0e0e0;
   border-radius: 15px;
   margin: 1vh 0 0 0;

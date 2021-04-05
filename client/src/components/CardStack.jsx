@@ -31,7 +31,7 @@ class CardStack extends React.Component {
   render() {
     return (
       <ClickArea onClick={this.changeIndex}>
-        <TweetCard tweet={this.props.tweets[this.state.index]}/>
+        <TweetCard tweet={this.props.tweets[this.state.index]} />
       </ClickArea>
     );
   }

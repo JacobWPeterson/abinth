@@ -36,7 +36,8 @@ const Wrapper = styled.div`
   position: relative;
   display: flex;
   align-items: center;
-  width: max(30vw, 450px);
+  // width: max(30vw, 450px);
+  width: 95%;
   min-height: 20vh;
   padding-top: max(10px, 2vh);
   padding-bottom: max(10px, 2vh);
@@ -47,6 +48,10 @@ const Wrapper = styled.div`
   visibility: ${(props) => (props.out ? 'hidden' : 'visible')};
   animation: ${(props) => (props.out ? fadeOut : fadeIn)} 1s linear;
   transition: visibility 1s linear;
+
+  @media (min-width: 450px) {
+    width: max(30vw, 450px);
+  }
 `;
 
 const Card = styled.div`
