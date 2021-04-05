@@ -127,9 +127,15 @@ const Button = styled.button`
 
 const Closing = styled.p`
   margin: 0 auto;
-  font-size: 1.75rem;
-  padding: 0 0 2vh 0;
-`;
+  font-size: 1.5rem;
+  padding: 0 0 10vh 0;
+
+  @media (min-width: 313px) {
+    margin: 0 auto;
+    font-size: 1.75rem;
+    padding: 0 0 2vh 0;
+  }
+`
 
 class App extends React.Component {
   constructor(props) {
@@ -217,7 +223,7 @@ class App extends React.Component {
         )}
         <Suspense fallback={<div>Loading...</div>}>
           {deckOpen && (
-          <CardStack closeDeck={this.closeDeck} tweets={tweets} />
+          <CardStack screenSize={screenSize} closeDeck={this.closeDeck} tweets={tweets} />
           )}
         </Suspense>
         <Suspense fallback={<div>Loading...</div>}>

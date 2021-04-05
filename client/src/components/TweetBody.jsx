@@ -1,7 +1,20 @@
 import React from 'react';
 import Linkify from 'react-linkify';
 
+import styled from 'styled-components';
+
 const urlPattern = /^(https?|ftp|torrent|image|irc):\/\/(-\.)?([^\s/?.#]+\.?)+(\/[^\s]*)?$/i;
+
+const Text = styled.p`
+  margin: 0;
+  font-size: .9rem;
+  line-height: 1rem;
+
+  @media (min-width: 313px) {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+`;
 
 class TweetBody extends React.Component {
   constructor(props) {
@@ -74,7 +87,7 @@ class TweetBody extends React.Component {
           </a>
         )}
         >
-          {this.state.textToRender}
+          <Text>{this.state.textToRender}</Text>
         </Linkify>
       );
     }

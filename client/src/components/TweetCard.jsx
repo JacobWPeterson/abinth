@@ -32,7 +32,7 @@ const fadeOut = keyframes`
 `;
 
 const Wrapper = styled.div`
-  margin: 0 auto;
+  margin: 5vh auto 0 auto;
   position: relative;
   display: flex;
   align-items: center;
@@ -48,6 +48,10 @@ const Wrapper = styled.div`
   visibility: ${(props) => (props.out ? 'hidden' : 'visible')};
   animation: ${(props) => (props.out ? fadeOut : fadeIn)} 1s linear;
   transition: visibility 1s linear;
+
+  @media (min-width: 313px) {
+    margin: 0 auto;
+  }
 
   @media (min-width: 450px) {
     width: max(30vw, 450px);
@@ -83,10 +87,14 @@ const ProfilePhoto = styled.img`
   border-radius: 50%;
   height: 8vh;
   // transform: scale(1.5);
-  padding: 2px;
   margin-right: .5vw;
   border: 3px solid #e0e0e0;
   &:hover { border: 3px solid #cccccc; };
+
+  // @media (min-width: 313px) {
+  //   height: 8vh;
+  // }
+
 `;
 
 const Handles = styled.div`
@@ -147,7 +155,7 @@ class TweetCard extends React.Component {
   }
 
   render() {
-    const { tweet } = this.props;
+    const { tweet, screenSize } = this.props;
     const { visible, profilePhoto, name } = this.state;
     if (this.state.name) {
       return (
@@ -155,15 +163,17 @@ class TweetCard extends React.Component {
           <Card>
             <Box>
               <User>
-                <ProfilePhoto src={profilePhoto} alt={`${this.state.name}`} />
+                {/* {screenSize > 313 */}
+                 <ProfilePhoto src={profilePhoto} alt={`${this.state.name}`} />
                 <Handles>
-                  <Name>{name}</Name>
+                  {screenSize > 313
+                   && <Name>{name}</Name> }
                   <Username target="_blank" rel="noreferrer" href={`https://twitter.com/${this.state.username}`}>{`@${this.state.username}`}</Username>
                 </Handles>
               </User>
               <TweetBody tweet={tweet} />
-              {tweet.entities && tweet.entities.urls && tweet.entities.urls[0].expanded_url.includes('https://twitter.com/') && <Images images={tweet} />}
-              {tweet.entities && tweet.entities.urls && tweet.entities.urls[0].images
+              {screenSize > 313 && tweet.entities && tweet.entities.urls && tweet.entities.urls[0].expanded_url.includes('https://twitter.com/') && <Images images={tweet} />}
+              {screenSize > 313 && tweet.entities && tweet.entities.urls && tweet.entities.urls[0].images
               && (
               <LinkPreview
                 imageUrl={tweet.entities.urls[0].images[0].url}
