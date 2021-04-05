@@ -13,16 +13,22 @@
 3. Express.js
 4. Postgres
 5. Styled-Components
-6. Jest
-7. Enzyme
+6. Jest (to-come)
+7. Enzyme (to-come)
 
 
 ## Screengrabs
 ### Landing Page
-<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/landing_page.png" width="1100">
+<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/landing_page.png" width="550">
 
-### Sample Card Tile
-<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/sample_card.png" width="1100">
+### Sample Card on Wearable (Apple Watch 6 44mm)
+<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/sample_card_wearable.png" width="200">
+
+### Sample Card on Mobile (Apple iPhone 12 Pro)
+<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/sample_card_mobile.png" width="200">
+
+### Sample Card on Desktop
+<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/sample_card_desktop.png" width="550">
 
 ### End of Card Deck
-<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/end.png" width="1100">
+<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/end.png" width="550">
