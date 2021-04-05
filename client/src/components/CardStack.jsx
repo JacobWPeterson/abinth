@@ -2,12 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 import TweetCard from './TweetCard.jsx';
 
-const Wrapper = styled.div`
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: max(30vw, 400px);
-  height: 65vh;
+const ClickArea = styled.div`
+  position: absolute;
+  margin: auto;
+  top: 18vh;
+  left: 0;
+  width: 100%;
+  height: 82vh;
 `;
 
 class CardStack extends React.Component {
@@ -19,19 +20,19 @@ class CardStack extends React.Component {
     this.changeIndex = this.changeIndex.bind(this);
   }
 
-  changeIndex(value) {
-    if (this.state.index + value === this.props.tweets.length) {
+  changeIndex() {
+    if (this.state.index + 1 === this.props.tweets.length) {
       this.props.closeDeck();
     } else {
-      this.setState((prevState) => ({ index: prevState.index + value }));
+      this.setState((prevState) => ({ index: prevState.index + 1 }));
     }
   }
 
   render() {
     return (
-      <Wrapper>
-        <TweetCard tweet={this.props.tweets[this.state.index]} navigate={this.changeIndex} />
-      </Wrapper>
+      <ClickArea onClick={this.changeIndex}>
+        <TweetCard tweet={this.props.tweets[this.state.index]}/>
+      </ClickArea>
     );
   }
 }

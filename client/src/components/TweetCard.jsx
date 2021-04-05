@@ -1,6 +1,5 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import FontAwesome from 'react-fontawesome';
 
 import TweetBody from './TweetBody.jsx';
 import Images from './Images.jsx';
@@ -33,15 +32,16 @@ const fadeOut = keyframes`
 `;
 
 const Wrapper = styled.div`
+  margin: 0 auto;
   position: relative;
   display: flex;
   align-items: center;
-  width: max(30vw, 400px);
+  width: max(30vw, 450px);
   min-height: 20vh;
-  // max-height: 60vh;
   padding-top: max(10px, 2vh);
   padding-bottom: max(10px, 2vh);
   border-radius: 10px;
+  background: #fff;
   box-shadow: 0 3px 10px rgba(0,0,0,0.16), 0 3px 10px rgba(0,0,0,0.23);
 
   visibility: ${(props) => (props.out ? 'hidden' : 'visible')};
@@ -56,30 +56,6 @@ const Card = styled.div`
   justify-content: center;
   height: 100%;
   width: 100%;
-`;
-
-const LeftArrow = styled.div`
-  color: #1DA1F2;
-  font-size: 1.75rem;
-  z-index: 1;
-  position: absolute;
-  left: -25px;
-  &:hover {
-    color: #56b8f5;
-    transform: scale(1.1);
-  };
-`;
-
-const RightArrow = styled.div`
-  color: #1DA1F2;
-  font-size: 1.75rem;
-  z-index: 1;
-  position: absolute;
-  right: -25px;
-  &:hover {
-    color: #56b8f5;
-    transform: scale(1.1);
-  };
 `;
 
 const Box = styled.div`
@@ -170,8 +146,7 @@ class TweetCard extends React.Component {
     const { visible, profilePhoto, name } = this.state;
     if (this.state.name) {
       return (
-        <Wrapper out={!visible}>
-          <LeftArrow onClick={this.clickHandler}><FontAwesome id="-1" name="chevron-left" /></LeftArrow>
+        <Wrapper out={!visible} onClick={(event) => event.stopPropagation()}>
           <Card>
             <Box>
               <User>
@@ -194,37 +169,11 @@ class TweetCard extends React.Component {
               )}
             </Box>
           </Card>
-          <RightArrow onClick={this.clickHandler}><FontAwesome id="1" name="chevron-right" /></RightArrow>
         </Wrapper>
       );
     }
     return <div />;
   }
 }
-
-// const findAuthorName = (id) => {
-//   followed.followed.forEach((account) => {
-//     if (account.id === id) {
-//       return account.name;
-//     }
-//   });
-// };
-// const TweetCard = ({ tweet, navigate }) => {
-//   const name = 'ESPN' || findAuthorName(tweet.author_id);
-//   return (
-//     <Wrapper>
-// eslint-disable-next-line max-len
-//       <LeftArrow onClick={(event) => navigate(Number(event.target.id))}><FontAwesome id="-1" name="chevron-left" /></LeftArrow>
-//       <Card>
-//         <Box>
-//           <div>{name}</div>
-//           <Body>{tweet.text}</Body>
-//         </Box>
-//       </Card>
-// eslint-disable-next-line max-len
-//       <RightArrow onClick={(event) => navigate(Number(event.target.id))}><FontAwesome id="1" name="chevron-right" /></RightArrow>
-//     </Wrapper>
-//   );
-// };
 
 export default TweetCard;

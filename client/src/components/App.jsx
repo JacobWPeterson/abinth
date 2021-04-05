@@ -16,7 +16,7 @@ const Main = styled.div`
 
 const Banner = styled.img`
   position: relative;
-  margin: 0px auto 5vh auto;
+  margin: -10px auto 5vh auto;
   height: 15vh;
 `;
 
@@ -175,19 +175,19 @@ class App extends React.Component {
         </Display>
         )}
         <Suspense fallback={<div>Loading...</div>}>
-        {deckOpen && (
+          {deckOpen && (
           <CardStack closeDeck={this.closeDeck} tweets={tweets} />
-        )}
+          )}
         </Suspense>
         <Suspense fallback={<div>Loading...</div>}>
-        {deckFinished && (
+          {deckFinished && (
           <Display>
             <Closing>All caught up!</Closing>
             <Button onClick={() => this.setState({ deckFinished: false, deckOpen: true })}>
               Start Over?
             </Button>
           </Display>
-        )}
+          )}
         </Suspense>
       </Main>
     );
