@@ -90,11 +90,6 @@ const ProfilePhoto = styled.img`
   margin-right: .5vw;
   border: 3px solid #e0e0e0;
   &:hover { border: 3px solid #cccccc; };
-
-  // @media (min-width: 313px) {
-  //   height: 8vh;
-  // }
-
 `;
 
 const Handles = styled.div`
@@ -162,18 +157,24 @@ class TweetCard extends React.Component {
         <Wrapper out={!visible} onClick={(event) => event.stopPropagation()}>
           <Card>
             <Box>
+
               <User>
-                {/* {screenSize > 313 */}
-                 <ProfilePhoto src={profilePhoto} alt={`${this.state.name}`} />
+                <ProfilePhoto src={profilePhoto} alt={`${this.state.name}`} />
                 <Handles>
                   {screenSize > 313
                    && <Name>{name}</Name> }
                   <Username target="_blank" rel="noreferrer" href={`https://twitter.com/${this.state.username}`}>{`@${this.state.username}`}</Username>
                 </Handles>
               </User>
+
               <TweetBody tweet={tweet} />
-              {screenSize > 313 && tweet.entities && tweet.entities.urls && tweet.entities.urls[0].expanded_url.includes('https://twitter.com/') && <Images images={tweet} />}
-              {screenSize > 313 && tweet.entities && tweet.entities.urls && tweet.entities.urls[0].images
+
+              {screenSize > 313 && tweet.entities
+              && tweet.entities.urls && tweet.entities.urls[0].expanded_url.includes('https://twitter.com/')
+              && <Images images={tweet} />}
+
+              {screenSize > 313 && tweet.entities
+              && tweet.entities.urls && tweet.entities.urls[0].images
               && (
               <LinkPreview
                 imageUrl={tweet.entities.urls[0].images[0].url}

@@ -88,7 +88,6 @@ const Button = styled.button`
   font-weight: 700;
   color: #fff;
   background: #1DA1F2;
-  // background: radial-gradient(ellipse at center, rgba(79,182,255,1) 0%, rgba(29,161,242,1) 100%);
   border: none;
   border-radius: 100px;
   box-shadow: 12px 12px 24px rgba(29,161,242,.64);

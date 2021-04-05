@@ -16,7 +16,7 @@ const Image = styled.img`
   width: 100%;
 `;
 
-/* This could have been rendered directly form the parent component but was built to
+/* This could have been rendered directly from the parent component but was built to
 account for access to the API endpoint that returns media urls */
 const Images = ({ images }) => <Viewer><Image src="./images/abinth_logo.png" /></Viewer>;
 

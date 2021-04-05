@@ -1,3 +1,12 @@
+/* This file is deprecated and contains non-functional
+and non-up-to-date code but has a means for parsing
+truncated URLs that I wanted to keep around
+
+It is not called by any other files and therefore is
+not compiled and sent to the client, which would
+affect performance.
+*/
+
 import React from 'react';
 import styled from 'styled-components';
 import resolveURI from '../../../server/resolveURI.js';
