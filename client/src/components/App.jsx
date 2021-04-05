@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import axios from 'axios';
 import styled, { keyframes } from 'styled-components';
 
-import CardStack from './CardStack.jsx';
+const CardStack = React.lazy(() => import('./CardStack.jsx'));
 
 const Main = styled.div`
   font-family: 'Roboto', sans-serif;
@@ -88,7 +88,8 @@ const Button = styled.button`
 
   &:after {
     content: '';
-    width: 30px; height: 30px;
+    width: 30px;
+    height: 30px;
     border-radius: 100%;
     border: 6px solid #1DA1F2;
     position: absolute;
@@ -173,9 +174,12 @@ class App extends React.Component {
           </Button>
         </Display>
         )}
+        <Suspense fallback={<div>Loading...</div>}>
         {deckOpen && (
           <CardStack closeDeck={this.closeDeck} tweets={tweets} />
         )}
+        </Suspense>
+        <Suspense fallback={<div>Loading...</div>}>
         {deckFinished && (
           <Display>
             <Closing>All caught up!</Closing>
@@ -184,6 +188,7 @@ class App extends React.Component {
             </Button>
           </Display>
         )}
+        </Suspense>
       </Main>
     );
   }
