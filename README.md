@@ -6,6 +6,10 @@
 [Jacob Peterson](https://github.com/JacobWPeterson)
 
 ---
+## Overview
+The worst part of an online media? The comments.
+
+Welcome to abinth, where there the comments have been eliminated and you can't get pulled down the rabbit-hole like you know you do every time. The idea is simple: abinth presents you with a short deck of tweets pulled from Twitter that provide you with local, state, and national news from the previous day. You can probably read them all while brushing your teeth in the morning and be roughly caught up on all the major headlines. Of course, links to outside news sources have been preserved.<sup id="a1">[†](#f1)</sup>
 
 ## Technologies Used
 1. React.js
@@ -32,3 +36,7 @@
 
 ### End of Card Deck
 <img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/end.png" width="550">
+
+
+
+<b id="f1">†</b> If you absolutely can't help yourself, the user's handle provides a link to their account. [↩](#a1)
