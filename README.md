@@ -1,4 +1,4 @@
-<img align="center" style="border-radius:10px;" style="border:2px solid whitesmoke"> src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/blue_banner.png" width="1100">
+<img align="center" style="border-radius:10px;" style="border:2px solid whitesmoke" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/blue_banner.png" width="1100">
 
 # abinth
 ### a twitter-based news digest
