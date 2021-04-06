@@ -1,7 +1,7 @@
 <img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/blue_banner.png" width="1100">
 
 # abinth
-### a twitter-based news digest
+### all news / no comments
 *by*
 [Jacob Peterson](https://github.com/JacobWPeterson)
 
@@ -9,9 +9,9 @@
 ## Overview
 The worst part of any online media? The comments.
 
-Welcome to **abinth**, where the comments have been eliminated and you can't get pulled down the rabbit-hole like you know you do every time. The idea is simple: abinth presents you with a short deck of tweets pulled from Twitter that provide you with local, state, and national news from the previous day. You can probably read them all while brushing your teeth in the morning and be roughly caught up on all the major headlines. Links to outside news sources have been preserved if you'd like to read the whole store *(and you should)*.<sup id="a1">[†](#f1)</sup>
+Welcome to **abinth**, a twitter-based news digest, where the comments have been eliminated and you can't get pulled down the rabbit-hole like you know you do every time. The idea is simple: abinth presents you with a short deck of tweets pulled from Twitter news sources that provide you with local, state, and national news from the previous day. You can probably read them all while brushing your teeth in the morning and be roughly caught up on all the major headlines. Links to outside news sources have been preserved if you'd like to read the whole story *(and you should)*.<sup id="a1">[†](#f1)</sup>
 
-Abinth has been designed to support most major formats and has been tested on an Apple Watch 6 44mm, iPhone 12 Pro, and MacBook Pro 15".
+Abinth has been designed to support most major formats and has been tested on an Apple Watch 6 (44mm), iPhone 12 Pro, and MacBook Pro 15".
 
 ## Technologies Used
 1. React.js
