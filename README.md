@@ -25,10 +25,10 @@ Abinth has been designed to support most major formats and has been tested on an
 
 ## Screengrabs
 ### Landing Page
-<img style="align:center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/landing_page.png" width="550">
+<img style="align:right" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/landing_page.png" width="550">
 
 ### Sample Card on Wearable (Apple Watch 6 44mm)
-<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/sample_card_wearable.png" width="200">
+<img hspace="100" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/sample_card_wearable.png" width="200">
 
 ### Sample Card on Mobile (Apple iPhone 12 Pro)
 <img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/sample_card_mobile.png" width="200">
