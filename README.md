@@ -1,4 +1,4 @@
-<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/blue_banner.png" width="1100">
+<img src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/blue_banner.png" width="1100">
 
 # abinth
 ### all news / no comments
@@ -25,7 +25,7 @@ Abinth has been designed to support most major formats and has been tested on an
 
 ## Screengrabs
 ### Landing Page
-<img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/landing_page.png" width="550">
+<img style="align:center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/landing_page.png" width="550">
 
 ### Sample Card on Wearable (Apple Watch 6 44mm)
 <img align="center" src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/sample_card_wearable.png" width="200">
