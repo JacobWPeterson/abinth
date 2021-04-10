@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import FontAwesome from 'react-fontawesome';
 
 const Wrapper = styled.a`
   display: flex;
@@ -61,7 +60,6 @@ const LinkArea = styled.div`
 const Icon = styled.div`
   color: #6d6d6d;
   margin-right: .25vw;
-  transform: rotate(90deg);
 `;
 
 const LinkPreview = ({
@@ -76,7 +74,7 @@ const LinkPreview = ({
       <Description>{description}</Description>
       <LinkArea>
         <Icon>
-          <FontAwesome name="fas fa-link" />
+          🔗
         </Icon>
         { link.includes('.pl') && link.substring(8, link.indexOf('.pl/') + 3)}
         { link.includes('.com') && link.substring(link.indexOf('www.'), link.indexOf('.com') + 4)}

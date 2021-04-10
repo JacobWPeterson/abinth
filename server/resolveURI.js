@@ -15,7 +15,5 @@ const resolveURI = async (link) => {
   }
 };
 
-// resolveURI('http://google.com').then((x) => x.status).then(console.log);
-
-// module.exports.resolveURI = resolveURI;
-export default resolveURI;
+module.exports.resolveURI = resolveURI;
+// export default resolveURI;

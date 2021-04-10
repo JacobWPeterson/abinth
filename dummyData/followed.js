@@ -47,7 +47,7 @@ const followed = [
         "location": "Oracle Park, San Francisco CA"
     },
     {
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1174871900062924801/yPzQf1y6_400x400.jpg",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1379265540108255234/6rWik7gG_400x400.jpg",
         "name": "Jake Tapper",
         "id": "14529929",
         "username": "jaketapper",
