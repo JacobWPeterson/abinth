@@ -13,7 +13,7 @@ app.use(staticMiddlware);
 
 app.get('/Tweets', (req, res) => {
   api.getFollowedAccounts('1376270016786558979', async (follows) => {
-    const array = await Promise.all(follows.data.map(async (user) => api.getUserTweets(user.id)));
+    const array = await Promise.all(follows.data.map(async (user) => api.getUserTweets(user)));
     filter.findMostInteractedTweet(array, (data) => {
       res.status(200).send(data);
     });

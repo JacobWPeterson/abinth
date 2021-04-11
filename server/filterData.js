@@ -1,17 +1,19 @@
 const findMostInteractedTweet = (array, callback) => {
   const mostPopularTweets = [];
   array.forEach((account) => {
-    if (account) {
-      let accountsBestTweet = account[0];
+    const tweets = account.userTweets;
+    const { user } = account;
+    if (tweets) {
+      let bestTweet = tweets[0];
       let mostInteractions = 0;
-      account.forEach((tweet) => {
+      tweets.forEach((tweet) => {
         const interactions = Object.values(tweet.public_metrics).reduce((a, b) => a + b);
         if (interactions > mostInteractions) {
           mostInteractions = interactions;
-          accountsBestTweet = tweet;
+          bestTweet = tweet;
         }
       });
-      mostPopularTweets.push(accountsBestTweet);
+      mostPopularTweets.push({ bestTweet, user });
     }
   });
   callback(mostPopularTweets);

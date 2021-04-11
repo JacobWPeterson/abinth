@@ -5,7 +5,7 @@ import TweetBody from './TweetBody.jsx';
 import Images from './Images.jsx';
 import LinkPreview from './LinkPreview.jsx';
 
-import followed from '../../../dummyData/followed.js';
+// import followed from '../../../dummyData/followed.js';
 
 const fadeIn = keyframes`
   from {
@@ -115,34 +115,9 @@ class TweetCard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: null,
-      username: null,
       visible: true,
     };
-    this.findAuthorName = this.findAuthorName.bind(this);
     this.clickHandler = this.clickHandler.bind(this);
-  }
-
-  componentDidMount() {
-    this.findAuthorName(this.props.tweet.author_id);
-  }
-
-  componentDidUpdate(prevProps) {
-    if (prevProps !== this.props) {
-      this.findAuthorName(this.props.tweet.author_id);
-    }
-  }
-
-  findAuthorName(id) {
-    followed.followed.forEach((account) => {
-      if (account.id === id) {
-        this.setState({
-          name: account.name,
-          username: account.username,
-          profilePhoto: account.profile_image_url,
-        });
-      }
-    });
   }
 
   clickHandler(event) {
@@ -150,45 +125,43 @@ class TweetCard extends React.Component {
   }
 
   render() {
-    const { tweet, screenSize } = this.props;
-    const { visible, profilePhoto, name } = this.state;
-    if (this.state.name) {
-      return (
-        <Wrapper out={!visible} onClick={(event) => event.stopPropagation()}>
-          <Card>
-            <Box>
+    const { tweet: { bestTweet, user }, screenSize } = this.props;
+    const { visible } = this.state;
+    console.log(bestTweet.text);
+    return (
+      <Wrapper out={!visible} onClick={(event) => event.stopPropagation()}>
+        <Card>
+          <Box>
 
-              <User>
-                <ProfilePhoto src={profilePhoto} alt={`${this.state.name}`} />
-                <Handles>
-                  {screenSize > 313
-                   && <Name>{name}</Name> }
-                  <Username target="_blank" rel="noreferrer" href={`https://twitter.com/${this.state.username}`}>{`@${this.state.username}`}</Username>
-                </Handles>
-              </User>
+            <User>
+              <ProfilePhoto src={user.profile_image_url} alt={`${user.name}`} />
+              <Handles>
+                {screenSize > 313
+                   && <Name>{user.name}</Name> }
+                <Username target="_blank" rel="noreferrer" href={`https://twitter.com/${user.username}`}>{`@${user.username}`}</Username>
+              </Handles>
+            </User>
 
-              <TweetBody tweet={tweet} />
+            <TweetBody tweet={bestTweet} />
 
-              {screenSize > 313 && tweet.entities
-              && tweet.entities.urls && tweet.entities.urls[0].expanded_url.includes('https://twitter.com/')
-              && <Images images={tweet} />}
+            {screenSize > 313 && bestTweet.entities
+              && bestTweet.entities.urls && bestTweet.entities.urls[0].expanded_url.includes('https://twitter.com/')
+              && <Images images={bestTweet} />}
 
-              {screenSize > 313 && tweet.entities
-              && tweet.entities.urls && tweet.entities.urls[0].images
+            {screenSize > 313 && bestTweet.entities
+              && bestTweet.entities.urls && bestTweet.entities.urls[0].images
               && (
               <LinkPreview
-                imageUrl={tweet.entities.urls[0].images[0].url}
-                title={tweet.entities.urls[0].title}
-                description={tweet.entities.urls[0].description}
-                link={tweet.entities.urls[0].unwound_url}
+                imageUrl={bestTweet.entities.urls[0].images[0].url}
+                title={bestTweet.entities.urls[0].title}
+                description={bestTweet.entities.urls[0].description}
+                link={bestTweet.entities.urls[0].unwound_url}
               />
               )}
-            </Box>
-          </Card>
-        </Wrapper>
-      );
-    }
-    return <div />;
+          </Box>
+        </Card>
+      </Wrapper>
+    );
   }
 }
 

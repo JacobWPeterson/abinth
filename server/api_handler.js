@@ -29,10 +29,11 @@ const getFollowedAccounts = (userID, callback) => {
     });
 };
 
-async function getUserTweets(userID) {
+async function getUserTweets(user) {
   try {
-    const response = await axios.get(`${API_BASE_URL}${userID}/tweets${feedParams}`);
-    return response.data.data;
+    const response = await axios.get(`${API_BASE_URL}${user.id}/tweets${feedParams}`);
+    const userTweets = response.data.data;
+    return { userTweets, user };
   } catch (error) {
     return error;
   }
