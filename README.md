@@ -13,6 +13,8 @@ Welcome to **abinth**, a twitter-based news digest, where the comments have been
 
 Abinth has been designed to support most major formats and has been tested on an Apple Watch 6 (44mm), iPhone 12 Pro, and MacBook Pro 15".
 
+The news sources are automated based on the follows of [@Abinth_News](https://twitter.com/Abinth_News).
+
 ## Technologies Used
 1. React.js
 2. Node
