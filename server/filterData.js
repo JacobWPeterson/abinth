@@ -1,8 +1,6 @@
-const tweets = require('../dummyData/tweets.js');
-
-const findMostInteractedTweet = (callback) => {
+const findMostInteractedTweet = (array, callback) => {
   const mostPopularTweets = [];
-  tweets.tweets.forEach((account) => {
+  array.forEach((account) => {
     if (account) {
       let accountsBestTweet = account[0];
       let mostInteractions = 0;
@@ -19,4 +17,4 @@ const findMostInteractedTweet = (callback) => {
   callback(mostPopularTweets);
 };
 
-module.exports.findMostInteractedTweet = findMostInteractedTweet;
+module.exports = { findMostInteractedTweet };

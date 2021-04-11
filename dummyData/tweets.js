@@ -1,1230 +1,727 @@
 const tweets = [
     [
         {
-            "text": "Morawiecki złożył do TK wniosek o uznanie wyższości prawa polskiego nad unijnym\nhttps://t.co/YtrPV9I9Cu",
-            "id": "1376543776919928838",
-            "possibly_sensitive": false,
+            "id": "1380505531631210506",
             "entities": {
-                "urls": [
+                "annotations": [
                     {
-                        "start": 80,
-                        "end": 103,
-                        "url": "https://t.co/YtrPV9I9Cu",
-                        "expanded_url": "https://wyborcza.pl/7,75398,26931530,morawiecki-zlozyl-do-tk-wniosek-o-uznanie-wyzszosci-prawa-polskiego.html",
-                        "display_url": "wyborcza.pl/7,75398,269315…"
-                    }
-                ]
-            },
-            "created_at": "2021-03-29T14:36:26.000Z",
-            "conversation_id": "1376543776919928838",
-            "public_metrics": {
-                "retweet_count": 34,
-                "reply_count": 103,
-                "like_count": 134,
-                "quote_count": 17
-            },
-            "author_id": "19179390"
-        },
-        {
-            "text": "Sara i Alicja szły ulicą Piotrkowską trzymając się za ręce. W pewnym momencie usłyszały, jak ktoś idący za nimi krzyczy: \"Pier...ne lesby!\".  https://t.co/FkquemsRfl",
-            "id": "1376530836695228424",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 142,
-                        "end": 165,
-                        "url": "https://t.co/FkquemsRfl",
-                        "expanded_url": "https://lodz.wyborcza.pl/lodz/7,35136,26929462,atak-na-pare-lgbt-szarpal-oplul-zniewazal-trzymajace-sie.html",
-                        "display_url": "lodz.wyborcza.pl/lodz/7,35136,2…"
-                    }
-                ]
-            },
-            "created_at": "2021-03-29T13:45:00.000Z",
-            "conversation_id": "1376530836695228424",
-            "public_metrics": {
-                "retweet_count": 13,
-                "reply_count": 55,
-                "like_count": 44,
-                "quote_count": 3
-            },
-            "author_id": "19179390"
-        },
-        {
-            "entities": {
-                "hashtags": [
-                    {
-                        "start": 82,
-                        "end": 91,
-                        "tag": "wyborcza"
+                        "start": 40,
+                        "end": 53,
+                        "probability": 0.9778,
+                        "type": "Person",
+                        "normalized_text": "Deshaun Watson"
                     }
                 ],
                 "urls": [
                     {
-                        "start": 93,
-                        "end": 116,
-                        "url": "https://t.co/FHzj7ZhW0Z",
-                        "expanded_url": "https://poznan.wyborcza.pl/poznan/7,36001,26930610,bp-edward-janiak-dostaje-trzy-kary-z-watykanu-wczesniej-chronil.html?utm_source=facebook.com&utm_medium=SM&utm_campaign=FB_Gazeta_Wyborcza",
-                        "display_url": "poznan.wyborcza.pl/poznan/7,36001…"
-                    }
-                ]
-            },
-            "text": "Bp Edward Janiak dostaje trzy kary z Watykanu. Wcześniej chronił księdza pedofila #wyborcza \nhttps://t.co/FHzj7ZhW0Z",
-            "id": "1376500822482296832",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-29T11:45:44.000Z",
-            "conversation_id": "1376500822482296832",
-            "public_metrics": {
-                "retweet_count": 23,
-                "reply_count": 21,
-                "like_count": 80,
-                "quote_count": 1
-            },
-            "author_id": "19179390"
-        },
-        {
-            "entities": {
-                "hashtags": [
-                    {
-                        "start": 73,
-                        "end": 82,
-                        "tag": "wyborcza"
-                    },
-                    {
-                        "start": 83,
-                        "end": 95,
-                        "tag": "koronawirus"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 97,
-                        "end": 120,
-                        "url": "https://t.co/Wpn6FqpNy4",
-                        "expanded_url": "https://wyborcza.biz/biznes/7,177151,26929683,dpg-szczepionke-bedzie-mozna-przyjac-w-pracy-i-w-aptece.html?_ga=2.16265396.327054557.1617009446-993915809.1617009446#S.main_topic_2-K.C-B.1-L.2.duzy",
-                        "display_url": "wyborcza.biz/biznes/7,17715…"
-                    }
-                ]
-            },
-            "text": "DPG: Szczepionkę na koronawirusa będzie można przyjąć w pracy i w aptece #wyborcza #koronawirus \nhttps://t.co/Wpn6FqpNy4",
-            "id": "1376493646573412355",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-29T11:17:14.000Z",
-            "conversation_id": "1376493646573412355",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 8,
-                "like_count": 13,
-                "quote_count": 1
-            },
-            "author_id": "19179390"
-        },
-        {
-            "entities": {
-                "hashtags": [
-                    {
-                        "start": 98,
-                        "end": 107,
-                        "tag": "wyborcza"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 109,
-                        "end": 132,
-                        "url": "https://t.co/mWYTV0ryXn",
-                        "expanded_url": "https://wyborcza.pl/7,162657,26929743,wosp-podsumowuje-29-final-czy-znow-bedzie-rekord.html?utm_source=facebook.com&utm_medium=SM&utm_campaign=FB_Gazeta_Wyborcza",
-                        "display_url": "wyborcza.pl/7,162657,26929…",
+                        "start": 257,
+                        "end": 280,
+                        "url": "https://t.co/Ge4jE9OPNi",
+                        "expanded_url": "https://es.pn/2OC3GLO",
+                        "display_url": "es.pn/2OC3GLO",
                         "images": [
                             {
-                                "url": "https://pbs.twimg.com/news_img/1376484593814155265/eztKTYe6?format=jpg&name=orig",
-                                "width": 1200,
-                                "height": 630
+                                "url": "https://pbs.twimg.com/news_img/1380505533770297349/5Jqc9YpH?format=jpg&name=orig",
+                                "width": 1296,
+                                "height": 729
                             },
                             {
-                                "url": "https://pbs.twimg.com/news_img/1376484593814155265/eztKTYe6?format=jpg&name=150x150",
+                                "url": "https://pbs.twimg.com/news_img/1380505533770297349/5Jqc9YpH?format=jpg&name=150x150",
                                 "width": 150,
                                 "height": 150
                             }
                         ],
                         "status": 200,
-                        "title": "WOŚP zebrała ponad 210 mln zł. Jerzy Owsiak: \"Hej, Polacy, badźcie z siebie dumni!\"",
-                        "description": "29 zbiórka Wielkiej Orkiestry Świątecznej Pomocy była rekordowa. Na rzecz laryngologii dziecięcej fundacja zebrała ponad 210 mln zł",
-                        "unwound_url": "https://wyborcza.pl/7,162657,26929743,wosp-podsumowuje-29-final-czy-znow-bedzie-rekord.html"
+                        "title": "From trade talk to 22 lawsuits: How the narrative around Texans QB Deshaun Watson flipped",
+                        "description": "On the eve on the new NFL year, the first of 22 civil cases was filed against Watson. Here is a timeline of what has transpired for Watson since.",
+                        "unwound_url": "https://www.espn.com/nfl/story/_/id/31215155/from-trade-talk-22-lawsuits-how-narrative-texans-qb-deshaun-watson-flipped?linkId=115759254"
+                    }
+                ]
+            },
+            "author_id": "2557521",
+            "conversation_id": "1380505531631210506",
+            "created_at": "2021-04-09T12:59:01.000Z",
+            "text": "In early March, the conversation around Deshaun Watson was about whether he'd be traded. That shifted quickly after the first of more than 20 sexual assault and sexual misconduct lawsuits was filed against the QB.\n\nA timeline of everything that's happened: https://t.co/Ge4jE9OPNi",
+            "public_metrics": {
+                "retweet_count": 107,
+                "reply_count": 106,
+                "like_count": 842,
+                "quote_count": 40
+            }
+        },
+        {
+            "id": "1380335291676909571",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 11,
+                        "probability": 0.9964,
+                        "type": "Person",
+                        "normalized_text": "Trey Mancini"
+                    },
+                    {
+                        "start": 45,
+                        "end": 56,
+                        "probability": 0.521,
+                        "type": "Place",
+                        "normalized_text": "Camden Yards"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 138,
+                        "end": 161,
+                        "url": "https://t.co/LFfeI0x2TG",
+                        "expanded_url": "https://twitter.com/espn/status/1380335291676909571/video/1",
+                        "display_url": "pic.twitter.com/LFfeI0x2TG"
+                    }
+                ]
+            },
+            "author_id": "2557521",
+            "conversation_id": "1380335291676909571",
+            "attachments": {
+                "media_keys": [
+                    "13_1380335230167441408"
+                ]
+            },
+            "created_at": "2021-04-09T01:42:33.000Z",
+            "text": "Trey Mancini was given a standing ovation at Camden Yards in his first home at-bat following treatment for colon cancer.\n\nJust awesome ❤️ https://t.co/LFfeI0x2TG",
+            "public_metrics": {
+                "retweet_count": 884,
+                "reply_count": 53,
+                "like_count": 11641,
+                "quote_count": 78
+            }
+        },
+        {
+            "id": "1380294207651340298",
+            "entities": {
+                "hashtags": [
+                    {
+                        "start": 86,
+                        "end": 97,
+                        "tag": "themasters"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 12,
+                        "probability": 0.9885,
+                        "type": "Person",
+                        "normalized_text": "Jordan Spieth"
+                    },
+                    {
+                        "start": 101,
+                        "end": 104,
+                        "probability": 0.9014,
+                        "type": "Organization",
+                        "normalized_text": "ESPN"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 108,
+                        "end": 131,
+                        "url": "https://t.co/NoYko48Na8",
+                        "expanded_url": "https://twitter.com/espn/status/1380294207651340298/video/1",
+                        "display_url": "pic.twitter.com/NoYko48Na8"
+                    }
+                ]
+            },
+            "author_id": "2557521",
+            "conversation_id": "1380294207651340298",
+            "attachments": {
+                "media_keys": [
+                    "13_1380294143935709188"
+                ]
+            },
+            "created_at": "2021-04-08T22:59:18.000Z",
+            "text": "Jordan Spieth chips in for eagle to get him to -1!\n\nWatch the end of the first day of #themasters on ESPN 📺 https://t.co/NoYko48Na8",
+            "public_metrics": {
+                "retweet_count": 106,
+                "reply_count": 45,
+                "like_count": 1611,
+                "quote_count": 27
+            }
+        },
+        {
+            "id": "1380280886659321856",
+            "entities": {
+                "hashtags": [
+                    {
+                        "start": 83,
+                        "end": 94,
+                        "tag": "themasters"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 10,
+                        "probability": 0.992,
+                        "type": "Person",
+                        "normalized_text": "Justin Rose"
+                    },
+                    {
+                        "start": 99,
+                        "end": 102,
+                        "probability": 0.7128,
+                        "type": "Organization",
+                        "normalized_text": "ESPN"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 106,
+                        "end": 129,
+                        "url": "https://t.co/X1dAhiZ07k",
+                        "expanded_url": "https://twitter.com/espn/status/1380280886659321856/video/1",
+                        "display_url": "pic.twitter.com/X1dAhiZ07k"
+                    }
+                ]
+            },
+            "author_id": "2557521",
+            "conversation_id": "1380280886659321856",
+            "attachments": {
+                "media_keys": [
+                    "13_1380280829495099392"
+                ]
+            },
+            "created_at": "2021-04-08T22:06:22.000Z",
+            "text": "Justin Rose is -9 through his last 10 holes 🤯\n\nWatch the end of the first round of #themasters on ESPN ⛳️ https://t.co/X1dAhiZ07k",
+            "public_metrics": {
+                "retweet_count": 59,
+                "reply_count": 41,
+                "like_count": 942,
+                "quote_count": 20
+            }
+        },
+        {
+            "id": "1380260794412240906",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 22,
+                        "end": 35,
+                        "probability": 0.8216,
+                        "type": "Person",
+                        "normalized_text": "Draymond Green"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 108,
+                        "end": 131,
+                        "url": "https://t.co/2muKEHPW8Q",
+                        "expanded_url": "https://twitter.com/espn/status/1380260794412240906/video/1",
+                        "display_url": "pic.twitter.com/2muKEHPW8Q"
                     }
                 ],
                 "mentions": [
                     {
-                        "start": 84,
-                        "end": 97,
-                        "username": "fundacjawosp"
+                        "start": 1,
+                        "end": 15,
+                        "username": "stephenasmith"
                     }
                 ]
             },
-            "text": "WOŚP zebrała ponad 210 mln zł. Jerzy Owsiak: \"Hej, Polacy, badźcie z siebie dumni!\" @fundacjawosp #wyborcza \nhttps://t.co/mWYTV0ryXn",
-            "id": "1376486443586088961",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-29T10:48:36.000Z",
-            "conversation_id": "1376486443586088961",
-            "public_metrics": {
-                "retweet_count": 33,
-                "reply_count": 23,
-                "like_count": 360,
-                "quote_count": 4
-            },
-            "author_id": "19179390"
-        },
-        {
-            "entities": {
-                "hashtags": [
-                    {
-                        "start": 65,
-                        "end": 74,
-                        "tag": "wyborcza"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 76,
-                        "end": 99,
-                        "url": "https://t.co/afJUz2mWHn",
-                        "expanded_url": "https://wyborcza.pl/7,154903,26930143,anglia-polska-robert-lewandowski-nie-zagra-w-srode-na-wembley.html#S.main_topic-K.C-B.1-L.1.duzy",
-                        "display_url": "wyborcza.pl/7,154903,26930…"
-                    }
+            "author_id": "2557521",
+            "conversation_id": "1380260794412240906",
+            "attachments": {
+                "media_keys": [
+                    "13_1380260739714273285"
                 ]
             },
-            "text": "Anglia - Polska. Robert Lewandowski nie zagra w środę na Wembley #wyborcza \nhttps://t.co/afJUz2mWHn",
-            "id": "1376484296790306816",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-29T10:40:04.000Z",
-            "conversation_id": "1376484296790306816",
+            "created_at": "2021-04-08T20:46:32.000Z",
+            "text": ".@StephenASmith wants Draymond Green, and all men, to become more informed when it comes to women's sports. https://t.co/2muKEHPW8Q",
             "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 4,
-                "like_count": 5,
-                "quote_count": 0
-            },
-            "author_id": "19179390"
+                "retweet_count": 399,
+                "reply_count": 259,
+                "like_count": 2493,
+                "quote_count": 83
+            }
         },
         {
+            "id": "1380249087598067716",
             "entities": {
-                "hashtags": [
+                "annotations": [
                     {
-                        "start": 90,
-                        "end": 99,
-                        "tag": "wyborcza"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 101,
-                        "end": 124,
-                        "url": "https://t.co/1gQcHTQUEA",
-                        "expanded_url": "https://lodz.wyborcza.pl/lodz/7,35136,26929724,szkola-filmowa-w-lodzi-po-zarzutach-o-przemoc-list-absolwentow.html?utm_source=facebook.com&utm_medium=SM&utm_campaign=FB_Gazeta_Wyborcza",
-                        "display_url": "lodz.wyborcza.pl/lodz/7,35136,2…"
-                    }
-                ]
-            },
-            "text": "Szkoła Filmowa w Łodzi po zarzutach o przemoc. List absolwentów: Stajemy po stronie ofiar #wyborcza \nhttps://t.co/1gQcHTQUEA",
-            "id": "1376479608460218368",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-29T10:21:27.000Z",
-            "conversation_id": "1376479608460218368",
-            "public_metrics": {
-                "retweet_count": 7,
-                "reply_count": 2,
-                "like_count": 13,
-                "quote_count": 0
-            },
-            "author_id": "19179390"
-        },
-        {
-            "entities": {
-                "hashtags": [
-                    {
-                        "start": 79,
-                        "end": 88,
-                        "tag": "wyborcza"
+                        "start": 157,
+                        "end": 159,
+                        "probability": 0.9422,
+                        "type": "Organization",
+                        "normalized_text": "MLB"
                     },
                     {
-                        "start": 89,
-                        "end": 101,
-                        "tag": "koronawirus"
+                        "start": 166,
+                        "end": 177,
+                        "probability": 0.975,
+                        "type": "Person",
+                        "normalized_text": "Carson Wentz"
+                    },
+                    {
+                        "start": 199,
+                        "end": 204,
+                        "probability": 0.6459,
+                        "type": "Organization",
+                        "normalized_text": "Rivers"
+                    },
+                    {
+                        "start": 211,
+                        "end": 215,
+                        "probability": 0.9901,
+                        "type": "Organization",
+                        "normalized_text": "Colts"
+                    },
+                    {
+                        "start": 232,
+                        "end": 237,
+                        "probability": 0.9923,
+                        "type": "Organization",
+                        "normalized_text": "Lakers"
                     }
                 ],
                 "urls": [
                     {
-                        "start": 103,
-                        "end": 126,
-                        "url": "https://t.co/MC1U0OgRga",
-                        "expanded_url": "https://wyborcza.pl/7,75399,26929707,koronawius-na-swiecie-szczepionki-astrazeneki-i-pfizera-ratuja.html",
-                        "display_url": "wyborcza.pl/7,75399,269297…"
-                    }
-                ]
-            },
-            "text": "Koronawius na świecie. Szczepionki AstraZeneki i Pfizera ratują życie seniorom #wyborcza #koronawirus \nhttps://t.co/MC1U0OgRga",
-            "id": "1376470834026516482",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-29T09:46:35.000Z",
-            "conversation_id": "1376470834026516482",
-            "public_metrics": {
-                "retweet_count": 2,
-                "reply_count": 1,
-                "like_count": 12,
-                "quote_count": 0
-            },
-            "author_id": "19179390"
-        },
-        {
-            "entities": {
-                "hashtags": [
-                    {
-                        "start": 80,
-                        "end": 89,
-                        "tag": "wyborcza"
+                        "start": 251,
+                        "end": 274,
+                        "url": "https://t.co/AfSrcKksLw",
+                        "expanded_url": "https://twitter.com/i/broadcasts/1eaKbnVeYneKX",
+                        "display_url": "twitter.com/i/broadcasts/1…",
+                        "status": 200,
+                        "title": "ESPN",
+                        "description": "Bet.",
+                        "unwound_url": "https://twitter.com/i/broadcasts/1eaKbnVeYneKX"
                     }
                 ],
-                "urls": [
+                "mentions": [
                     {
-                        "start": 91,
-                        "end": 114,
-                        "url": "https://t.co/ZWb7WVDWDC",
-                        "expanded_url": "https://wyborcza.pl/7,75398,26925731,prof-jedrzej-skrzypczak-pozywanie-dziennikarzy-wladzy-pewnych.html#S.DT-K.C-B.1-L.1.duzy",
-                        "display_url": "wyborcza.pl/7,75398,269257…"
+                        "start": 25,
+                        "end": 40,
+                        "username": "JoeFortenbaugh"
+                    },
+                    {
+                        "start": 45,
+                        "end": 59,
+                        "username": "Tyler_Fulghum"
                     }
                 ]
             },
-            "text": "Prof. Jędrzej Skrzypczak: SLAPP narasta. Czas wyznaczyć granicę nękania pozwami #wyborcza \nhttps://t.co/ZWb7WVDWDC",
-            "id": "1376468913035296771",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-29T09:38:57.000Z",
-            "conversation_id": "1376468913035296771",
+            "author_id": "2557521",
+            "conversation_id": "1380249087598067716",
+            "created_at": "2021-04-08T20:00:00.000Z",
+            "text": "Thursday has arrived and @JoeFortenbaugh and @Tyler_Fulghum are back with another episode of Bet. What has been the biggest surprise from opening weekend of MLB? Can Carson Wentz win more games than Rivers in a Colts jersey? Plus a Lakers look ahead! https://t.co/AfSrcKksLw",
             "public_metrics": {
-                "retweet_count": 5,
-                "reply_count": 7,
-                "like_count": 14,
+                "retweet_count": 8,
+                "reply_count": 10,
+                "like_count": 60,
                 "quote_count": 0
-            },
-            "author_id": "19179390"
+            }
         },
         {
+            "id": "1380243393431924739",
             "entities": {
                 "hashtags": [
                     {
-                        "start": 78,
-                        "end": 87,
-                        "tag": "wyborcza"
+                        "start": 77,
+                        "end": 88,
+                        "tag": "themasters"
                     }
                 ],
                 "urls": [
                     {
                         "start": 89,
                         "end": 112,
-                        "url": "https://t.co/mm9iGAHy2Y",
-                        "expanded_url": "https://warszawa.wyborcza.pl/warszawa/7,54420,26925460,nie-tylko-kosciolow-zapomnial-zamknac-rzad-co-z-sadami-w.html?_ga=2.135943928.873986562.1616992742-1466845038.1613980855#S.main_topic-K.P-B.1-L.2.zw",
-                        "display_url": "warszawa.wyborcza.pl/warszawa/7,544…"
-                    }
-                ]
-            },
-            "text": "Nie tylko kościołów \"zapomniał\" zamknąć rząd. Co z sądami w czasie lockdownu? #wyborcza \nhttps://t.co/mm9iGAHy2Y",
-            "id": "1376455939285454848",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-29T08:47:23.000Z",
-            "conversation_id": "1376455939285454848",
-            "public_metrics": {
-                "retweet_count": 5,
-                "reply_count": 7,
-                "like_count": 22,
-                "quote_count": 0
-            },
-            "author_id": "19179390"
-        }
-    ],
-    [
-        {
-            "attachments": {
-                "media_keys": [
-                    "13_1376920847382888458"
-                ]
-            },
-            "possibly_sensitive": false,
-            "author_id": "2557521",
-            "entities": {
-                "urls": [
+                        "url": "https://t.co/GNP75uJ8Tu",
+                        "expanded_url": "https://twitter.com/espn/status/1380243393431924739/photo/1",
+                        "display_url": "pic.twitter.com/GNP75uJ8Tu"
+                    },
                     {
-                        "start": 116,
-                        "end": 139,
-                        "url": "https://t.co/jyW5U6XiTC",
-                        "expanded_url": "https://twitter.com/espn/status/1376920908355534850/video/1",
-                        "display_url": "pic.twitter.com/jyW5U6XiTC"
+                        "start": 89,
+                        "end": 112,
+                        "url": "https://t.co/GNP75uJ8Tu",
+                        "expanded_url": "https://twitter.com/espn/status/1380243393431924739/photo/1",
+                        "display_url": "pic.twitter.com/GNP75uJ8Tu"
+                    },
+                    {
+                        "start": 89,
+                        "end": 112,
+                        "url": "https://t.co/GNP75uJ8Tu",
+                        "expanded_url": "https://twitter.com/espn/status/1380243393431924739/photo/1",
+                        "display_url": "pic.twitter.com/GNP75uJ8Tu"
                     }
                 ],
-                "annotations": [
-                    {
-                        "start": 37,
-                        "end": 44,
-                        "probability": 0.5148,
-                        "type": "Place",
-                        "normalized_text": "Davidson"
-                    },
-                    {
-                        "start": 61,
-                        "end": 65,
-                        "probability": 0.8112,
-                        "type": "Person",
-                        "normalized_text": "Steph"
-                    },
-                    {
-                        "start": 71,
-                        "end": 83,
-                        "probability": 0.9906,
-                        "type": "Person",
-                        "normalized_text": "James Wiseman"
-                    }
-                ]
-            },
-            "conversation_id": "1376920908355534850",
-            "created_at": "2021-03-30T15:35:01.000Z",
-            "id": "1376920908355534850",
-            "public_metrics": {
-                "retweet_count": 559,
-                "reply_count": 58,
-                "like_count": 8975,
-                "quote_count": 62
-            },
-            "text": "\"I was searching for frat parties at Davidson [at age 19].\"\n\nSteph put James Wiseman's development in perspective 😅 https://t.co/jyW5U6XiTC"
-        },
-        {
-            "attachments": {
-                "media_keys": [
-                    "3_1376879375933714435",
-                    "3_1376879379758915586"
-                ]
-            },
-            "entities": {
                 "mentions": [
                     {
-                        "start": 144,
-                        "end": 157,
-                        "username": "Timberwolves"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 113,
-                        "end": 136,
-                        "url": "https://t.co/8YRerDzxUz",
-                        "expanded_url": "https://es.pn/3wa5jBl",
-                        "display_url": "es.pn/3wa5jBl",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376879386977316868/TIHdS3jr?format=jpg&name=orig",
-                                "width": 1295,
-                                "height": 729
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376879386977316868/TIHdS3jr?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "KAT: 'Emotional' having dad at game without mom",
-                        "description": "Minnesota's Karl-Anthony Towns said it meant \"everything\" to have his father in attendance for Monday's game at Barclays Center, the first game Karl Towns Sr. had attended since his wife, Jackie Cruz-Towns, died from complications of COVID-19 last April.",
-                        "unwound_url": "https://www.espn.com/nba/story/_/id/31162706/timberwolves-karl-anthony-towns-reflects-emotional-night-father-attends-first-game-jackie-cruz-towns-death?linkId=114908166"
+                        "start": 1,
+                        "end": 16,
+                        "username": "PatrickMahomes"
                     },
                     {
-                        "start": 159,
-                        "end": 182,
-                        "url": "https://t.co/QBcq14NW8k",
-                        "expanded_url": "https://twitter.com/espn/status/1376879385714827264/photo/1",
-                        "display_url": "pic.twitter.com/QBcq14NW8k"
+                        "start": 18,
+                        "end": 25,
+                        "username": "tkelce"
                     },
                     {
-                        "start": 159,
-                        "end": 182,
-                        "url": "https://t.co/QBcq14NW8k",
-                        "expanded_url": "https://twitter.com/espn/status/1376879385714827264/photo/1",
-                        "display_url": "pic.twitter.com/QBcq14NW8k"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 3,
-                        "probability": 0.9318,
-                        "type": "Person",
-                        "normalized_text": "Karl"
-                    },
-                    {
-                        "start": 5,
-                        "end": 17,
-                        "probability": 0.517,
-                        "type": "Person",
-                        "normalized_text": "Anthony Towns"
+                        "start": 30,
+                        "end": 46,
+                        "username": "Trevorlawrencee"
                     }
                 ]
             },
-            "possibly_sensitive": false,
             "author_id": "2557521",
-            "conversation_id": "1376879385714827264",
-            "created_at": "2021-03-30T12:50:01.000Z",
-            "id": "1376879385714827264",
-            "public_metrics": {
-                "retweet_count": 918,
-                "reply_count": 85,
-                "like_count": 15341,
-                "quote_count": 77
-            },
-            "text": "Karl-Anthony Towns reflected on an \"emotional\" night after his dad attended his first game since losing his mom. https://t.co/8YRerDzxUz \n\n(via @Timberwolves) https://t.co/QBcq14NW8k"
-        },
-        {
+            "conversation_id": "1380243393431924739",
             "attachments": {
                 "media_keys": [
-                    "3_1376736435710132226"
+                    "3_1380243381918568450",
+                    "3_1380243385852821508",
+                    "3_1380243389606662155"
                 ]
             },
+            "created_at": "2021-04-08T19:37:23.000Z",
+            "text": ".@PatrickMahomes, @tkelce and @Trevorlawrencee taking in the scenes today at #themasters https://t.co/GNP75uJ8Tu",
+            "public_metrics": {
+                "retweet_count": 578,
+                "reply_count": 329,
+                "like_count": 13408,
+                "quote_count": 197
+            }
+        },
+        {
+            "id": "1380226445990113286",
             "entities": {
-                "mentions": [
-                    {
-                        "start": 95,
-                        "end": 101,
-                        "username": "espnW"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 102,
-                        "end": 125,
-                        "url": "https://t.co/slw4TxQFWz",
-                        "expanded_url": "https://twitter.com/espn/status/1376736440063832067/photo/1",
-                        "display_url": "pic.twitter.com/slw4TxQFWz"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 39,
-                        "end": 45,
-                        "probability": 0.6583,
-                        "type": "Place",
-                        "normalized_text": "Arizona"
-                    }
-                ],
                 "hashtags": [
                     {
-                        "start": 86,
-                        "end": 92,
-                        "tag": "ncaaW"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "author_id": "2557521",
-            "conversation_id": "1376736440063832067",
-            "created_at": "2021-03-30T03:22:00.000Z",
-            "id": "1376736440063832067",
-            "public_metrics": {
-                "retweet_count": 505,
-                "reply_count": 54,
-                "like_count": 3925,
-                "quote_count": 70
-            },
-            "text": "For the first time in program history, Arizona is heading to the women's Final Four!\n\n#ncaaW | @espnW https://t.co/slw4TxQFWz"
-        },
-        {
-            "attachments": {
-                "media_keys": [
-                    "13_1376728832816844804"
-                ]
-            },
-            "possibly_sensitive": false,
-            "author_id": "2557521",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 129,
-                        "end": 152,
-                        "url": "https://t.co/XtB496SQqH",
-                        "expanded_url": "https://twitter.com/espn/status/1376728865700261893/video/1",
-                        "display_url": "pic.twitter.com/XtB496SQqH"
+                        "start": 177,
+                        "end": 188,
+                        "tag": "themasters"
                     }
                 ],
-                "annotations": [
+                "urls": [
                     {
-                        "start": 17,
-                        "end": 29,
-                        "probability": 0.8705,
-                        "type": "Person",
-                        "normalized_text": "Aari McDonald"
+                        "start": 190,
+                        "end": 213,
+                        "url": "https://t.co/jjEF7jUWy0",
+                        "expanded_url": "https://twitter.com/i/broadcasts/1MnxnlZWNXwGO",
+                        "display_url": "twitter.com/i/broadcasts/1…",
+                        "status": 200,
+                        "title": "ESPN",
+                        "description": "1st Round Update: Dustin Johnson, Brooks Koepka, Jordan Spieth | 2021 Masters Live",
+                        "unwound_url": "https://twitter.com/i/broadcasts/1MnxnlZWNXwGO"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "start": 25,
+                        "end": 30,
+                        "username": "Arda"
                     },
+                    {
+                        "start": 32,
+                        "end": 47,
+                        "username": "TaylorTwellman"
+                    },
+                    {
+                        "start": 52,
+                        "end": 63,
+                        "username": "ESPNCaddie"
+                    }
+                ]
+            },
+            "author_id": "2557521",
+            "conversation_id": "1380226445990113286",
+            "created_at": "2021-04-08T18:30:02.000Z",
+            "text": "Masters Live is back ⛳️\n\n@Arda, @TaylorTwellman and @ESPNCaddie update you on all the action from the first round and discuss how this year's tournament will play out. Join us! #themasters  https://t.co/jjEF7jUWy0",
+            "public_metrics": {
+                "retweet_count": 30,
+                "reply_count": 13,
+                "like_count": 132,
+                "quote_count": 1
+            }
+        },
+        {
+            "id": "1380217178079830018",
+            "entities": {
+                "annotations": [
                     {
                         "start": 43,
                         "end": 50,
-                        "probability": 0.9109,
-                        "type": "Organization",
-                        "normalized_text": "Wildcats"
-                    },
+                        "probability": 0.9853,
+                        "type": "Place",
+                        "normalized_text": "Brooklyn"
+                    }
+                ],
+                "mentions": [
                     {
-                        "start": 122,
-                        "end": 125,
-                        "probability": 0.969,
+                        "start": 56,
+                        "end": 60,
+                        "username": "ATT"
+                    }
+                ]
+            },
+            "author_id": "2557521",
+            "conversation_id": "1380217178079830018",
+            "created_at": "2021-04-08T17:53:13.000Z",
+            "text": "Saturday Primetime returns!\n\nWho ya got in Brooklyn?\n\n(📍@ATT)",
+            "attachments": {
+                "poll_ids": [
+                    "1380217177115099142"
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 91,
+                "reply_count": 109,
+                "like_count": 1054,
+                "quote_count": 34
+            }
+        },
+        {
+            "id": "1380215826356256774",
+            "entities": {
+                "hashtags": [
+                    {
+                        "start": 77,
+                        "end": 88,
+                        "tag": "themasters"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 125,
+                        "end": 128,
+                        "probability": 0.8642,
                         "type": "Organization",
                         "normalized_text": "ESPN"
                     }
-                ]
-            },
-            "conversation_id": "1376728865700261893",
-            "created_at": "2021-03-30T02:51:54.000Z",
-            "id": "1376728865700261893",
-            "public_metrics": {
-                "retweet_count": 68,
-                "reply_count": 20,
-                "like_count": 723,
-                "quote_count": 9
-            },
-            "text": "Heads-up play by Aari McDonald to give the Wildcats the lead heading into the 4th!\n\nSee who advances to the Final Four on ESPN 📺 https://t.co/XtB496SQqH"
-        },
-        {
-            "attachments": {
-                "media_keys": [
-                    "3_1376710056180391944"
-                ]
-            },
-            "possibly_sensitive": false,
-            "author_id": "2557521",
-            "entities": {
+                ],
                 "urls": [
                     {
-                        "start": 278,
-                        "end": 301,
-                        "url": "https://t.co/iP7p5Hwd8c",
-                        "expanded_url": "https://twitter.com/espn/status/1376710065252659203/photo/1",
-                        "display_url": "pic.twitter.com/iP7p5Hwd8c"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 12,
-                        "end": 17,
-                        "probability": 0.9187,
-                        "type": "Organization",
-                        "normalized_text": "Baylor"
+                        "start": 130,
+                        "end": 153,
+                        "url": "https://t.co/8ZNnTMOlhi",
+                        "expanded_url": "https://es.pn/3sX0Ks1",
+                        "display_url": "es.pn/3sX0Ks1",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380215828398936065/y_SZbVly?format=jpg&name=orig",
+                                "width": 1280,
+                                "height": 720
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380215828398936065/y_SZbVly?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "The Masters: Featured Groups: Dustin, Koepka, Bubba, Hovland, Westwood, Strafaci | Watch ESPN",
+                        "description": "Stream The Masters: Featured Groups: Dustin, Koepka, Bubba, Hovland, Westwood, Strafaci on Watch ESPN",
+                        "unwound_url": "https://www.espn.com/espnplus/player/_/id/53ed7e41-1726-4573-b94c-50d09ba9ba58?linkId=115686794"
                     },
                     {
-                        "start": 26,
-                        "end": 38,
-                        "probability": 0.9977,
-                        "type": "Person",
-                        "normalized_text": "DiDi Richards"
-                    },
-                    {
-                        "start": 223,
-                        "end": 228,
-                        "probability": 0.9542,
-                        "type": "Organization",
-                        "normalized_text": "Baylor"
-                    },
-                    {
-                        "start": 237,
-                        "end": 247,
-                        "probability": 0.4614,
-                        "type": "Organization",
-                        "normalized_text": "Elite Eight"
-                    }
-                ]
-            },
-            "conversation_id": "1376710065252659203",
-            "created_at": "2021-03-30T01:37:12.000Z",
-            "id": "1376710065252659203",
-            "public_metrics": {
-                "retweet_count": 3651,
-                "reply_count": 134,
-                "like_count": 28982,
-                "quote_count": 440
-            },
-            "text": "In October, Baylor senior DiDi Richards suffered a spinal cord injury in practice that briefly left her with no feeling or movement in her legs. \n\nShe went through extensive rehabilitation, returned to the court and helped Baylor to the Elite Eight in the tournament. Respect 👏 https://t.co/iP7p5Hwd8c"
-        },
-        {
-            "attachments": {
-                "media_keys": [
-                    "13_1376702696216879104"
-                ]
-            },
-            "possibly_sensitive": false,
-            "author_id": "2557521",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 60,
-                        "end": 83,
-                        "url": "https://t.co/c9ze02twoC",
-                        "expanded_url": "https://twitter.com/espn/status/1376702944104562694/video/1",
-                        "display_url": "pic.twitter.com/c9ze02twoC"
+                        "start": 154,
+                        "end": 177,
+                        "url": "https://t.co/9jnxJk9wrs",
+                        "expanded_url": "https://twitter.com/espn/status/1380215826356256774/video/1",
+                        "display_url": "pic.twitter.com/9jnxJk9wrs"
                     }
                 ],
-                "annotations": [
-                    {
-                        "start": 14,
-                        "end": 18,
-                        "probability": 0.9332,
-                        "type": "Organization",
-                        "normalized_text": "UCONN"
-                    },
-                    {
-                        "start": 31,
-                        "end": 36,
-                        "probability": 0.8827,
-                        "type": "Organization",
-                        "normalized_text": "BAYLOR"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 53,
-                        "end": 59,
-                        "tag": "ncaaW"
-                    }
-                ]
-            },
-            "conversation_id": "1376702944104562694",
-            "created_at": "2021-03-30T01:08:54.000Z",
-            "id": "1376702944104562694",
-            "public_metrics": {
-                "retweet_count": 249,
-                "reply_count": 113,
-                "like_count": 1720,
-                "quote_count": 60
-            },
-            "text": "WHAT A GAME!\n\nUCONN TAKES DOWN BAYLOR IN A THRILLER! #ncaaW https://t.co/c9ze02twoC"
-        },
-        {
-            "attachments": {
-                "media_keys": [
-                    "3_1376702812877381634"
-                ]
-            },
-            "possibly_sensitive": false,
-            "author_id": "2557521",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 106,
-                        "end": 129,
-                        "url": "https://t.co/Lv42BYplrX",
-                        "expanded_url": "https://twitter.com/espn/status/1376702820116746242/photo/1",
-                        "display_url": "pic.twitter.com/Lv42BYplrX"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 4,
-                        "probability": 0.9883,
-                        "type": "Organization",
-                        "normalized_text": "UConn"
-                    },
-                    {
-                        "start": 15,
-                        "end": 20,
-                        "probability": 0.9846,
-                        "type": "Organization",
-                        "normalized_text": "Baylor"
-                    },
-                    {
-                        "start": 84,
-                        "end": 97,
-                        "probability": 0.8903,
-                        "type": "Person",
-                        "normalized_text": "Paige Bueckers"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 75,
-                        "end": 81,
-                        "tag": "ncaaW"
-                    }
-                ]
-            },
-            "conversation_id": "1376702820116746242",
-            "created_at": "2021-03-30T01:08:24.000Z",
-            "id": "1376702820116746242",
-            "public_metrics": {
-                "retweet_count": 753,
-                "reply_count": 236,
-                "like_count": 7818,
-                "quote_count": 251
-            },
-            "text": "UConn survives Baylor to reach the Final Four for the 13th straight time! 🔥#ncaaW\n\nPaige Bueckers: 28 Pts https://t.co/Lv42BYplrX"
-        },
-        {
-            "attachments": {
-                "media_keys": [
-                    "13_1376702077682937856"
-                ]
-            },
-            "possibly_sensitive": false,
-            "author_id": "2557521",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 65,
-                        "end": 88,
-                        "url": "https://t.co/0PYjA7uhVV",
-                        "expanded_url": "https://twitter.com/espn/status/1376702275402489857/video/1",
-                        "display_url": "pic.twitter.com/0PYjA7uhVV"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 4,
-                        "probability": 0.915,
-                        "type": "Organization",
-                        "normalized_text": "UConn"
-                    },
-                    {
-                        "start": 12,
-                        "end": 29,
-                        "probability": 0.859,
-                        "type": "Person",
-                        "normalized_text": "DiJonai Carrington"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 58,
-                        "end": 64,
-                        "tag": "ncaaW"
-                    }
-                ]
-            },
-            "conversation_id": "1376702275402489857",
-            "created_at": "2021-03-30T01:06:15.000Z",
-            "id": "1376702275402489857",
-            "public_metrics": {
-                "retweet_count": 200,
-                "reply_count": 459,
-                "like_count": 1913,
-                "quote_count": 635
-            },
-            "text": "UConn stops DiJonai Carrington's potential game-winner! 😱 #ncaaW https://t.co/0PYjA7uhVV"
-        },
-        {
-            "attachments": {
-                "media_keys": [
-                    "3_1376698524029616135"
-                ]
-            },
-            "possibly_sensitive": false,
-            "author_id": "2557521",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 20,
-                        "end": 43,
-                        "url": "https://t.co/QjykW6v2dq",
-                        "expanded_url": "https://twitter.com/espn/status/1376698594955235336/photo/1",
-                        "display_url": "pic.twitter.com/QjykW6v2dq"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 13,
-                        "end": 19,
-                        "tag": "ncaaW"
-                    }
-                ]
-            },
-            "conversation_id": "1376698594955235336",
-            "created_at": "2021-03-30T00:51:37.000Z",
-            "id": "1376698594955235336",
-            "public_metrics": {
-                "retweet_count": 496,
-                "reply_count": 76,
-                "like_count": 4525,
-                "quote_count": 40
-            },
-            "text": "THIS. GAME.\n\n#ncaaW https://t.co/QjykW6v2dq"
-        },
-        {
-            "attachments": {
-                "media_keys": [
-                    "13_1376695146348040192"
-                ]
-            },
-            "entities": {
                 "mentions": [
                     {
-                        "start": 67,
-                        "end": 73,
-                        "username": "espnW"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 83,
-                        "end": 106,
-                        "url": "https://t.co/GdiNwNhk9M",
-                        "expanded_url": "https://twitter.com/espn/status/1376695466977595398/video/1",
-                        "display_url": "pic.twitter.com/GdiNwNhk9M"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 13,
-                        "probability": 0.9983,
-                        "type": "Person",
-                        "normalized_text": "Paige Bueckers"
-                    },
-                    {
-                        "start": 40,
-                        "end": 44,
-                        "probability": 0.9561,
-                        "type": "Organization",
-                        "normalized_text": "UConn"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 76,
-                        "end": 82,
-                        "tag": "ncaaW"
+                        "start": 19,
+                        "end": 31,
+                        "username": "DJohnsonPGA"
                     }
                 ]
             },
-            "possibly_sensitive": false,
             "author_id": "2557521",
-            "conversation_id": "1376695466977595398",
-            "created_at": "2021-03-30T00:39:11.000Z",
-            "id": "1376695466977595398",
-            "public_metrics": {
-                "retweet_count": 537,
-                "reply_count": 82,
-                "like_count": 3575,
-                "quote_count": 190
+            "conversation_id": "1380215826356256774",
+            "attachments": {
+                "media_keys": [
+                    "13_1380215770836299785"
+                ]
             },
-            "text": "Paige Bueckers adds to the 19-0 run for UConn with this triple 😯 \n\n@espnW | #ncaaW https://t.co/GdiNwNhk9M"
+            "created_at": "2021-04-08T17:47:50.000Z",
+            "text": "Defending champion @DJohnsonPGA with a nice pitch in for birdie at No. 11 💥  #themasters \n\nWatch today’s featured groups on ESPN+ https://t.co/8ZNnTMOlhi https://t.co/9jnxJk9wrs",
+            "public_metrics": {
+                "retweet_count": 45,
+                "reply_count": 21,
+                "like_count": 516,
+                "quote_count": 4
+            }
         }
     ],
     [
         {
-            "conversation_id": "1376930913607503876",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 5,
-                "reply_count": 3,
-                "like_count": 40,
-                "quote_count": 2
-            },
-            "author_id": "19607400",
-            "attachments": {
-                "media_keys": [
-                    "3_1376930500061712387"
-                ]
-            },
-            "id": "1376930913607503876",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1380551815129800712"
+                }
+            ],
+            "in_reply_to_user_id": "19607400",
             "entities": {
-                "mentions": [
-                    {
-                        "start": 197,
-                        "end": 210,
-                        "username": "SouthwestAir"
-                    }
-                ],
                 "urls": [
                     {
-                        "start": 216,
-                        "end": 239,
-                        "url": "https://t.co/41m70aXwD9",
-                        "expanded_url": "http://athletics.com/homecoming",
-                        "display_url": "athletics.com/homecoming",
+                        "start": 45,
+                        "end": 68,
+                        "url": "https://t.co/RizI8lp46i",
+                        "expanded_url": "http://athletics.com/tickets",
+                        "display_url": "athletics.com/tickets",
                         "images": [
                             {
-                                "url": "https://pbs.twimg.com/news_img/1376312613198422018/6UhK4Ak6?format=jpg&name=orig",
+                                "url": "https://pbs.twimg.com/news_img/1380313958142205952/vouMdQd0?format=jpg&name=orig",
                                 "width": 1200,
                                 "height": 630
                             },
                             {
-                                "url": "https://pbs.twimg.com/news_img/1376312613198422018/6UhK4Ak6?format=jpg&name=150x150",
+                                "url": "https://pbs.twimg.com/news_img/1380313958142205952/vouMdQd0?format=jpg&name=150x150",
                                 "width": 150,
                                 "height": 150
                             }
                         ],
                         "status": 200,
-                        "title": "Official Oakland Athletics Website",
-                        "description": "The official website of the Oakland Athletics with the most up-to-date information on scores, schedule, stats, tickets, and team news.",
-                        "unwound_url": "https://www.mlb.com/athletics"
+                        "title": "Oakland Athletics Tickets",
+                        "description": "The Official site of the Oakland Athletics includes upcoming game tickets, promotions, ticket specials, season tickets and more directly from the team!",
+                        "unwound_url": "https://www.mlb.com/athletics/tickets"
+                    }
+                ]
+            },
+            "text": "Don’t miss out! Tickets start at $19 🎟️ \n\n🔗: https://t.co/RizI8lp46i",
+            "id": "1380551816971051014",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 3,
+                "like_count": 30,
+                "quote_count": 0
+            },
+            "author_id": "19607400",
+            "created_at": "2021-04-09T16:02:57.000Z",
+            "conversation_id": "1380551815129800712"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 91,
+                        "end": 114,
+                        "url": "https://t.co/RizI8lp46i",
+                        "expanded_url": "http://athletics.com/tickets",
+                        "display_url": "athletics.com/tickets",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380313958142205952/vouMdQd0?format=jpg&name=orig",
+                                "width": 1200,
+                                "height": 630
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380313958142205952/vouMdQd0?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Oakland Athletics Tickets",
+                        "description": "The Official site of the Oakland Athletics includes upcoming game tickets, promotions, ticket specials, season tickets and more directly from the team!",
+                        "unwound_url": "https://www.mlb.com/athletics/tickets"
                     },
                     {
-                        "start": 240,
-                        "end": 263,
-                        "url": "https://t.co/9Fyt23jhZZ",
-                        "expanded_url": "https://twitter.com/Athletics/status/1376930913607503876/photo/1",
-                        "display_url": "pic.twitter.com/9Fyt23jhZZ"
+                        "start": 143,
+                        "end": 166,
+                        "url": "https://t.co/aCGKGKFzkE",
+                        "expanded_url": "https://twitter.com/Athletics/status/1380551815129800712/photo/1",
+                        "display_url": "pic.twitter.com/aCGKGKFzkE"
                     }
                 ],
                 "hashtags": [
                     {
-                        "start": 161,
-                        "end": 181,
-                        "tag": "AthleticsHomecoming"
+                        "start": 129,
+                        "end": 142,
+                        "tag": "PlayYourPart"
                     }
-                ]
-            },
-            "text": "We’ve got a sweet deal for you, today only! Get a six-person suite for just $89 per person for May 1-8 home games. Grab this $534 suite deal before it’s gone! \n\n#AthleticsHomecoming | Presented by @SouthwestAir\n\n🎟️: https://t.co/41m70aXwD9 https://t.co/9Fyt23jhZZ",
-            "created_at": "2021-03-30T16:14:46.000Z"
-        },
-        {
-            "conversation_id": "1376684534477950977",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 87,
-                "reply_count": 22,
-                "like_count": 994,
-                "quote_count": 10
-            },
-            "author_id": "19607400",
-            "attachments": {
-                "media_keys": [
-                    "3_1376684235151433731",
-                    "3_1376684235159871488",
-                    "3_1376684309940084739",
-                    "3_1376684310124630018"
-                ]
-            },
-            "id": "1376684534477950977",
-            "text": "Next stop: Oakland https://t.co/TW98U47PTc",
-            "created_at": "2021-03-29T23:55:45.000Z",
-            "entities": {
+                ],
+                "mentions": [
+                    {
+                        "start": 117,
+                        "end": 126,
+                        "username": "kpnorcal"
+                    }
+                ],
                 "annotations": [
                     {
-                        "start": 11,
-                        "end": 17,
-                        "probability": 0.9399,
+                        "start": 9,
+                        "end": 15,
+                        "probability": 0.8298,
                         "type": "Place",
                         "normalized_text": "Oakland"
                     }
-                ],
-                "urls": [
-                    {
-                        "start": 19,
-                        "end": 42,
-                        "url": "https://t.co/TW98U47PTc",
-                        "expanded_url": "https://twitter.com/Athletics/status/1376684534477950977/photo/1",
-                        "display_url": "pic.twitter.com/TW98U47PTc"
-                    },
-                    {
-                        "start": 19,
-                        "end": 42,
-                        "url": "https://t.co/TW98U47PTc",
-                        "expanded_url": "https://twitter.com/Athletics/status/1376684534477950977/photo/1",
-                        "display_url": "pic.twitter.com/TW98U47PTc"
-                    },
-                    {
-                        "start": 19,
-                        "end": 42,
-                        "url": "https://t.co/TW98U47PTc",
-                        "expanded_url": "https://twitter.com/Athletics/status/1376684534477950977/photo/1",
-                        "display_url": "pic.twitter.com/TW98U47PTc"
-                    },
-                    {
-                        "start": 19,
-                        "end": 42,
-                        "url": "https://t.co/TW98U47PTc",
-                        "expanded_url": "https://twitter.com/Athletics/status/1376684534477950977/photo/1",
-                        "display_url": "pic.twitter.com/TW98U47PTc"
-                    }
                 ]
-            }
-        },
-        {
-            "conversation_id": "1376668665685307393",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 9,
-                "reply_count": 2,
-                "like_count": 40,
-                "quote_count": 0
             },
-            "author_id": "19607400",
+            "text": "Mask up, Oakland! 😷\nFans in attendance on April 17th &amp; 18th will receive an A’s mask.\n\nhttps://t.co/RizI8lp46i | @kpnorcal | #PlayYourPart https://t.co/aCGKGKFzkE",
+            "id": "1380551815129800712",
+            "public_metrics": {
+                "retweet_count": 29,
+                "reply_count": 27,
+                "like_count": 266,
+                "quote_count": 9
+            },
             "attachments": {
                 "media_keys": [
-                    "3_1376645175661879298"
+                    "3_1380551290669817861"
                 ]
-            },
-            "id": "1376668665685307393",
-            "text": "2 days left to get yourself a bat, baseball, jersey, team-issued apparel, &amp; more in our Virtual Tent Sale benefiting the Oakland A’s Community Fund.\n\n#AthleticsHomecoming | Presented by Southwest Airlines\n\n🔗: https://t.co/41m70aXwD9 https://t.co/gsORVkVtYZ",
-            "created_at": "2021-03-29T22:52:41.000Z",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 121,
-                        "end": 146,
-                        "probability": 0.5498,
-                        "type": "Organization",
-                        "normalized_text": "Oakland A’s Community Fund"
-                    },
-                    {
-                        "start": 186,
-                        "end": 203,
-                        "probability": 0.8874,
-                        "type": "Organization",
-                        "normalized_text": "Southwest Airlines"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 213,
-                        "end": 236,
-                        "url": "https://t.co/41m70aXwD9",
-                        "expanded_url": "http://athletics.com/homecoming",
-                        "display_url": "athletics.com/homecoming",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376312613198422018/6UhK4Ak6?format=jpg&name=orig",
-                                "width": 1200,
-                                "height": 630
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376312613198422018/6UhK4Ak6?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "Official Oakland Athletics Website",
-                        "description": "The official website of the Oakland Athletics with the most up-to-date information on scores, schedule, stats, tickets, and team news.",
-                        "unwound_url": "https://www.mlb.com/athletics"
-                    },
-                    {
-                        "start": 237,
-                        "end": 260,
-                        "url": "https://t.co/gsORVkVtYZ",
-                        "expanded_url": "https://twitter.com/Athletics/status/1376668665685307393/photo/1",
-                        "display_url": "pic.twitter.com/gsORVkVtYZ"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 154,
-                        "end": 174,
-                        "tag": "AthleticsHomecoming"
-                    }
-                ]
-            }
-        },
-        {
-            "conversation_id": "1376664340833570821",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 11,
-                "reply_count": 5,
-                "like_count": 144,
-                "quote_count": 1
             },
             "author_id": "19607400",
-            "attachments": {
-                "media_keys": [
-                    "7_1376664059655843847"
-                ]
-            },
-            "id": "1376664340833570821",
-            "text": "Don't Laugh Challenge: Accepted. \n#AthleticsHomecoming\n\n🎥 Full video: https://t.co/sQHZokJJMd https://t.co/aphPsJyAB3",
-            "created_at": "2021-03-29T22:35:30.000Z",
+            "created_at": "2021-04-09T16:02:56.000Z",
+            "conversation_id": "1380551815129800712"
+        },
+        {
             "entities": {
                 "urls": [
                     {
-                        "start": 70,
-                        "end": 93,
-                        "url": "https://t.co/sQHZokJJMd",
-                        "expanded_url": "http://youtube.com/athletics",
-                        "display_url": "youtube.com/athletics",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376663988998533121/uV6-5T5l?format=jpg&name=orig",
-                                "width": 900,
-                                "height": 900
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376663988998533121/uV6-5T5l?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "Oakland Athletics",
-                        "description": "作成した動画を友だち、家族、世界中の人たちと共有",
-                        "unwound_url": "https://www.youtube.com/athletics"
-                    },
-                    {
-                        "start": 94,
-                        "end": 117,
-                        "url": "https://t.co/aphPsJyAB3",
-                        "expanded_url": "https://twitter.com/Athletics/status/1376664340833570821/video/1",
-                        "display_url": "pic.twitter.com/aphPsJyAB3"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 34,
-                        "end": 54,
-                        "tag": "AthleticsHomecoming"
+                        "start": 45,
+                        "end": 68,
+                        "url": "https://t.co/2yZCJc0Ew1",
+                        "expanded_url": "https://twitter.com/Athletics/status/1380337975179943936/video/1",
+                        "display_url": "pic.twitter.com/2yZCJc0Ew1"
                     }
                 ]
-            }
-        },
-        {
-            "conversation_id": "1376609242119991299",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 17,
-                "reply_count": 5,
-                "like_count": 133,
-                "quote_count": 0
             },
-            "author_id": "19607400",
+            "text": "Our human highlight reel does it yet again 🙌 https://t.co/2yZCJc0Ew1",
+            "id": "1380337975179943936",
+            "public_metrics": {
+                "retweet_count": 69,
+                "reply_count": 154,
+                "like_count": 678,
+                "quote_count": 20
+            },
             "attachments": {
                 "media_keys": [
-                    "3_1376608642619740161"
+                    "7_1380337695495311361"
                 ]
             },
-            "id": "1376609242119991299",
-            "text": "One more time from Hohokam\n\n⚾: 12:05pm PT vs. Giants\n🎧: https://t.co/M834H8aCde\nStarting pitcher: Manaea https://t.co/I39l4rI4Rs",
-            "created_at": "2021-03-29T18:56:34.000Z",
+            "author_id": "19607400",
+            "created_at": "2021-04-09T01:53:13.000Z",
+            "conversation_id": "1380337975179943936"
+        },
+        {
             "entities": {
-                "annotations": [
-                    {
-                        "start": 46,
-                        "end": 51,
-                        "probability": 0.7832,
-                        "type": "Organization",
-                        "normalized_text": "Giants"
-                    },
-                    {
-                        "start": 99,
-                        "end": 104,
-                        "probability": 0.6519,
-                        "type": "Person",
-                        "normalized_text": "Manaea"
-                    }
-                ],
                 "urls": [
                     {
-                        "start": 56,
-                        "end": 79,
+                        "start": 67,
+                        "end": 90,
                         "url": "https://t.co/M834H8aCde",
                         "expanded_url": "http://athletics.com/ascast",
                         "display_url": "athletics.com/ascast",
                         "images": [
                             {
-                                "url": "https://pbs.twimg.com/news_img/1375635989092270082/cwmZ7ZA-?format=jpg&name=orig",
+                                "url": "https://pbs.twimg.com/news_img/1380725228758728705/QvcZiRKd?format=jpg&name=orig",
                                 "width": 1200,
                                 "height": 630
                             },
                             {
-                                "url": "https://pbs.twimg.com/news_img/1375635989092270082/cwmZ7ZA-?format=jpg&name=150x150",
+                                "url": "https://pbs.twimg.com/news_img/1380725228758728705/QvcZiRKd?format=jpg&name=150x150",
                                 "width": 150,
                                 "height": 150
                             }
@@ -1235,2810 +732,3765 @@ const tweets = [
                         "unwound_url": "https://www.mlb.com/athletics/fans/podcasts"
                     },
                     {
-                        "start": 105,
-                        "end": 128,
-                        "url": "https://t.co/I39l4rI4Rs",
-                        "expanded_url": "https://twitter.com/Athletics/status/1376609242119991299/photo/1",
-                        "display_url": "pic.twitter.com/I39l4rI4Rs"
+                        "start": 94,
+                        "end": 117,
+                        "url": "https://t.co/5zrCmv1NDN",
+                        "expanded_url": "http://bit.ly/39RoAxU",
+                        "display_url": "bit.ly/39RoAxU",
+                        "status": 200,
+                        "title": "Watch Oakland Athletics MLB live stream",
+                        "description": "How to watch Oakland Athletics MLB live streams on NBC Sports California.",
+                        "unwound_url": "http://stream.nbcsports.com/rsn/nbcs-california-athletics?utm_tags=RSNBayCA1680"
+                    },
+                    {
+                        "start": 168,
+                        "end": 191,
+                        "url": "https://t.co/u5mHS00lms",
+                        "expanded_url": "https://twitter.com/Athletics/status/1380279441092276230/photo/1",
+                        "display_url": "pic.twitter.com/u5mHS00lms"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 143,
+                        "end": 156,
+                        "tag": "RiseAndGrind"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "start": 159,
+                        "end": 167,
+                        "username": "Chevron"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 2,
+                        "end": 8,
+                        "probability": 0.3707,
+                        "type": "Place",
+                        "normalized_text": "Houston"
+                    },
+                    {
+                        "start": 28,
+                        "end": 33,
+                        "probability": 0.8991,
+                        "type": "Organization",
+                        "normalized_text": "Astros"
+                    },
+                    {
+                        "start": 50,
+                        "end": 58,
+                        "probability": 0.7339,
+                        "type": "Organization",
+                        "normalized_text": "Bloomberg"
                     }
                 ]
-            }
+            },
+            "text": "📍Houston\n\n⚾: 5:10pm PT vs. Astros\n📺: NBCSCA\n📻: Bloomberg 960 AM\n🎧: https://t.co/M834H8aCde\n📲: https://t.co/5zrCmv1NDN\nStarting pitcher: Irvin\n\n#RiseAndGrind x @Chevron https://t.co/u5mHS00lms",
+            "id": "1380279441092276230",
+            "public_metrics": {
+                "retweet_count": 21,
+                "reply_count": 18,
+                "like_count": 109,
+                "quote_count": 5
+            },
+            "attachments": {
+                "media_keys": [
+                    "3_1380279330207457289"
+                ]
+            },
+            "author_id": "19607400",
+            "created_at": "2021-04-08T22:00:37.000Z",
+            "conversation_id": "1380279441092276230"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 129,
+                        "end": 152,
+                        "url": "https://t.co/e9LBEk5lg1",
+                        "expanded_url": "https://twitter.com/Athletics/status/1380242777405972481/photo/1",
+                        "display_url": "pic.twitter.com/e9LBEk5lg1"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 17,
+                        "end": 33,
+                        "probability": 0.4478,
+                        "type": "Person",
+                        "normalized_text": "RHP Deolis Guerra"
+                    },
+                    {
+                        "start": 74,
+                        "end": 81,
+                        "probability": 0.3989,
+                        "type": "Person",
+                        "normalized_text": "A.J. Puk"
+                    }
+                ]
+            },
+            "text": "We have selected RHP Deolis Guerra from our alternate site and placed LHP A.J. Puk on the 10-day IL with a strained left biceps. https://t.co/e9LBEk5lg1",
+            "id": "1380242777405972481",
+            "public_metrics": {
+                "retweet_count": 18,
+                "reply_count": 23,
+                "like_count": 137,
+                "quote_count": 12
+            },
+            "attachments": {
+                "media_keys": [
+                    "3_1380242772108607488"
+                ]
+            },
+            "author_id": "19607400",
+            "created_at": "2021-04-08T19:34:56.000Z",
+            "conversation_id": "1380242777405972481"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 56,
+                        "end": 79,
+                        "url": "https://t.co/4K1WtzHCy5",
+                        "expanded_url": "https://twitter.com/Athletics/status/1380208874834124803/video/1",
+                        "display_url": "pic.twitter.com/4K1WtzHCy5"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 42,
+                        "end": 55,
+                        "tag": "RiseAndGrind"
+                    }
+                ]
+            },
+            "text": "Something to hold you over until tonight. #RiseAndGrind https://t.co/4K1WtzHCy5",
+            "id": "1380208874834124803",
+            "public_metrics": {
+                "retweet_count": 29,
+                "reply_count": 12,
+                "like_count": 360,
+                "quote_count": 5
+            },
+            "attachments": {
+                "media_keys": [
+                    "7_1380208720060145668"
+                ]
+            },
+            "author_id": "19607400",
+            "created_at": "2021-04-08T17:20:13.000Z",
+            "conversation_id": "1380208874834124803"
         }
     ],
     [
         {
-            "id": "1376630564485177346",
-            "public_metrics": {
-                "retweet_count": 6,
-                "reply_count": 3,
-                "like_count": 102,
-                "quote_count": 2
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 47,
+                        "end": 62,
+                        "username": "oaklandrootssc"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 171,
+                        "end": 179,
+                        "tag": "VamosSJ"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 79,
+                        "end": 83,
+                        "probability": 0.9239,
+                        "type": "Person",
+                        "normalized_text": "Marie"
+                    },
+                    {
+                        "start": 86,
+                        "end": 91,
+                        "probability": 0.9639,
+                        "type": "Person",
+                        "normalized_text": "Alanis"
+                    },
+                    {
+                        "start": 94,
+                        "end": 102,
+                        "probability": 0.983,
+                        "type": "Person",
+                        "normalized_text": "Jungwirth"
+                    },
+                    {
+                        "start": 105,
+                        "end": 112,
+                        "probability": 0.9933,
+                        "type": "Person",
+                        "normalized_text": "Thompson"
+                    },
+                    {
+                        "start": 115,
+                        "end": 120,
+                        "probability": 0.9951,
+                        "type": "Person",
+                        "normalized_text": "Remedi"
+                    },
+                    {
+                        "start": 123,
+                        "end": 128,
+                        "probability": 0.9783,
+                        "type": "Person",
+                        "normalized_text": "Yueill"
+                    },
+                    {
+                        "start": 131,
+                        "end": 136,
+                        "probability": 0.9965,
+                        "type": "Person",
+                        "normalized_text": "Fierro"
+                    },
+                    {
+                        "start": 139,
+                        "end": 144,
+                        "probability": 0.9934,
+                        "type": "Person",
+                        "normalized_text": "Chofis"
+                    },
+                    {
+                        "start": 147,
+                        "end": 154,
+                        "probability": 0.9861,
+                        "type": "Person",
+                        "normalized_text": "Espinoza"
+                    },
+                    {
+                        "start": 157,
+                        "end": 167,
+                        "probability": 0.9146,
+                        "type": "Person",
+                        "normalized_text": "Wondolowski"
+                    }
+                ]
             },
-            "conversation_id": "1376630564485177346",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-29T20:21:17.000Z",
+            "conversation_id": "1380565428934565895",
+            "id": "1380565428934565895",
+            "text": "Good morning everyone.\n\nToday's lineup against @oaklandrootssc.\n\nMarcinkowski; Marie, Alanis, Jungwirth, Thompson; Remedi, Yueill; Fierro, Chofis, Espinoza; Wondolowski.\n\n#VamosSJ",
+            "created_at": "2021-04-09T16:57:02.000Z",
+            "public_metrics": {
+                "retweet_count": 16,
+                "reply_count": 1,
+                "like_count": 137,
+                "quote_count": 3
+            },
+            "author_id": "16303450"
+        },
+        {
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 35,
+                        "end": 46,
+                        "username": "PayPalPark"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 103,
+                        "end": 111,
+                        "tag": "VamosSJ"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 7,
+                        "probability": 0.6677,
+                        "type": "Place",
+                        "normalized_text": "San Jose"
+                    },
+                    {
+                        "start": 13,
+                        "end": 19,
+                        "probability": 0.384,
+                        "type": "Organization",
+                        "normalized_text": "Oakland"
+                    }
+                ]
+            },
+            "conversation_id": "1380543966513295363",
+            "id": "1380543966513295363",
+            "text": "San Jose vs. Oakland.\n\nMatchday at @PayPalPark.\n\nFollow a live stream of the match starting at 10am. \n\n#VamosSJ",
+            "created_at": "2021-04-09T15:31:45.000Z",
+            "public_metrics": {
+                "retweet_count": 26,
+                "reply_count": 7,
+                "like_count": 132,
+                "quote_count": 3
+            },
+            "author_id": "16303450"
+        },
+        {
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 12,
+                        "end": 19,
+                        "username": "ATLUTD"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 0,
+                        "end": 9,
+                        "tag": "Quakes74"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 20,
+                        "end": 43,
+                        "url": "https://t.co/dkZmEyL5YV",
+                        "expanded_url": "https://twitter.com/josefmartinez17/status/1380341726909493249",
+                        "display_url": "twitter.com/josefmartinez1…"
+                    }
+                ]
+            },
+            "conversation_id": "1380353229079257094",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1380341726909493249"
+                }
+            ],
+            "id": "1380353229079257094",
+            "text": "#Quakes74 🤝 @ATLUTD https://t.co/dkZmEyL5YV",
+            "created_at": "2021-04-09T02:53:50.000Z",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 6,
+                "like_count": 144,
+                "quote_count": 1
+            },
+            "author_id": "16303450"
+        },
+        {
+            "entities": {
+                "hashtags": [
+                    {
+                        "start": 13,
+                        "end": 23,
+                        "tag": "MLSisBack"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 24,
+                        "end": 47,
+                        "url": "https://t.co/M5XS43LIlc",
+                        "expanded_url": "https://twitter.com/SJEarthquakes/status/1380294387926626309/photo/1",
+                        "display_url": "pic.twitter.com/M5XS43LIlc"
+                    }
+                ]
+            },
+            "conversation_id": "1380294387926626309",
+            "id": "1380294387926626309",
+            "text": "8 days until #MLSisBack https://t.co/M5XS43LIlc",
+            "created_at": "2021-04-08T23:00:01.000Z",
+            "public_metrics": {
+                "retweet_count": 11,
+                "reply_count": 2,
+                "like_count": 196,
+                "quote_count": 1
+            },
+            "author_id": "16303450",
+            "attachments": {
+                "media_keys": [
+                    "3_1380233689490071552"
+                ]
+            }
+        },
+        {
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 62,
+                        "end": 75,
+                        "username": "JoeCannonGK1"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 106,
+                        "end": 129,
+                        "url": "https://t.co/7fb4ugpHCI",
+                        "expanded_url": "https://twitter.com/SJEarthquakes/status/1380264186949763073/photo/1",
+                        "display_url": "pic.twitter.com/7fb4ugpHCI"
+                    },
+                    {
+                        "start": 106,
+                        "end": 129,
+                        "url": "https://t.co/7fb4ugpHCI",
+                        "expanded_url": "https://twitter.com/SJEarthquakes/status/1380264186949763073/photo/1",
+                        "display_url": "pic.twitter.com/7fb4ugpHCI"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 18,
+                        "end": 27,
+                        "probability": 0.982,
+                        "type": "Person",
+                        "normalized_text": "Joe Cannon"
+                    },
+                    {
+                        "start": 85,
+                        "end": 103,
+                        "probability": 0.3513,
+                        "type": "Other",
+                        "normalized_text": "Quakes Hall of Fame"
+                    }
+                ]
+            },
+            "conversation_id": "1380264186949763073",
+            "id": "1380264186949763073",
+            "text": "You’ll never beat Joe Cannon.\n\n4 years ago today, we inducted @JoeCannonGK1 into the Quakes Hall of Fame. https://t.co/7fb4ugpHCI",
+            "created_at": "2021-04-08T21:00:00.000Z",
+            "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 3,
+                "like_count": 75,
+                "quote_count": 1
+            },
+            "author_id": "16303450",
+            "attachments": {
+                "media_keys": [
+                    "3_1380195220000632837",
+                    "3_1380195220004892678"
+                ]
+            }
+        },
+        {
+            "conversation_id": "1380255208329015300",
+            "id": "1380255208329015300",
+            "text": "Giving back to San Jose businesses!\n\nWe’re proud to announce Team 408, a free program where businesses will receive Quakes swag and benefits throughout the year.\n\nSign up your business before April 12th to receive your first delivery before the Home Opener!",
+            "created_at": "2021-04-08T20:24:20.000Z",
+            "public_metrics": {
+                "retweet_count": 14,
+                "reply_count": 2,
+                "like_count": 62,
+                "quote_count": 1
+            },
+            "author_id": "16303450",
             "entities": {
                 "annotations": [
                     {
-                        "start": 14,
-                        "end": 21,
-                        "probability": 0.8314,
+                        "start": 15,
+                        "end": 22,
+                        "probability": 0.9453,
+                        "type": "Place",
+                        "normalized_text": "San Jose"
+                    },
+                    {
+                        "start": 116,
+                        "end": 121,
+                        "probability": 0.5979,
+                        "type": "Place",
+                        "normalized_text": "Quakes"
+                    }
+                ]
+            }
+        },
+        {
+            "conversation_id": "1380233987621183488",
+            "id": "1380233987621183488",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 23,
+                        "end": 46,
+                        "url": "https://t.co/ndmJHsGSil",
+                        "expanded_url": "https://twitter.com/SJEarthquakes/status/1380233987621183488/photo/1",
+                        "display_url": "pic.twitter.com/ndmJHsGSil"
+                    },
+                    {
+                        "start": 23,
+                        "end": 46,
+                        "url": "https://t.co/ndmJHsGSil",
+                        "expanded_url": "https://twitter.com/SJEarthquakes/status/1380233987621183488/photo/1",
+                        "display_url": "pic.twitter.com/ndmJHsGSil"
+                    },
+                    {
+                        "start": 23,
+                        "end": 46,
+                        "url": "https://t.co/ndmJHsGSil",
+                        "expanded_url": "https://twitter.com/SJEarthquakes/status/1380233987621183488/photo/1",
+                        "display_url": "pic.twitter.com/ndmJHsGSil"
+                    }
+                ]
+            },
+            "text": "The boys are back 🇺🇸🇸🇻 https://t.co/ndmJHsGSil",
+            "created_at": "2021-04-08T19:00:00.000Z",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 2,
+                "like_count": 140,
+                "quote_count": 0
+            },
+            "author_id": "16303450",
+            "attachments": {
+                "media_keys": [
+                    "3_1380182617664876548",
+                    "3_1380182617669038081",
+                    "3_1380182677303648258"
+                ]
+            }
+        },
+        {
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 90,
+                        "end": 94,
+                        "username": "MLS"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 104,
+                        "end": 127,
+                        "url": "https://t.co/gMe3pkFJ4C",
+                        "expanded_url": "https://www.sjearthquakes.com/post/2021/04/08/news-earthquakes-announce-local-broadcast-information-2021-mls-season",
+                        "display_url": "sjearthquakes.com/post/2021/04/0…",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380219368890507267/Wy_mpotN?format=jpg&name=orig",
+                                "width": 1065,
+                                "height": 459
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380219368890507267/Wy_mpotN?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "NEWS: Earthquakes Announce Local Broadcast Information for 2021 MLS",
+                        "description": "SAN JOSE, Calif. – The San Jose Earthquakes announced today their local television and radio broadcast schedule for the 2021 Major League Soccer season. NBC Sports Bay Area and NBC Sports California will televise 26 matches in 2021. The Quakes also welcome back KNBR 1050 and 1370 KZSF ‘La",
+                        "unwound_url": "https://www.sjearthquakes.com/post/2021/04/08/news-earthquakes-announce-local-broadcast-information-2021-mls-season"
+                    }
+                ]
+            },
+            "conversation_id": "1380219360623484929",
+            "id": "1380219360623484929",
+            "text": "The crew is back!\n\nWe're excited to announce our local broadcast information for the 2021 @MLS Season!\n\nhttps://t.co/gMe3pkFJ4C",
+            "created_at": "2021-04-08T18:01:53.000Z",
+            "public_metrics": {
+                "retweet_count": 9,
+                "reply_count": 6,
+                "like_count": 108,
+                "quote_count": 5
+            },
+            "author_id": "16303450"
+        },
+        {
+            "conversation_id": "1380212398653538306",
+            "id": "1380212398653538306",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 51,
+                        "end": 74,
+                        "url": "https://t.co/WHl1NnNaxP",
+                        "expanded_url": "https://twitter.com/SJEarthquakes/status/1380212398653538306/video/1",
+                        "display_url": "pic.twitter.com/WHl1NnNaxP"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 41,
+                        "end": 48,
+                        "probability": 0.7509,
                         "type": "Place",
                         "normalized_text": "San Jose"
                     }
                 ]
             },
-            "text": "Welcome home, San Jose. \n\nEverything you need to know about returning to the stadium this season.",
-            "author_id": "16303450"
-        },
-        {
-            "id": "1376587378551218178",
+            "text": "Welcome to Wondo Way.\n\nForever a part of San Jose. https://t.co/WHl1NnNaxP",
+            "created_at": "2021-04-08T17:34:13.000Z",
             "public_metrics": {
-                "retweet_count": 8,
-                "reply_count": 0,
-                "like_count": 152,
-                "quote_count": 0
+                "retweet_count": 33,
+                "reply_count": 4,
+                "like_count": 328,
+                "quote_count": 10
             },
-            "conversation_id": "1376587378551218178",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-29T17:29:41.000Z",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 20,
-                        "end": 43,
-                        "url": "https://t.co/Fx8QfZ4tdl",
-                        "expanded_url": "https://twitter.com/SJEarthquakes/status/1376587378551218178/photo/1",
-                        "display_url": "pic.twitter.com/Fx8QfZ4tdl"
-                    }
-                ]
-            },
-            "text": "One-two punch. 🇺🇸🇦🇷 https://t.co/Fx8QfZ4tdl",
+            "author_id": "16303450",
             "attachments": {
                 "media_keys": [
-                    "3_1376586871770292226"
-                ]
-            },
-            "author_id": "16303450"
-        }
-    ],
-    [
-        {
-            "text": "🔊 LISTEN: @TedRameyMedia's Morning Tide presented by @CoorsLight  \n\nNow on the Sharks+SAP Center App or wherever you listen to your podcasts. https://t.co/jVLkiwVCyk",
-            "id": "1376912174170443777",
-            "possibly_sensitive": false,
-            "author_id": "27961547",
-            "entities": {
-                "mentions": [
-                    {
-                        "start": 10,
-                        "end": 24,
-                        "username": "TedRameyMedia"
-                    },
-                    {
-                        "start": 53,
-                        "end": 64,
-                        "username": "CoorsLight"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 142,
-                        "end": 165,
-                        "url": "https://t.co/jVLkiwVCyk",
-                        "expanded_url": "https://twitter.com/SanJoseSharks/status/1376912174170443777/photo/1",
-                        "display_url": "pic.twitter.com/jVLkiwVCyk"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 28,
-                        "end": 39,
-                        "probability": 0.7253,
-                        "type": "Other",
-                        "normalized_text": "Morning Tide"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 6,
-                "reply_count": 0,
-                "like_count": 52,
-                "quote_count": 0
-            },
-            "conversation_id": "1376912174170443777",
-            "attachments": {
-                "media_keys": [
-                    "3_1376912169686683649"
-                ]
-            },
-            "created_at": "2021-03-30T15:00:18.000Z"
-        },
-        {
-            "text": "• TWO SOLID POINTS\n∙ Marleau owns 2nd for NHL games played (1,757)\n∙ Doug Wilson's 1,300 NHL game as Sharks GM\n∙ Viel makes NHL Debut\n∙ $4,000 for Goals for Kids https://t.co/LhrZcwdRCn",
-            "id": "1376772897197289473",
-            "possibly_sensitive": false,
-            "author_id": "27961547",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 162,
-                        "end": 185,
-                        "url": "https://t.co/LhrZcwdRCn",
-                        "expanded_url": "https://twitter.com/SanJoseSharks/status/1376772897197289473/photo/1",
-                        "display_url": "pic.twitter.com/LhrZcwdRCn"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 42,
-                        "end": 44,
-                        "probability": 0.8903,
-                        "type": "Organization",
-                        "normalized_text": "NHL"
-                    },
-                    {
-                        "start": 69,
-                        "end": 79,
-                        "probability": 0.9764,
-                        "type": "Person",
-                        "normalized_text": "Doug Wilson"
-                    },
-                    {
-                        "start": 89,
-                        "end": 91,
-                        "probability": 0.5846,
-                        "type": "Organization",
-                        "normalized_text": "NHL"
-                    },
-                    {
-                        "start": 124,
-                        "end": 126,
-                        "probability": 0.7945,
-                        "type": "Organization",
-                        "normalized_text": "NHL"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 25,
-                "reply_count": 5,
-                "like_count": 241,
-                "quote_count": 4
-            },
-            "conversation_id": "1376772897197289473",
-            "attachments": {
-                "media_keys": [
-                    "3_1376771821274492929"
-                ]
-            },
-            "created_at": "2021-03-30T05:46:52.000Z"
-        },
-        {
-            "text": "All about that blue line 💙 https://t.co/b6qBar8PAq",
-            "id": "1376768852894253056",
-            "possibly_sensitive": false,
-            "author_id": "27961547",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 27,
-                        "end": 50,
-                        "url": "https://t.co/b6qBar8PAq",
-                        "expanded_url": "https://twitter.com/SanJoseSharks/status/1376768852894253056/photo/1",
-                        "display_url": "pic.twitter.com/b6qBar8PAq"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 74,
-                "reply_count": 9,
-                "like_count": 481,
-                "quote_count": 5
-            },
-            "conversation_id": "1376768852894253056",
-            "attachments": {
-                "media_keys": [
-                    "3_1376768720115167233"
-                ]
-            },
-            "created_at": "2021-03-30T05:30:48.000Z"
-        },
-        {
-            "text": "Who deserves tonight's Player of the Game honors? Make your pick in the link below! \n\n@sjenvironment |#SJSharks\nhttps://t.co/BDy3hoCPVN",
-            "id": "1376766802013908993",
-            "possibly_sensitive": false,
-            "author_id": "27961547",
-            "entities": {
-                "mentions": [
-                    {
-                        "start": 86,
-                        "end": 100,
-                        "username": "sjenvironment"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 112,
-                        "end": 135,
-                        "url": "https://t.co/BDy3hoCPVN",
-                        "expanded_url": "https://bit.ly/3u6FqjX",
-                        "display_url": "bit.ly/3u6FqjX",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376766806308880384/ppbj3_rN?format=jpg&name=orig",
-                                "width": 1125,
-                                "height": 633
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376766806308880384/ppbj3_rN?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "Player of the Game March 29",
-                        "description": "Who is the San Jose Sharks player of the game for today's win? Vote now!",
-                        "unwound_url": "https://san-jose-sharks.rover.io/YfaXSt?sf141072333=1"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 102,
-                        "end": 111,
-                        "tag": "SJSharks"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 6,
-                "reply_count": 15,
-                "like_count": 55,
-                "quote_count": 6
-            },
-            "conversation_id": "1376766802013908993",
-            "created_at": "2021-03-30T05:22:39.000Z"
-        },
-        {
-            "text": "ERIK KARLSSON BRINGS IT HOME!!! https://t.co/m9rG9V2u2w",
-            "id": "1376765014418202624",
-            "possibly_sensitive": false,
-            "author_id": "27961547",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 32,
-                        "end": 55,
-                        "url": "https://t.co/m9rG9V2u2w",
-                        "expanded_url": "https://twitter.com/SanJoseSharks/status/1376765014418202624/video/1",
-                        "display_url": "pic.twitter.com/m9rG9V2u2w"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 134,
-                "reply_count": 27,
-                "like_count": 952,
-                "quote_count": 43
-            },
-            "conversation_id": "1376765014418202624",
-            "attachments": {
-                "media_keys": [
-                    "7_1376764984605114368"
-                ]
-            },
-            "created_at": "2021-03-30T05:15:33.000Z"
-        },
-        {
-            "text": "#SJSHARKS WIN 4-3 IN THE SHOOTOUT!!! https://t.co/DWgmgYqxar",
-            "id": "1376764621206380545",
-            "possibly_sensitive": false,
-            "author_id": "27961547",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 37,
-                        "end": 60,
-                        "url": "https://t.co/DWgmgYqxar",
-                        "expanded_url": "https://twitter.com/SanJoseSharks/status/1376764621206380545/video/1",
-                        "display_url": "pic.twitter.com/DWgmgYqxar"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 0,
-                        "end": 9,
-                        "tag": "SJSHARKS"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 115,
-                "reply_count": 16,
-                "like_count": 444,
-                "quote_count": 12
-            },
-            "conversation_id": "1376764621206380545",
-            "attachments": {
-                "media_keys": [
-                    "13_1376762512276824064"
-                ]
-            },
-            "created_at": "2021-03-30T05:13:59.000Z"
-        },
-        {
-            "text": "Round Eight:\n\nHartman: ❌\nKarlsson: ✅!!!",
-            "id": "1376764474867130369",
-            "possibly_sensitive": false,
-            "author_id": "27961547",
-            "public_metrics": {
-                "retweet_count": 28,
-                "reply_count": 16,
-                "like_count": 285,
-                "quote_count": 9
-            },
-            "conversation_id": "1376762837293441026",
-            "created_at": "2021-03-30T05:13:24.000Z",
-            "in_reply_to_user_id": "27961547",
-            "referenced_tweets": [
-                {
-                    "type": "replied_to",
-                    "id": "1376764270579355651"
-                }
-            ],
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 14,
-                        "end": 20,
-                        "probability": 0.5287,
-                        "type": "Person",
-                        "normalized_text": "Hartman"
-                    },
-                    {
-                        "start": 24,
-                        "end": 32,
-                        "probability": 0.5294,
-                        "type": "Person",
-                        "normalized_text": "Karlsson"
-                    }
+                    "13_1380207148035022848"
                 ]
             }
         },
         {
-            "text": "Round Seven:\n\nEriksson Ek: ❌\nLeonard: ❌",
-            "id": "1376764270579355651",
-            "possibly_sensitive": false,
-            "author_id": "27961547",
-            "public_metrics": {
-                "retweet_count": 3,
-                "reply_count": 2,
-                "like_count": 56,
-                "quote_count": 2
-            },
-            "conversation_id": "1376762837293441026",
-            "created_at": "2021-03-30T05:12:35.000Z",
-            "in_reply_to_user_id": "27961547",
-            "referenced_tweets": [
-                {
-                    "type": "replied_to",
-                    "id": "1376763994266984450"
-                }
-            ]
-        },
-        {
-            "text": "Round Six\n\nRask: ❌\nBurns: ❌",
-            "id": "1376763994266984450",
-            "possibly_sensitive": false,
-            "author_id": "27961547",
-            "public_metrics": {
-                "retweet_count": 4,
-                "reply_count": 2,
-                "like_count": 26,
-                "quote_count": 2
-            },
-            "conversation_id": "1376762837293441026",
-            "created_at": "2021-03-30T05:11:29.000Z",
-            "in_reply_to_user_id": "27961547",
-            "referenced_tweets": [
-                {
-                    "type": "replied_to",
-                    "id": "1376763739005841414"
-                }
-            ]
-        },
-        {
-            "text": "Round Five\n\nBjugstad: ❌\nKane: ❌",
-            "id": "1376763739005841414",
-            "possibly_sensitive": false,
-            "author_id": "27961547",
-            "public_metrics": {
-                "retweet_count": 2,
-                "reply_count": 2,
-                "like_count": 23,
-                "quote_count": 0
-            },
-            "conversation_id": "1376762837293441026",
-            "created_at": "2021-03-30T05:10:29.000Z",
-            "in_reply_to_user_id": "27961547",
-            "referenced_tweets": [
-                {
-                    "type": "replied_to",
-                    "id": "1376763518091849728"
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "author_id": "43403778",
-            "possibly_sensitive": false,
-            "id": "1376932072950931460",
-            "public_metrics": {
-                "retweet_count": 50,
-                "reply_count": 23,
-                "like_count": 467,
-                "quote_count": 3
-            },
-            "created_at": "2021-03-30T16:19:23.000Z",
             "entities": {
-                "annotations": [
-                    {
-                        "start": 21,
-                        "end": 30,
-                        "probability": 0.9939,
-                        "type": "Person",
-                        "normalized_text": "John Lynch"
-                    },
-                    {
-                        "start": 32,
-                        "end": 44,
-                        "probability": 0.9968,
-                        "type": "Person",
-                        "normalized_text": "Kyle Shanahan"
-                    },
-                    {
-                        "start": 102,
-                        "end": 103,
-                        "probability": 0.6659,
-                        "type": "Organization",
-                        "normalized_text": "QB"
-                    }
-                ]
-            },
-            "conversation_id": "1376932072950931460",
-            "text": "ICYMI watch the full John Lynch/Kyle Shanahan press conference as they discussed the pre-draft trade, QB position and more 👇"
-        },
-        {
-            "author_id": "43403778",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 117,
-                        "end": 140,
-                        "url": "https://t.co/kVHTgQq6DS",
-                        "expanded_url": "https://twitter.com/49ers/status/1376692711231680513/photo/1",
-                        "display_url": "pic.twitter.com/kVHTgQq6DS"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 93,
-                        "end": 102,
-                        "tag": "NFLDraft"
-                    },
-                    {
-                        "start": 105,
-                        "end": 116,
-                        "tag": "49ersDraft"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 65,
-                        "end": 70,
-                        "probability": 0.908,
-                        "type": "Organization",
-                        "normalized_text": "Niners"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376692711231680513",
-            "public_metrics": {
-                "retweet_count": 149,
-                "reply_count": 188,
-                "like_count": 2505,
-                "quote_count": 42
-            },
-            "attachments": {
-                "media_keys": [
-                    "3_1376692417961680901"
-                ]
-            },
-            "created_at": "2021-03-30T00:28:14.000Z",
-            "conversation_id": "1376692711231680513",
-            "text": "One month from today. \n\nWho will hear their name called when the Niners are on the clock? 🤔\n\n#NFLDraft | #49ersDraft https://t.co/kVHTgQq6DS"
-        },
-        {
-            "author_id": "43403778",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 198,
-                        "end": 221,
-                        "url": "https://t.co/pGLfzQ5PIX",
-                        "expanded_url": "https://twitter.com/49ers/status/1376686862820118528/video/1",
-                        "display_url": "pic.twitter.com/pGLfzQ5PIX"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 155,
-                        "end": 161,
-                        "tag": "49ers"
-                    },
-                    {
-                        "start": 178,
-                        "end": 197,
-                        "tag": "WomensHistoryMonth"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 60,
-                        "end": 69,
-                        "probability": 0.9867,
-                        "type": "Person",
-                        "normalized_text": "Patty Quan"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376686862820118528",
-            "public_metrics": {
-                "retweet_count": 45,
-                "reply_count": 21,
-                "like_count": 539,
-                "quote_count": 21
-            },
-            "attachments": {
-                "media_keys": [
-                    "13_1376661157738467330"
-                ]
-            },
-            "created_at": "2021-03-30T00:05:00.000Z",
-            "conversation_id": "1376686862820118528",
-            "text": "The caption QUEEN! 👑\n\nGet to know Social Media Coordinator Patty Quan as she reflects on her favorite moments (so far) and shares about her journey to the #49ers front office. \n\n#WomensHistoryMonth https://t.co/pGLfzQ5PIX"
-        },
-        {
-            "author_id": "43403778",
-            "entities": {
-                "hashtags": [
-                    {
-                        "start": 69,
-                        "end": 75,
-                        "tag": "49ers"
-                    },
-                    {
-                        "start": 130,
-                        "end": 139,
-                        "tag": "NFLDraft"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 26,
-                        "end": 35,
-                        "probability": 0.9277,
-                        "type": "Person",
-                        "normalized_text": "John Lynch"
-                    },
-                    {
-                        "start": 41,
-                        "end": 53,
-                        "probability": 0.9971,
-                        "type": "Person",
-                        "normalized_text": "Kyle Shanahan"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376679083996708865",
-            "public_metrics": {
-                "retweet_count": 49,
-                "reply_count": 21,
-                "like_count": 514,
-                "quote_count": 5
-            },
-            "created_at": "2021-03-29T23:34:05.000Z",
-            "conversation_id": "1376679083996708865",
-            "text": "The rookie and the vet. \n\nJohn Lynch and Kyle Shanahan discussed the #49ers current situation while also being a contender in the #NFLDraft QB sweepstakes. \n\nNotes &amp; quotes from earlier today 👇"
-        },
-        {
-            "author_id": "43403778",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 91,
-                        "end": 114,
-                        "url": "https://t.co/tfk9T7R4TR",
-                        "expanded_url": "https://49rs.co/3cxhd0g",
-                        "display_url": "49rs.co/3cxhd0g",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1375281859450396674/uFgFav2j?format=jpg&name=orig",
-                                "width": 1280,
-                                "height": 720
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1375281859450396674/uFgFav2j?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "John Lynch and Kyle Shanahan Discuss 49ers Free Agency Moves",
-                        "description": "#49ers #Lynch #ShanahanLynch and Shanahan review the team's 2021 free agency moves and share offseason updates.Subscribe to the San Francisco 49ers YT Channe...",
-                        "unwound_url": "https://www.youtube.com/watch?v=VnpTSw32bDA"
-                    },
-                    {
-                        "start": 115,
-                        "end": 138,
-                        "url": "https://t.co/cdfm07JCVw",
-                        "expanded_url": "https://twitter.com/49ers/status/1376665970282930176/video/1",
-                        "display_url": "pic.twitter.com/cdfm07JCVw"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376665970282930176",
-            "public_metrics": {
-                "retweet_count": 89,
-                "reply_count": 33,
-                "like_count": 755,
-                "quote_count": 3
-            },
-            "attachments": {
-                "media_keys": [
-                    "13_1376665313844994048"
-                ]
-            },
-            "created_at": "2021-03-29T22:41:59.000Z",
-            "conversation_id": "1376665970282930176",
-            "text": "\"You gotta take risks and this is a risk we were willing to take.\"\n\nFull press conference: https://t.co/tfk9T7R4TR https://t.co/cdfm07JCVw"
-        },
-        {
-            "author_id": "43403778",
-            "possibly_sensitive": false,
-            "id": "1376655632657383425",
-            "public_metrics": {
-                "retweet_count": 17,
-                "reply_count": 11,
-                "like_count": 170,
-                "quote_count": 0
-            },
-            "created_at": "2021-03-29T22:00:54.000Z",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 17,
-                        "end": 29,
-                        "probability": 0.9737,
-                        "type": "Person",
-                        "normalized_text": "Kyle Shanahan"
-                    }
-                ],
                 "mentions": [
                     {
-                        "start": 44,
-                        "end": 58,
-                        "username": "MoveTheSticks"
-                    }
-                ]
-            },
-            "conversation_id": "1376655632657383425",
-            "text": "Dream matchup in Kyle Shanahan's offense? \n\n@MoveTheSticks shares his thoughts. Full Toyota 1-on-1 episode 👇"
-        },
-        {
-            "author_id": "43403778",
-            "entities": {
-                "hashtags": [
-                    {
-                        "start": 4,
-                        "end": 10,
-                        "tag": "49ers"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 26,
-                        "end": 37,
-                        "probability": 0.9552,
-                        "type": "Person",
-                        "normalized_text": "Nathan Gerry"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376607602134507522",
-            "public_metrics": {
-                "retweet_count": 84,
-                "reply_count": 37,
-                "like_count": 767,
-                "quote_count": 24
-            },
-            "created_at": "2021-03-29T18:50:03.000Z",
-            "conversation_id": "1376607602134507522",
-            "text": "The #49ers have signed LB Nathan Gerry to a one-year deal."
-        },
-        {
-            "author_id": "43403778",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 120,
-                        "end": 143,
-                        "url": "https://t.co/tfk9T88Gir",
-                        "expanded_url": "https://49rs.co/3cxhd0g",
-                        "display_url": "49rs.co/3cxhd0g",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1375281859450396674/uFgFav2j?format=jpg&name=orig",
-                                "width": 1280,
-                                "height": 720
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1375281859450396674/uFgFav2j?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "John Lynch and Kyle Shanahan Discuss 49ers Free Agency Moves",
-                        "description": "#49ers #Lynch #ShanahanLynch and Shanahan review the team's 2021 free agency moves and share offseason updates.Subscribe to the San Francisco 49ers YT Channe...",
-                        "unwound_url": "https://www.youtube.com/watch?v=VnpTSw32bDA"
-                    },
-                    {
-                        "start": 158,
-                        "end": 181,
-                        "url": "https://t.co/srZloYGGCD",
-                        "expanded_url": "https://twitter.com/49ers/status/1376606608642441226/photo/1",
-                        "display_url": "pic.twitter.com/srZloYGGCD"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 46,
-                        "end": 51,
-                        "tag": "Kyle"
+                        "start": 73,
+                        "end": 84,
+                        "username": "PayPalPark"
                     },
                     {
                         "start": 147,
-                        "end": 153,
-                        "tag": "49ers"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 32,
-                        "end": 41,
-                        "probability": 0.9639,
-                        "type": "Person",
-                        "normalized_text": "John Lynch"
+                        "end": 158,
+                        "username": "ChrisWondo"
                     }
                 ]
             },
-            "possibly_sensitive": false,
-            "id": "1376606608642441226",
+            "conversation_id": "1380203965355204610",
+            "id": "1380203965355204610",
+            "text": "It’s official.\n\nWe’re excited to announce Champions Way, just outside of @PayPalPark, has been renamed Wondo Way.\n\nCongratulations, and thank you, @ChrisWondo.",
+            "created_at": "2021-04-08T17:00:42.000Z",
             "public_metrics": {
-                "retweet_count": 63,
-                "reply_count": 37,
-                "like_count": 493,
-                "quote_count": 16
+                "retweet_count": 67,
+                "reply_count": 14,
+                "like_count": 809,
+                "quote_count": 30
             },
-            "attachments": {
-                "media_keys": [
-                    "3_1376605578017959937"
-                ]
-            },
-            "created_at": "2021-03-29T18:46:06.000Z",
-            "conversation_id": "1376606608642441226",
-            "text": "You don't want to miss this 👀\n\nJohn Lynch and #Kyle will meet with the media today at 12:30 PM PT.\n\nWatch it live 👇\n\n🖥: https://t.co/tfk9T88Gir\n📱: #49ers app https://t.co/srZloYGGCD"
+            "author_id": "16303450"
         }
     ],
     [
         {
-            "possibly_sensitive": false,
-            "author_id": "43024351",
-            "id": "1376655173343272960",
             "entities": {
                 "urls": [
                     {
-                        "start": 62,
-                        "end": 85,
-                        "url": "https://t.co/xIvOfNBj90",
-                        "expanded_url": "https://twitter.com/SFGiants/status/1376655173343272960/photo/1",
-                        "display_url": "pic.twitter.com/xIvOfNBj90"
+                        "start": 15,
+                        "end": 38,
+                        "url": "https://t.co/THMoaJC0i4",
+                        "expanded_url": "https://twitter.com/SanJoseSharks/status/1380554904725450753/photo/1",
+                        "display_url": "pic.twitter.com/THMoaJC0i4"
                     }
                 ],
                 "hashtags": [
                     {
-                        "start": 7,
-                        "end": 17,
-                        "tag": "SFGSpring"
-                    },
-                    {
-                        "start": 37,
-                        "end": 46,
-                        "tag": "SFGiants"
+                        "start": 0,
+                        "end": 14,
+                        "tag": "NewProfilePic"
                     }
                 ]
+            },
+            "text": "#NewProfilePic https://t.co/THMoaJC0i4",
+            "id": "1380554904725450753",
+            "public_metrics": {
+                "retweet_count": 48,
+                "reply_count": 13,
+                "like_count": 979,
+                "quote_count": 7
             },
             "attachments": {
                 "media_keys": [
-                    "3_1376654954308378624"
+                    "3_1380554854888665092"
                 ]
             },
-            "created_at": "2021-03-29T21:59:04.000Z",
-            "text": "Ending #SFGSpring with a W 🌵\n\nFinal: #SFGiants 7, Athletics 2 https://t.co/xIvOfNBj90",
-            "conversation_id": "1376655173343272960",
-            "public_metrics": {
-                "retweet_count": 128,
-                "reply_count": 17,
-                "like_count": 1258,
-                "quote_count": 18
-            }
-        }
-    ],
-    [
+            "author_id": "27961547",
+            "created_at": "2021-04-09T16:15:13.000Z",
+            "conversation_id": "1380554904725450753"
+        },
         {
-            "created_at": "2021-03-30T16:38:11.000Z",
-            "id": "1376936807624024064",
-            "conversation_id": "1376936807624024064",
-            "referenced_tweets": [
-                {
-                    "type": "quoted",
-                    "id": "1376698713582796804"
-                }
-            ],
             "entities": {
                 "urls": [
                     {
-                        "start": 122,
-                        "end": 145,
-                        "url": "https://t.co/7Vz2fAQLSP",
-                        "expanded_url": "https://twitter.com/cefaankim/status/1376698713582796804",
-                        "display_url": "twitter.com/cefaankim/stat…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 105,
+                        "start": 97,
                         "end": 120,
-                        "probability": 0.9551,
-                        "type": "Person",
-                        "normalized_text": "John Stuart Mill"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 1130,
-                "reply_count": 584,
-                "like_count": 5858,
-                "quote_count": 103
-            },
-            "possibly_sensitive": false,
-            "text": "“Bad men need nothing more to compass their ends, than that good men should look on and do nothing.” \n\n— John Stuart Mill https://t.co/7Vz2fAQLSP",
-            "author_id": "14529929"
-        },
-        {
-            "created_at": "2021-03-30T15:57:27.000Z",
-            "id": "1376926556233342988",
-            "conversation_id": "1376926556233342988",
-            "referenced_tweets": [
-                {
-                    "type": "quoted",
-                    "id": "1376913243898327041"
-                }
-            ],
-            "entities": {
-                "urls": [
-                    {
-                        "start": 20,
-                        "end": 43,
-                        "url": "https://t.co/0y6uijI56K",
-                        "expanded_url": "https://twitter.com/thr/status/1376913243898327041",
-                        "display_url": "twitter.com/thr/status/137…"
+                        "url": "https://t.co/6Z54lkcGJe",
+                        "expanded_url": "https://twitter.com/SanJoseSharks/status/1380546799581200388/photo/1",
+                        "display_url": "pic.twitter.com/6Z54lkcGJe"
                     }
                 ],
                 "annotations": [
-                    {
-                        "start": 0,
-                        "end": 18,
-                        "probability": 0.4546,
-                        "type": "Other",
-                        "normalized_text": "Westeros Side Story"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 125,
-                "reply_count": 147,
-                "like_count": 2186,
-                "quote_count": 18
-            },
-            "possibly_sensitive": false,
-            "text": "Westeros Side Story https://t.co/0y6uijI56K",
-            "author_id": "14529929"
-        },
-        {
-            "created_at": "2021-03-30T15:15:32.000Z",
-            "id": "1376916005272829960",
-            "conversation_id": "1376916005272829960",
-            "referenced_tweets": [
-                {
-                    "type": "quoted",
-                    "id": "1375908348202221575"
-                }
-            ],
-            "entities": {
-                "urls": [
-                    {
-                        "start": 106,
-                        "end": 129,
-                        "url": "https://t.co/VRYDrkLImO",
-                        "expanded_url": "https://www.littlebrown.com/titles/jake-tapper/the-devil-may-dance/9780316530231/",
-                        "display_url": "littlebrown.com/titles/jake-ta…"
-                    },
-                    {
-                        "start": 130,
-                        "end": 153,
-                        "url": "https://t.co/N8h074Pb2k",
-                        "expanded_url": "https://twitter.com/devil_may_dance/status/1375908348202221575",
-                        "display_url": "twitter.com/devil_may_danc…"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 43,
-                "reply_count": 66,
-                "like_count": 401,
-                "quote_count": 5
-            },
-            "possibly_sensitive": false,
-            "text": "So honored by this kind review. Book comes out May 11 and I hope you all like it! You can preorder here:\n\nhttps://t.co/VRYDrkLImO https://t.co/N8h074Pb2k",
-            "author_id": "14529929"
-        },
-        {
-            "created_at": "2021-03-30T14:20:22.000Z",
-            "id": "1376902123565252616",
-            "conversation_id": "1376902123565252616",
-            "referenced_tweets": [
-                {
-                    "type": "quoted",
-                    "id": "1376898544280424458"
-                }
-            ],
-            "entities": {
-                "urls": [
-                    {
-                        "start": 127,
-                        "end": 150,
-                        "url": "https://t.co/dYGEKWYTPP",
-                        "expanded_url": "https://twitter.com/cam_joseph/status/1376898544280424458",
-                        "display_url": "twitter.com/cam_joseph/sta…"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 220,
-                "reply_count": 134,
-                "like_count": 1395,
-                "quote_count": 21
-            },
-            "possibly_sensitive": false,
-            "text": "This again underlines the fundamental question for legislators: do you want as many legal voters to vote as possible — or not? https://t.co/dYGEKWYTPP",
-            "author_id": "14529929"
-        },
-        {
-            "created_at": "2021-03-30T13:38:52.000Z",
-            "id": "1376891677886062592",
-            "conversation_id": "1376891677886062592",
-            "referenced_tweets": [
-                {
-                    "type": "quoted",
-                    "id": "1376637825647583235"
-                }
-            ],
-            "entities": {
-                "urls": [
-                    {
-                        "start": 208,
-                        "end": 231,
-                        "url": "https://t.co/4E9Fr9Q7Hs",
-                        "expanded_url": "https://www.cnbc.com/amp/2021/03/26/buttigieg-says-white-house-is-weighing-mileage-levy-to-fund-infrastructure.html",
-                        "display_url": "cnbc.com/amp/2021/03/26…"
-                    },
-                    {
-                        "start": 232,
-                        "end": 255,
-                        "url": "https://t.co/4uhytskpRc",
-                        "expanded_url": "https://twitter.com/samjmintz/status/1376637825647583235",
-                        "display_url": "twitter.com/samjmintz/stat…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 8,
-                        "probability": 0.6269,
-                        "type": "Person",
-                        "normalized_text": "Buttigieg"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 22,
-                "reply_count": 72,
-                "like_count": 226,
-                "quote_count": 6
-            },
-            "possibly_sensitive": false,
-            "text": "Buttigieg was asked “what about a mileage based tax?” and his direct answer was “I think that shows a lot of promise” and went on from there.\n\nPeople should watch the clip for themselves, it’s 2 minutes in:\n\nhttps://t.co/4E9Fr9Q7Hs https://t.co/4uhytskpRc",
-            "author_id": "14529929"
-        },
-        {
-            "created_at": "2021-03-30T03:14:09.000Z",
-            "id": "1376734465964306435",
-            "conversation_id": "1376734465964306435",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 131,
-                        "end": 154,
-                        "url": "https://t.co/o66W8yAi8I",
-                        "expanded_url": "https://www.cnn.com/2021/03/29/politics/fact-check-hice-2020-election-claims-secretary-of-state-newsmax/index.html",
-                        "display_url": "cnn.com/2021/03/29/pol…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 12,
-                        "end": 16,
-                        "probability": 0.9952,
-                        "type": "Person",
-                        "normalized_text": "Trump"
-                    },
-                    {
-                        "start": 39,
-                        "end": 45,
-                        "probability": 0.8524,
-                        "type": "Place",
-                        "normalized_text": "Georgia"
-                    },
-                    {
-                        "start": 119,
-                        "end": 129,
-                        "probability": 0.6486,
-                        "type": "Organization",
-                        "normalized_text": "CNNPolitics"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 323,
-                "reply_count": 157,
-                "like_count": 1091,
-                "quote_count": 39
-            },
-            "possibly_sensitive": false,
-            "text": "Fact check: Trump-backed candidate for Georgia elections chief begins campaign with false claims about 2020 election - CNNPolitics https://t.co/o66W8yAi8I",
-            "author_id": "14529929"
-        }
-    ],
-    [
-        {
-            "id": "1376920181797122060",
-            "public_metrics": {
-                "retweet_count": 218,
-                "reply_count": 15,
-                "like_count": 3997,
-                "quote_count": 10
-            },
-            "conversation_id": "1376920181797122060",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T15:32:07.000Z",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 46,
-                        "end": 69,
-                        "url": "https://t.co/FRTkTwdQLA",
-                        "expanded_url": "https://twitter.com/warriors/status/1376920181797122060/photo/1",
-                        "display_url": "pic.twitter.com/FRTkTwdQLA"
-                    },
-                    {
-                        "start": 46,
-                        "end": 69,
-                        "url": "https://t.co/FRTkTwdQLA",
-                        "expanded_url": "https://twitter.com/warriors/status/1376920181797122060/photo/1",
-                        "display_url": "pic.twitter.com/FRTkTwdQLA"
-                    }
-                ],
-                "hashtags": [
                     {
                         "start": 31,
-                        "end": 45,
-                        "tag": "WinningSmiles"
+                        "end": 42,
+                        "probability": 0.4283,
+                        "type": "Place",
+                        "normalized_text": "San Jose, CA"
+                    }
+                ]
+            },
+            "text": "HERITAGE JERSEYS ARE BACK!\n\n📍 San Jose, CA\n🕢 7:30PM PT\n📺 NBCS California+\n📻 Sharks Audio Network https://t.co/6Z54lkcGJe",
+            "id": "1380546799581200388",
+            "public_metrics": {
+                "retweet_count": 36,
+                "reply_count": 11,
+                "like_count": 338,
+                "quote_count": 4
+            },
+            "attachments": {
+                "media_keys": [
+                    "3_1380546797173628931"
+                ]
+            },
+            "author_id": "27961547",
+            "created_at": "2021-04-09T15:43:00.000Z",
+            "conversation_id": "1380546799581200388"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 145,
+                        "end": 168,
+                        "url": "https://t.co/sJREdEuahJ",
+                        "expanded_url": "https://bit.ly/3dNuDVl",
+                        "display_url": "bit.ly/3dNuDVl",
+                        "status": 200,
+                        "title": "Dunkin' Donuts",
+                        "unwound_url": "http://dunkinsweepstakes.com/?sf141984889=1"
+                    },
+                    {
+                        "start": 169,
+                        "end": 192,
+                        "url": "https://t.co/uqxyRWZin4",
+                        "expanded_url": "https://twitter.com/SanJoseSharks/status/1380323560682627076/photo/1",
+                        "display_url": "pic.twitter.com/uqxyRWZin4"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "start": 51,
+                        "end": 64,
+                        "username": "dunkindonuts"
+                    },
+                    {
+                        "start": 101,
+                        "end": 111,
+                        "username": "sjsharkie"
+                    }
+                ]
+            },
+            "text": "Take a bite out of breakfast!\n\nEnter now to have a @dunkindonuts breakfast delivered to your door by @sjsharkie along with an autographed jersey👉https://t.co/sJREdEuahJ https://t.co/uqxyRWZin4",
+            "id": "1380323560682627076",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 2,
+                "like_count": 34,
+                "quote_count": 0
+            },
+            "attachments": {
+                "media_keys": [
+                    "3_1380323558593822725"
+                ]
+            },
+            "author_id": "27961547",
+            "created_at": "2021-04-09T00:55:56.000Z",
+            "conversation_id": "1380323560682627076"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 65,
+                        "end": 88,
+                        "url": "https://t.co/mzF9ZpIb82",
+                        "expanded_url": "https://bit.ly/31YvE7w",
+                        "display_url": "bit.ly/31YvE7w",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380286666238214144/725HKRKs?format=jpg&name=orig",
+                                "width": 1024,
+                                "height": 576
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380286666238214144/725HKRKs?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Next Wave: April 8",
+                        "description": "Prospect Jonathan Dahlen is helping his team through Allsvenskan playoffs, among other highlights in this edition of Next Wave presented by Kaiser Permanente.",
+                        "unwound_url": "https://www.nhl.com/sharks/news/next-wave-april-8/c-323409324?sf141981683=1"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "start": 55,
+                        "end": 64,
+                        "username": "kpthrive"
+                    }
+                ]
+            },
+            "text": "The points just keep on coming for our prospects!\n\n🦈 | @kpthrive\nhttps://t.co/mzF9ZpIb82",
+            "id": "1380286663528738816",
+            "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 1,
+                "like_count": 71,
+                "quote_count": 0
+            },
+            "author_id": "27961547",
+            "created_at": "2021-04-08T22:29:19.000Z",
+            "conversation_id": "1380286663528738816"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 98,
+                        "end": 121,
+                        "url": "https://t.co/8tU97Et06f",
+                        "expanded_url": "https://twitter.com/SanJoseSharks/status/1380223488946933767/photo/1",
+                        "display_url": "pic.twitter.com/8tU97Et06f"
+                    }
+                ]
+            },
+            "text": "Anyone else wake up thinking today was a gameday?\n\nWe're sooo not used to two days between games. https://t.co/8tU97Et06f",
+            "id": "1380223488946933767",
+            "public_metrics": {
+                "retweet_count": 16,
+                "reply_count": 12,
+                "like_count": 252,
+                "quote_count": 6
+            },
+            "attachments": {
+                "media_keys": [
+                    "3_1380223269626765312"
+                ]
+            },
+            "author_id": "27961547",
+            "created_at": "2021-04-08T18:18:17.000Z",
+            "conversation_id": "1380223488946933767"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1377712461252591616"
+                }
+            ],
+            "entities": {
+                "urls": [
+                    {
+                        "start": 253,
+                        "end": 276,
+                        "url": "https://t.co/NmvTykhCmX",
+                        "expanded_url": "https://twitter.com/AlaskaAir/status/1377712461252591616",
+                        "display_url": "twitter.com/AlaskaAir/stat…"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "start": 64,
+                        "end": 74,
+                        "username": "AlaskaAir"
+                    },
+                    {
+                        "start": 126,
+                        "end": 141,
+                        "username": "traveloneworld"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 8,
+                        "end": 23,
+                        "probability": 0.7493,
+                        "type": "Organization",
+                        "normalized_text": "Sharks Territory"
+                    },
+                    {
+                        "start": 185,
+                        "end": 190,
+                        "probability": 0.5145,
+                        "type": "Organization",
+                        "normalized_text": "Sharks"
+                    }
+                ]
+            },
+            "text": "We know Sharks Territory is represented around the 🌎, and so is @AlaskaAir! Stick taps to our partner as the newest member of @traveloneworld, joining 13 leading airlines and offering Sharks fans even more options for over 1,000 destinations worldwide. https://t.co/NmvTykhCmX",
+            "id": "1380211467174117379",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 1,
+                "like_count": 27,
+                "quote_count": 0
+            },
+            "author_id": "27961547",
+            "created_at": "2021-04-08T17:30:31.000Z",
+            "conversation_id": "1380211467174117379"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 35,
+                        "end": 58,
+                        "url": "https://t.co/lNoo4ZQoTq",
+                        "expanded_url": "https://twitter.com/SanJoseSharks/status/1380208007615815685/photo/1",
+                        "display_url": "pic.twitter.com/lNoo4ZQoTq"
                     }
                 ],
                 "mentions": [
                     {
                         "start": 16,
-                        "end": 27,
-                        "username": "Invisalign"
+                        "end": 31,
+                        "username": "rudolfsbalcers"
                     }
                 ]
             },
-            "text": "Victory views.\n\n@Invisalign || #WinningSmiles https://t.co/FRTkTwdQLA",
+            "text": "Happy birthday, @rudolfsbalcers! 🥳 https://t.co/lNoo4ZQoTq",
+            "id": "1380208007615815685",
+            "public_metrics": {
+                "retweet_count": 37,
+                "reply_count": 13,
+                "like_count": 493,
+                "quote_count": 2
+            },
             "attachments": {
                 "media_keys": [
-                    "3_1376918922323054594",
-                    "3_1376918922323103744"
+                    "3_1380208005816451077"
                 ]
             },
-            "author_id": "26270913"
-        },
+            "author_id": "27961547",
+            "created_at": "2021-04-08T17:16:46.000Z",
+            "conversation_id": "1380208007615815685"
+        }
+    ],
+    [
         {
-            "id": "1376904798922940427",
-            "public_metrics": {
-                "retweet_count": 66,
-                "reply_count": 4,
-                "like_count": 753,
-                "quote_count": 0
-            },
-            "conversation_id": "1376904798922940427",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T14:31:00.000Z",
             "entities": {
-                "urls": [
+                "annotations": [
                     {
-                        "start": 188,
-                        "end": 211,
-                        "url": "https://t.co/9LSqQRuYrD",
-                        "expanded_url": "http://warriors.com/kids",
-                        "display_url": "warriors.com/kids",
-                        "status": 200,
-                        "title": "Hoops 4 Kids",
-                        "description": "Through Hoops for Kids, Warriors achievements on the court benefit underserved youth around the Bay Area. Each Warriors 3-point basket this regular season will generate $500 for local organizations that work to improve opportunities and outcomes for kids. Thanks to our Presenting Sponsor, Sal esforce, and our Supporting Sponsors, PG & E, the Koret Foundation and Taube Philanthropies, our team's success is now our community's success! Boys & Girls Clubs SF inspires and enables all young people, especially",
-                        "unwound_url": "https://www.nba.com/warriors/kids"
-                    },
-                    {
-                        "start": 212,
-                        "end": 235,
-                        "url": "https://t.co/P2GaMGYxGY",
-                        "expanded_url": "https://twitter.com/warriors/status/1376904798922940427/video/1",
-                        "display_url": "pic.twitter.com/P2GaMGYxGY"
+                        "start": 52,
+                        "end": 54,
+                        "probability": 0.8913,
+                        "type": "Organization",
+                        "normalized_text": "NFL"
                     }
                 ],
                 "mentions": [
                     {
-                        "start": 96,
-                        "end": 112,
-                        "username": "CYWSanFrancisco"
-                    },
-                    {
-                        "start": 126,
-                        "end": 137,
-                        "username": "salesforce"
-                    },
-                    {
-                        "start": 142,
-                        "end": 156,
-                        "username": "DubsCommunity"
+                        "start": 64,
+                        "end": 79,
+                        "username": "sfsourdoughsam"
                     }
                 ]
             },
-            "text": "The Dubs hit 16 three-pointers last night, resulting in $8,000 going towards organizations like @CYWSanFrancisco  courtesy of @Salesforce and @DubsCommunity\n\nLearn more about Hoops4Kids » https://t.co/9LSqQRuYrD https://t.co/P2GaMGYxGY",
-            "attachments": {
-                "media_keys": [
-                    "13_1376773856015261698"
-                ]
-            },
-            "author_id": "26270913"
+            "id": "1380551085178281994",
+            "created_at": "2021-04-09T16:00:02.000Z",
+            "author_id": "43403778",
+            "conversation_id": "1380551085178281994",
+            "text": "Happy birthday to the hardest working mascot in the NFL 🎉\n\nJoin @sfsourdoughsam's birthday festivities 👇",
+            "public_metrics": {
+                "retweet_count": 69,
+                "reply_count": 16,
+                "like_count": 506,
+                "quote_count": 9
+            }
         },
         {
-            "id": "1376775194153381894",
-            "public_metrics": {
-                "retweet_count": 70,
-                "reply_count": 11,
-                "like_count": 1171,
-                "quote_count": 3
+            "attachments": {
+                "media_keys": [
+                    "3_1380543529957486593"
+                ]
             },
-            "conversation_id": "1376775194153381894",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T05:56:00.000Z",
+            "id": "1380543537423388674",
             "entities": {
-                "urls": [
+                "mentions": [
                     {
-                        "start": 67,
-                        "end": 90,
-                        "url": "https://t.co/sdyro7mWIj",
-                        "expanded_url": "https://twitter.com/warriors/status/1376775194153381894/video/1",
-                        "display_url": "pic.twitter.com/sdyro7mWIj"
+                        "start": 15,
+                        "end": 26,
+                        "username": "RMos_8Ball"
                     }
                 ],
-                "mentions": [
+                "urls": [
                     {
                         "start": 33,
-                        "end": 43,
-                        "username": "StateFarm"
+                        "end": 56,
+                        "url": "https://t.co/7u4BLWzXPE",
+                        "expanded_url": "https://twitter.com/49ers/status/1380543537423388674/photo/1",
+                        "display_url": "pic.twitter.com/7u4BLWzXPE"
                     }
                 ]
             },
-            "text": "Bounce pass leading to buckets.\n\n@StateFarm || Assist of the Night https://t.co/sdyro7mWIj",
-            "attachments": {
-                "media_keys": [
-                    "13_1376770353490325505"
-                ]
-            },
-            "author_id": "26270913"
+            "created_at": "2021-04-09T15:30:03.000Z",
+            "author_id": "43403778",
+            "conversation_id": "1380543537423388674",
+            "text": "Happy birthday @RMos_8Ball! 🏄‍♂️ https://t.co/7u4BLWzXPE",
+            "public_metrics": {
+                "retweet_count": 219,
+                "reply_count": 44,
+                "like_count": 3041,
+                "quote_count": 19
+            }
         },
         {
-            "id": "1376768902953279491",
-            "public_metrics": {
-                "retweet_count": 80,
-                "reply_count": 12,
-                "like_count": 995,
-                "quote_count": 6
+            "attachments": {
+                "media_keys": [
+                    "3_1380251483187253250"
+                ]
             },
-            "conversation_id": "1376768902953279491",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T05:31:00.000Z",
+            "id": "1380252023300321281",
             "entities": {
-                "urls": [
+                "mentions": [
                     {
-                        "start": 93,
-                        "end": 116,
-                        "url": "https://t.co/oIhDRTxU72",
-                        "expanded_url": "https://twitter.com/warriors/status/1376768902953279491/video/1",
-                        "display_url": "pic.twitter.com/oIhDRTxU72"
+                        "start": 10,
+                        "end": 20,
+                        "username": "RickWelts"
                     }
                 ],
                 "hashtags": [
                     {
-                        "start": 80,
-                        "end": 92,
-                        "tag": "ULTRAMoment"
+                        "start": 111,
+                        "end": 124,
+                        "tag": "BayAreaUnite"
                     }
                 ],
-                "mentions": [
+                "urls": [
                     {
-                        "start": 62,
-                        "end": 76,
-                        "username": "MichelobULTRA"
+                        "start": 125,
+                        "end": 148,
+                        "url": "https://t.co/1Mh9uf2mer",
+                        "expanded_url": "https://twitter.com/49ers/status/1380252023300321281/photo/1",
+                        "display_url": "pic.twitter.com/1Mh9uf2mer"
                     }
                 ]
             },
-            "text": "Step 1: hold the followthrough\nStep 2: high. five. everyone.\n\n@michelobULTRA || #ULTRAMoment https://t.co/oIhDRTxU72",
-            "attachments": {
-                "media_keys": [
-                    "13_1376762187121786891"
+            "created_at": "2021-04-08T20:11:40.000Z",
+            "author_id": "43403778",
+            "conversation_id": "1380252023300321281",
+            "text": "Thank you @RickWelts for your partnership and for everything you have done for our industry and our community. #BayAreaUnite https://t.co/1Mh9uf2mer",
+            "public_metrics": {
+                "retweet_count": 44,
+                "reply_count": 10,
+                "like_count": 586,
+                "quote_count": 1
+            }
+        }
+    ],
+    [
+        {
+            "conversation_id": "1380565247711268867",
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 36,
+                        "end": 49,
+                        "username": "OracleParkSF"
+                    },
+                    {
+                        "start": 53,
+                        "end": 67,
+                        "username": "NBCSAuthentic"
+                    },
+                    {
+                        "start": 70,
+                        "end": 75,
+                        "username": "KNBR"
+                    },
+                    {
+                        "start": 119,
+                        "end": 128,
+                        "username": "CocaCola"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 0,
+                        "end": 14,
+                        "tag": "SFGOpeningDay"
+                    },
+                    {
+                        "start": 19,
+                        "end": 30,
+                        "tag": "DiaDeCueto"
+                    },
+                    {
+                        "start": 103,
+                        "end": 115,
+                        "tag": "ResilientSF"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 78,
+                        "end": 101,
+                        "url": "https://t.co/xj48uey4eN",
+                        "expanded_url": "https://bit.ly/31XU68R",
+                        "display_url": "bit.ly/31XU68R",
+                        "status": 200,
+                        "title": "Watch San Francisco Giants MLB live stream",
+                        "description": "How to watch San Francisco Giants MLB live streams on NBC Sports Bay Area.",
+                        "unwound_url": "http://stream.nbcsports.com/rsn/nbcs-bay-area-giants?utm_tags=RSNBayCA1637"
+                    },
+                    {
+                        "start": 129,
+                        "end": 152,
+                        "url": "https://t.co/BPO3t19Gu0",
+                        "expanded_url": "https://twitter.com/SFGiants/status/1380565247711268867/photo/1",
+                        "display_url": "pic.twitter.com/BPO3t19Gu0"
+                    }
                 ]
             },
-            "author_id": "26270913"
+            "attachments": {
+                "media_keys": [
+                    "3_1380564439968014336"
+                ]
+            },
+            "author_id": "43024351",
+            "id": "1380565247711268867",
+            "created_at": "2021-04-09T16:56:19.000Z",
+            "text": "#SFGOpeningDay AND #DiaDeCueto 😄\n\n📍 @OracleParkSF \n📺 @NBCSAuthentic\n📻 @KNBR\n🖥 https://t.co/xj48uey4eN\n #ResilientSF |  @CocaCola https://t.co/BPO3t19Gu0",
+            "public_metrics": {
+                "retweet_count": 101,
+                "reply_count": 12,
+                "like_count": 619,
+                "quote_count": 15
+            }
         },
         {
-            "id": "1376764876228464640",
+            "conversation_id": "1380529703950426115",
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 16,
+                        "end": 30,
+                        "username": "caleb_baragar"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 34,
+                        "end": 43,
+                        "tag": "SFGiants"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 44,
+                        "end": 67,
+                        "url": "https://t.co/OLfFibflGM",
+                        "expanded_url": "https://twitter.com/SFGiants/status/1380529703950426115/photo/1",
+                        "display_url": "pic.twitter.com/OLfFibflGM"
+                    }
+                ]
+            },
+            "attachments": {
+                "media_keys": [
+                    "3_1380529702322995204"
+                ]
+            },
+            "author_id": "43024351",
+            "id": "1380529703950426115",
+            "created_at": "2021-04-09T14:35:05.000Z",
+            "text": "Happy Birthday, @caleb_baragar! 🥳 #SFGiants https://t.co/OLfFibflGM",
             "public_metrics": {
-                "retweet_count": 92,
+                "retweet_count": 31,
+                "reply_count": 10,
+                "like_count": 381,
+                "quote_count": 5
+            }
+        },
+        {
+            "conversation_id": "1380335001640726529",
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 120,
+                        "end": 133,
+                        "username": "OracleParkSF"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 72,
+                        "end": 86,
+                        "tag": "SFGOpeningDay"
+                    },
+                    {
+                        "start": 154,
+                        "end": 163,
+                        "tag": "SFGiants"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 164,
+                        "end": 187,
+                        "url": "https://t.co/ptq95IEVWN",
+                        "expanded_url": "https://twitter.com/SportingGreenSF/status/1380324857250988032",
+                        "display_url": "twitter.com/SportingGreenS…"
+                    }
+                ]
+            },
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1380324857250988032"
+                }
+            ],
+            "author_id": "43024351",
+            "id": "1380335001640726529",
+            "created_at": "2021-04-09T01:41:24.000Z",
+            "text": "It's been a while since we've seen you.  For those attending tomorrow's #SFGOpeningDay (or game soon after) here's your @OracleParkSF interactive guide.\n\n#SFGiants https://t.co/ptq95IEVWN",
+            "public_metrics": {
+                "retweet_count": 20,
                 "reply_count": 7,
-                "like_count": 1157,
-                "quote_count": 6
+                "like_count": 166,
+                "quote_count": 3
+            }
+        },
+        {
+            "conversation_id": "1380270417051410433",
+            "attachments": {
+                "media_keys": [
+                    "3_1380270381651484676"
+                ]
             },
-            "conversation_id": "1376764876228464640",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T05:15:00.000Z",
+            "author_id": "43024351",
             "entities": {
                 "urls": [
                     {
-                        "start": 40,
-                        "end": 63,
-                        "url": "https://t.co/NU57cIR45B",
-                        "expanded_url": "https://twitter.com/warriors/status/1376764876228464640/video/1",
-                        "display_url": "pic.twitter.com/NU57cIR45B"
+                        "start": 23,
+                        "end": 46,
+                        "url": "https://t.co/BrgTeG2HSD",
+                        "expanded_url": "https://twitter.com/SFGiants/status/1380270417051410433/photo/1",
+                        "display_url": "pic.twitter.com/BrgTeG2HSD"
+                    }
+                ]
+            },
+            "id": "1380270417051410433",
+            "created_at": "2021-04-08T21:24:46.000Z",
+            "text": "A message to our fans: https://t.co/BrgTeG2HSD",
+            "public_metrics": {
+                "retweet_count": 304,
+                "reply_count": 52,
+                "like_count": 2668,
+                "quote_count": 47
+            }
+        },
+        {
+            "conversation_id": "1380237637655519232",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 204,
+                        "end": 213,
+                        "probability": 0.9927,
+                        "type": "Person",
+                        "normalized_text": "Tim Corbin"
+                    },
+                    {
+                        "start": 232,
+                        "end": 251,
+                        "probability": 0.6726,
+                        "type": "Other",
+                        "normalized_text": "Inside Giant Moments"
                     }
                 ],
                 "mentions": [
                     {
-                        "start": 14,
-                        "end": 18,
-                        "username": "Kia"
+                        "start": 143,
+                        "end": 153,
+                        "username": "VandyBoys"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 128,
+                        "end": 137,
+                        "tag": "SFGiants"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 256,
+                        "end": 279,
+                        "url": "https://t.co/UNUbKIY5rC",
+                        "expanded_url": "https://bit.ly/3mthsNk",
+                        "display_url": "bit.ly/3mthsNk",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380237640021106692/tx9sEJMa?format=jpg&name=orig",
+                                "width": 1400,
+                                "height": 1400
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380237640021106692/tx9sEJMa?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "The Vanderbilt Connection",
+                        "description": "Can you imagine getting to work with your closest college friends years later? That’s how it’s played out for a select group of Giants, all VandyBoys. Mike Yastrzemski, Curt Casali, Tyler Beede, Sam Selman and first base coach Antoan Richardson all played baseball at Vanderbilt in Nashville and built a special bond. Mark Willard visits with each of them (including Yaz and Casali together) along with their beloved Vandy coach Tim Corbin on what they were all like during college.",
+                        "unwound_url": "https://art19.com/shows/inside-giant-moments/episodes/c0efa5e9-b702-4b88-93be-555bbcc8f5c6"
+                    },
+                    {
+                        "start": 280,
+                        "end": 303,
+                        "url": "https://t.co/Wy9D1np9Wp",
+                        "expanded_url": "https://twitter.com/SFGiants/status/1380237637655519232/video/1",
+                        "display_url": "pic.twitter.com/Wy9D1np9Wp"
                     }
                 ]
             },
-            "text": "RIM RATTLIN'\n\n@Kia || Dunk of the Night https://t.co/NU57cIR45B",
             "attachments": {
                 "media_keys": [
-                    "13_1376760489359761409"
+                    "7_1380234780990529541"
                 ]
             },
-            "author_id": "26270913"
-        },
-        {
-            "id": "1376760560130265092",
+            "author_id": "43024351",
+            "id": "1380237637655519232",
+            "created_at": "2021-04-08T19:14:31.000Z",
+            "text": "Can you imagine getting to work with your closest college friends years later? That’s how it’s played out for a select group of #SFGiants, all @VandyBoys. \n\nHear from them, along with their beloved coach Tim Corbin, on this week's 'Inside Giant Moments' 🎧 https://t.co/UNUbKIY5rC https://t.co/Wy9D1np9Wp",
             "public_metrics": {
-                "retweet_count": 463,
-                "reply_count": 16,
-                "like_count": 3003,
-                "quote_count": 63
+                "retweet_count": 17,
+                "reply_count": 1,
+                "like_count": 165,
+                "quote_count": 4
+            }
+        }
+    ],
+    [
+        {
+            "text": "https://t.co/rkn7FGjU1W https://t.co/VBNsPnnm0n",
+            "author_id": "14529929",
+            "attachments": {
+                "media_keys": [
+                    "3_1380562071507640327"
+                ]
             },
-            "conversation_id": "1376760560130265092",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T04:57:51.000Z",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1380560906673864706"
+                }
+            ],
             "entities": {
                 "urls": [
                     {
-                        "start": 88,
-                        "end": 111,
-                        "url": "https://t.co/KgaMqMbQGw",
-                        "expanded_url": "https://twitter.com/warriors/status/1376760560130265092/video/1",
-                        "display_url": "pic.twitter.com/KgaMqMbQGw"
+                        "start": 0,
+                        "end": 23,
+                        "url": "https://t.co/rkn7FGjU1W",
+                        "expanded_url": "https://twitter.com/jaketapper/status/1380562075479588872/photo/1",
+                        "display_url": "pic.twitter.com/rkn7FGjU1W"
+                    },
+                    {
+                        "start": 24,
+                        "end": 47,
+                        "url": "https://t.co/VBNsPnnm0n",
+                        "expanded_url": "https://twitter.com/eagles/status/1380560906673864706",
+                        "display_url": "twitter.com/eagles/status/…"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:43:43.000Z",
+            "public_metrics": {
+                "retweet_count": 9,
+                "reply_count": 34,
+                "like_count": 289,
+                "quote_count": 4
+            },
+            "conversation_id": "1380562075479588872",
+            "id": "1380562075479588872"
+        },
+        {
+            "text": "VETERANS CONSIDERING A CAREER IN JOURNALISM:  \n\nCheck out @MVJNetwork Sword and Pen latest podcast featuring Army vet Rich Dolan and Navy vet Clyde Gunter. \n\nClyde talks about transitioning from the military into journalism. Watch here:\n\nhttps://t.co/vex4dAnbuK vi",
+            "author_id": "14529929",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 238,
+                        "end": 261,
+                        "url": "https://t.co/vex4dAnbuK",
+                        "expanded_url": "https://youtu.be/AOF6FqznML8",
+                        "display_url": "youtu.be/AOF6FqznML8",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1378015635633020929/2-T_2-6C?format=jpg&name=orig",
+                                "width": 1280,
+                                "height": 720
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1378015635633020929/2-T_2-6C?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "U.S. Navy Veteran Clyde Gunter Details His Journey From U.S. Naval Ship to ESPN",
+                        "description": "In the season two premiere of MVJ's Sword and Pen podcast, Clyde Gunter speaks about his transition out of the U.S. Navy and into the field of journalism. Cl...",
+                        "unwound_url": "https://www.youtube.com/watch?v=AOF6FqznML8&feature=youtu.be"
                     }
                 ],
                 "annotations": [
                     {
-                        "start": 0,
-                        "end": 4,
-                        "probability": 0.9914,
+                        "start": 109,
+                        "end": 112,
+                        "probability": 0.5347,
+                        "type": "Organization",
+                        "normalized_text": "Army"
+                    },
+                    {
+                        "start": 118,
+                        "end": 127,
+                        "probability": 0.6189,
                         "type": "Person",
-                        "normalized_text": "Steph"
+                        "normalized_text": "Rich Dolan"
+                    },
+                    {
+                        "start": 142,
+                        "end": 153,
+                        "probability": 0.9589,
+                        "type": "Person",
+                        "normalized_text": "Clyde Gunter"
+                    },
+                    {
+                        "start": 157,
+                        "end": 162,
+                        "probability": 0.3876,
+                        "type": "Person",
+                        "normalized_text": "Clyde"
                     }
                 ],
                 "mentions": [
                     {
-                        "start": 59,
-                        "end": 72,
-                        "username": "UAbasketball"
+                        "start": 58,
+                        "end": 69,
+                        "username": "MVJNetwork"
                     }
                 ]
             },
-            "text": "Steph returned to action with 32 points &amp; six dimes 👏\n\n@UAbasketball || Second Look https://t.co/KgaMqMbQGw",
-            "attachments": {
-                "media_keys": [
-                    "13_1376756503118372865"
-                ]
+            "created_at": "2021-04-09T15:39:23.000Z",
+            "public_metrics": {
+                "retweet_count": 23,
+                "reply_count": 13,
+                "like_count": 102,
+                "quote_count": 2
             },
-            "author_id": "26270913"
+            "conversation_id": "1380545887647244290",
+            "id": "1380545887647244290"
         },
         {
-            "id": "1376757248475553794",
-            "public_metrics": {
-                "retweet_count": 254,
-                "reply_count": 12,
-                "like_count": 2345,
-                "quote_count": 25
+            "text": "https://t.co/KsOit4aeB2 https://t.co/X5HMJ4cnc5",
+            "author_id": "14529929",
+            "attachments": {
+                "media_keys": [
+                    "16_1380524317134491649"
+                ]
             },
-            "conversation_id": "1376757248475553794",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T04:44:41.000Z",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1380523059963162625"
+                }
+            ],
             "entities": {
                 "urls": [
                     {
-                        "start": 94,
-                        "end": 117,
-                        "url": "https://t.co/TwEcIWWBBP",
-                        "expanded_url": "https://twitter.com/warriors/status/1376757248475553794/photo/1",
-                        "display_url": "pic.twitter.com/TwEcIWWBBP"
-                    }
-                ],
-                "mentions": [
+                        "start": 0,
+                        "end": 23,
+                        "url": "https://t.co/KsOit4aeB2",
+                        "expanded_url": "https://twitter.com/jaketapper/status/1380524326588456961/photo/1",
+                        "display_url": "pic.twitter.com/KsOit4aeB2"
+                    },
                     {
-                        "start": 59,
-                        "end": 71,
-                        "username": "googlecloud"
+                        "start": 24,
+                        "end": 47,
+                        "url": "https://t.co/X5HMJ4cnc5",
+                        "expanded_url": "https://twitter.com/phillies/status/1380523059963162625",
+                        "display_url": "twitter.com/phillies/statu…"
                     }
                 ]
             },
-            "text": "18th 30+ point game of the season in his return to action\n\n@googlecloud || Player of the Game https://t.co/TwEcIWWBBP",
-            "attachments": {
-                "media_keys": [
-                    "3_1376756583913324546"
-                ]
+            "created_at": "2021-04-09T14:13:43.000Z",
+            "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 8,
+                "like_count": 295,
+                "quote_count": 1
             },
-            "author_id": "26270913"
+            "conversation_id": "1380524326588456961",
+            "id": "1380524326588456961"
         },
         {
-            "id": "1376752755574853633",
+            "text": "Sending love and prayers to our friends across the pond in mourning — 🇺🇸 🇬🇧 may his memory be a blessing — https://t.co/nL9HOk88Pi",
+            "author_id": "14529929",
+            "attachments": {
+                "media_keys": [
+                    "3_1380493703354195968"
+                ]
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 107,
+                        "end": 130,
+                        "url": "https://t.co/nL9HOk88Pi",
+                        "expanded_url": "https://twitter.com/jaketapper/status/1380493706680283139/photo/1",
+                        "display_url": "pic.twitter.com/nL9HOk88Pi"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T12:12:02.000Z",
             "public_metrics": {
-                "retweet_count": 293,
-                "reply_count": 36,
-                "like_count": 2848,
+                "retweet_count": 931,
+                "reply_count": 208,
+                "like_count": 18605,
                 "quote_count": 41
             },
-            "conversation_id": "1376752755574853633",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T04:26:50.000Z",
+            "conversation_id": "1380493706680283139",
+            "id": "1380493706680283139"
+        }
+    ],
+    [
+        {
+            "author_id": "26270913",
+            "conversation_id": "1380549139000225793",
+            "id": "1380549139000225793",
+            "public_metrics": {
+                "retweet_count": 109,
+                "reply_count": 22,
+                "like_count": 1234,
+                "quote_count": 8
+            },
             "entities": {
+                "mentions": [
+                    {
+                        "start": 47,
+                        "end": 61,
+                        "username": "NBCSAuthentic"
+                    },
+                    {
+                        "start": 68,
+                        "end": 74,
+                        "username": "NBATV"
+                    },
+                    {
+                        "start": 78,
+                        "end": 89,
+                        "username": "957thegame"
+                    }
+                ],
                 "urls": [
                     {
-                        "start": 212,
-                        "end": 235,
-                        "url": "https://t.co/56cxZhFNPS",
-                        "expanded_url": "https://twitter.com/warriors/status/1376752755574853633/photo/1",
-                        "display_url": "pic.twitter.com/56cxZhFNPS"
+                        "start": 93,
+                        "end": 116,
+                        "url": "https://t.co/ZkjPJjiF76",
+                        "expanded_url": "http://warriors.com/app",
+                        "display_url": "warriors.com/app",
+                        "status": 200,
+                        "title": "Warriors Mobile App",
+                        "description": "Download",
+                        "unwound_url": "https://www.nba.com/warriors/app"
+                    },
+                    {
+                        "start": 119,
+                        "end": 142,
+                        "url": "https://t.co/5n3f86Q4rY",
+                        "expanded_url": "http://on.nba.com/3sZ8U34",
+                        "display_url": "on.nba.com/3sZ8U34",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380549140912893954/HUvUKftQ?format=jpg&name=orig",
+                                "width": 700,
+                                "height": 500
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380549140912893954/HUvUKftQ?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Game Preview: Warriors vs. Wizards - 4/9/21 | Golden State Warriors",
+                        "description": "After Tuesday's thrilling win over the Bucks, the Warriors welcome the Wizards for a Friday night matchup. powered by Warriors vs. Wizards Friday, April 9 7:00 p.m.",
+                        "unwound_url": "https://www.nba.com/warriors/gameday/20210409/preview"
+                    },
+                    {
+                        "start": 143,
+                        "end": 166,
+                        "url": "https://t.co/fQ1ajlaFbr",
+                        "expanded_url": "https://twitter.com/warriors/status/1380549139000225793/photo/1",
+                        "display_url": "pic.twitter.com/fQ1ajlaFbr"
                     }
                 ]
             },
-            "text": "Final 📊\n\nStephen - 32p/5r/6a/1s\nAndrew - 21p/3r/5a/1b/2s\nKelly - 18p/11r/1s\nJames - 12p/5r/4b\nDraymond - 11p/5r/9a/1b/1s\nKent - 9p/3r/1b/2s\nJordan - 7p/1r/1a/1s\nDamion - 6p/1r/1a\nKevon - 4r/4a/1b/1s\nNico - 1r/2a https://t.co/56cxZhFNPS",
             "attachments": {
                 "media_keys": [
-                    "3_1376752716970553345"
+                    "3_1380366388989059072"
                 ]
             },
-            "author_id": "26270913"
+            "text": "Friday night hoops 💥\n\n🏀 GSW vs. WAS\n🕖 7pm PT\n📺 @NBCSAuthentic &amp; @NBATV \n📻 @957thegame \n📱 https://t.co/ZkjPJjiF76\n📝 https://t.co/5n3f86Q4rY https://t.co/fQ1ajlaFbr",
+            "created_at": "2021-04-09T15:52:18.000Z"
         },
         {
-            "id": "1376750257707479042",
+            "author_id": "26270913",
+            "conversation_id": "1380532200651649025",
+            "id": "1380532200651649025",
             "public_metrics": {
-                "retweet_count": 1225,
-                "reply_count": 106,
-                "like_count": 11005,
-                "quote_count": 251
+                "retweet_count": 333,
+                "reply_count": 49,
+                "like_count": 4671,
+                "quote_count": 50
             },
-            "conversation_id": "1376750257707479042",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T04:16:54.000Z",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 18,
-                        "end": 41,
-                        "url": "https://t.co/3slAkGRrdO",
-                        "expanded_url": "https://twitter.com/warriors/status/1376750257707479042/photo/1",
-                        "display_url": "pic.twitter.com/3slAkGRrdO"
-                    }
-                ]
-            },
-            "text": "squad got it done https://t.co/3slAkGRrdO",
             "attachments": {
                 "media_keys": [
-                    "3_1376750207702994945"
+                    "13_1356412836201730048"
                 ]
             },
-            "author_id": "26270913"
-        },
-        {
-            "id": "1376750065931284482",
-            "public_metrics": {
-                "retweet_count": 854,
-                "reply_count": 62,
-                "like_count": 7981,
-                "quote_count": 103
-            },
-            "conversation_id": "1376750065931284482",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T04:16:09.000Z",
+            "text": "GAME DAY https://t.co/dWaTVoFuqV",
+            "created_at": "2021-04-09T14:45:00.000Z",
             "entities": {
                 "urls": [
                     {
                         "start": 9,
                         "end": 32,
-                        "url": "https://t.co/k3Vzx1Fexz",
-                        "expanded_url": "https://twitter.com/warriors/status/1376750065931284482/video/1",
-                        "display_url": "pic.twitter.com/k3Vzx1Fexz"
+                        "url": "https://t.co/dWaTVoFuqV",
+                        "expanded_url": "https://twitter.com/warriors/status/1380532200651649025/video/1",
+                        "display_url": "pic.twitter.com/dWaTVoFuqV"
+                    }
+                ]
+            }
+        },
+        {
+            "author_id": "26270913",
+            "conversation_id": "1380347344198135812",
+            "id": "1380347344198135812",
+            "public_metrics": {
+                "retweet_count": 171,
+                "reply_count": 60,
+                "like_count": 4323,
+                "quote_count": 31
+            },
+            "attachments": {
+                "media_keys": [
+                    "3_1380347338347057152",
+                    "3_1380347339936686081"
+                ]
+            },
+            "text": "day one ✔️ https://t.co/1SqE2z9vQT",
+            "created_at": "2021-04-09T02:30:27.000Z",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 11,
+                        "end": 34,
+                        "url": "https://t.co/1SqE2z9vQT",
+                        "expanded_url": "https://twitter.com/warriors/status/1380347344198135812/photo/1",
+                        "display_url": "pic.twitter.com/1SqE2z9vQT"
+                    },
+                    {
+                        "start": 11,
+                        "end": 34,
+                        "url": "https://t.co/1SqE2z9vQT",
+                        "expanded_url": "https://twitter.com/warriors/status/1380347344198135812/photo/1",
+                        "display_url": "pic.twitter.com/1SqE2z9vQT"
+                    }
+                ]
+            }
+        },
+        {
+            "author_id": "26270913",
+            "conversation_id": "1380346250705260544",
+            "id": "1380346250705260544",
+            "public_metrics": {
+                "retweet_count": 140,
+                "reply_count": 19,
+                "like_count": 2906,
+                "quote_count": 3
+            },
+            "attachments": {
+                "media_keys": [
+                    "3_1380346242459299843",
+                    "3_1380346244220915720"
+                ]
+            },
+            "text": "work doesn’t stop 💪 https://t.co/yfj5ojfGP2",
+            "created_at": "2021-04-09T02:26:06.000Z",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 20,
+                        "end": 43,
+                        "url": "https://t.co/yfj5ojfGP2",
+                        "expanded_url": "https://twitter.com/warriors/status/1380346250705260544/photo/1",
+                        "display_url": "pic.twitter.com/yfj5ojfGP2"
+                    },
+                    {
+                        "start": 20,
+                        "end": 43,
+                        "url": "https://t.co/yfj5ojfGP2",
+                        "expanded_url": "https://twitter.com/warriors/status/1380346250705260544/photo/1",
+                        "display_url": "pic.twitter.com/yfj5ojfGP2"
+                    }
+                ]
+            }
+        },
+        {
+            "author_id": "26270913",
+            "conversation_id": "1380309308592680960",
+            "id": "1380309308592680960",
+            "public_metrics": {
+                "retweet_count": 36,
+                "reply_count": 2,
+                "like_count": 481,
+                "quote_count": 4
+            },
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 82,
+                        "end": 92,
+                        "username": "RickWelts"
+                    },
+                    {
+                        "start": 112,
+                        "end": 117,
+                        "username": "espn"
+                    },
+                    {
+                        "start": 197,
+                        "end": 213,
+                        "username": "RealBillRussell"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 39,
+                        "end": 41,
+                        "probability": 0.9518,
+                        "type": "Organization",
+                        "normalized_text": "NBA"
+                    },
+                    {
+                        "start": 51,
+                        "end": 54,
+                        "probability": 0.8557,
+                        "type": "Organization",
+                        "normalized_text": "WNBA"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 215,
+                        "end": 238,
+                        "url": "https://t.co/fuApPpQ2wT",
+                        "expanded_url": "https://twitter.com/warriors/status/1380309308592680960/video/1",
+                        "display_url": "pic.twitter.com/fuApPpQ2wT"
                     }
                 ]
             },
-            "text": "DUBS WIN https://t.co/k3Vzx1Fexz",
             "attachments": {
                 "media_keys": [
-                    "7_1376750050081005572"
+                    "13_1380308225216552963"
                 ]
             },
-            "author_id": "26270913"
+            "text": "\"Thank you for all you've done for the NBA and the WNBA... I'm so proud of you.\"\n\n@RickWelts joined The Jump on @espn today, where he received a special message from his dear friend, the legendary @RealBillRussell. https://t.co/fuApPpQ2wT",
+            "created_at": "2021-04-08T23:59:18.000Z"
+        },
+        {
+            "author_id": "26270913",
+            "conversation_id": "1380302436334718977",
+            "id": "1380302436334718977",
+            "public_metrics": {
+                "retweet_count": 52,
+                "reply_count": 4,
+                "like_count": 786,
+                "quote_count": 3
+            },
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 41,
+                        "end": 48,
+                        "username": "CarMax"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 71,
+                        "end": 94,
+                        "url": "https://t.co/VkcdU4sKA2",
+                        "expanded_url": "https://twitter.com/warriors/status/1380302436334718977/video/1",
+                        "display_url": "pic.twitter.com/VkcdU4sKA2"
+                    }
+                ]
+            },
+            "attachments": {
+                "media_keys": [
+                    "13_1380283221716336645"
+                ]
+            },
+            "text": "March with the Dubs -- caught on film 📸\n\n@CarMax || Warriors Snapshots https://t.co/VkcdU4sKA2",
+            "created_at": "2021-04-08T23:32:00.000Z"
+        },
+        {
+            "author_id": "26270913",
+            "conversation_id": "1380268523981697027",
+            "id": "1380268523981697027",
+            "public_metrics": {
+                "retweet_count": 217,
+                "reply_count": 89,
+                "like_count": 2925,
+                "quote_count": 65
+            },
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 4,
+                        "end": 11,
+                        "probability": 0.8194,
+                        "type": "Organization",
+                        "normalized_text": "Warriors"
+                    },
+                    {
+                        "start": 31,
+                        "end": 41,
+                        "probability": 0.9805,
+                        "type": "Person",
+                        "normalized_text": "Gary Payton"
+                    },
+                    {
+                        "start": 69,
+                        "end": 77,
+                        "probability": 0.345,
+                        "type": "Person",
+                        "normalized_text": "Payton II"
+                    },
+                    {
+                        "start": 110,
+                        "end": 116,
+                        "probability": 0.9902,
+                        "type": "Organization",
+                        "normalized_text": "Raptors"
+                    },
+                    {
+                        "start": 129,
+                        "end": 131,
+                        "probability": 0.8214,
+                        "type": "Organization",
+                        "normalized_text": "NBA"
+                    },
+                    {
+                        "start": 135,
+                        "end": 140,
+                        "probability": 0.4286,
+                        "type": "Organization",
+                        "normalized_text": "League"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 230,
+                        "end": 253,
+                        "url": "https://t.co/LBgGUNX0VM",
+                        "expanded_url": "https://twitter.com/warriors/status/1380268523981697027/photo/1",
+                        "display_url": "pic.twitter.com/LBgGUNX0VM"
+                    }
+                ]
+            },
+            "attachments": {
+                "media_keys": [
+                    "3_1380266237184241664"
+                ]
+            },
+            "text": "The Warriors have signed guard Gary Payton II to a 10-day contract.\n\nPayton II, 28, appeared in 13 games with Raptors 905 of the NBA G League this season, averaging 10.8 points, 5.6 rebounds, 2.6 assists and 2.54 steals per game. https://t.co/LBgGUNX0VM",
+            "created_at": "2021-04-08T21:17:14.000Z"
+        },
+        {
+            "author_id": "26270913",
+            "conversation_id": "1380256635512266752",
+            "id": "1380256635512266752",
+            "public_metrics": {
+                "retweet_count": 32,
+                "reply_count": 7,
+                "like_count": 534,
+                "quote_count": 3
+            },
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 22,
+                        "end": 38,
+                        "username": "GLeagueWarriors"
+                    },
+                    {
+                        "start": 163,
+                        "end": 175,
+                        "username": "RingCentral"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 187,
+                        "end": 196,
+                        "probability": 0.957,
+                        "type": "Person",
+                        "normalized_text": "Santa Cruz"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 198,
+                        "end": 221,
+                        "url": "https://t.co/2EmfrgBGZH",
+                        "expanded_url": "https://twitter.com/warriors/status/1380256635512266752/video/1",
+                        "display_url": "pic.twitter.com/2EmfrgBGZH"
+                    }
+                ]
+            },
+            "attachments": {
+                "media_keys": [
+                    "13_1380185993894973444"
+                ]
+            },
+            "text": "From ballin' with the @GLeagueWarriors in the bubble to starting for the Dubs' in his hometown, the rook is making the most of his first year in the association.\n\n@RingCentral || Call to Santa Cruz https://t.co/2EmfrgBGZH",
+            "created_at": "2021-04-08T20:30:00.000Z"
+        },
+        {
+            "author_id": "26270913",
+            "conversation_id": "1380250329455808512",
+            "id": "1380250329455808512",
+            "public_metrics": {
+                "retweet_count": 39,
+                "reply_count": 7,
+                "like_count": 588,
+                "quote_count": 1
+            },
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 80,
+                        "end": 93,
+                        "username": "StopAAPIHate"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 259,
+                        "end": 273,
+                        "tag": "StopAsianHate"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 29,
+                        "end": 36,
+                        "probability": 0.9393,
+                        "type": "Organization",
+                        "normalized_text": "Warriors"
+                    },
+                    {
+                        "start": 42,
+                        "end": 48,
+                        "probability": 0.6401,
+                        "type": "Organization",
+                        "normalized_text": "MeiGray"
+                    },
+                    {
+                        "start": 96,
+                        "end": 98,
+                        "probability": 0.4851,
+                        "type": "Organization",
+                        "normalized_text": "GSW"
+                    },
+                    {
+                        "start": 243,
+                        "end": 255,
+                        "probability": 0.8561,
+                        "type": "Place",
+                        "normalized_text": "United States"
+                    }
+                ]
+            },
+            "text": "Today is the last day of the Warriors and MeiGray’s charity auction benefitting @StopAAPIHate.\n\nGSW proceeds from the auction of these game-worn jerseys will support Stop AAPI Hate, a national coalition addressing anti-Asian racism across the United States.\n\n#StopAsianHate",
+            "created_at": "2021-04-08T20:04:57.000Z"
+        },
+        {
+            "author_id": "26270913",
+            "conversation_id": "1380215225467604992",
+            "id": "1380215225467604992",
+            "public_metrics": {
+                "retweet_count": 280,
+                "reply_count": 52,
+                "like_count": 2508,
+                "quote_count": 107
+            },
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 41,
+                        "end": 53,
+                        "username": "ChaseCenter"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 14,
+                        "end": 24,
+                        "tag": "DubNation"
+                    }
+                ]
+            },
+            "text": "See you soon, #DubNation \n\nStay tuned to @ChaseCenter for further information on game day protocols.",
+            "created_at": "2021-04-08T17:45:27.000Z"
         }
     ],
     null,
     [
         {
-            "id": "1376611879917871108",
-            "created_at": "2021-03-29T19:07:03.000Z",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 302,
-                "reply_count": 389,
-                "like_count": 2271,
-                "quote_count": 25
-            },
-            "entities": {
-                "urls": [
-                    {
-                        "start": 160,
-                        "end": 183,
-                        "url": "https://t.co/p0zieskYgr",
-                        "expanded_url": "https://twitter.com/SpeakerPelosi/status/1376611879917871108/photo/1",
-                        "display_url": "pic.twitter.com/p0zieskYgr"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 140,
-                        "end": 159,
-                        "tag": "WomensHistoryMonth"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 13,
-                        "probability": 0.9983,
-                        "type": "Person",
-                        "normalized_text": "Carol Channing"
-                    }
-                ]
-            },
-            "attachments": {
-                "media_keys": [
-                    "3_1376611874847002629"
-                ]
-            },
             "author_id": "15764644",
-            "text": "Carol Channing is remembered as one of the great American actors whose work continues to inspire &amp; entertain millions around the world. #WomensHistoryMonth https://t.co/p0zieskYgr",
-            "conversation_id": "1376611879917871108"
-        }
-    ],
-    [
-        {
-            "author_id": "15754281",
-            "possibly_sensitive": false,
-            "id": "1376941038896570368",
+            "text": "The US Congress extends condolences over the passing of Prince Philip, whose life was distinguished by an inspiring ethic of dedicated service. May it be a comfort to Her Majesty &amp; the Royal family that so many mourn with &amp; pray for them at this sad time.",
+            "conversation_id": "1380516220777197571",
+            "id": "1380516220777197571",
             "public_metrics": {
-                "retweet_count": 8,
-                "reply_count": 5,
-                "like_count": 41,
-                "quote_count": 1
+                "retweet_count": 1581,
+                "reply_count": 465,
+                "like_count": 15688,
+                "quote_count": 87
             },
+            "created_at": "2021-04-09T13:41:30.000Z",
             "entities": {
-                "urls": [
-                    {
-                        "start": 159,
-                        "end": 182,
-                        "url": "https://t.co/UIjYF5VR3v",
-                        "expanded_url": "https://www.usatoday.com/story/entertainment/tv/2021/03/30/ariana-grande-join-the-voice-coach-replacing-nick-jonas/7060727002/",
-                        "display_url": "usatoday.com/story/entertai…"
-                    }
-                ],
                 "annotations": [
                     {
-                        "start": 0,
-                        "end": 12,
-                        "probability": 0.9884,
-                        "type": "Person",
-                        "normalized_text": "Ariana Grande"
-                    },
-                    {
-                        "start": 30,
-                        "end": 40,
-                        "probability": 0.9712,
-                        "type": "Person",
-                        "normalized_text": "John Legend"
-                    },
-                    {
-                        "start": 43,
-                        "end": 56,
-                        "probability": 0.9978,
-                        "type": "Person",
-                        "normalized_text": "Kelly Clarkson"
-                    },
-                    {
-                        "start": 62,
-                        "end": 74,
-                        "probability": 0.9976,
-                        "type": "Person",
-                        "normalized_text": "Blake Shelton"
-                    },
-                    {
-                        "start": 107,
-                        "end": 115,
-                        "probability": 0.8617,
-                        "type": "Other",
-                        "normalized_text": "The Voice"
-                    },
-                    {
-                        "start": 119,
-                        "end": 121,
-                        "probability": 0.7822,
+                        "start": 4,
+                        "end": 14,
+                        "probability": 0.8067,
                         "type": "Organization",
-                        "normalized_text": "NBC"
-                    }
-                ]
-            },
-            "conversation_id": "1376941038896570368",
-            "created_at": "2021-03-30T16:55:00.000Z",
-            "text": "Ariana Grande will be joining John Legend, Kelly Clarkson and Blake Shelton on the panel for Season 21 of \"The Voice,\" NBC's popular singing competition show. https://t.co/UIjYF5VR3v"
-        },
-        {
-            "author_id": "15754281",
-            "possibly_sensitive": false,
-            "id": "1376939618415865866",
-            "public_metrics": {
-                "retweet_count": 18,
-                "reply_count": 6,
-                "like_count": 80,
-                "quote_count": 0
-            },
-            "entities": {
-                "urls": [
+                        "normalized_text": "US Congress"
+                    },
                     {
-                        "start": 167,
-                        "end": 190,
-                        "url": "https://t.co/sTY153p7of",
-                        "expanded_url": "https://www.usatoday.com/story/news/politics/2021/03/30/bidens-first-judicial-nominees-bring-diverse-experiences/7058774002/",
-                        "display_url": "usatoday.com/story/news/pol…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 10,
-                        "end": 18,
-                        "probability": 0.7293,
+                        "start": 56,
+                        "end": 68,
+                        "probability": 0.9716,
                         "type": "Person",
-                        "normalized_text": "Joe Biden"
+                        "normalized_text": "Prince Philip"
                     }
                 ]
-            },
-            "conversation_id": "1376939618415865866",
-            "created_at": "2021-03-30T16:49:21.000Z",
-            "text": "President Joe Biden announced Tuesday his plans to nominate 11 candidates to the federal judiciary, the most any recent president has put forth in his first 100 days. https://t.co/sTY153p7of"
+            }
         },
         {
-            "author_id": "15754281",
-            "possibly_sensitive": false,
-            "id": "1376935663623413768",
-            "public_metrics": {
-                "retweet_count": 24,
-                "reply_count": 5,
-                "like_count": 56,
-                "quote_count": 3
-            },
+            "author_id": "15764644",
             "entities": {
-                "urls": [
+                "mentions": [
                     {
-                        "start": 119,
-                        "end": 142,
-                        "url": "https://t.co/HYGukoEMuZ",
-                        "expanded_url": "https://bit.ly/3wn0jJM",
-                        "display_url": "bit.ly/3wn0jJM"
-                    },
-                    {
-                        "start": 143,
-                        "end": 166,
-                        "url": "https://t.co/S1pPzvIRFe",
-                        "expanded_url": "https://twitter.com/USATODAY/status/1376935663623413768/photo/1",
-                        "display_url": "pic.twitter.com/S1pPzvIRFe"
+                        "start": 151,
+                        "end": 157,
+                        "username": "POTUS"
                     }
                 ],
-                "annotations": [
-                    {
-                        "start": 51,
-                        "end": 60,
-                        "probability": 0.5716,
-                        "type": "Place",
-                        "normalized_text": "Suez Canal"
-                    }
-                ]
-            },
-            "conversation_id": "1376935663623413768",
-            "created_at": "2021-03-30T16:33:39.000Z",
-            "attachments": {
-                "media_keys": [
-                    "16_1376934158824538112"
-                ]
-            },
-            "text": "How did the Ever Given cargo ship get stuck in the Suez Canal and create the world's heaviest traffic jam? We explain. https://t.co/HYGukoEMuZ https://t.co/S1pPzvIRFe"
-        },
-        {
-            "author_id": "15754281",
-            "possibly_sensitive": false,
-            "id": "1376930973514891264",
-            "public_metrics": {
-                "retweet_count": 11,
-                "reply_count": 3,
-                "like_count": 31,
-                "quote_count": 0
-            },
-            "entities": {
                 "urls": [
                     {
-                        "start": 192,
-                        "end": 215,
-                        "url": "https://t.co/DQnYqleGwH",
-                        "expanded_url": "https://www.usatoday.com/story/news/nation/2021/03/30/maryland-state-song-lawmakers-repeal-confederate-call-arms/7058363002/",
-                        "display_url": "usatoday.com/story/news/nat…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 51,
-                        "end": 63,
-                        "probability": 0.3765,
-                        "type": "Other",
-                        "normalized_text": "O, Tannenbaum"
-                    },
-                    {
-                        "start": 136,
-                        "end": 143,
-                        "probability": 0.715,
-                        "type": "Place",
-                        "normalized_text": "Maryland"
-                    }
-                ]
-            },
-            "conversation_id": "1376930973514891264",
-            "created_at": "2021-03-30T16:15:00.000Z",
-            "text": "The song, set to the traditional seasonal tune of \"O, Tannenbaum,\" was written as a poem in 1861 and adopted as the state song in 1939. Maryland lawmakers have tried to replace it since 1974. https://t.co/DQnYqleGwH"
-        },
-        {
-            "author_id": "15754281",
-            "possibly_sensitive": false,
-            "id": "1376928454776524806",
-            "public_metrics": {
-                "retweet_count": 21,
-                "reply_count": 3,
-                "like_count": 48,
-                "quote_count": 2
-            },
-            "entities": {
-                "urls": [
-                    {
-                        "start": 102,
-                        "end": 125,
-                        "url": "https://t.co/oTXlesYbQv",
-                        "expanded_url": "https://twitter.com/USATODAY/status/1376928454776524806/video/1",
-                        "display_url": "pic.twitter.com/oTXlesYbQv"
-                    }
-                ]
-            },
-            "conversation_id": "1376928454776524806",
-            "created_at": "2021-03-30T16:05:00.000Z",
-            "attachments": {
-                "media_keys": [
-                    "13_1376874950431244292"
-                ]
-            },
-            "text": "Molten lava streamed down a volcano on Iceland’s Reykjanes Peninsula at night during a rare eruption. https://t.co/oTXlesYbQv"
-        },
-        {
-            "author_id": "15754281",
-            "possibly_sensitive": false,
-            "id": "1376924092054523914",
-            "public_metrics": {
-                "retweet_count": 33,
-                "reply_count": 42,
-                "like_count": 156,
-                "quote_count": 5
-            },
-            "entities": {
-                "urls": [
-                    {
-                        "start": 120,
-                        "end": 143,
-                        "url": "https://t.co/iRcneLtnpF",
-                        "expanded_url": "https://www.usatoday.com/story/news/nation/2021/03/30/darnella-frazier-video-teen-filmed-george-floyds-death-testifies/7057512002/",
-                        "display_url": "usatoday.com/story/news/nat…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 15,
-                        "probability": 0.9168,
-                        "type": "Person",
-                        "normalized_text": "Darnella Frazier"
-                    },
-                    {
-                        "start": 47,
-                        "end": 58,
-                        "probability": 0.9908,
-                        "type": "Person",
-                        "normalized_text": "George Floyd"
-                    },
-                    {
-                        "start": 99,
-                        "end": 111,
-                        "probability": 0.8736,
-                        "type": "Person",
-                        "normalized_text": "Derek Chauvin"
-                    }
-                ]
-            },
-            "conversation_id": "1376924092054523914",
-            "created_at": "2021-03-30T15:47:40.000Z",
-            "text": "Darnella Frazier, who was 17 when she captured George Floyd's death on video, is testifying in the Derek Chauvin trial. https://t.co/iRcneLtnpF"
-        },
-        {
-            "author_id": "15754281",
-            "possibly_sensitive": false,
-            "id": "1376922278903025665",
-            "public_metrics": {
-                "retweet_count": 13,
-                "reply_count": 13,
-                "like_count": 17,
-                "quote_count": 3
-            },
-            "entities": {
-                "urls": [
-                    {
-                        "start": 207,
-                        "end": 230,
-                        "url": "https://t.co/o01hf2ist4",
-                        "expanded_url": "https://www.usatoday.com/story/news/health/2021/03/30/covid-deaths-infections-vaccine-cdc/7054396002/",
-                        "display_url": "usatoday.com/story/news/hea…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 34,
-                        "end": 38,
-                        "probability": 0.9464,
-                        "type": "Place",
-                        "normalized_text": "China"
-                    },
-                    {
-                        "start": 193,
-                        "end": 197,
-                        "probability": 0.9136,
-                        "type": "Place",
-                        "normalized_text": "Wuhan"
-                    },
-                    {
-                        "start": 200,
-                        "end": 204,
-                        "probability": 0.579,
-                        "type": "Place",
-                        "normalized_text": "China"
-                    }
-                ]
-            },
-            "conversation_id": "1376922278903025665",
-            "created_at": "2021-03-30T15:40:27.000Z",
-            "text": "A joint World Health Organization-China study on the origins of the global coronavirus crisis cites several reasons for all but dismissing that possibility that the virus escaped from a lab in Wuhan, China. https://t.co/o01hf2ist4"
-        },
-        {
-            "author_id": "15754281",
-            "possibly_sensitive": false,
-            "id": "1376912114980372481",
-            "public_metrics": {
-                "retweet_count": 8,
-                "reply_count": 32,
-                "like_count": 30,
-                "quote_count": 3
-            },
-            "entities": {
-                "urls": [
-                    {
-                        "start": 226,
-                        "end": 249,
-                        "url": "https://t.co/0SDGgGN7QL",
-                        "expanded_url": "https://www.usatoday.com/story/news/politics/2021/03/30/donald-trump-launches-website-post-white-house-office/7058332002/",
-                        "display_url": "usatoday.com/story/news/pol…",
+                        "start": 269,
+                        "end": 292,
+                        "url": "https://t.co/r6k2aqaJSK",
+                        "expanded_url": "https://www.speaker.gov/newsroom/4821-0",
+                        "display_url": "speaker.gov/newsroom/4821-0",
                         "images": [
                             {
-                                "url": "https://pbs.twimg.com/news_img/1376890985830092802/-Ae2FxV4?format=jpg&name=orig",
-                                "width": 1600,
-                                "height": 800
+                                "url": "https://pbs.twimg.com/news_img/1380199669435863044/fTnLHF8k?format=jpg&name=orig",
+                                "width": 1920,
+                                "height": 1080
                             },
                             {
-                                "url": "https://pbs.twimg.com/news_img/1376890985830092802/-Ae2FxV4?format=jpg&name=150x150",
+                                "url": "https://pbs.twimg.com/news_img/1380199669435863044/fTnLHF8k?format=jpg&name=150x150",
                                 "width": 150,
                                 "height": 150
                             }
                         ],
                         "status": 200,
-                        "title": "Donald Trump launches website for personal office",
-                        "description": "Donald and Melania Trump set up website to 'preserve the magnificent legacy' of the 45th president's administration.",
-                        "unwound_url": "https://www.usatoday.com/story/news/politics/2021/03/30/donald-trump-launches-website-post-white-house-office/7058332002/"
+                        "title": "Pelosi Statement on President Biden’s Gun Violence Prevention Executive Orders",
+                        "description": "San Francisco – Speaker Nancy Pelosi issued this statement on President Biden’s executive orders on gun violence prevention: “Every day, the gun violence epidemic reaches into countless communities, forcing families across America to endure unfathomable pain and anguish. More than 41,000 Americans died from gun violence last year, the highest year by far on record, with the most vulnerable – women, children, communities of color – cruelly and disproportionately affected.",
+                        "unwound_url": "https://www.speaker.gov/newsroom/4821-0"
                     }
                 ],
                 "annotations": [
                     {
-                        "start": 22,
-                        "end": 26,
-                        "probability": 0.9984,
-                        "type": "Person",
-                        "normalized_text": "Trump"
-                    },
-                    {
-                        "start": 126,
-                        "end": 135,
-                        "probability": 0.7753,
+                        "start": 195,
+                        "end": 200,
+                        "probability": 0.6071,
                         "type": "Organization",
-                        "normalized_text": "Republican"
+                        "normalized_text": "Senate"
                     },
                     {
-                        "start": 167,
-                        "end": 171,
-                        "probability": 0.8668,
-                        "type": "Person",
-                        "normalized_text": "Biden"
+                        "start": 248,
+                        "end": 254,
+                        "probability": 0.9956,
+                        "type": "Place",
+                        "normalized_text": "America"
                     }
                 ]
             },
-            "conversation_id": "1376912114980372481",
-            "created_at": "2021-03-30T15:00:04.000Z",
-            "text": "Since leaving office, Trump has sent out statements through an email subscriber list. Through the messages, he has criticized Republican and Democratic lawmakers, the Biden administration and commented on contemporary events. https://t.co/0SDGgGN7QL"
+            "text": "The House's bipartisan, commonsense background checks bills, HR 8 &amp; HR 1446, are supported by 90% of Americans, including gun owners. Working with @POTUS, survivors &amp; families of victims and the Senate, we can advance safety, security &amp; justice in America.\nhttps://t.co/r6k2aqaJSK",
+            "conversation_id": "1380243805044142083",
+            "id": "1380244230237515777",
+            "in_reply_to_user_id": "15764644",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1380243805044142083"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 440,
+                "reply_count": 333,
+                "like_count": 2058,
+                "quote_count": 28
+            },
+            "created_at": "2021-04-08T19:40:42.000Z"
         },
         {
-            "author_id": "15754281",
-            "possibly_sensitive": false,
-            "id": "1376908322683686915",
+            "author_id": "15764644",
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 86,
+                        "end": 92,
+                        "username": "POTUS"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 49,
+                        "end": 55,
+                        "probability": 0.9988,
+                        "type": "Place",
+                        "normalized_text": "America"
+                    }
+                ]
+            },
+            "text": "The gun violence epidemic forces families across America to endure unfathomable pain. @POTUS's actions today will save lives: stopping the spread of ‘ghost guns,’ helping ensure that dangerous people can't access firearms &amp; leading an initiative to reduce community violence.",
+            "conversation_id": "1380243805044142083",
+            "id": "1380243805044142083",
             "public_metrics": {
-                "retweet_count": 13,
-                "reply_count": 12,
-                "like_count": 44,
+                "retweet_count": 1808,
+                "reply_count": 1269,
+                "like_count": 10470,
+                "quote_count": 112
+            },
+            "created_at": "2021-04-08T19:39:01.000Z"
+        },
+        {
+            "author_id": "15764644",
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 133,
+                        "end": 148,
+                        "username": "HouseDemocrats"
+                    },
+                    {
+                        "start": 164,
+                        "end": 170,
+                        "username": "POTUS"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 67,
+                        "end": 86,
+                        "tag": "AmericanRescuePlan"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 199,
+                        "end": 222,
+                        "url": "https://t.co/ZXnJX3DZzx",
+                        "expanded_url": "https://twitter.com/i/broadcasts/1LyxBdQZEPpGN",
+                        "display_url": "twitter.com/i/broadcasts/1…",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380219249457774598/OzvlVdJl?format=jpg&name=orig",
+                                "width": 1280,
+                                "height": 720
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380219249457774598/OzvlVdJl?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Nancy Pelosi",
+                        "description": "Weekly Press Conference - 4.8.2021",
+                        "unwound_url": "https://twitter.com/i/broadcasts/1LyxBdQZEPpGN"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 100,
+                        "end": 108,
+                        "probability": 0.6831,
+                        "type": "Person",
+                        "normalized_text": "Americans"
+                    }
+                ]
+            },
+            "text": "Join me live for my weekly press conference to hear about what the #AmericanRescuePlan is doing for Americans across the country and @HouseDemocrats plans to enact @POTUS's Build Back Better agenda. https://t.co/ZXnJX3DZzx",
+            "conversation_id": "1380219247549374464",
+            "id": "1380219247549374464",
+            "public_metrics": {
+                "retweet_count": 291,
+                "reply_count": 368,
+                "like_count": 1330,
+                "quote_count": 23
+            },
+            "created_at": "2021-04-08T18:01:26.000Z"
+        }
+    ],
+    [
+        {
+            "public_metrics": {
+                "retweet_count": 11,
+                "reply_count": 7,
+                "like_count": 45,
                 "quote_count": 2
             },
             "entities": {
                 "urls": [
                     {
-                        "start": 186,
-                        "end": 209,
-                        "url": "https://t.co/H0KUfNLjB0",
-                        "expanded_url": "https://www.usatoday.com/story/entertainment/tv/2021/03/30/wwe-hall-fame-inducts-william-shatner-star-treks-captain-kirk/7055108002/",
+                        "start": 60,
+                        "end": 83,
+                        "url": "https://t.co/xwXWndMTVL",
+                        "expanded_url": "https://twitter.com/i/broadcasts/1mnxeaoYmqnxX",
+                        "display_url": "twitter.com/i/broadcasts/1…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 16,
+                        "end": 24,
+                        "probability": 0.867,
+                        "type": "Person",
+                        "normalized_text": "Jen Psaki"
+                    },
+                    {
+                        "start": 32,
+                        "end": 42,
+                        "probability": 0.6011,
+                        "type": "Place",
+                        "normalized_text": "White House"
+                    }
+                ]
+            },
+            "text": "Press Secretary Jen Psaki holds White House press briefing. https://t.co/xwXWndMTVL",
+            "id": "1380559740858740736",
+            "conversation_id": "1380559740858740736",
+            "author_id": "15754281",
+            "created_at": "2021-04-09T16:34:26.000Z"
+        },
+        {
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 1,
+                "like_count": 17,
+                "quote_count": 0
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 243,
+                        "end": 266,
+                        "url": "https://t.co/zF95kZQQsK",
+                        "expanded_url": "https://www.usatoday.com/in-depth/opinion/2021/03/26/usa-today-women-year-honoring-strong-inspirational-women/6957980002/",
+                        "display_url": "usatoday.com/in-depth/opini…"
+                    }
+                ]
+            },
+            "text": "In communities across the country, women have stepped up in ways large and small – often amid their own pandemic-related struggles – to support and care for one another, their neighbors and complete strangers, and to challenge the status quo.\nhttps://t.co/zF95kZQQsK",
+            "id": "1380559631794208772",
+            "conversation_id": "1380559631794208772",
+            "author_id": "15754281",
+            "created_at": "2021-04-09T16:34:00.000Z"
+        },
+        {
+            "public_metrics": {
+                "retweet_count": 115,
+                "reply_count": 25,
+                "like_count": 259,
+                "quote_count": 32
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 132,
+                        "end": 155,
+                        "url": "https://t.co/eDS5Jp7os8",
+                        "expanded_url": "https://www.usatoday.com/story/entertainment/celebrities/2021/04/09/dmx-hip-hop-legend-dies-50-after-heart-attack/7074550002/",
                         "display_url": "usatoday.com/story/entertai…"
                     }
                 ],
                 "annotations": [
                     {
                         "start": 0,
-                        "end": 28,
-                        "probability": 0.6492,
-                        "type": "Other",
-                        "normalized_text": "World Wrestling Entertainment"
-                    },
-                    {
-                        "start": 31,
-                        "end": 33,
-                        "probability": 0.4526,
-                        "type": "Organization",
-                        "normalized_text": "WWE"
-                    },
-                    {
-                        "start": 61,
-                        "end": 75,
-                        "probability": 0.9793,
+                        "end": 2,
+                        "probability": 0.9221,
                         "type": "Person",
-                        "normalized_text": "William Shatner"
+                        "normalized_text": "DMX"
                     },
                     {
-                        "start": 95,
-                        "end": 97,
-                        "probability": 0.8418,
-                        "type": "Organization",
-                        "normalized_text": "WWE"
-                    },
-                    {
-                        "start": 148,
-                        "end": 168,
-                        "probability": 0.7392,
+                        "start": 57,
+                        "end": 66,
+                        "probability": 0.955,
                         "type": "Person",
-                        "normalized_text": "Captain James T. Kirk"
-                    },
-                    {
-                        "start": 174,
-                        "end": 182,
-                        "probability": 0.8617,
-                        "type": "Other",
-                        "normalized_text": "Star Trek"
+                        "normalized_text": "Ruff Ryder"
                     }
                 ]
             },
-            "conversation_id": "1376908322683686915",
-            "created_at": "2021-03-30T14:45:00.000Z",
-            "text": "World Wrestling Entertainment (WWE) has a new hall of famer: William Shatner, who took part in WWE events when he wasn't patrolling the universe as Captain James T. Kirk of \"Star Trek.\"\nhttps://t.co/H0KUfNLjB0"
+            "text": "DMX dies at 50. The prolific ‘X Gon' Give It to Ya’ and ‘Ruff Ryder’s Anthem’ rapper had been hospitalized in a ‘vegetative state.' https://t.co/eDS5Jp7os8",
+            "id": "1380559135528398850",
+            "conversation_id": "1380559135528398850",
+            "author_id": "15754281",
+            "created_at": "2021-04-09T16:32:02.000Z"
         },
         {
-            "author_id": "15754281",
-            "possibly_sensitive": false,
-            "id": "1376905303132938242",
             "public_metrics": {
                 "retweet_count": 3,
-                "reply_count": 17,
-                "like_count": 7,
+                "reply_count": 1,
+                "like_count": 17,
+                "quote_count": 2
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 124,
+                        "end": 147,
+                        "url": "https://t.co/Icj9QMszbq",
+                        "expanded_url": "https://www.usatoday.com/storytelling/quiz/news-quiz/2021-04-09/",
+                        "display_url": "usatoday.com/storytelling/q…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 97,
+                        "end": 107,
+                        "probability": 0.3845,
+                        "type": "Place",
+                        "normalized_text": "Tiger Woods"
+                    },
+                    {
+                        "start": 116,
+                        "end": 119,
+                        "probability": 0.6769,
+                        "type": "Organization",
+                        "normalized_text": "NCAA"
+                    }
+                ]
+            },
+            "text": "Our weekly news quiz is out! Test how well you paid attention to the headlines of the week, from Tiger Woods to the NCAA.\n\n https://t.co/Icj9QMszbq",
+            "id": "1380558628063752192",
+            "conversation_id": "1380558628063752192",
+            "author_id": "15754281",
+            "created_at": "2021-04-09T16:30:01.000Z"
+        },
+        {
+            "public_metrics": {
+                "retweet_count": 22,
+                "reply_count": 2,
+                "like_count": 32,
+                "quote_count": 3
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 228,
+                        "end": 251,
+                        "url": "https://t.co/q6In4GnJ0T",
+                        "expanded_url": "https://www.usatoday.com/story/news/world/2021/04/09/la-soufriere-volcano-erupts-st-vincent-caribbean/7156196002/",
+                        "display_url": "usatoday.com/story/news/wor…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 4,
+                        "end": 15,
+                        "probability": 0.3932,
+                        "type": "Place",
+                        "normalized_text": "La Soufriere"
+                    },
+                    {
+                        "start": 55,
+                        "end": 63,
+                        "probability": 0.604,
+                        "type": "Place",
+                        "normalized_text": "Caribbean"
+                    },
+                    {
+                        "start": 75,
+                        "end": 85,
+                        "probability": 0.8979,
+                        "type": "Place",
+                        "normalized_text": "St. Vincent"
+                    }
+                ]
+            },
+            "text": "The La Soufriere volcano erupted Friday morning on the Caribbean island of St. Vincent, shooting ash several miles high into the atmosphere. Roughly 16,000 people live in the \"red zone\" near the volcano and required evacuation.\nhttps://t.co/q6In4GnJ0T",
+            "id": "1380558256310001666",
+            "conversation_id": "1380558256310001666",
+            "author_id": "15754281",
+            "created_at": "2021-04-09T16:28:32.000Z"
+        },
+        {
+            "public_metrics": {
+                "retweet_count": 11,
+                "reply_count": 21,
+                "like_count": 28,
                 "quote_count": 4
             },
             "entities": {
                 "urls": [
                     {
-                        "start": 157,
-                        "end": 180,
-                        "url": "https://t.co/Cx7Yq8bJ8q",
-                        "expanded_url": "https://www.usatoday.com/story/entertainment/tv/2021/03/30/kat-ahn-racist-role-the-office-benihana-christmas-episode/7058058002/",
-                        "display_url": "usatoday.com/story/entertai…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 6,
-                        "probability": 0.955,
-                        "type": "Person",
-                        "normalized_text": "Kat Ahn"
-                    },
-                    {
-                        "start": 33,
-                        "end": 50,
-                        "probability": 0.8931,
-                        "type": "Other",
-                        "normalized_text": "Benihana Christmas"
-                    },
-                    {
-                        "start": 65,
-                        "end": 74,
-                        "probability": 0.8144,
-                        "type": "Other",
-                        "normalized_text": "The Office"
-                    },
-                    {
-                        "start": 144,
-                        "end": 146,
-                        "probability": 0.7574,
-                        "type": "Organization",
-                        "normalized_text": "NBC"
+                        "start": 145,
+                        "end": 168,
+                        "url": "https://t.co/3dR3cujSiw",
+                        "expanded_url": "https://www.usatoday.com/story/money/2021/04/09/amazon-union-vote-tech-giant-holds-sizable-lead/7154558002/",
+                        "display_url": "usatoday.com/story/money/20…"
                     }
                 ]
             },
-            "conversation_id": "1376905303132938242",
-            "created_at": "2021-03-30T14:33:00.000Z",
-            "text": "Kat Ahn, a guest actress on the \"Benihana Christmas\" episode of \"The Office\" in 2006, is speaking out about playing a \"problematic\" role on the NBC sitcom. \nhttps://t.co/Cx7Yq8bJ8q"
-        }
-    ],
-    [
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 164,
-                        "end": 187,
-                        "url": "https://t.co/xCEvkbRlAI",
-                        "expanded_url": "https://trib.al/wHrfE3e",
-                        "display_url": "trib.al/wHrfE3e"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 47,
-                        "end": 55,
-                        "probability": 0.9624,
-                        "type": "Place",
-                        "normalized_text": "Hong Kong"
-                    },
-                    {
-                        "start": 123,
-                        "end": 129,
-                        "probability": 0.8755,
-                        "type": "Place",
-                        "normalized_text": "Beijing"
-                    },
-                    {
-                        "start": 143,
-                        "end": 151,
-                        "probability": 0.9439,
-                        "type": "Place",
-                        "normalized_text": "Hong Kong"
-                    }
-                ]
-            },
-            "id": "1376938302184505346",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 65,
-                "reply_count": 23,
-                "like_count": 62,
-                "quote_count": 14
-            },
-            "created_at": "2021-03-30T16:44:08.000Z",
-            "author_id": "5392522",
-            "text": "Chinese officials approved a major overhaul to Hong Kong's electoral system on Tuesday, establishing near-total control by Beijing in choosing Hong Kong's leaders.\nhttps://t.co/xCEvkbRlAI",
-            "conversation_id": "1376938302184505346"
+            "text": "The company crossed the threshold to secure a majority of votes, with 1,700 warehouse workers voting against the union and 700 voting in favor. \nhttps://t.co/3dR3cujSiw",
+            "id": "1380548128177324038",
+            "conversation_id": "1380548128177324038",
+            "author_id": "15754281",
+            "created_at": "2021-04-09T15:48:17.000Z"
         },
         {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 231,
-                        "end": 254,
-                        "url": "https://t.co/F2y60WQfxd",
-                        "expanded_url": "https://trib.al/hvLYMim",
-                        "display_url": "trib.al/hvLYMim"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 14,
-                        "probability": 0.8141,
-                        "type": "Person",
-                        "normalized_text": "President Biden"
-                    },
-                    {
-                        "start": 30,
-                        "end": 56,
-                        "probability": 0.5047,
-                        "type": "Person",
-                        "normalized_text": "Judge Ketanji Brown Jackson"
-                    },
-                    {
-                        "start": 66,
-                        "end": 69,
-                        "probability": 0.52,
-                        "type": "Place",
-                        "normalized_text": "U.S."
-                    },
-                    {
-                        "start": 104,
-                        "end": 118,
-                        "probability": 0.8127,
-                        "type": "Person",
-                        "normalized_text": "Merrick Garland"
-                    }
-                ]
-            },
-            "id": "1376936549930172420",
-            "possibly_sensitive": false,
             "public_metrics": {
-                "retweet_count": 273,
-                "reply_count": 35,
-                "like_count": 1534,
-                "quote_count": 19
-            },
-            "created_at": "2021-03-30T16:37:10.000Z",
-            "author_id": "5392522",
-            "text": "President Biden has nominated Judge Ketanji Brown Jackson for the U.S. Court of Appeals seat vacated by Merrick Garland.\n\nShe's served as a federal district court judge since 2013 — and is a top contender for a Supreme Court seat.\nhttps://t.co/F2y60WQfxd",
-            "conversation_id": "1376936549930172420"
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 255,
-                        "end": 278,
-                        "url": "https://t.co/iF8QCtgm72",
-                        "expanded_url": "https://trib.al/zjinndY",
-                        "display_url": "trib.al/zjinndY"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 23,
-                        "end": 35,
-                        "probability": 0.9975,
-                        "type": "Person",
-                        "normalized_text": "Derek Chauvin"
-                    },
-                    {
-                        "start": 97,
-                        "end": 111,
-                        "probability": 0.9872,
-                        "type": "Person",
-                        "normalized_text": "Donald Williams"
-                    },
-                    {
-                        "start": 115,
-                        "end": 122,
-                        "probability": 0.5694,
-                        "type": "Person",
-                        "normalized_text": "Williams"
-                    },
-                    {
-                        "start": 172,
-                        "end": 178,
-                        "probability": 0.8552,
-                        "type": "Person",
-                        "normalized_text": "Chauvin"
-                    },
-                    {
-                        "start": 217,
-                        "end": 228,
-                        "probability": 0.9937,
-                        "type": "Person",
-                        "normalized_text": "George Floyd"
-                    }
-                ]
-            },
-            "id": "1376924698584420354",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 38,
-                "reply_count": 14,
-                "like_count": 167,
-                "quote_count": 1
-            },
-            "created_at": "2021-03-30T15:50:04.000Z",
-            "author_id": "5392522",
-            "text": "Jurors in the trial of Derek Chauvin are hearing more from a key prosecution witness on Tuesday: Donald Williams.\n\nWilliams, a trained martial arts fighter, says he warned Chauvin that he was using a \"blood choke\" on George Floyd, moments before he died.\nhttps://t.co/iF8QCtgm72",
-            "conversation_id": "1376924698584420354"
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 225,
-                        "end": 248,
-                        "url": "https://t.co/EDYgnQfdeP",
-                        "expanded_url": "https://trib.al/y7kuaGI",
-                        "display_url": "trib.al/y7kuaGI"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 28,
-                        "end": 40,
-                        "probability": 0.9988,
-                        "type": "Person",
-                        "normalized_text": "Derek Chauvin"
-                    },
-                    {
-                        "start": 76,
-                        "end": 87,
-                        "probability": 0.9637,
-                        "type": "Person",
-                        "normalized_text": "George Floyd"
-                    }
-                ]
-            },
-            "id": "1376922430652973060",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 71,
+                "retweet_count": 16,
                 "reply_count": 13,
-                "like_count": 187,
-                "quote_count": 5
+                "like_count": 47,
+                "quote_count": 3
             },
-            "created_at": "2021-03-30T15:41:04.000Z",
-            "author_id": "5392522",
-            "text": "Prosecutors in the trial of Derek Chauvin said he actually held his knee on George Floyd for 9 minutes and 29 seconds — some 43 seconds longer than initially reported.\n\nHere's what we learned from the first day of the trial:\nhttps://t.co/EDYgnQfdeP",
-            "conversation_id": "1376922430652973060"
-        },
-        {
             "entities": {
                 "urls": [
-                    {
-                        "start": 255,
-                        "end": 278,
-                        "url": "https://t.co/HHDv42sWQy",
-                        "expanded_url": "https://trib.al/AJEdFl9",
-                        "display_url": "trib.al/AJEdFl9"
-                    }
-                ]
-            },
-            "id": "1376911786662895622",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 75,
-                "reply_count": 18,
-                "like_count": 453,
-                "quote_count": 16
-            },
-            "created_at": "2021-03-30T14:58:46.000Z",
-            "author_id": "5392522",
-            "text": "In a letter published in newspapers around the world, about two dozen world leaders are calling for an international treaty to prepare for future pandemics.\n\nCOVID-19 \"has been a … painful reminder that nobody is safe until everyone is safe,\" they wrote.\nhttps://t.co/HHDv42sWQy",
-            "conversation_id": "1376911786662895622"
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 246,
-                        "end": 269,
-                        "url": "https://t.co/IDcExRhqYC",
-                        "expanded_url": "https://trib.al/oBsz5Oy",
-                        "display_url": "trib.al/oBsz5Oy"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 14,
-                        "probability": 0.8607,
-                        "type": "Person",
-                        "normalized_text": "President Biden"
-                    },
-                    {
-                        "start": 232,
-                        "end": 235,
-                        "probability": 0.9817,
-                        "type": "Place",
-                        "normalized_text": "U.S."
-                    }
-                ]
-            },
-            "id": "1376901331982635012",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 96,
-                "reply_count": 28,
-                "like_count": 676,
-                "quote_count": 12
-            },
-            "created_at": "2021-03-30T14:17:13.000Z",
-            "author_id": "5392522",
-            "text": "President Biden announced his first judicial nominations on Tuesday.\n\nThe list is a diverse one, including three Black women tapped for Circuit Court vacancies and a candidate who would be the first Muslim American federal judge in U.S. history.\nhttps://t.co/IDcExRhqYC",
-            "conversation_id": "1376901331982635012"
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 212,
-                        "end": 235,
-                        "url": "https://t.co/tnVkRujILy",
-                        "expanded_url": "https://trib.al/CRm6Lxe",
-                        "display_url": "trib.al/CRm6Lxe"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 47,
-                        "end": 57,
-                        "probability": 0.7133,
-                        "type": "Organization",
-                        "normalized_text": "Republicans"
-                    },
-                    {
-                        "start": 80,
-                        "end": 94,
-                        "probability": 0.9062,
-                        "type": "Person",
-                        "normalized_text": "President Biden"
-                    },
-                    {
-                        "start": 129,
-                        "end": 131,
-                        "probability": 0.713,
-                        "type": "Organization",
-                        "normalized_text": "NPR"
-                    }
-                ]
-            },
-            "id": "1376889811227803648",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 38,
-                "reply_count": 60,
-                "like_count": 297,
-                "quote_count": 10
-            },
-            "created_at": "2021-03-30T13:31:27.000Z",
-            "author_id": "5392522",
-            "text": "Two-thirds of Americans — including a third of Republicans — approve of the job President Biden's doing with the pandemic, a new NPR/Marist poll finds.\n\nBut 53% overall disapprove of his handling of immigration.\nhttps://t.co/tnVkRujILy",
-            "conversation_id": "1376889811227803648"
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 174,
-                        "end": 197,
-                        "url": "https://t.co/E62caKPwIt",
-                        "expanded_url": "https://trib.al/qUPSgsL",
-                        "display_url": "trib.al/qUPSgsL"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 6,
-                        "probability": 0.4182,
-                        "type": "Organization",
-                        "normalized_text": "Federal"
-                    },
-                    {
-                        "start": 114,
-                        "end": 130,
-                        "probability": 0.9825,
-                        "type": "Person",
-                        "normalized_text": "Ghislaine Maxwell"
-                    },
-                    {
-                        "start": 157,
-                        "end": 171,
-                        "probability": 0.9911,
-                        "type": "Person",
-                        "normalized_text": "Jeffrey Epstein"
-                    }
-                ]
-            },
-            "id": "1376879577209901058",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 172,
-                "reply_count": 33,
-                "like_count": 745,
-                "quote_count": 19
-            },
-            "created_at": "2021-03-30T12:50:47.000Z",
-            "author_id": "5392522",
-            "text": "Federal prosecutors on Monday filed new charges of sex trafficking a minor and sex trafficking conspiracy against Ghislaine Maxwell, the former associate of Jeffrey Epstein.\nhttps://t.co/E62caKPwIt",
-            "conversation_id": "1376879577209901058"
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 179,
-                        "end": 202,
-                        "url": "https://t.co/u9kmKUvUbZ",
-                        "expanded_url": "https://trib.al/gBvi7Qa",
-                        "display_url": "trib.al/gBvi7Qa"
-                    }
-                ]
-            },
-            "id": "1376859112768729089",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 66,
-                "reply_count": 21,
-                "like_count": 382,
-                "quote_count": 8
-            },
-            "created_at": "2021-03-30T11:29:27.000Z",
-            "author_id": "5392522",
-            "text": "The victims of some of the most pernicious conspiracy theories of the 2020 election are fighting back in court -- and the defamation suits already appear to be having an effect. \nhttps://t.co/u9kmKUvUbZ",
-            "conversation_id": "1376859112768729089"
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 233,
-                        "end": 256,
-                        "url": "https://t.co/CJ0bYUbEZu",
-                        "expanded_url": "https://trib.al/pW91LzI",
-                        "display_url": "trib.al/pW91LzI"
-                    }
-                ],
-                "mentions": [
-                    {
-                        "start": 217,
-                        "end": 225,
-                        "username": "wamu885"
-                    },
-                    {
-                        "start": 226,
-                        "end": 232,
-                        "username": "DCist"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 44,
-                        "end": 57,
-                        "probability": 0.5931,
-                        "type": "Organization",
-                        "normalized_text": "National Guard"
-                    },
-                    {
-                        "start": 93,
-                        "end": 99,
-                        "probability": 0.6717,
-                        "type": "Place",
-                        "normalized_text": "Capitol"
-                    },
                     {
                         "start": 141,
-                        "end": 148,
-                        "probability": 0.9747,
-                        "type": "Place",
-                        "normalized_text": "Maryland"
-                    },
-                    {
-                        "start": 176,
-                        "end": 181,
-                        "probability": 0.958,
-                        "type": "Place",
-                        "normalized_text": "Hawaii"
-                    }
-                ]
-            },
-            "id": "1376848220605845505",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 115,
-                "reply_count": 29,
-                "like_count": 510,
-                "quote_count": 5
-            },
-            "created_at": "2021-03-30T10:46:11.000Z",
-            "author_id": "5392522",
-            "text": "Since the Jan. 6 insurrection, thousands of National Guard members have stood watch over the Capitol. Some came from neighboring states like Maryland, some from as far away as Hawaii. These are some of their stories. @wamu885 @DCist https://t.co/CJ0bYUbEZu",
-            "conversation_id": "1376848220605845505"
-        }
-    ],
-    [
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 72,
-                        "end": 95,
-                        "url": "https://t.co/ZbDKoKNFHQ",
-                        "expanded_url": "https://bayareane.ws/39upG2j",
-                        "display_url": "bayareane.ws/39upG2j"
-                    }
-                ]
-            },
-            "conversation_id": "1376934843112640517",
-            "id": "1376934843112640517",
-            "text": "There is a gardening comic book, and it aims to help you grow your food https://t.co/ZbDKoKNFHQ",
-            "created_at": "2021-03-30T16:30:23.000Z",
-            "author_id": "1289321",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 1,
-                "quote_count": 0
-            },
-            "possibly_sensitive": false
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 48,
-                        "end": 71,
-                        "url": "https://t.co/BtNw4tD9AP",
-                        "expanded_url": "https://bayareane.ws/3wcsye1",
-                        "display_url": "bayareane.ws/3wcsye1"
-                    }
-                ]
-            },
-            "conversation_id": "1376929948099870720",
-            "id": "1376929948099870720",
-            "text": "Recipe: For a sweet treat, invest in financiers https://t.co/BtNw4tD9AP",
-            "created_at": "2021-03-30T16:10:56.000Z",
-            "author_id": "1289321",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 1,
-                "quote_count": 0
-            },
-            "possibly_sensitive": false
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 77,
-                        "end": 100,
-                        "url": "https://t.co/N9BcKgxQhs",
-                        "expanded_url": "https://bayareane.ws/3ukFVHt",
-                        "display_url": "bayareane.ws/3ukFVHt"
+                        "end": 164,
+                        "url": "https://t.co/Ps0tjBA3PX",
+                        "expanded_url": "https://www.usatoday.com/story/news/nation/2021/04/09/derek-chauvin-trial-live-day-10-george-floyd-autopsy/7123211002/",
+                        "display_url": "usatoday.com/story/news/nat…"
                     }
                 ],
                 "annotations": [
                     {
-                        "start": 61,
-                        "end": 70,
-                        "probability": 0.9864,
-                        "type": "Place",
-                        "normalized_text": "California"
-                    }
-                ]
-            },
-            "conversation_id": "1376923245509754883",
-            "id": "1376923245509754883",
-            "text": "Woman killed when her car is struck by suspects who had fled California cops https://t.co/N9BcKgxQhs",
-            "created_at": "2021-03-30T15:44:18.000Z",
-            "author_id": "1289321",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "possibly_sensitive": false
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 78,
-                        "end": 101,
-                        "url": "https://t.co/pz7YyCsTpO",
-                        "expanded_url": "https://bayareane.ws/2PmIXvR",
-                        "display_url": "bayareane.ws/2PmIXvR"
-                    }
-                ]
-            },
-            "conversation_id": "1376920919801729025",
-            "id": "1376920919801729025",
-            "text": "76 all-cash offers on one home. The housing madness shows no signs of slowing https://t.co/pz7YyCsTpO",
-            "created_at": "2021-03-30T15:35:03.000Z",
-            "author_id": "1289321",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 1,
-                "quote_count": 0
-            },
-            "possibly_sensitive": false
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 77,
-                        "end": 100,
-                        "url": "https://t.co/JYTZvxwxtU",
-                        "expanded_url": "https://bayareane.ws/2PI7US4",
-                        "display_url": "bayareane.ws/2PI7US4"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 15,
-                        "probability": 0.4019,
-                        "type": "Organization",
-                        "normalized_text": "NL West Division"
-                    },
-                    {
-                        "start": 37,
+                        "start": 31,
                         "end": 42,
-                        "probability": 0.7765,
-                        "type": "Organization",
-                        "normalized_text": "Giants"
-                    }
-                ]
-            },
-            "conversation_id": "1376920347442872320",
-            "id": "1376920347442872320",
-            "text": "NL West Division preview: How the SF Giants stack up against the juggernauts https://t.co/JYTZvxwxtU",
-            "created_at": "2021-03-30T15:32:47.000Z",
-            "author_id": "1289321",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "possibly_sensitive": false
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 53,
-                        "end": 76,
-                        "url": "https://t.co/hmu69czySa",
-                        "expanded_url": "https://bayareane.ws/31vDhBY",
-                        "display_url": "bayareane.ws/31vDhBY"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 11,
-                        "end": 22,
-                        "probability": 0.9062,
+                        "probability": 0.9979,
                         "type": "Person",
                         "normalized_text": "George Floyd"
                     }
                 ]
             },
-            "conversation_id": "1376919200556589058",
-            "id": "1376919200556589058",
-            "text": "Witness in George Floyd case: ‘I witnessed a murder’ https://t.co/hmu69czySa",
-            "created_at": "2021-03-30T15:28:13.000Z",
-            "author_id": "1289321",
-            "public_metrics": {
-                "retweet_count": 2,
-                "reply_count": 0,
-                "like_count": 2,
-                "quote_count": 0
-            },
-            "possibly_sensitive": false
+            "text": "Forensic pathologist testifies George Floyd died from asphyxia caused by officers' restraint. The official autopsy did not mention asphyxia. https://t.co/Ps0tjBA3PX",
+            "id": "1380546768685907969",
+            "conversation_id": "1380546768685907969",
+            "author_id": "15754281",
+            "created_at": "2021-04-09T15:42:53.000Z"
         },
         {
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 8,
+                "like_count": 23,
+                "quote_count": 0
+            },
             "entities": {
+                "mentions": [
+                    {
+                        "start": 180,
+                        "end": 193,
+                        "username": "usatodaylife"
+                    },
+                    {
+                        "start": 196,
+                        "end": 203,
+                        "username": "klawls"
+                    }
+                ],
                 "urls": [
                     {
-                        "start": 74,
-                        "end": 97,
-                        "url": "https://t.co/i9zZgLWY8L",
-                        "expanded_url": "https://bayareane.ws/31wQE4Z",
-                        "display_url": "bayareane.ws/31wQE4Z"
+                        "start": 205,
+                        "end": 228,
+                        "url": "https://t.co/JSGbe24Veh",
+                        "expanded_url": "https://www.usatoday.com/in-depth/entertainment/tv/2021/04/09/joss-whedon-and-the-nevers-reevaluating-his-work-after-allegations/7047098002/",
+                        "display_url": "usatoday.com/in-depth/enter…"
                     }
                 ],
                 "annotations": [
                     {
-                        "start": 21,
-                        "end": 28,
-                        "probability": 0.8354,
-                        "type": "Organization",
-                        "normalized_text": "Stanford"
-                    },
-                    {
-                        "start": 41,
-                        "end": 50,
-                        "probability": 0.893,
-                        "type": "Organization",
-                        "normalized_text": "Louisville"
+                        "start": 68,
+                        "end": 78,
+                        "probability": 0.9753,
+                        "type": "Person",
+                        "normalized_text": "Joss Whedon"
                     }
                 ]
             },
-            "conversation_id": "1376915471023419393",
-            "id": "1376915471023419393",
-            "text": "Elite Eight preview: Stanford women face Louisville on path to Final Four https://t.co/i9zZgLWY8L",
-            "created_at": "2021-03-30T15:13:24.000Z",
-            "author_id": "1289321",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "possibly_sensitive": false
+            "text": "\"There was a time in my life when a new series from writer-director Joss Whedon would be cause for celebration and excitement rather than angst, dread and self-reflection,\" writes @usatodaylife's @klawls. https://t.co/JSGbe24Veh",
+            "id": "1380542598092365830",
+            "conversation_id": "1380542598092365830",
+            "author_id": "15754281",
+            "created_at": "2021-04-09T15:26:19.000Z"
         },
         {
+            "public_metrics": {
+                "retweet_count": 21,
+                "reply_count": 7,
+                "like_count": 52,
+                "quote_count": 3
+            },
             "entities": {
                 "urls": [
                     {
-                        "start": 70,
-                        "end": 93,
-                        "url": "https://t.co/yyf6415kGE",
-                        "expanded_url": "https://bayareane.ws/3rAvD4a",
-                        "display_url": "bayareane.ws/3rAvD4a",
+                        "start": 115,
+                        "end": 138,
+                        "url": "https://t.co/R6hj46JYQv",
+                        "expanded_url": "https://www.usatoday.com/story/news/politics/2021/04/09/biden-proposes-reversing-budget-cuts-trump-spending-high-poverty-schools-tackling-climate-change-civ/7154544002/",
+                        "display_url": "usatoday.com/story/news/pol…",
                         "images": [
                             {
-                                "url": "https://pbs.twimg.com/news_img/1376913061114699783/ForOT8Ez?format=jpg&name=orig",
-                                "width": 640,
-                                "height": 441
+                                "url": "https://pbs.twimg.com/news_img/1380536974805762049/oU7FE1yL?format=jpg&name=orig",
+                                "width": 1600,
+                                "height": 800
                             },
                             {
-                                "url": "https://pbs.twimg.com/news_img/1376913061114699783/ForOT8Ez?format=jpg&name=150x150",
+                                "url": "https://pbs.twimg.com/news_img/1380536974805762049/oU7FE1yL?format=jpg&name=150x150",
                                 "width": 150,
                                 "height": 150
                             }
                         ],
                         "status": 200,
-                        "title": "‘Hemingway’: Ken Burns separates the man from myth in new documentary",
-                        "description": "Unsparing film strives to uncover the many sides of a literary giant",
-                        "unwound_url": "https://www.eastbaytimes.com/2021/03/30/hemingway-ken-burns-separates-the-man-from-myth-in-new-documentary/?utm_medium=social&utm_campaign=socialflow&utm_source=twitter.com&utm_content=tw-EastBayTimes"
+                        "title": "Biden's first budget includes billions more for high-poverty schools, environmental programs and the CDC",
+                        "description": "The discretionary request, known as the \"skinny budget,\" sheds light on the president's agenda for the coming year.",
+                        "unwound_url": "https://www.usatoday.com/story/news/politics/2021/04/09/biden-proposes-reversing-budget-cuts-trump-spending-high-poverty-schools-tackling-climate-change-civ/7154544002/"
                     }
                 ],
                 "annotations": [
                     {
-                        "start": 1,
-                        "end": 9,
-                        "probability": 0.6397,
+                        "start": 25,
+                        "end": 29,
+                        "probability": 0.9867,
                         "type": "Person",
-                        "normalized_text": "Hemingway"
-                    },
-                    {
-                        "start": 13,
-                        "end": 21,
-                        "probability": 0.9572,
-                        "type": "Person",
-                        "normalized_text": "Ken Burns"
+                        "normalized_text": "Biden"
                     }
                 ]
             },
-            "conversation_id": "1376913051622989825",
-            "id": "1376913051622989825",
-            "text": "‘Hemingway’: Ken Burns separates the man from myth in new documentary https://t.co/yyf6415kGE",
-            "created_at": "2021-03-30T15:03:47.000Z",
+            "text": "In first budget request, Biden asks for billions more for high-poverty schools, environmental programs and the CDC https://t.co/R6hj46JYQv",
+            "id": "1380541308209614848",
+            "conversation_id": "1380541308209614848",
+            "author_id": "15754281",
+            "created_at": "2021-04-09T15:21:11.000Z"
+        },
+        {
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 3,
+                "like_count": 10,
+                "quote_count": 1
+            },
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 43,
+                        "end": 58,
+                        "username": "nicole_carroll"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 155,
+                        "end": 178,
+                        "url": "https://t.co/dwKvEonsfi",
+                        "expanded_url": "https://www.usatoday.com/story/opinion/2021/04/09/vaccine-passport-precautions-what-life-looks-like-after/7138371002/",
+                        "display_url": "usatoday.com/story/opinion/…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 69,
+                        "end": 71,
+                        "probability": 0.9728,
+                        "type": "Place",
+                        "normalized_text": "USA"
+                    }
+                ]
+            },
+            "text": "For this week's Backstory, editor-in-chief @nicole_carroll talked to USA TODAY experts on what life will look like as more people are getting vaccinated. \nhttps://t.co/dwKvEonsfi",
+            "id": "1380536729858363395",
+            "conversation_id": "1380536729858363395",
+            "author_id": "15754281",
+            "created_at": "2021-04-09T15:03:00.000Z"
+        }
+    ],
+    [
+        {
+            "conversation_id": "1380559383764074496",
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 39,
+                        "end": 53,
+                        "username": "TwitterSpaces"
+                    },
+                    {
+                        "start": 72,
+                        "end": 82,
+                        "username": "BrandtMPR"
+                    },
+                    {
+                        "start": 85,
+                        "end": 97,
+                        "username": "RihamFeshir"
+                    },
+                    {
+                        "start": 103,
+                        "end": 115,
+                        "username": "JonSCollins"
+                    },
+                    {
+                        "start": 121,
+                        "end": 129,
+                        "username": "MPRnews"
+                    }
+                ]
+            },
+            "author_id": "5392522",
+            "id": "1380559383764074496",
+            "created_at": "2021-04-09T16:33:01.000Z",
+            "text": "Join us today at 1pm CT / 2pm ET for a @TwitterSpaces conversation with @BrandtMPR , @RihamFeshir, and @JonSCollins from @MPRnews as they discuss updates from the Chauvin trial.\n\nHave question? Please leave them in the replies below.",
+            "public_metrics": {
+                "retweet_count": 11,
+                "reply_count": 2,
+                "like_count": 19,
+                "quote_count": 1
+            }
+        },
+        {
+            "conversation_id": "1380556069986914305",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 1,
+                        "end": 4,
+                        "probability": 0.9711,
+                        "type": "Person",
+                        "normalized_text": "Earl"
+                    },
+                    {
+                        "start": 84,
+                        "end": 87,
+                        "probability": 0.7777,
+                        "type": "Person",
+                        "normalized_text": "Earl"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 184,
+                        "end": 207,
+                        "url": "https://t.co/Wi6dlgKCDO",
+                        "expanded_url": "https://www.npr.org/2021/04/09/984274079/rapper-and-actor-dmx-dead-at-50",
+                        "display_url": "npr.org/2021/04/09/984…"
+                    }
+                ]
+            },
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1380556069986914305"
+                }
+            ],
+            "author_id": "5392522",
+            "id": "1380558123262414854",
+            "created_at": "2021-04-09T16:28:00.000Z",
+            "text": "\"Earl was a warrior who fought till the very end,\" his family said in a statement. \"Earl's music inspired countless fans across the world, and his iconic legacy will live on forever.\"\nhttps://t.co/Wi6dlgKCDO",
+            "in_reply_to_user_id": "5392522",
+            "public_metrics": {
+                "retweet_count": 490,
+                "reply_count": 29,
+                "like_count": 1452,
+                "quote_count": 147
+            }
+        },
+        {
+            "conversation_id": "1380556069986914305",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 9,
+                        "end": 20,
+                        "probability": 0.9886,
+                        "type": "Person",
+                        "normalized_text": "Earl Simmons"
+                    },
+                    {
+                        "start": 50,
+                        "end": 52,
+                        "probability": 0.6278,
+                        "type": "Person",
+                        "normalized_text": "DMX"
+                    }
+                ]
+            },
+            "author_id": "5392522",
+            "id": "1380556069986914305",
+            "created_at": "2021-04-09T16:19:51.000Z",
+            "text": "JUST IN: Earl Simmons, better known as the rapper DMX, has died at the age of 50.",
+            "public_metrics": {
+                "retweet_count": 2097,
+                "reply_count": 179,
+                "like_count": 6268,
+                "quote_count": 1134
+            }
+        },
+        {
+            "conversation_id": "1380550331885568005",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 4,
+                        "end": 23,
+                        "probability": 0.3919,
+                        "type": "Organization",
+                        "normalized_text": "Biden administration"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 237,
+                        "end": 260,
+                        "url": "https://t.co/Q3TKLjIM8l",
+                        "expanded_url": "https://trib.al/ONRpHuF",
+                        "display_url": "trib.al/ONRpHuF",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380542998044422150/0nBs0Pzl?format=jpg&name=orig",
+                                "width": 1400,
+                                "height": 787
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380542998044422150/0nBs0Pzl?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Biden Proposes $1.5 Trillion Federal Spending Plan",
+                        "description": "The president's budget blueprint would increase spending on an array of domestic programs aimed at reducing poverty and fighting climate change, while keeping defense spending relatively flat.",
+                        "unwound_url": "https://www.npr.org/2021/04/09/985718925/biden-proposes-1-5-trillion-federal-spending-plan?utm_term=nprnews&utm_source=twitter.com&utm_campaign=npr&utm_medium=social"
+                    }
+                ]
+            },
+            "author_id": "5392522",
+            "id": "1380550331885568005",
+            "created_at": "2021-04-09T15:57:03.000Z",
+            "text": "The Biden administration has unveiled a $1.5 trillion partial budget request — calling for increased spending on an array of domestic programs aimed at fighting poverty and climate change, while keeping defense spending relatively flat.\nhttps://t.co/Q3TKLjIM8l",
+            "public_metrics": {
+                "retweet_count": 46,
+                "reply_count": 21,
+                "like_count": 278,
+                "quote_count": 8
+            }
+        },
+        {
+            "conversation_id": "1380549024076472320",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 14,
+                        "probability": 0.7811,
+                        "type": "Person",
+                        "normalized_text": "President Biden"
+                    },
+                    {
+                        "start": 99,
+                        "end": 111,
+                        "probability": 0.7183,
+                        "type": "Organization",
+                        "normalized_text": "Supreme Court"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 189,
+                        "end": 212,
+                        "url": "https://t.co/Zmy2bmDlnG",
+                        "expanded_url": "https://trib.al/ewnyY4t",
+                        "display_url": "trib.al/ewnyY4t",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380549031240273925/tQmk_NO9?format=jpg&name=orig",
+                                "width": 1400,
+                                "height": 787
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380549031240273925/tQmk_NO9?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Biden Sets Up Commission To Study Supreme Court Reform",
+                        "description": "Friday's announcement comes amid a debate over the composition of the nine-member court that now has a 6-3 majority.",
+                        "unwound_url": "https://www.npr.org/2021/04/09/985738915/biden-sets-up-commission-to-study-supreme-court-reform?utm_campaign=npr&utm_medium=social&utm_source=twitter.com&utm_term=nprnews"
+                    }
+                ]
+            },
+            "author_id": "5392522",
+            "id": "1380549024076472320",
+            "created_at": "2021-04-09T15:51:51.000Z",
+            "text": "President Biden plans to sign an executive order today setting up a bipartisan commission to study Supreme Court reform — including the size of the court and the length of justices' terms.\nhttps://t.co/Zmy2bmDlnG",
+            "public_metrics": {
+                "retweet_count": 143,
+                "reply_count": 69,
+                "like_count": 1062,
+                "quote_count": 31
+            }
+        },
+        {
+            "conversation_id": "1380541554855710721",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 4,
+                        "end": 9,
+                        "probability": 0.906,
+                        "type": "Organization",
+                        "normalized_text": "Amazon"
+                    },
+                    {
+                        "start": 22,
+                        "end": 28,
+                        "probability": 0.9787,
+                        "type": "Place",
+                        "normalized_text": "Alabama"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 54,
+                        "end": 77,
+                        "url": "https://t.co/ML7HGVS3TA",
+                        "expanded_url": "https://twitter.com/i/moments/1380530161016311812",
+                        "display_url": "twitter.com/i/moments/1380…"
+                    }
+                ]
+            },
+            "author_id": "5392522",
+            "id": "1380541554855710721",
+            "created_at": "2021-04-09T15:22:10.000Z",
+            "text": "⚡️ “Amazon workers in Alabama voted not to unionize”\n\nhttps://t.co/ML7HGVS3TA",
+            "public_metrics": {
+                "retweet_count": 61,
+                "reply_count": 111,
+                "like_count": 152,
+                "quote_count": 64
+            }
+        },
+        {
+            "conversation_id": "1380539877750607876",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 23,
+                        "end": 28,
+                        "probability": 0.9234,
+                        "type": "Organization",
+                        "normalized_text": "Amazon"
+                    },
+                    {
+                        "start": 44,
+                        "end": 50,
+                        "probability": 0.532,
+                        "type": "Place",
+                        "normalized_text": "Alabama"
+                    },
+                    {
+                        "start": 97,
+                        "end": 102,
+                        "probability": 0.9545,
+                        "type": "Organization",
+                        "normalized_text": "Amazon"
+                    },
+                    {
+                        "start": 166,
+                        "end": 169,
+                        "probability": 0.8206,
+                        "type": "Place",
+                        "normalized_text": "U.S."
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 171,
+                        "end": 194,
+                        "url": "https://t.co/DgnDZ1LUU1",
+                        "expanded_url": "https://trib.al/slXUC3g",
+                        "display_url": "trib.al/slXUC3g"
+                    }
+                ]
+            },
+            "author_id": "5392522",
+            "id": "1380539877750607876",
+            "created_at": "2021-04-09T15:15:30.000Z",
+            "text": "JUST IN: A majority of Amazon workers at an Alabama warehouse have voted \"no\" on organizing — as Amazon holds off the biggest union push yet among its workers in the U.S.\nhttps://t.co/DgnDZ1LUU1",
+            "public_metrics": {
+                "retweet_count": 238,
+                "reply_count": 209,
+                "like_count": 388,
+                "quote_count": 301
+            }
+        },
+        {
+            "conversation_id": "1380534480147001347",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 4,
+                        "end": 18,
+                        "probability": 0.7151,
+                        "type": "Organization",
+                        "normalized_text": "Hennepin County"
+                    },
+                    {
+                        "start": 82,
+                        "end": 94,
+                        "probability": 0.996,
+                        "type": "Person",
+                        "normalized_text": "Derek Chauvin"
+                    },
+                    {
+                        "start": 125,
+                        "end": 131,
+                        "probability": 0.6201,
+                        "type": "Person",
+                        "normalized_text": "Chauvin"
+                    },
+                    {
+                        "start": 153,
+                        "end": 164,
+                        "probability": 0.9789,
+                        "type": "Person",
+                        "normalized_text": "George Floyd"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 184,
+                        "end": 207,
+                        "url": "https://t.co/PuhyvGJC8B",
+                        "expanded_url": "https://trib.al/KI4G0n0",
+                        "display_url": "trib.al/KI4G0n0",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380534481480716299/YmSFzssu?format=jpg&name=orig",
+                                "width": 1400,
+                                "height": 787
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380534481480716299/YmSFzssu?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Live Video: Medical Examiner To Testify About George Floyd's Death",
+                        "description": "Forensic pathologist Dr. Lindsey Thomas was the first witness called on Friday, with the county medical examiner expected to testify later in the day.",
+                        "unwound_url": "https://www.npr.org/sections/trial-over-killing-of-george-floyd/2021/04/09/985722945/live-video-medical-examiner-to-testify-about-george-floyds-death?utm_source=twitter.com&utm_campaign=npr&utm_term=nprnews&utm_medium=social"
+                    }
+                ]
+            },
+            "author_id": "5392522",
+            "id": "1380534480147001347",
+            "created_at": "2021-04-09T14:54:03.000Z",
+            "text": "The Hennepin County medical examiner is expected to testify today in the trial of Derek Chauvin, as prosecutors try to prove Chauvin was responsible for George Floyd's death last May.\nhttps://t.co/PuhyvGJC8B",
+            "public_metrics": {
+                "retweet_count": 13,
+                "reply_count": 4,
+                "like_count": 63,
+                "quote_count": 0
+            }
+        },
+        {
+            "conversation_id": "1380533495794180096",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 36,
+                        "end": 42,
+                        "probability": 0.948,
+                        "type": "Place",
+                        "normalized_text": "Florida"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 220,
+                        "end": 243,
+                        "url": "https://t.co/zYuZygb819",
+                        "expanded_url": "https://trib.al/2RmRN3B",
+                        "display_url": "trib.al/2RmRN3B"
+                    }
+                ]
+            },
+            "author_id": "5392522",
+            "id": "1380533495794180096",
+            "created_at": "2021-04-09T14:50:09.000Z",
+            "text": "A federal grand jury has indicted a Florida man for attacking a Metropolitan Police officer with a skateboard during the Jan. 6 Capitol insurrection. \n\nAuthorities say it gave the officer a concussion and finger injury.\nhttps://t.co/zYuZygb819",
+            "public_metrics": {
+                "retweet_count": 254,
+                "reply_count": 51,
+                "like_count": 941,
+                "quote_count": 20
+            }
+        },
+        {
+            "conversation_id": "1380521441519673345",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 13,
+                        "end": 23,
+                        "probability": 0.8617,
+                        "type": "Place",
+                        "normalized_text": "St. Vincent"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 129,
+                        "end": 152,
+                        "url": "https://t.co/R0lmYzw8H8",
+                        "expanded_url": "https://trib.al/IDJRJ3I",
+                        "display_url": "trib.al/IDJRJ3I"
+                    }
+                ]
+            },
+            "author_id": "5392522",
+            "id": "1380521441519673345",
+            "created_at": "2021-04-09T14:02:15.000Z",
+            "text": "A volcano on St. Vincent has erupted, hours after increased seismic activity set off a mandatory evacuation of nearby residents.\nhttps://t.co/R0lmYzw8H8",
+            "public_metrics": {
+                "retweet_count": 163,
+                "reply_count": 11,
+                "like_count": 349,
+                "quote_count": 17
+            }
+        }
+    ],
+    [
+        {
+            "id": "1380564822341906436",
             "author_id": "1289321",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 26,
+                        "end": 30,
+                        "probability": 0.7659,
+                        "type": "Person",
+                        "normalized_text": "Leigh"
+                    },
+                    {
+                        "start": 48,
+                        "end": 55,
+                        "probability": 0.9029,
+                        "type": "Organization",
+                        "normalized_text": "Westmont"
+                    },
+                    {
+                        "start": 63,
+                        "end": 69,
+                        "probability": 0.8184,
+                        "type": "Organization",
+                        "normalized_text": "Branham"
+                    },
+                    {
+                        "start": 72,
+                        "end": 78,
+                        "probability": 0.7547,
+                        "type": "Organization",
+                        "normalized_text": "Sobrato"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 95,
+                        "end": 118,
+                        "url": "https://t.co/HFPEZ6Xpwg",
+                        "expanded_url": "https://bayareane.ws/2Qc3ZNT",
+                        "display_url": "bayareane.ws/2Qc3ZNT",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380564831997198341/4QXfLebN?format=jpg&name=orig",
+                                "width": 640,
+                                "height": 360
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380564831997198341/4QXfLebN?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Thursday’s prep football: Leigh stays unbeaten, Westmont beats Branham, Sobrato rallies to win",
+                        "description": "Leigh’s Max Griffiths ran for two TDs, led team in tackles; Sobrato overcomes big deficit to prevail.",
+                        "unwound_url": "https://www.eastbaytimes.com/2021/04/09/thursdays-prep-football-leigh-stays-unbeaten-westmont-beats-branham-sobrato-rallies-to-win/?utm_campaign=socialflow&utm_medium=social&utm_source=twitter.com&utm_content=tw-EastBayTimes"
+                    }
+                ]
+            },
+            "conversation_id": "1380564822341906436",
+            "created_at": "2021-04-09T16:54:37.000Z",
+            "text": "Thursday’s prep football: Leigh stays unbeaten, Westmont beats Branham, Sobrato rallies to win https://t.co/HFPEZ6Xpwg",
             "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
                 "like_count": 1,
                 "quote_count": 0
+            }
+        },
+        {
+            "id": "1380558105906405378",
+            "author_id": "1289321",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "probability": 0.5022,
+                        "type": "Person",
+                        "normalized_text": "Rapper"
+                    },
+                    {
+                        "start": 13,
+                        "end": 15,
+                        "probability": 0.4729,
+                        "type": "Person",
+                        "normalized_text": "DMX"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 55,
+                        "end": 78,
+                        "url": "https://t.co/pTtwytfhnz",
+                        "expanded_url": "https://bayareane.ws/2RnQA5V",
+                        "display_url": "bayareane.ws/2RnQA5V"
+                    }
+                ]
             },
-            "possibly_sensitive": false
+            "conversation_id": "1380558105906405378",
+            "created_at": "2021-04-09T16:27:56.000Z",
+            "text": "Rapper-actor DMX, known for gruff delivery, dead at 50 https://t.co/pTtwytfhnz",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            }
+        },
+        {
+            "id": "1380553010691067905",
+            "author_id": "1289321",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 6,
+                        "probability": 0.8532,
+                        "type": "Place",
+                        "normalized_text": "Oakland"
+                    },
+                    {
+                        "start": 38,
+                        "end": 52,
+                        "probability": 0.9497,
+                        "type": "Person",
+                        "normalized_text": "President Biden"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 102,
+                        "end": 125,
+                        "url": "https://t.co/UJiUjeOoeu",
+                        "expanded_url": "https://bayareane.ws/3wHRF8N",
+                        "display_url": "bayareane.ws/3wHRF8N"
+                    }
+                ]
+            },
+            "conversation_id": "1380553010691067905",
+            "created_at": "2021-04-09T16:07:41.000Z",
+            "text": "Oakland’s new police chief present as President Biden announced executive orders to curb gun violence https://t.co/UJiUjeOoeu",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "id": "1380552030008315909",
+            "author_id": "1289321",
+            "conversation_id": "1380552030008315909",
+            "created_at": "2021-04-09T16:03:48.000Z",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 52,
+                        "end": 75,
+                        "url": "https://t.co/c3nGDBlTKZ",
+                        "expanded_url": "https://bayareane.ws/3g1FZYv",
+                        "display_url": "bayareane.ws/3g1FZYv"
+                    }
+                ]
+            },
+            "text": "Rental assistance is on the way. Will it be enough? https://t.co/c3nGDBlTKZ",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            }
+        },
+        {
+            "id": "1380548128194097154",
+            "author_id": "1289321",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 17,
+                        "probability": 0.9257,
+                        "type": "Organization",
+                        "normalized_text": "Santa Clara County"
+                    },
+                    {
+                        "start": 33,
+                        "end": 37,
+                        "probability": 0.9666,
+                        "type": "Organization",
+                        "normalized_text": "49ers"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 78,
+                        "end": 101,
+                        "url": "https://t.co/j7gstvsP6V",
+                        "expanded_url": "https://bayareane.ws/3uBU5DZ",
+                        "display_url": "bayareane.ws/3uBU5DZ"
+                    }
+                ]
+            },
+            "conversation_id": "1380548128194097154",
+            "created_at": "2021-04-09T15:48:17.000Z",
+            "text": "Santa Clara County teams up with 49ers to vaccinate Special Olympics athletes https://t.co/j7gstvsP6V",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "id": "1380543898716676096",
+            "author_id": "1289321",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 10,
+                        "probability": 0.7498,
+                        "type": "Person",
+                        "normalized_text": "Tiger Woods"
+                    },
+                    {
+                        "start": 72,
+                        "end": 81,
+                        "probability": 0.9662,
+                        "type": "Place",
+                        "normalized_text": "California"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 109,
+                        "end": 132,
+                        "url": "https://t.co/CfWngohDWe",
+                        "expanded_url": "https://bayareane.ws/320mCH3",
+                        "display_url": "bayareane.ws/320mCH3",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380543907935744008/_vfDJlAI?format=jpg&name=orig",
+                                "width": 640,
+                                "height": 427
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380543907935744008/_vfDJlAI?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Tiger Woods was disoriented in a manner consistent with shock following California crash, police report says",
+                        "description": "Shortly after Tiger Woods crashed his vehicle in Southern California, responders found him “somewhat combative” as he was being treated at the scene, according to details from a 22-page…",
+                        "unwound_url": "https://www.eastbaytimes.com/2021/04/09/tiger-woods-was-disoriented-in-a-manner-consistent-with-shock-following-california-crash-police-report-says/?utm_content=tw-EastBayTimes&utm_source=twitter.com&utm_medium=social&utm_campaign=socialflow"
+                    }
+                ]
+            },
+            "conversation_id": "1380543898716676096",
+            "created_at": "2021-04-09T15:31:29.000Z",
+            "text": "Tiger Woods was disoriented in a manner consistent with shock following California crash, police report says https://t.co/CfWngohDWe",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "id": "1380542149259845642",
+            "author_id": "1289321",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "probability": 0.9366,
+                        "type": "Organization",
+                        "normalized_text": "Amazon"
+                    },
+                    {
+                        "start": 51,
+                        "end": 57,
+                        "probability": 0.5732,
+                        "type": "Organization",
+                        "normalized_text": "Alabama"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 69,
+                        "end": 92,
+                        "url": "https://t.co/IkO3VO1Nwt",
+                        "expanded_url": "https://bayareane.ws/3fXs4CY",
+                        "display_url": "bayareane.ws/3fXs4CY"
+                    }
+                ]
+            },
+            "conversation_id": "1380542149259845642",
+            "created_at": "2021-04-09T15:24:32.000Z",
+            "text": "Amazon gains enough votes to defeat union drive at Alabama warehouse https://t.co/IkO3VO1Nwt",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "id": "1380540475925483523",
+            "author_id": "1289321",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "probability": 0.9903,
+                        "type": "Person",
+                        "normalized_text": "Harry"
+                    },
+                    {
+                        "start": 42,
+                        "end": 47,
+                        "probability": 0.8726,
+                        "type": "Person",
+                        "normalized_text": "Philip"
+                    },
+                    {
+                        "start": 62,
+                        "end": 67,
+                        "probability": 0.9932,
+                        "type": "Person",
+                        "normalized_text": "Meghan"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 93,
+                        "end": 116,
+                        "url": "https://t.co/IYkVcNlWkJ",
+                        "expanded_url": "https://bayareane.ws/32dWlFz",
+                        "display_url": "bayareane.ws/32dWlFz"
+                    }
+                ]
+            },
+            "conversation_id": "1380540475925483523",
+            "created_at": "2021-04-09T15:17:53.000Z",
+            "text": "Harry wants to be with royal family after Philip’s death, but Meghan’s wishes are less clear https://t.co/IYkVcNlWkJ",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "id": "1380536826386059269",
+            "author_id": "1289321",
+            "conversation_id": "1380536826386059269",
+            "created_at": "2021-04-09T15:03:23.000Z",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 56,
+                        "end": 79,
+                        "url": "https://t.co/eaCGsrh9sV",
+                        "expanded_url": "https://bayareane.ws/3fXj0ha",
+                        "display_url": "bayareane.ws/3fXj0ha",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380536834778873856/OF68y0zo?format=jpg&name=orig",
+                                "width": 640,
+                                "height": 348
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380536834778873856/OF68y0zo?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "High school baseball, softball: Friday’s Top 15 roundup",
+                        "description": "Valley Christian baseball, St. Francis softball continue to dominate. Heritage baseball bounces back to beat Pittsburg.",
+                        "unwound_url": "https://www.eastbaytimes.com/2021/04/09/high-school-baseball-softball-fridays-top-15-roundup/?utm_source=twitter.com&utm_content=tw-EastBayTimes&utm_campaign=socialflow&utm_medium=social"
+                    }
+                ]
+            },
+            "text": "High school baseball, softball: Friday’s Top 15 roundup https://t.co/eaCGsrh9sV",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "id": "1380522912495570950",
+            "author_id": "1289321",
+            "conversation_id": "1380522912495570950",
+            "created_at": "2021-04-09T14:08:05.000Z",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 52,
+                        "end": 75,
+                        "url": "https://t.co/Lq1Oi6Trxo",
+                        "expanded_url": "https://bayareane.ws/3uwNs5K",
+                        "display_url": "bayareane.ws/3uwNs5K"
+                    }
+                ]
+            },
+            "text": "Critter Corner: Many factors involved in pet choice https://t.co/Lq1Oi6Trxo",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        }
+    ],
+    [
+        {
+            "text": "Números del #COVID19 en California:\n\n🔹 Casos confirmados hasta el día de hoy: 3,588,152\n🔹 Nota: Es posible que los números no representen los cambios verdaderos de un día a otro, ya que el informe de los resultados de las pruebas puede retrasarse. https://t.co/JMmLc5KwKq",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 24,
+                        "end": 33,
+                        "probability": 0.977,
+                        "type": "Place",
+                        "normalized_text": "California"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 12,
+                        "end": 20,
+                        "tag": "COVID19"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 248,
+                        "end": 271,
+                        "url": "https://t.co/JMmLc5KwKq",
+                        "expanded_url": "https://twitter.com/CAPublicHealth/status/1380284656856166402/photo/1",
+                        "display_url": "pic.twitter.com/JMmLc5KwKq"
+                    }
+                ]
+            },
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1380282977205161985"
+                }
+            ],
+            "attachments": {
+                "media_keys": [
+                    "3_1380284584034623489"
+                ]
+            },
+            "id": "1380284656856166402",
+            "in_reply_to_user_id": "33934492",
+            "conversation_id": "1380282977205161985",
+            "created_at": "2021-04-08T22:21:21.000Z",
+            "author_id": "33934492",
+            "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 1,
+                "like_count": 8,
+                "quote_count": 0
+            }
+        },
+        {
+            "text": "California COVID-19, By The Numbers:\n\n🔹 Confirmed cases to date: 3,588,152\n🔹 Note: Numbers may not represent true day-over-day change as reporting of test results can be delayed\n\nMore information at https://t.co/TLLUGwPGY7. https://t.co/EJvs2BQUrX",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 9,
+                        "probability": 0.8663,
+                        "type": "Place",
+                        "normalized_text": "California"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 199,
+                        "end": 222,
+                        "url": "https://t.co/TLLUGwPGY7",
+                        "expanded_url": "http://cdph.ca.gov/covid19",
+                        "display_url": "cdph.ca.gov/covid19",
+                        "status": 200,
+                        "title": "Main Page",
+                        "unwound_url": "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx"
+                    },
+                    {
+                        "start": 224,
+                        "end": 247,
+                        "url": "https://t.co/EJvs2BQUrX",
+                        "expanded_url": "https://twitter.com/CAPublicHealth/status/1380282977205161985/photo/1",
+                        "display_url": "pic.twitter.com/EJvs2BQUrX"
+                    }
+                ]
+            },
+            "attachments": {
+                "media_keys": [
+                    "3_1380282475696418822"
+                ]
+            },
+            "id": "1380282977205161985",
+            "conversation_id": "1380282977205161985",
+            "created_at": "2021-04-08T22:14:40.000Z",
+            "author_id": "33934492",
+            "public_metrics": {
+                "retweet_count": 20,
+                "reply_count": 2,
+                "like_count": 38,
+                "quote_count": 3
+            }
+        },
+        {
+            "text": "Learn more at https://t.co/Dv4ZMjjs9b (link in bio) for more COVID-19 facts and updates on your eligibility. Let’s get you there. Let’s #GetToImmunity #VaccinateALL58 #CaliforniaforAll",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1380281027436810241"
+                }
+            ],
+            "id": "1380281031731765253",
+            "in_reply_to_user_id": "33934492",
+            "entities": {
+                "hashtags": [
+                    {
+                        "start": 136,
+                        "end": 150,
+                        "tag": "GetToImmunity"
+                    },
+                    {
+                        "start": 151,
+                        "end": 166,
+                        "tag": "VaccinateALL58"
+                    },
+                    {
+                        "start": 167,
+                        "end": 184,
+                        "tag": "CaliforniaforAll"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 14,
+                        "end": 37,
+                        "url": "https://t.co/Dv4ZMjjs9b",
+                        "expanded_url": "http://VaccinateALL58.com",
+                        "display_url": "VaccinateALL58.com",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1378826406721810434/Q-jCxQ2d?format=jpg&name=orig",
+                                "width": 1200,
+                                "height": 675
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1378826406721810434/Q-jCxQ2d?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Vaccines",
+                        "description": "Get vaccinated—it’s safe, effective, and free Appointments are available for people with a high chance of exposure, high-risk, and those 50 or older. Sign up at myturn.ca.gov or call (833) 422-4255 to find out if it’s your turn. If you’re eligible, you can schedule an appointment, or register to be notified when one is available. […]",
+                        "unwound_url": "https://covid19.ca.gov/vaccines/"
+                    }
+                ]
+            },
+            "conversation_id": "1380281027436810241",
+            "created_at": "2021-04-08T22:06:57.000Z",
+            "author_id": "33934492",
+            "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0
+            }
+        },
+        {
+            "text": "Call our COVID-19 hotline, from 8am-8pm, for COVID-19 inquiries and to schedule your vaccination appointment. We provide assistance in over 250 languages. Get your questions answered, encourage your family and friends to get vaccinated, and keep your circle safe. https://t.co/fXFI9h6VvE",
+            "attachments": {
+                "media_keys": [
+                    "7_1380280926505082880"
+                ]
+            },
+            "id": "1380281027436810241",
+            "conversation_id": "1380281027436810241",
+            "created_at": "2021-04-08T22:06:55.000Z",
+            "author_id": "33934492",
+            "public_metrics": {
+                "retweet_count": 53,
+                "reply_count": 4,
+                "like_count": 40,
+                "quote_count": 3
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 264,
+                        "end": 287,
+                        "url": "https://t.co/fXFI9h6VvE",
+                        "expanded_url": "https://twitter.com/CAPublicHealth/status/1380281027436810241/video/1",
+                        "display_url": "pic.twitter.com/fXFI9h6VvE"
+                    }
+                ]
+            }
+        },
+        {
+            "text": "CA ha logrado un progreso increíble en el control de la propagación de #COVID19. Ahora tenemos la tasa de positividad más baja de la nación. CA está en camino de reabrir nuestra economía completamente el 15 de junio. Hagamos nuestra parte: usa mascarilla y vacúnate. https://t.co/UPp7cStOzF",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 1,
+                        "probability": 0.3442,
+                        "type": "Place",
+                        "normalized_text": "CA"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 71,
+                        "end": 79,
+                        "tag": "COVID19"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 267,
+                        "end": 290,
+                        "url": "https://t.co/UPp7cStOzF",
+                        "expanded_url": "https://twitter.com/CAPublicHealth/status/1380231111561904130/photo/1",
+                        "display_url": "pic.twitter.com/UPp7cStOzF"
+                    }
+                ]
+            },
+            "attachments": {
+                "media_keys": [
+                    "3_1380231105740177409"
+                ]
+            },
+            "id": "1380231111561904130",
+            "conversation_id": "1380231111561904130",
+            "created_at": "2021-04-08T18:48:35.000Z",
+            "author_id": "33934492",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 2,
+                "like_count": 3,
+                "quote_count": 0
+            }
+        }
+    ],
+    null,
+    null,
+    [
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 102,
+                        "end": 125,
+                        "url": "https://t.co/oIx0FgJda5",
+                        "expanded_url": "https://bayareane.ws/3fUCran",
+                        "display_url": "bayareane.ws/3fUCran"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 6,
+                        "probability": 0.8532,
+                        "type": "Place",
+                        "normalized_text": "Oakland"
+                    },
+                    {
+                        "start": 38,
+                        "end": 52,
+                        "probability": 0.9497,
+                        "type": "Person",
+                        "normalized_text": "President Biden"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0
+            },
+            "conversation_id": "1380557099932000263",
+            "author_id": "8962112",
+            "created_at": "2021-04-09T16:23:56.000Z",
+            "text": "Oakland’s new police chief present as President Biden announced executive orders to curb gun violence https://t.co/oIx0FgJda5",
+            "id": "1380557099932000263"
         },
         {
             "entities": {
@@ -4046,33 +4498,201 @@ const tweets = [
                     {
                         "start": 68,
                         "end": 91,
-                        "url": "https://t.co/INg2xEeSMq",
-                        "expanded_url": "https://bayareane.ws/3m38PbY",
-                        "display_url": "bayareane.ws/3m38PbY"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 4,
-                        "probability": 0.5238,
-                        "type": "Product",
-                        "normalized_text": "Razer"
+                        "url": "https://t.co/CNlVGklx7I",
+                        "expanded_url": "https://bayareane.ws/3wHTXF2",
+                        "display_url": "bayareane.ws/3wHTXF2"
                     }
                 ]
             },
-            "conversation_id": "1376912386649694208",
-            "id": "1376912386649694208",
-            "text": "Razer releasing a second apparel lineup with an environmental theme https://t.co/INg2xEeSMq",
-            "created_at": "2021-03-30T15:01:09.000Z",
-            "author_id": "1289321",
             "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
                 "like_count": 0,
                 "quote_count": 0
             },
-            "possibly_sensitive": false
+            "conversation_id": "1380522942161956867",
+            "author_id": "8962112",
+            "created_at": "2021-04-09T14:08:12.000Z",
+            "text": "He delivered their groceries for a year. He’s happy to be laid off. https://t.co/CNlVGklx7I",
+            "id": "1380522942161956867"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 56,
+                        "end": 79,
+                        "url": "https://t.co/eMjKnPECgq",
+                        "expanded_url": "https://bayareane.ws/2PFr5wt",
+                        "display_url": "bayareane.ws/2PFr5wt",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380484956204498947/ZEpY3RPK?format=jpg&name=orig",
+                                "width": 640,
+                                "height": 875
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380484956204498947/ZEpY3RPK?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Police offer $100,000 in Bay Area child missing 5 years",
+                        "description": "Five years after a toddler vanished and her mother was found slain, San Francisco police Thursday offered a $100,000 reward in hopes of finding the child, who would now be grade-school age.",
+                        "unwound_url": "https://www.eastbaytimes.com/2021/04/09/police-offer-100k-in-bay-area-child-missing-5-years/?utm_medium=social&utm_campaign=socialflow&utm_content=tw-oaktribnews&utm_source=twitter.com"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 25,
+                        "end": 32,
+                        "probability": 0.8316,
+                        "type": "Place",
+                        "normalized_text": "Bay Area"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 1
+            },
+            "conversation_id": "1380491098276122629",
+            "author_id": "8962112",
+            "created_at": "2021-04-09T12:01:40.000Z",
+            "text": "Police offer $100,000 in Bay Area child missing 5 years https://t.co/eMjKnPECgq",
+            "id": "1380491098276122629"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 84,
+                        "end": 107,
+                        "url": "https://t.co/uSPz4We03P",
+                        "expanded_url": "https://bayareane.ws/3dOzBRF",
+                        "display_url": "bayareane.ws/3dOzBRF",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380269768222126083/a9HwoGdI?format=jpg&name=orig",
+                                "width": 640,
+                                "height": 511
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380269768222126083/a9HwoGdI?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Who was ex-49er, Raider Phillip Adams, who shot and killed 5, then himself?",
+                        "description": "The gunman who killed five in a mass shooting in South Carolina, was described as a bit of a loner as a 49ers, Raiders cornerback.",
+                        "unwound_url": "https://www.eastbaytimes.com/2021/04/08/who-was-ex-49er-raider-phillip-adams-who-shot-and-killed-5-then-himself/?utm_medium=social&utm_campaign=socialflow&utm_content=tw-oaktribnews&utm_source=twitter.com"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 11,
+                        "end": 14,
+                        "probability": 0.4838,
+                        "type": "Organization",
+                        "normalized_text": "49er"
+                    },
+                    {
+                        "start": 17,
+                        "end": 36,
+                        "probability": 0.6586,
+                        "type": "Person",
+                        "normalized_text": "Raider Phillip Adams"
+                    },
+                    {
+                        "start": 68,
+                        "end": 81,
+                        "probability": 0.9736,
+                        "type": "Place",
+                        "normalized_text": "South Carolina"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 1
+            },
+            "conversation_id": "1380479266152939522",
+            "author_id": "8962112",
+            "created_at": "2021-04-09T11:14:39.000Z",
+            "text": "Who was ex-49er, Raider Phillip Adams, identified as killer of 5 in South Carolina? https://t.co/uSPz4We03P",
+            "id": "1380479266152939522"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 33,
+                        "end": 56,
+                        "url": "https://t.co/97Wi7TfGsG",
+                        "expanded_url": "https://bayareane.ws/3wHnSwL",
+                        "display_url": "bayareane.ws/3wHnSwL"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 20,
+                        "end": 31,
+                        "probability": 0.9661,
+                        "type": "Place",
+                        "normalized_text": "East Oakland"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 1
+            },
+            "conversation_id": "1380336252520648704",
+            "author_id": "8962112",
+            "created_at": "2021-04-09T01:46:22.000Z",
+            "text": "Person shot dead in East Oakland https://t.co/97Wi7TfGsG",
+            "id": "1380336252520648704"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 79,
+                        "end": 102,
+                        "url": "https://t.co/SdqrxNsz8l",
+                        "expanded_url": "https://bayareane.ws/3t4cN70",
+                        "display_url": "bayareane.ws/3t4cN70"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 11,
+                        "end": 17,
+                        "probability": 0.9035,
+                        "type": "Place",
+                        "normalized_text": "Oakland"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "conversation_id": "1380305315929841666",
+            "author_id": "8962112",
+            "created_at": "2021-04-08T23:43:26.000Z",
+            "text": "DA charges Oakland man who allegedly shot teen after interrupting van break-in https://t.co/SdqrxNsz8l",
+            "id": "1380305315929841666"
         },
         {
             "entities": {
@@ -4080,6357 +4700,6167 @@ const tweets = [
                     {
                         "start": 63,
                         "end": 86,
-                        "url": "https://t.co/UEGn4KaVLZ",
-                        "expanded_url": "https://bayareane.ws/2PaGjcB",
-                        "display_url": "bayareane.ws/2PaGjcB"
-                    }
-                ]
-            },
-            "conversation_id": "1376912386418954241",
-            "id": "1376912386418954241",
-            "text": "Family dog shot while suspect evaded police dies from injuries https://t.co/UEGn4KaVLZ",
-            "created_at": "2021-03-30T15:01:09.000Z",
-            "author_id": "1289321",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "possibly_sensitive": false
-        }
-    ],
-    [
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 200,
-                        "end": 223,
-                        "url": "https://t.co/43cZg6xRYK",
-                        "expanded_url": "https://www.cmadocs.org/event-info/sessionaltcd/CME21_0330_GRCOVID/t/virtual-grand-rounds-covid19-and-school-reopenings",
-                        "display_url": "cmadocs.org/event-info/ses…"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 12,
-                        "end": 26,
-                        "tag": "CovidRoundsCA"
-                    },
-                    {
-                        "start": 66,
-                        "end": 74,
-                        "tag": "COVID19"
-                    }
-                ]
-            },
-            "id": "1376897020280070145",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 6,
-                "reply_count": 0,
-                "like_count": 10,
-                "quote_count": 0
-            },
-            "created_at": "2021-03-30T14:00:05.000Z",
-            "author_id": "33934492",
-            "text": "TODAY: Join #CovidRoundsCA for hear from experts who will discuss #COVID19 testing in schools, pediatric mental health, and school reopenings, especially through an equity lens. Registration is free: https://t.co/43cZg6xRYK",
-            "conversation_id": "1376897020280070145"
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 94,
-                        "end": 117,
-                        "url": "https://t.co/cBBwoeo2UF",
-                        "expanded_url": "http://VaccinateALL58.com/español",
-                        "display_url": "VaccinateALL58.com/español"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 223,
-                        "end": 242,
-                        "tag": "VacunateCalifornia"
-                    },
-                    {
-                        "start": 243,
-                        "end": 253,
-                        "tag": "Inmunidad"
-                    },
-                    {
-                        "start": 254,
-                        "end": 272,
-                        "tag": "LogremosInmunidad"
-                    }
-                ]
-            },
-            "id": "1376655822520868864",
-            "referenced_tweets": [
-                {
-                    "type": "replied_to",
-                    "id": "1376655526155673600"
-                }
-            ],
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 3,
-                "reply_count": 0,
-                "like_count": 3,
-                "quote_count": 0
-            },
-            "created_at": "2021-03-29T22:01:39.000Z",
-            "author_id": "33934492",
-            "text": "Estamos aquí para ayudarte, para que cuando estés listo, puedas dar el siguiente paso. Visita https://t.co/cBBwoeo2UF para obtener más datos sobre el COVID-19 y actualizaciones sobre tu elegibilidad. Logremos la Inmunidad. #VacunateCalifornia #Inmunidad #LogremosInmunidad",
-            "in_reply_to_user_id": "33934492",
-            "conversation_id": "1376655526155673600"
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 225,
-                        "end": 248,
-                        "url": "https://t.co/xuRKDHTLc9",
-                        "expanded_url": "https://twitter.com/CAPublicHealth/status/1376655526155673600/photo/1",
-                        "display_url": "pic.twitter.com/xuRKDHTLc9"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 140,
-                        "end": 149,
-                        "probability": 0.8966,
-                        "type": "Place",
-                        "normalized_text": "California"
-                    }
-                ]
-            },
-            "id": "1376655526155673600",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 14,
-                "reply_count": 2,
-                "like_count": 10,
-                "quote_count": 0
-            },
-            "created_at": "2021-03-29T22:00:29.000Z",
-            "author_id": "33934492",
-            "text": "Cada día, miles de personas son vacunadas, aunque los suministros siguen siendo limitados. Consulta el plan de implementación del estado de California para ver cuándo es tu turno. Es normal tener preguntas sobre el COVID-19. https://t.co/xuRKDHTLc9",
-            "attachments": {
-                "media_keys": [
-                    "3_1376655519973277707"
-                ]
-            },
-            "conversation_id": "1376655526155673600"
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 249,
-                        "end": 272,
-                        "url": "https://t.co/W2nWB4msTo",
-                        "expanded_url": "https://twitter.com/CAPublicHealth/status/1376612728693956608/photo/1",
-                        "display_url": "pic.twitter.com/W2nWB4msTo"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 24,
-                        "end": 33,
-                        "probability": 0.9789,
-                        "type": "Place",
-                        "normalized_text": "California"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 12,
-                        "end": 20,
-                        "tag": "COVID19"
-                    }
-                ]
-            },
-            "id": "1376612728693956608",
-            "referenced_tweets": [
-                {
-                    "type": "replied_to",
-                    "id": "1376612724415684609"
-                }
-            ],
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 6,
-                "reply_count": 0,
-                "like_count": 3,
-                "quote_count": 1
-            },
-            "created_at": "2021-03-29T19:10:25.000Z",
-            "author_id": "33934492",
-            "text": "Números del #COVID19 en California:\n\n🔹 Casos confirmados hasta el día de hoy: 3,564,468 \n🔹 Nota: Es posible que los números no representen los cambios verdaderos de un día a otro, ya que el informe de los resultados de las pruebas puede retrasarse. https://t.co/W2nWB4msTo",
-            "in_reply_to_user_id": "33934492",
-            "attachments": {
-                "media_keys": [
-                    "3_1376612707420434435"
-                ]
-            },
-            "conversation_id": "1376612724415684609"
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 200,
-                        "end": 223,
-                        "url": "https://t.co/TLLUGwPGY7",
-                        "expanded_url": "http://cdph.ca.gov/covid19",
-                        "display_url": "cdph.ca.gov/covid19"
-                    },
-                    {
-                        "start": 225,
-                        "end": 248,
-                        "url": "https://t.co/NGp4dMCY9F",
-                        "expanded_url": "https://twitter.com/CAPublicHealth/status/1376612724415684609/photo/1",
-                        "display_url": "pic.twitter.com/NGp4dMCY9F"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 9,
-                        "probability": 0.8682,
-                        "type": "Place",
-                        "normalized_text": "California"
-                    }
-                ]
-            },
-            "id": "1376612724415684609",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 27,
-                "reply_count": 3,
-                "like_count": 30,
-                "quote_count": 3
-            },
-            "created_at": "2021-03-29T19:10:24.000Z",
-            "author_id": "33934492",
-            "text": "California COVID-19, By The Numbers:\n\n🔹 Confirmed cases to date: 3,564,468 \n🔹 Note: Numbers may not represent true day-over-day change as reporting of test results can be delayed\n\nMore information at https://t.co/TLLUGwPGY7. https://t.co/NGp4dMCY9F",
-            "attachments": {
-                "media_keys": [
-                    "3_1376612675052969985"
-                ]
-            },
-            "conversation_id": "1376612724415684609"
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 6,
-                        "end": 29,
-                        "url": "https://t.co/Dv4ZMjjs9b",
-                        "expanded_url": "http://VaccinateALL58.com",
-                        "display_url": "VaccinateALL58.com"
-                    },
-                    {
-                        "start": 166,
-                        "end": 189,
-                        "url": "https://t.co/pxfYTU0e37",
-                        "expanded_url": "https://bit.ly/2QwDAug",
-                        "display_url": "bit.ly/2QwDAug",
-                        "status": 400,
-                        "unwound_url": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/viralvector.html%0Ahttps://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mRNA.html"
-                    },
-                    {
-                        "start": 191,
-                        "end": 214,
-                        "url": "https://t.co/1ToEiWcwGj",
-                        "expanded_url": "https://bit.ly/2QKKFHD",
-                        "display_url": "bit.ly/2QKKFHD"
-                    },
-                    {
-                        "start": 215,
-                        "end": 238,
-                        "url": "https://t.co/hUxsUR9Z4c",
-                        "expanded_url": "https://twitter.com/CAPublicHealth/status/1376611602829516801/photo/1",
-                        "display_url": "pic.twitter.com/hUxsUR9Z4c"
-                    },
-                    {
-                        "start": 215,
-                        "end": 238,
-                        "url": "https://t.co/hUxsUR9Z4c",
-                        "expanded_url": "https://twitter.com/CAPublicHealth/status/1376611602829516801/photo/1",
-                        "display_url": "pic.twitter.com/hUxsUR9Z4c"
-                    },
-                    {
-                        "start": 215,
-                        "end": 238,
-                        "url": "https://t.co/hUxsUR9Z4c",
-                        "expanded_url": "https://twitter.com/CAPublicHealth/status/1376611602829516801/photo/1",
-                        "display_url": "pic.twitter.com/hUxsUR9Z4c"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 114,
-                        "end": 128,
-                        "tag": "GetToImmunity"
-                    },
-                    {
-                        "start": 129,
-                        "end": 144,
-                        "tag": "VaccinateALL58"
-                    },
-                    {
-                        "start": 145,
-                        "end": 162,
-                        "tag": "CaliforniaforAll"
-                    }
-                ]
-            },
-            "id": "1376611602829516801",
-            "referenced_tweets": [
-                {
-                    "type": "replied_to",
-                    "id": "1376610381293051907"
-                }
-            ],
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 20,
-                "reply_count": 4,
-                "like_count": 30,
-                "quote_count": 3
-            },
-            "created_at": "2021-03-29T19:05:56.000Z",
-            "author_id": "33934492",
-            "text": "Visit https://t.co/Dv4ZMjjs9b for more COVID-19 facts and updates on your eligibility. Let’s get you there. Let’s #GetToImmunity #VaccinateALL58 #CaliforniaforAll \n \nhttps://t.co/pxfYTU0e37 \nhttps://t.co/1ToEiWcwGj https://t.co/hUxsUR9Z4c",
-            "in_reply_to_user_id": "33934492",
-            "attachments": {
-                "media_keys": [
-                    "3_1376611525025169408",
-                    "3_1376611531169787905",
-                    "3_1376611538501476352"
-                ]
-            },
-            "conversation_id": "1376610381293051907"
-        },
-        {
-            "entities": {
-                "urls": [
-                    {
-                        "start": 233,
-                        "end": 256,
-                        "url": "https://t.co/dwuWtwjtHm",
-                        "expanded_url": "https://twitter.com/CAPublicHealth/status/1376610381293051907/photo/1",
-                        "display_url": "pic.twitter.com/dwuWtwjtHm"
-                    },
-                    {
-                        "start": 233,
-                        "end": 256,
-                        "url": "https://t.co/dwuWtwjtHm",
-                        "expanded_url": "https://twitter.com/CAPublicHealth/status/1376610381293051907/photo/1",
-                        "display_url": "pic.twitter.com/dwuWtwjtHm"
-                    }
-                ]
-            },
-            "id": "1376610381293051907",
-            "possibly_sensitive": false,
-            "public_metrics": {
-                "retweet_count": 63,
-                "reply_count": 6,
-                "like_count": 97,
-                "quote_count": 5
-            },
-            "created_at": "2021-03-29T19:01:05.000Z",
-            "author_id": "33934492",
-            "text": "No, it’s not possible to contract COVID-19 from the vaccines because they don’t contain the virus itself. It’s normal to have questions regarding all things COVID. We’re here to help so when you’re ready, you can take the next step. https://t.co/dwuWtwjtHm",
-            "attachments": {
-                "media_keys": [
-                    "3_1376610359713402884",
-                    "3_1376610370018816003"
-                ]
-            },
-            "conversation_id": "1376610381293051907"
-        }
-    ],
-    [
-        {
-            "text": "Giữ kết nối trực tuyến! Quý vị có thể tham gia vào các cuộc họp cộng đồng, sự kiện trực tuyến và nhiều hơn nữa bằng ngôn ngữ của quý vị thông qua ứng dụng Zoom. Tìm hiểu cách truy cập tính năng thông dịch trong Zoom Tiếng Việt. https://t.co/SVPC2HHTyY",
-            "id": "1376939717564919810",
-            "conversation_id": "1376939657821253634",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T16:49:45.000Z",
-            "author_id": "140189032",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 228,
-                        "end": 251,
-                        "url": "https://t.co/SVPC2HHTyY",
-                        "expanded_url": "https://www.youtube.com/watch?v=dGGkbtfPX5E&feature=youtu.be",
-                        "display_url": "youtube.com/watch?v=dGGkbt…",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1374420685167108101/m7Uyeah0?format=jpg&name=orig",
-                                "width": 1280,
-                                "height": 720
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1374420685167108101/m7Uyeah0?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "How to Access Zoom Interpretation - Vietnamese",
-                        "description": "This video describes how to access the interpretation feature in Zoom in Vietnamese. // Cách sử dụng thông dịch trong cuộc họp Zoom.",
-                        "unwound_url": "https://www.youtube.com/watch?v=dGGkbtfPX5E&feature=youtu.be"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "in_reply_to_user_id": "140189032",
-            "referenced_tweets": [
-                {
-                    "type": "replied_to",
-                    "id": "1376939657821253634"
-                }
-            ]
-        },
-        {
-            "text": "¡Mantente conectado virtualmente! Puedes asistir a nuestras reuniones comunitarias, eventos virtuales y más utilizando la aplicación Zoom en tu idioma. Aprende a acceder a la función de interpretación en Zoom en Español. https://t.co/Mja5D85YUh",
-            "id": "1376939657821253634",
-            "conversation_id": "1376939657821253634",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T16:49:31.000Z",
-            "author_id": "140189032",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 221,
-                        "end": 244,
-                        "url": "https://t.co/Mja5D85YUh",
-                        "expanded_url": "https://www.youtube.com/watch?v=N6lOj5uLFVI&feature=youtu.be",
-                        "display_url": "youtube.com/watch?v=N6lOj5…",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1374420934786912256/hfGLsx0z?format=jpg&name=orig",
-                                "width": 1280,
-                                "height": 720
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1374420934786912256/hfGLsx0z?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "How to Access Zoom Interpretation - Spanish",
-                        "description": "This video describes how to access the interpretation feature in Zoom in Spanish. // Este video describe cómo acceder a la función de interpretación en Zoom ...",
-                        "unwound_url": "https://www.youtube.com/watch?v=N6lOj5uLFVI&feature=youtu.be"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 212,
-                        "end": 218,
-                        "probability": 0.3664,
-                        "type": "Place",
-                        "normalized_text": "Español"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 1,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        }
-    ],
-    [
-        {
-            "created_at": "2021-03-29T22:05:46.000Z",
-            "id": "1376656856420999169",
-            "conversation_id": "1376656856420999169",
-            "referenced_tweets": [
-                {
-                    "type": "quoted",
-                    "id": "1375828502566465536"
-                }
-            ],
-            "entities": {
-                "urls": [
-                    {
-                        "start": 4,
-                        "end": 27,
-                        "url": "https://t.co/Rocq3k5xXM",
-                        "expanded_url": "https://twitter.com/kfrhoads/status/1375828502566465536",
-                        "display_url": "twitter.com/kfrhoads/statu…"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 6,
-                "like_count": 6,
-                "quote_count": 0
-            },
-            "possibly_sensitive": false,
-            "text": "🙌🙌🙌 https://t.co/Rocq3k5xXM",
-            "author_id": "2227281840"
-        },
-        {
-            "created_at": "2021-03-29T20:32:10.000Z",
-            "id": "1376633302199623680",
-            "conversation_id": "1376633302199623680",
-            "entities": {
-                "mentions": [
-                    {
-                        "start": 51,
-                        "end": 64,
-                        "username": "weareimpact6"
-                    },
-                    {
-                        "start": 185,
-                        "end": 198,
-                        "username": "weareimpact6"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 243,
-                        "end": 266,
-                        "url": "https://t.co/3PRofntF0B",
-                        "expanded_url": "https://www.impact6.org",
-                        "display_url": "impact6.org",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376633305332731908/Q2xm42Hi?format=png&name=orig",
-                                "width": 1500,
-                                "height": 1399
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376633305332731908/Q2xm42Hi?format=png&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "Impact 6",
-                        "unwound_url": "https://www.impact6.org"
-                    },
-                    {
-                        "start": 267,
-                        "end": 290,
-                        "url": "https://t.co/0z3JgfzJCh",
-                        "expanded_url": "https://twitter.com/LibbySchaaf/status/1376633302199623680/video/1",
-                        "display_url": "pic.twitter.com/0z3JgfzJCh"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 219,
-                        "end": 225,
-                        "probability": 0.9639,
-                        "type": "Place",
-                        "normalized_text": "Oakland"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 155,
-                        "end": 169,
-                        "tag": "ProjectPeriod"
-                    }
-                ]
-            },
-            "attachments": {
-                "media_keys": [
-                    "7_1376631919559860248"
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 6,
-                "reply_count": 0,
-                "like_count": 16,
-                "quote_count": 2
-            },
-            "possibly_sensitive": false,
-            "text": "Great to join with the incredible young leaders of @weareimpact6 this weekend as they passed out 600+ menstrual kits to unsheltered women as part of their #ProjectPeriod Initiative. TY @weareimpact6 for your service to Oakland’s community.\n\n👉 https://t.co/3PRofntF0B https://t.co/0z3JgfzJCh",
-            "author_id": "2227281840"
-        }
-    ],
-    [
-        {
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 23,
-                        "end": 29,
-                        "probability": 0.9987,
-                        "type": "Place",
-                        "normalized_text": "Oakland"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 74,
-                        "end": 97,
-                        "url": "https://t.co/LzYjVFhfyh",
-                        "expanded_url": "https://bayareane.ws/2PjMye3",
-                        "display_url": "bayareane.ws/2PjMye3",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376897699446947848/XrHAEWOt?format=jpg&name=orig",
-                                "width": 640,
-                                "height": 427
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376897699446947848/XrHAEWOt?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "Former student dorm in Oakland will become shelter for homeless residents",
-                        "description": "The now-vacant Lake Merritt Lodge was most recently used as a student dormitory.",
-                        "unwound_url": "https://www.eastbaytimes.com/2021/03/30/oaklands-former-lake-merritt-lodge-will-become-covid-19-shelter-for-homeless-residents/?utm_campaign=socialflow&utm_medium=social&utm_content=tw-oaktribnews&utm_source=twitter.com"
-                    }
-                ]
-            },
-            "text": "Former student dorm in Oakland will become shelter for homeless residents https://t.co/LzYjVFhfyh",
-            "created_at": "2021-03-30T14:24:26.000Z",
-            "id": "1376903145897484290",
-            "author_id": "8962112",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 4,
-                "quote_count": 0
-            },
-            "possibly_sensitive": false,
-            "conversation_id": "1376903145897484290"
-        },
-        {
-            "text": "Bay Area COVID reopening: Three more counties set to reach orange tier https://t.co/cFBPeHeZcX",
-            "created_at": "2021-03-30T13:37:44.000Z",
-            "id": "1376891392715264001",
-            "author_id": "8962112",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "entities": {
-                "urls": [
-                    {
-                        "start": 71,
-                        "end": 94,
-                        "url": "https://t.co/cFBPeHeZcX",
-                        "expanded_url": "https://bayareane.ws/3fpsfqj",
-                        "display_url": "bayareane.ws/3fpsfqj"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "conversation_id": "1376891392715264001"
-        },
-        {
-            "text": "Californians ages 50 and up can get a COVID vaccine starting Thursday. Here’s what you need to know https://t.co/F4iKxOftu7",
-            "created_at": "2021-03-30T12:50:38.000Z",
-            "id": "1376879543395438602",
-            "author_id": "8962112",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 0,
-                "like_count": 1,
-                "quote_count": 0
-            },
-            "entities": {
-                "urls": [
-                    {
-                        "start": 100,
-                        "end": 123,
-                        "url": "https://t.co/F4iKxOftu7",
-                        "expanded_url": "https://bayareane.ws/2PEwxPF",
-                        "display_url": "bayareane.ws/2PEwxPF",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376694393478991875/yJKCGMZG?format=jpg&name=orig",
-                                "width": 640,
-                                "height": 427
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376694393478991875/yJKCGMZG?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "Californians ages 50 and up can book COVID vaccine appointments starting Thursday. Will there be enough?",
-                        "description": "The state is rapidly increasing the number of vaccine-eligible residents but vaccine supply is still limited.",
-                        "unwound_url": "https://www.eastbaytimes.com/2021/03/29/californians-ages-50-and-up-can-book-covid-vaccine-appointments-starting-thursday-will-there-be-enough/?utm_medium=social&utm_campaign=socialflow&utm_source=twitter.com&utm_content=tw-oaktribnews"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "conversation_id": "1376879543395438602"
-        },
-        {
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 6,
-                        "probability": 0.9465,
-                        "type": "Place",
-                        "normalized_text": "Oakland"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 117,
-                        "end": 140,
-                        "url": "https://t.co/xBBAbI0kRh",
-                        "expanded_url": "https://bayareane.ws/3u4wPyb",
-                        "display_url": "bayareane.ws/3u4wPyb"
-                    }
-                ]
-            },
-            "text": "Oakland man arrested in gas station homicide; police say victim and suspect talked for 15-20 minutes before shooting https://t.co/xBBAbI0kRh",
-            "created_at": "2021-03-29T23:01:15.000Z",
-            "id": "1376670820538310656",
-            "author_id": "8962112",
-            "public_metrics": {
-                "retweet_count": 2,
-                "reply_count": 0,
-                "like_count": 1,
-                "quote_count": 0
-            },
-            "possibly_sensitive": false,
-            "conversation_id": "1376670820538310656"
-        },
-        {
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 31,
-                        "end": 37,
-                        "probability": 0.8594,
-                        "type": "Place",
-                        "normalized_text": "Oakland"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 99,
-                        "end": 122,
-                        "url": "https://t.co/F1YAWTtp9u",
-                        "expanded_url": "https://bayareane.ws/2PDjaiT",
-                        "display_url": "bayareane.ws/2PDjaiT"
-                    }
-                ]
-            },
-            "text": "‘How could he do this to her?’ Oakland man sentenced for murdering his wife, hears from her family https://t.co/F1YAWTtp9u",
-            "created_at": "2021-03-29T20:25:10.000Z",
-            "id": "1376631541380612098",
-            "author_id": "8962112",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "possibly_sensitive": false,
-            "conversation_id": "1376631541380612098"
-        },
-        {
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 9,
-                        "probability": 0.3056,
-                        "type": "Organization",
-                        "normalized_text": "Alameda DA"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 90,
-                        "end": 113,
-                        "url": "https://t.co/nq7qaEUW0B",
-                        "expanded_url": "https://bayareane.ws/3df72g5",
-                        "display_url": "bayareane.ws/3df72g5"
-                    }
-                ]
-            },
-            "text": "Alameda DA reportedly backs away from policy to halt informal talks with public defenders https://t.co/nq7qaEUW0B",
-            "created_at": "2021-03-29T19:38:51.000Z",
-            "id": "1376619885879496706",
-            "author_id": "8962112",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 1,
-                "quote_count": 0
-            },
-            "possibly_sensitive": false,
-            "conversation_id": "1376619885879496706"
-        },
-        {
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 7,
-                        "probability": 0.5341,
-                        "type": "Place",
-                        "normalized_text": "Bay Area"
-                    },
-                    {
-                        "start": 116,
-                        "end": 121,
-                        "probability": 0.9963,
-                        "type": "Place",
-                        "normalized_text": "Mexico"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 123,
-                        "end": 146,
-                        "url": "https://t.co/SLSTNi0JVm",
-                        "expanded_url": "https://bayareane.ws/3wceLEn",
-                        "display_url": "bayareane.ws/3wceLEn",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376604982397534212/KOq2ZIk6?format=jpg&name=orig",
-                                "width": 640,
-                                "height": 277
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376604982397534212/KOq2ZIk6?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "Bay Area man suspected of murdering girlfriend in brutal knife attack, torching apartment, believed to have fled to Mexico",
-                        "description": "Renato Yedra-Briseno, 37, of San Francisco is wanted on a $10 million warrant in the killing of 34-year-old Veronica DeNitto.",
-                        "unwound_url": "https://www.eastbaytimes.com/2021/03/29/bay-area-man-suspected-of-murdering-girlfriend-in-brutal-knife-attack-torching-apartment-believed-to-have-fled-to-mexico/?utm_content=tw-oaktribnews&utm_source=twitter.com&utm_medium=social&utm_campaign=socialflow"
-                    }
-                ]
-            },
-            "text": "Bay Area man suspected of murdering girlfriend in brutal knife attack, torching apartment, believed to have fled to Mexico https://t.co/SLSTNi0JVm",
-            "created_at": "2021-03-29T18:51:01.000Z",
-            "id": "1376607846364762112",
-            "author_id": "8962112",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "possibly_sensitive": false,
-            "conversation_id": "1376607846364762112"
-        }
-    ],
-    [
-        {
-            "possibly_sensitive": false,
-            "author_id": "18993395",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 58,
-                        "end": 81,
-                        "url": "https://t.co/yFiuk8RMwn",
-                        "expanded_url": "http://abc7ne.ws/3rAW0qs",
-                        "display_url": "abc7ne.ws/3rAW0qs"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 36,
-                        "end": 37,
-                        "probability": 0.6483,
-                        "type": "Place",
-                        "normalized_text": "SF"
-                    }
-                ]
-            },
-            "conversation_id": "1376939845285732354",
-            "created_at": "2021-03-30T16:50:16.000Z",
-            "id": "1376939845285732354",
-            "public_metrics": {
-                "retweet_count": 4,
-                "reply_count": 0,
-                "like_count": 3,
-                "quote_count": 1
-            },
-            "text": "1 dead, 1 injured after shooting in SF's Mission District https://t.co/yFiuk8RMwn"
-        },
-        {
-            "possibly_sensitive": false,
-            "author_id": "18993395",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 227,
-                        "end": 250,
-                        "url": "https://t.co/VIAkAyTV2Y",
-                        "expanded_url": "https://abc7news.com/10459092/?ex_cid=TA_KGO_TW&taid=6063526d382dc90001707ab4&utm_campaign=trueAnthem%3A+Trending+Content&utm_medium=trueAnthem&utm_source=twitter",
-                        "display_url": "abc7news.com/10459092/?ex_c…"
-                    }
-                ]
-            },
-            "conversation_id": "1376935251931451399",
-            "created_at": "2021-03-30T16:32:00.000Z",
-            "id": "1376935251931451399",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 1,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "text": "\"The darknet is booming with activity related to the vaccines.\" As more venues and services start to require proof of vaccination for access, experts are warning of a rise in fraudulent activity surrounding vaccine passports.​ https://t.co/VIAkAyTV2Y"
-        },
-        {
-            "possibly_sensitive": false,
-            "author_id": "18993395",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 78,
-                        "end": 101,
-                        "url": "https://t.co/Lo1duaHavR",
-                        "expanded_url": "http://abc7ne.ws/3diPRKn",
-                        "display_url": "abc7ne.ws/3diPRKn"
-                    }
-                ]
-            },
-            "conversation_id": "1376934857272655883",
-            "created_at": "2021-03-30T16:30:26.000Z",
-            "id": "1376934857272655883",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 0,
-                "like_count": 1,
-                "quote_count": 1
-            },
-            "text": "Why your rental car may be more expensive than your hotel and flight combined https://t.co/Lo1duaHavR"
-        },
-        {
-            "possibly_sensitive": false,
-            "author_id": "18993395",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 85,
-                        "end": 108,
-                        "url": "https://t.co/F9XZ6B9g4V",
-                        "expanded_url": "http://abc7ne.ws/39qrsS2",
-                        "display_url": "abc7ne.ws/39qrsS2"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 3,
-                        "end": 15,
-                        "probability": 0.9837,
-                        "type": "Person",
-                        "normalized_text": "Derek Chauvin"
-                    },
-                    {
-                        "start": 27,
-                        "end": 38,
-                        "probability": 0.979,
-                        "type": "Person",
-                        "normalized_text": "George Floyd"
-                    }
-                ]
-            },
-            "conversation_id": "1376932280053211142",
-            "created_at": "2021-03-30T16:20:12.000Z",
-            "id": "1376932280053211142",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "text": "In Derek Chauvin trial for George Floyd's death, defense promises video evidence too https://t.co/F9XZ6B9g4V"
-        },
-        {
-            "possibly_sensitive": false,
-            "author_id": "18993395",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 179,
-                        "end": 202,
-                        "url": "https://t.co/WsOz7wAJfa",
-                        "expanded_url": "https://abc7news.com/10458080/?ex_cid=TA_KGO_TW&taid=6062c52c382dc900016fcbc9&utm_campaign=trueAnthem%3A+Trending+Content&utm_medium=trueAnthem&utm_source=twitter",
-                        "display_url": "abc7news.com/10458080/?ex_c…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 79,
-                        "end": 96,
-                        "probability": 0.9747,
-                        "type": "Place",
-                        "normalized_text": "Santa Clara County"
-                    }
-                ]
-            },
-            "conversation_id": "1376931010382860291",
-            "created_at": "2021-03-30T16:15:09.000Z",
-            "id": "1376931010382860291",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 0,
-                "like_count": 1,
-                "quote_count": 0
-            },
-            "text": "The goal is to get COVID-19 vaccinations to those who need protection most. In Santa Clara County, it's the same population able to get around the least - housebound residents.​  https://t.co/WsOz7wAJfa"
-        },
-        {
-            "possibly_sensitive": false,
-            "author_id": "18993395",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 97,
-                        "end": 120,
-                        "url": "https://t.co/yT7WLDexPa",
-                        "expanded_url": "http://abc7ne.ws/2QNgYFT",
-                        "display_url": "abc7ne.ws/2QNgYFT"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 18,
-                        "probability": 0.2199,
-                        "type": "Place",
-                        "normalized_text": "Fire Rapid City, SD"
-                    },
-                    {
-                        "start": 21,
-                        "end": 34,
-                        "probability": 0.552,
-                        "type": "Place",
-                        "normalized_text": "Mount Rushmore"
-                    },
-                    {
-                        "start": 85,
-                        "end": 95,
-                        "probability": 0.9869,
-                        "type": "Place",
-                        "normalized_text": "Black Hills"
-                    }
-                ]
-            },
-            "conversation_id": "1376929828042125312",
-            "created_at": "2021-03-30T16:10:27.000Z",
-            "id": "1376929828042125312",
-            "public_metrics": {
-                "retweet_count": 4,
-                "reply_count": 1,
-                "like_count": 6,
-                "quote_count": 0
-            },
-            "text": "Fire Rapid City, SD: Mount Rushmore closed; hundreds evacuate as wildfires spread in Black Hills https://t.co/yT7WLDexPa"
-        },
-        {
-            "attachments": {
-                "media_keys": [
-                    "3_1376927309685481475"
-                ]
-            },
-            "possibly_sensitive": false,
-            "author_id": "18993395",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 235,
-                        "end": 258,
-                        "url": "https://t.co/fl6tWW6wTN",
-                        "expanded_url": "http://abc7ne.ws/2PEYtDc",
-                        "display_url": "abc7ne.ws/2PEYtDc"
-                    },
-                    {
-                        "start": 259,
-                        "end": 282,
-                        "url": "https://t.co/BqfV2gDRkk",
-                        "expanded_url": "https://twitter.com/abc7newsbayarea/status/1376927313338765312/photo/1",
-                        "display_url": "pic.twitter.com/BqfV2gDRkk"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 26,
-                        "end": 40,
-                        "probability": 0.8262,
-                        "type": "Organization",
-                        "normalized_text": "Hennepin County"
-                    },
-                    {
-                        "start": 48,
-                        "end": 59,
-                        "probability": 0.9598,
-                        "type": "Person",
-                        "normalized_text": "Peter Cahill"
-                    },
-                    {
-                        "start": 62,
-                        "end": 76,
-                        "probability": 0.8317,
-                        "type": "Organization",
-                        "normalized_text": "Hennepin County"
-                    },
-                    {
-                        "start": 87,
-                        "end": 98,
-                        "probability": 0.9503,
-                        "type": "Person",
-                        "normalized_text": "Mike Freeman"
-                    },
-                    {
-                        "start": 118,
-                        "end": 128,
-                        "probability": 0.9988,
-                        "type": "Person",
-                        "normalized_text": "Eric Nelson"
-                    },
-                    {
-                        "start": 170,
-                        "end": 182,
-                        "probability": 0.9961,
-                        "type": "Person",
-                        "normalized_text": "Derek Chauvin"
-                    },
-                    {
-                        "start": 214,
-                        "end": 225,
-                        "probability": 0.7152,
-                        "type": "Person",
-                        "normalized_text": "George Floyd"
-                    }
-                ]
-            },
-            "conversation_id": "1376927313338765312",
-            "created_at": "2021-03-30T16:00:28.000Z",
-            "id": "1376927313338765312",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 1,
-                "quote_count": 1
-            },
-            "text": "Here's what to know about Hennepin County Judge Peter Cahill, Hennepin County Attorney Mike Freeman, defense attorney Eric Nelson and the 12 jury members in the trial of Derek Chauvin, the former officer chaged in George Floyd's death https://t.co/fl6tWW6wTN https://t.co/BqfV2gDRkk"
-        },
-        {
-            "possibly_sensitive": false,
-            "author_id": "18993395",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 57,
-                        "end": 80,
-                        "url": "https://t.co/Ib9NRka4JX",
-                        "expanded_url": "http://abc7ne.ws/3weaTmg",
-                        "display_url": "abc7ne.ws/3weaTmg"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 27,
-                        "probability": 0.7789,
-                        "type": "Product",
-                        "normalized_text": "SpaceX Mars rocket prototype"
-                    }
-                ]
-            },
-            "conversation_id": "1376924782596329481",
-            "created_at": "2021-03-30T15:50:24.000Z",
-            "id": "1376924782596329481",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 4,
-                "quote_count": 2
-            },
-            "text": "SpaceX Mars rocket prototype explodes during test flight https://t.co/Ib9NRka4JX"
-        },
-        {
-            "attachments": {
-                "media_keys": [
-                    "3_1376922266185957381"
-                ]
-            },
-            "possibly_sensitive": false,
-            "author_id": "18993395",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 132,
-                        "end": 155,
-                        "url": "https://t.co/sdCtei6pJI",
-                        "expanded_url": "http://abc7ne.ws/3ukFa15",
-                        "display_url": "abc7ne.ws/3ukFa15"
-                    },
-                    {
-                        "start": 156,
-                        "end": 179,
-                        "url": "https://t.co/BdLvpZjnRw",
-                        "expanded_url": "https://twitter.com/abc7newsbayarea/status/1376922269394554880/photo/1",
-                        "display_url": "pic.twitter.com/BdLvpZjnRw"
+                        "url": "https://t.co/1GNL0ryhkv",
+                        "expanded_url": "https://bayareane.ws/39TjjFS",
+                        "display_url": "bayareane.ws/39TjjFS"
                     }
                 ],
                 "annotations": [
                     {
                         "start": 0,
                         "end": 6,
-                        "probability": 0.8627,
+                        "probability": 0.9247,
                         "type": "Place",
                         "normalized_text": "Oakland"
                     }
                 ]
             },
-            "conversation_id": "1376922269394554880",
-            "created_at": "2021-03-30T15:40:25.000Z",
-            "id": "1376922269394554880",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 3,
-                "quote_count": 0
-            },
-            "text": "Oakland schools are about to reopen, but not all teachers and parents are comfortable with going back to the classroom. Here's why: https://t.co/sdCtei6pJI https://t.co/BdLvpZjnRw"
-        },
-        {
-            "possibly_sensitive": false,
-            "author_id": "18993395",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 60,
-                        "end": 83,
-                        "url": "https://t.co/sZsZi7Ikbt",
-                        "expanded_url": "http://abc7ne.ws/3wbfTYB",
-                        "display_url": "abc7ne.ws/3wbfTYB"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 4,
-                        "probability": 0.9961,
-                        "type": "Person",
-                        "normalized_text": "Trump"
-                    },
-                    {
-                        "start": 14,
-                        "end": 18,
-                        "probability": 0.942,
-                        "type": "Person",
-                        "normalized_text": "Pence"
-                    }
-                ]
-            },
-            "conversation_id": "1376917165048266755",
-            "created_at": "2021-03-30T15:20:08.000Z",
-            "id": "1376917165048266755",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 3,
-                "like_count": 5,
-                "quote_count": 2
-            },
-            "text": "Trump's heir? Pence reemerges, lays groundwork for 2024 run https://t.co/sZsZi7Ikbt"
-        }
-    ],
-    [
-        {
-            "text": "A dire warning of 'an impending doom' was issued from the director of the Centers for Disease Control, but is a fourth and deadly COVID-19 surge really around the corner? https://t.co/9McJCm0HGQ",
-            "id": "1376936268119080965",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 171,
-                        "end": 194,
-                        "url": "https://t.co/9McJCm0HGQ",
-                        "expanded_url": "https://sanfrancisco.cbslocal.com/2021/03/30/covid-vaccine-has-bay-area-experts-optimistic-despite-cdc-warning-of-impending-doom/?utm_campaign=snd-autopilot",
-                        "display_url": "sanfrancisco.cbslocal.com/2021/03/30/cov…"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T16:36:03.000Z",
-            "conversation_id": "1376936268119080965",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 1,
-                "like_count": 2,
-                "quote_count": 0
-            },
-            "author_id": "16657699"
-        },
-        {
-            "text": "Two men -- Nathaniel Talivaa and Jenevee Pritchard -- and a juvenile have been arrested in the February gang slaying of Tong Nguyen, San Jose police announced Tuesday. https://t.co/o2BOF9YcHd",
-            "id": "1376928211683176455",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 168,
-                        "end": 191,
-                        "url": "https://t.co/o2BOF9YcHd",
-                        "expanded_url": "https://sanfrancisco.cbslocal.com/2021/03/30/three-suspects-arrested-in-san-jose-tong-nguyen-gang-slaying/?utm_campaign=snd-autopilot",
-                        "display_url": "sanfrancisco.cbslocal.com/2021/03/30/thr…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 11,
-                        "end": 27,
-                        "probability": 0.9733,
-                        "type": "Person",
-                        "normalized_text": "Nathaniel Talivaa"
-                    },
-                    {
-                        "start": 33,
-                        "end": 49,
-                        "probability": 0.9528,
-                        "type": "Person",
-                        "normalized_text": "Jenevee Pritchard"
-                    },
-                    {
-                        "start": 120,
-                        "end": 130,
-                        "probability": 0.7783,
-                        "type": "Person",
-                        "normalized_text": "Tong Nguyen"
-                    },
-                    {
-                        "start": 133,
-                        "end": 140,
-                        "probability": 0.5367,
-                        "type": "Place",
-                        "normalized_text": "San Jose"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T16:04:02.000Z",
-            "conversation_id": "1376928211683176455",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 5,
-                "quote_count": 0
-            },
-            "author_id": "16657699"
-        },
-        {
-            "text": "Workers recently completed upgrades to the El Cerrito del Norte BART station, adding new bathrooms and art.\nhttps://t.co/eVOIrJlILl",
-            "id": "1376923267521372169",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 108,
-                        "end": 131,
-                        "url": "https://t.co/eVOIrJlILl",
-                        "expanded_url": "https://sanfrancisco.cbslocal.com/2021/03/30/upgrades-complete-for-el-cerrito-del-norte-bart-station/",
-                        "display_url": "sanfrancisco.cbslocal.com/2021/03/30/upg…",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376923268981039107/WJCWhIqX?format=jpg&name=orig",
-                                "width": 1500,
-                                "height": 844
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376923268981039107/WJCWhIqX?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "Upgrades Complete At El Cerrito del Norte BART Station",
-                        "description": "Workers recently completed upgrades to the El Cerrito del Norte BART station, adding new bathrooms and art.",
-                        "unwound_url": "https://sanfrancisco.cbslocal.com/2021/03/30/upgrades-complete-for-el-cerrito-del-norte-bart-station/"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 43,
-                        "end": 75,
-                        "probability": 0.4642,
-                        "type": "Place",
-                        "normalized_text": "El Cerrito del Norte BART station"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T15:44:23.000Z",
-            "conversation_id": "1376923267521372169",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 2,
-                "quote_count": 0
-            },
-            "author_id": "16657699"
-        },
-        {
-            "text": "\"\" https://t.co/qp6kErCTvA",
-            "id": "1376917140108902403",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 3,
-                        "end": 26,
-                        "url": "https://t.co/qp6kErCTvA",
-                        "expanded_url": "https://minnesota.cbslocal.com/live/cbsn-minnesota/?utm_campaign=snd-autopilot",
-                        "display_url": "minnesota.cbslocal.com/live/cbsn-minn…"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T15:20:02.000Z",
-            "conversation_id": "1376917140108902403",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "author_id": "16657699"
-        },
-        {
-            "text": "\"\" https://t.co/tUTitLXvRN",
-            "id": "1376909089779908612",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 3,
-                        "end": 26,
-                        "url": "https://t.co/tUTitLXvRN",
-                        "expanded_url": "https://minnesota.cbslocal.com/live/?utm_campaign=snd-autopilot",
-                        "display_url": "minnesota.cbslocal.com/live/?utm_camp…"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T14:48:03.000Z",
-            "conversation_id": "1376909089779908612",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 1,
-                "quote_count": 0
-            },
-            "author_id": "16657699"
-        },
-        {
-            "text": "It's been a year since the historic COVID-19 shutdown and the battle with the virus is still impacting our daily lives. Here's a roundup of the latest COVID stories. https://t.co/aO3qIoyqij",
-            "id": "1376901034711343109",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 166,
-                        "end": 189,
-                        "url": "https://t.co/aO3qIoyqij",
-                        "expanded_url": "https://sanfrancisco.cbslocal.com/2021/03/30/covid-19-seasonal-allergy-symptoms-couples-trying-to-have-babies-experience-high-anxiety/?utm_campaign=snd-autopilot",
-                        "display_url": "sanfrancisco.cbslocal.com/2021/03/30/cov…"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T14:16:02.000Z",
-            "conversation_id": "1376901034711343109",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "author_id": "16657699"
-        },
-        {
-            "text": "There are a lot of heavy hearts in the Asian American community right now, but artists are using their talents to send the message of healing and solidarity. https://t.co/UF89u4NAis",
-            "id": "1376889963866914821",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 158,
-                        "end": 181,
-                        "url": "https://t.co/UF89u4NAis",
-                        "expanded_url": "https://sanfrancisco.cbslocal.com/2021/03/30/artist-gives-hope-to-beleaguered-asian-american-community-with-hearts-across-san-francisco/?utm_campaign=snd-autopilot",
-                        "display_url": "sanfrancisco.cbslocal.com/2021/03/30/art…"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T13:32:03.000Z",
-            "conversation_id": "1376889963866914821",
-            "public_metrics": {
-                "retweet_count": 3,
-                "reply_count": 1,
-                "like_count": 6,
-                "quote_count": 0
-            },
-            "author_id": "16657699"
-        },
-        {
-            "entities": {
-                "hashtags": [
-                    {
-                        "start": 151,
-                        "end": 156,
-                        "tag": "KPIX"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 187,
-                        "end": 210,
-                        "url": "https://t.co/GTqpAzdu4D",
-                        "expanded_url": "http://kpix.com/live",
-                        "display_url": "kpix.com/live"
-                    },
-                    {
-                        "start": 211,
-                        "end": 234,
-                        "url": "https://t.co/wFDWXP5euV",
-                        "expanded_url": "https://twitter.com/KPIXtv/status/1376881926326394881/photo/1",
-                        "display_url": "pic.twitter.com/wFDWXP5euV"
-                    }
-                ]
-            },
-            "text": "TOGETHER AGAIN\nMany are reuniting with their loved ones after much time apart due to the pandemic.\nWe want to see your reunions!\nTag your photos using #KPIX, you may see them on TV ! 📺! \nhttps://t.co/GTqpAzdu4D https://t.co/wFDWXP5euV",
-            "id": "1376881926326394881",
-            "possibly_sensitive": false,
-            "attachments": {
-                "media_keys": [
-                    "3_1376881910639640576"
-                ]
-            },
-            "created_at": "2021-03-30T13:00:07.000Z",
-            "conversation_id": "1376881926326394881",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "author_id": "16657699"
-        },
-        {
-            "text": "The Santa Cruz Beach Boardwalk is set to reopen select rides starting Thursday, April 1, the same day amusement parks in California are allowed to resume operations with limited capacity. https://t.co/dJoyRGiZg1",
-            "id": "1376864544283365378",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 188,
-                        "end": 211,
-                        "url": "https://t.co/dJoyRGiZg1",
-                        "expanded_url": "https://sanfrancisco.cbslocal.com/2021/03/29/covid-reopening-santa-cruz-beach-boardwalk-rides-to-open-april-1/?utm_campaign=snd-autopilot",
-                        "display_url": "sanfrancisco.cbslocal.com/2021/03/29/cov…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 4,
-                        "end": 29,
-                        "probability": 0.6998,
-                        "type": "Place",
-                        "normalized_text": "Santa Cruz Beach Boardwalk"
-                    },
-                    {
-                        "start": 121,
-                        "end": 130,
-                        "probability": 0.9979,
-                        "type": "Place",
-                        "normalized_text": "California"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T11:51:02.000Z",
-            "conversation_id": "1376864544283365378",
-            "public_metrics": {
-                "retweet_count": 6,
-                "reply_count": 2,
-                "like_count": 13,
-                "quote_count": 1
-            },
-            "author_id": "16657699"
-        },
-        {
-            "text": "A man was sentenced to prison Monday for helping his brother try to flee to Mexico after the brother murdered Newman, Stanislaus County Police Corporal Ronil Singh in December 2018. https://t.co/4fympvOkWc",
-            "id": "1376856494520549376",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 182,
-                        "end": 205,
-                        "url": "https://t.co/4fympvOkWc",
-                        "expanded_url": "https://sanfrancisco.cbslocal.com/2021/03/29/mexican-national-sentenced-for-harboring-brother-who-murdered-norcal-police-officer-ronil-singh/?utm_campaign=snd-autopilot",
-                        "display_url": "sanfrancisco.cbslocal.com/2021/03/29/mex…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 76,
-                        "end": 81,
-                        "probability": 0.9969,
-                        "type": "Place",
-                        "normalized_text": "Mexico"
-                    },
-                    {
-                        "start": 110,
-                        "end": 115,
-                        "probability": 0.5898,
-                        "type": "Person",
-                        "normalized_text": "Newman"
-                    },
-                    {
-                        "start": 118,
-                        "end": 134,
-                        "probability": 0.3079,
-                        "type": "Place",
-                        "normalized_text": "Stanislaus County"
-                    },
-                    {
-                        "start": 143,
-                        "end": 162,
-                        "probability": 0.3863,
-                        "type": "Person",
-                        "normalized_text": "Corporal Ronil Singh"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T11:19:03.000Z",
-            "conversation_id": "1376856494520549376",
-            "public_metrics": {
-                "retweet_count": 2,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "author_id": "16657699"
-        }
-    ],
-    [
-        {
-            "author_id": "15652540",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 222,
-                        "end": 245,
-                        "url": "https://t.co/FOfQVuuQSO",
-                        "expanded_url": "https://www.ktvu.com/news/congresswoman-barbara-lee-says-us-must-do-better-to-help-migrant-children-at-southern-border?taid=60635471a0a3570001aca72e&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
-                        "display_url": "ktvu.com/news/congressw…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 2,
-                        "probability": 0.8394,
-                        "type": "Person",
-                        "normalized_text": "Lee"
-                    },
-                    {
-                        "start": 21,
-                        "end": 25,
-                        "probability": 0.9933,
-                        "type": "Place",
-                        "normalized_text": "Texas"
-                    },
-                    {
-                        "start": 116,
-                        "end": 137,
-                        "probability": 0.293,
-                        "type": "Place",
-                        "normalized_text": "Carrizo Springs Office"
-                    },
-                    {
-                        "start": 171,
-                        "end": 217,
-                        "probability": 0.49,
-                        "type": "Place",
-                        "normalized_text": "El Paso Border Patrol Central Processing Center"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376937333317120008",
-            "public_metrics": {
-                "retweet_count": 2,
-                "reply_count": 2,
-                "like_count": 4,
-                "quote_count": 1
-            },
-            "created_at": "2021-03-30T16:40:17.000Z",
-            "conversation_id": "1376937333317120008",
-            "text": "Lee made the trip to Texas as part of a congressional delegation that toured at least two facilities, including the Carrizo Springs Office of Refugee Resettlement and the El Paso Border Patrol Central Processing Center.​  https://t.co/FOfQVuuQSO"
-        },
-        {
-            "author_id": "15652540",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 129,
-                        "end": 152,
-                        "url": "https://t.co/A5EEp7251n",
-                        "expanded_url": "https://www.ktvu.com/news/two-recent-in-custody-deaths-put-spotlight-on-antioch-police-as-city-pushes-reforms?taid=60634fbbc8c94b0001854df0&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
-                        "display_url": "ktvu.com/news/two-recen…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 18,
-                        "end": 24,
-                        "probability": 0.9657,
-                        "type": "Place",
-                        "normalized_text": "Antioch"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376932275061993478",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 1,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "created_at": "2021-03-30T16:20:11.000Z",
-            "conversation_id": "1376932275061993478",
-            "text": "Reform efforts in Antioch are in the spotlight after two recent in-custody deaths of people experiencing mental health crises.​  https://t.co/A5EEp7251n"
-        },
-        {
-            "author_id": "15652540",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 164,
-                        "end": 187,
-                        "url": "https://t.co/8FQr59KePz",
-                        "expanded_url": "http://bit.ly/3u59NHw",
-                        "display_url": "bit.ly/3u59NHw"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 4,
-                        "probability": 0.6671,
-                        "type": "Organization",
-                        "normalized_text": "K-pop"
-                    },
-                    {
-                        "start": 17,
-                        "end": 19,
-                        "probability": 0.8852,
-                        "type": "Organization",
-                        "normalized_text": "BTS"
-                    },
-                    {
-                        "start": 139,
-                        "end": 141,
-                        "probability": 0.7384,
-                        "type": "Organization",
-                        "normalized_text": "BTS"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376931027663298565",
-            "public_metrics": {
-                "retweet_count": 4,
-                "reply_count": 0,
-                "like_count": 15,
-                "quote_count": 0
-            },
-            "created_at": "2021-03-30T16:15:13.000Z",
-            "conversation_id": "1376931027663298565",
-            "text": "K-pop superstars BTS condemned racism against the AAPI community, as they shared their own painful experiences. \"We feel grief and anger,\" BTS said in a statement. https://t.co/8FQr59KePz"
-        },
-        {
-            "author_id": "15652540",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 220,
-                        "end": 243,
-                        "url": "https://t.co/t6mk5h4i8c",
-                        "expanded_url": "https://www.ktvu.com/video/916341?taid=60634c3011410f0001a7a4d4&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
-                        "display_url": "ktvu.com/video/916341?t…"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 0,
-                        "end": 6,
-                        "tag": "RECAP"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 22,
-                        "end": 32,
-                        "probability": 0.9203,
-                        "type": "Person",
-                        "normalized_text": "Barbara Lee"
-                    },
-                    {
-                        "start": 110,
-                        "end": 114,
-                        "probability": 0.9986,
-                        "type": "Place",
-                        "normalized_text": "Texas"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376928522653032453",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 1,
-                "like_count": 5,
-                "quote_count": 0
-            },
-            "created_at": "2021-03-30T16:05:16.000Z",
-            "conversation_id": "1376928522653032453",
-            "text": "#RECAP: Congresswoman Barbara Lee joined Mornings on 2 to talk about her recent visit to border facilities in Texas and what the federal government is doing to reunite unaccompanied migrant children with their families. https://t.co/t6mk5h4i8c"
-        },
-        {
-            "author_id": "15652540",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 213,
-                        "end": 236,
-                        "url": "https://t.co/BaYX6D4met",
-                        "expanded_url": "https://www.ktvu.com/news/california-parents-of-5-killed-when-175-foot-redwood-tree-crashes-on-car?taid=60634b169e71f30001ce18fc&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
-                        "display_url": "ktvu.com/news/californi…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 6,
-                        "probability": 0.9821,
-                        "type": "Person",
-                        "normalized_text": "Jessica"
-                    },
-                    {
-                        "start": 12,
-                        "end": 24,
-                        "probability": 0.9976,
-                        "type": "Person",
-                        "normalized_text": "Jake Woodruff"
-                    },
-                    {
-                        "start": 30,
-                        "end": 34,
-                        "probability": 0.4848,
-                        "type": "Place",
-                        "normalized_text": "Yreka"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376927288844029956",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 4,
-                "like_count": 3,
-                "quote_count": 1
-            },
-            "created_at": "2021-03-30T16:00:22.000Z",
-            "conversation_id": "1376927288844029956",
-            "text": "Jessica and Jake Woodruff, of Yreka, were traveling up the coast during an annual trip to celebrate her 45th birthday when the massive tree fell directly on their 2016 Honda, a fundraiser for the family stated.​  https://t.co/BaYX6D4met"
-        },
-        {
-            "author_id": "15652540",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 143,
-                        "end": 166,
-                        "url": "https://t.co/w91NW3EnCl",
-                        "expanded_url": "https://www.ktvu.com/news/asian-woman-thrown-to-the-ground-repeatedly-stomped-on-while-building-workers-watched?taid=606346689e71f30001ce18dc&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
-                        "display_url": "ktvu.com/news/asian-wom…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 135,
-                        "end": 138,
-                        "probability": 0.5686,
-                        "type": "Organization",
-                        "normalized_text": "NYPD"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376922266982875136",
-            "public_metrics": {
-                "retweet_count": 15,
-                "reply_count": 25,
-                "like_count": 33,
-                "quote_count": 5
-            },
-            "created_at": "2021-03-30T15:40:25.000Z",
-            "conversation_id": "1376922266982875136",
-            "text": "A 65-year-old Asian woman was kicked in the stomach and repeatedly stomped on as building workers in Hell's Kitchen stood by, said the NYPD.​  https://t.co/w91NW3EnCl"
-        },
-        {
-            "author_id": "15652540",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 160,
-                        "end": 183,
-                        "url": "https://t.co/i9We6Y0xBz",
-                        "expanded_url": "https://www.ktvu.com/news/alameda-county-excited-to-proceed-with-caution-into-orange-tier?taid=606341a7a0a3570001aca685&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
-                        "display_url": "ktvu.com/news/alameda-c…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 65,
-                        "end": 78,
-                        "probability": 0.7115,
-                        "type": "Place",
-                        "normalized_text": "Alameda County"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376917162242281472",
-            "public_metrics": {
-                "retweet_count": 5,
-                "reply_count": 2,
-                "like_count": 18,
-                "quote_count": 1
-            },
-            "created_at": "2021-03-30T15:20:08.000Z",
-            "conversation_id": "1376917162242281472",
-            "text": "The anticipation of moving into the orange tier Tuesday had many Alameda County businesses preparing for reopening or expanding their capacity for customers.​  https://t.co/i9We6Y0xBz"
-        },
-        {
-            "author_id": "15652540",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 184,
-                        "end": 207,
-                        "url": "https://t.co/zpEmUUKnkt",
-                        "expanded_url": "https://www.ktvu.com/news/us-departments-urged-to-become-year-round-wildfire-agencies?taid=60633cf9a0a3570001aca659&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
-                        "display_url": "ktvu.com/news/us-depart…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 134,
-                        "end": 144,
-                        "probability": 0.6976,
-                        "type": "Person",
-                        "normalized_text": "Tom Vilsack"
-                    },
-                    {
-                        "start": 169,
-                        "end": 179,
-                        "probability": 0.6649,
-                        "type": "Person",
-                        "normalized_text": "Deb Haaland"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376912134517428225",
-            "public_metrics": {
-                "retweet_count": 4,
-                "reply_count": 1,
-                "like_count": 9,
-                "quote_count": 0
-            },
-            "created_at": "2021-03-30T15:00:09.000Z",
-            "conversation_id": "1376912134517428225",
-            "text": "The move would require reclassifying more seasonal federal firefighter positions as permanent, said a letter to Agriculture Secretary Tom Vilsack and Interior Secretary Deb Haaland.​  https://t.co/zpEmUUKnkt"
-        },
-        {
-            "author_id": "15652540",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 119,
-                        "end": 142,
-                        "url": "https://t.co/tYG6kiqpLg",
-                        "expanded_url": "https://www.ktvu.com/news/single-father-of-four-struggling-to-recover-after-fire-destroys-vallejo-home?taid=60633847c8c94b0001854d72&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
-                        "display_url": "ktvu.com/news/single-fa…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 10,
-                        "probability": 0.993,
-                        "type": "Person",
-                        "normalized_text": "Troy Gaskin"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376907094562115587",
-            "public_metrics": {
-                "retweet_count": 5,
-                "reply_count": 1,
-                "like_count": 6,
-                "quote_count": 0
-            },
-            "created_at": "2021-03-30T14:40:07.000Z",
-            "conversation_id": "1376907094562115587",
-            "text": "Troy Gaskin and his four sons have been living at a motel ever since the fire ripped through their home 10 days ago.​  https://t.co/tYG6kiqpLg"
-        },
-        {
-            "author_id": "15652540",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 156,
-                        "end": 179,
-                        "url": "https://t.co/iIfGnYluS9",
-                        "expanded_url": "https://bit.ly/3cyIQpG",
-                        "display_url": "bit.ly/3cyIQpG",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376906531996852230/MWMZBzsG?format=jpg&name=orig",
-                                "width": 724,
-                                "height": 407
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376906531996852230/MWMZBzsG?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "Derek Chauvin trial live: Witness testimony continues",
-                        "description": "Witness testimony continues in the trial of Derek Chauvin, the former Minneapolis police officer charged in the death of George Floyd. The trial is streaming live at fox9.com/live.",
-                        "unwound_url": "https://www.ktvu.com/news/derek-chauvin-trial-witness-testimony"
-                    },
-                    {
-                        "start": 180,
-                        "end": 203,
-                        "url": "https://t.co/8q37GjZyf6",
-                        "expanded_url": "https://twitter.com/KTVU/status/1376906531225145350/photo/1",
-                        "display_url": "pic.twitter.com/8q37GjZyf6"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 65,
-                        "end": 77,
-                        "probability": 0.9959,
-                        "type": "Person",
-                        "normalized_text": "Derek Chauvin"
-                    },
-                    {
-                        "start": 91,
-                        "end": 101,
-                        "probability": 0.7831,
-                        "type": "Place",
-                        "normalized_text": "Minneapolis"
-                    },
-                    {
-                        "start": 142,
-                        "end": 153,
-                        "probability": 0.8788,
-                        "type": "Person",
-                        "normalized_text": "George Floyd"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376906531225145350",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 1,
-                "like_count": 8,
-                "quote_count": 0
-            },
-            "attachments": {
-                "media_keys": [
-                    "3_1376906527341166592"
-                ]
-            },
-            "created_at": "2021-03-30T14:37:53.000Z",
-            "conversation_id": "1376906531225145350",
-            "text": "HAPPENING NOW: Witness testimony continues today in the trial of Derek Chauvin, the former Minneapolis police officer charged in the death of George Floyd. https://t.co/iIfGnYluS9 https://t.co/8q37GjZyf6"
-        }
-    ],
-    [
-        {
-            "author_id": "19031057",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 3,
-                        "probability": 0.4601,
-                        "type": "Organization",
-                        "normalized_text": "Nike"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 43,
-                        "end": 66,
-                        "url": "https://t.co/M65gHZFG63",
-                        "expanded_url": "https://www.kron4.com/features/tech-trends/rob-blacks-winners-losers-nike-sues-satan-shoes/",
-                        "display_url": "kron4.com/features/tech-…"
-                    }
-                ]
-            },
-            "conversation_id": "1376941837047398403",
-            "created_at": "2021-03-30T16:58:10.000Z",
-            "id": "1376941837047398403",
-            "possibly_sensitive": false,
-            "text": "Nike is not happy about the \"Satan shoes.\" https://t.co/M65gHZFG63",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 1,
-                "like_count": 1,
-                "quote_count": 0
-            }
-        },
-        {
-            "author_id": "19031057",
-            "conversation_id": "1376938153479602184",
-            "created_at": "2021-03-30T16:43:32.000Z",
-            "id": "1376938153479602184",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 97,
-                        "end": 120,
-                        "url": "https://t.co/Jzt1Yx4hCm",
-                        "expanded_url": "https://www.kron4.com/news/national/stimulus-checks-how-to-claim-past-payments-that-never-came/",
-                        "display_url": "kron4.com/news/national/…"
-                    }
-                ]
-            },
-            "text": "Never got your first two stimulus checks, even though you're eligible? Here's how to claim them: https://t.co/Jzt1Yx4hCm",
-            "public_metrics": {
-                "retweet_count": 2,
-                "reply_count": 1,
-                "like_count": 5,
-                "quote_count": 1
-            }
-        },
-        {
-            "author_id": "19031057",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 64,
-                        "end": 71,
-                        "probability": 0.5897,
-                        "type": "Place",
-                        "normalized_text": "Bay Area"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 86,
-                        "end": 109,
-                        "url": "https://t.co/igefx14DTm",
-                        "expanded_url": "https://www.kron4.com/news/bay-area/target-to-close-2-bay-area-locations/",
-                        "display_url": "kron4.com/news/bay-area/…",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376930896893206529/6RStcqHY?format=jpg&name=orig",
-                                "width": 594,
-                                "height": 396
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376930896893206529/6RStcqHY?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "Target to close 2 Bay Area locations",
-                        "description": "Target is closing two of its stores in the Bay Area this summer.",
-                        "unwound_url": "https://www.kron4.com/news/bay-area/target-to-close-2-bay-area-locations/"
-                    }
-                ]
-            },
-            "conversation_id": "1376930894938710018",
-            "created_at": "2021-03-30T16:14:42.000Z",
-            "id": "1376930894938710018",
-            "possibly_sensitive": false,
-            "text": "STORE CLOSING: Target is shuttering two of its locations in the Bay Area this summer. https://t.co/igefx14DTm",
-            "public_metrics": {
-                "retweet_count": 6,
-                "reply_count": 6,
-                "like_count": 24,
-                "quote_count": 2
-            }
-        },
-        {
-            "author_id": "19031057",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 11,
-                        "end": 16,
-                        "probability": 0.6714,
-                        "type": "Organization",
-                        "normalized_text": "SpaceX"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 67,
-                        "end": 90,
-                        "url": "https://t.co/mCaPdYovbz",
-                        "expanded_url": "https://www.kron4.com/news/national/spacex-test-rocket-explodes-in-dense-fog-just-before-landing/",
-                        "display_url": "kron4.com/news/national/…"
-                    }
-                ]
-            },
-            "conversation_id": "1376924151487717376",
-            "created_at": "2021-03-30T15:47:54.000Z",
-            "id": "1376924151487717376",
-            "possibly_sensitive": false,
-            "text": "WATCH: The SpaceX test rocket  broke apart right before touchdown. https://t.co/mCaPdYovbz",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 0,
-                "like_count": 9,
-                "quote_count": 0
-            }
-        },
-        {
-            "author_id": "19031057",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 6,
-                        "probability": 0.5107,
-                        "type": "Place",
-                        "normalized_text": "Oakland"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 93,
-                        "end": 116,
-                        "url": "https://t.co/Gb6vdnHiQS",
-                        "expanded_url": "https://www.kron4.com/news/bay-area/oakland-students-have-their-first-day-back-in-class-after-1-year-of-closure/",
-                        "display_url": "kron4.com/news/bay-area/…"
-                    }
-                ]
-            },
-            "conversation_id": "1376921659479711752",
-            "created_at": "2021-03-30T15:38:00.000Z",
-            "id": "1376921659479711752",
-            "possibly_sensitive": false,
-            "text": "Oakland students are finally returning to classrooms, starting with the youngest on Tuesday. https://t.co/Gb6vdnHiQS",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 6,
-                "quote_count": 0
-            }
-        },
-        {
-            "author_id": "19031057",
-            "conversation_id": "1376916394768363527",
-            "created_at": "2021-03-30T15:17:05.000Z",
-            "id": "1376916394768363527",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 16,
-                        "end": 39,
-                        "url": "https://t.co/49vGZsyBzM",
-                        "expanded_url": "https://www.kron4.com/news/national/passenger-car-traffic-rebounding-to-pre-pandemic-levels/",
-                        "display_url": "kron4.com/news/national/…"
-                    }
-                ]
-            },
-            "text": "Hello traffic 😅 https://t.co/49vGZsyBzM",
-            "public_metrics": {
-                "retweet_count": 3,
-                "reply_count": 0,
-                "like_count": 5,
-                "quote_count": 3
-            }
-        },
-        {
-            "author_id": "19031057",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 37,
-                        "end": 49,
-                        "probability": 0.9909,
-                        "type": "Person",
-                        "normalized_text": "Derek Chauvin"
-                    },
-                    {
-                        "start": 86,
-                        "end": 97,
-                        "probability": 0.9842,
-                        "type": "Person",
-                        "normalized_text": "George Floyd"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 100,
-                        "end": 123,
-                        "url": "https://t.co/v5jmYeAV87",
-                        "expanded_url": "https://www.kron4.com/news/national/live-day-2-of-ex-officer-derek-chauvins-murder-trial/",
-                        "display_url": "kron4.com/news/national/…"
-                    }
-                ]
-            },
-            "conversation_id": "1376908052469743616",
-            "created_at": "2021-03-30T14:43:56.000Z",
-            "id": "1376908052469743616",
-            "possibly_sensitive": false,
-            "text": "WATCH LIVE: It's day 2 of ex-officer Derek Chauvin's trial, facing charges of killing George Floyd. https://t.co/v5jmYeAV87",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 3,
-                "quote_count": 0
-            }
-        },
-        {
-            "author_id": "19031057",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 87,
-                        "end": 94,
-                        "probability": 0.8307,
-                        "type": "Place",
-                        "normalized_text": "Bay Area"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 97,
-                        "end": 120,
-                        "url": "https://t.co/PRPLi85pQ7",
-                        "expanded_url": "https://www.kron4.com/news/bay-area/bay-area-construction-workers-find-2-people-living-in-cave/",
-                        "display_url": "kron4.com/news/bay-area/…"
-                    }
-                ]
-            },
-            "conversation_id": "1376903944237056001",
-            "created_at": "2021-03-30T14:27:36.000Z",
-            "id": "1376903944237056001",
-            "possibly_sensitive": false,
-            "text": "\"FIRST TIME I'VE SEEN ANYTHING LIKE THIS\": 2 people were found living in a cave in the Bay Area. https://t.co/PRPLi85pQ7",
-            "public_metrics": {
-                "retweet_count": 6,
-                "reply_count": 4,
-                "like_count": 17,
-                "quote_count": 0
-            }
-        },
-        {
-            "author_id": "19031057",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 50,
-                        "end": 58,
-                        "probability": 0.5805,
-                        "type": "Place",
-                        "normalized_text": "Vacaville"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 170,
-                        "end": 193,
-                        "url": "https://t.co/akSVgodB34",
-                        "expanded_url": "https://www.kron4.com/news/bay-area/single-mom-loses-home-after-policy-change-suddenly-froze-unemployment-benefits/",
-                        "display_url": "kron4.com/news/bay-area/…"
-                    }
-                ]
-            },
-            "conversation_id": "1376900772458287108",
-            "created_at": "2021-03-30T14:15:00.000Z",
-            "id": "1376900772458287108",
-            "possibly_sensitive": false,
-            "text": "A single mom lost her home and is now living in a Vacaville garage - all because a policy change froze her unemployment benefits even after she followed the right steps. https://t.co/akSVgodB34",
-            "public_metrics": {
-                "retweet_count": 3,
-                "reply_count": 0,
-                "like_count": 7,
-                "quote_count": 0
-            }
-        },
-        {
-            "author_id": "19031057",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 15,
-                        "end": 40,
-                        "probability": 0.3021,
-                        "type": "Other",
-                        "normalized_text": "Six Flags Hurricane Harbor"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 102,
-                        "end": 125,
-                        "url": "https://t.co/5jRqhvb5P0",
-                        "expanded_url": "https://www.kron4.com/news/bay-area/get-covid-19-vaccine-at-six-flags-hurricane-harbor/",
-                        "display_url": "kron4.com/news/bay-area/…"
-                    }
-                ]
-            },
-            "conversation_id": "1376894480456949760",
-            "created_at": "2021-03-30T13:50:00.000Z",
-            "id": "1376894480456949760",
-            "possibly_sensitive": false,
-            "text": "NEW VAX SITE:  Six Flags Hurricane Harbor is now a drive-thru COVID-19 vaccination site. How to book: https://t.co/5jRqhvb5P0",
-            "public_metrics": {
-                "retweet_count": 2,
-                "reply_count": 0,
-                "like_count": 4,
-                "quote_count": 0
-            }
-        }
-    ],
-    [
-        {
-            "author_id": "121597316",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 110,
-                        "end": 133,
-                        "url": "https://t.co/OPMKfUtKrK",
-                        "expanded_url": "https://trib.al/MMXtvEl",
-                        "display_url": "trib.al/MMXtvEl"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 13,
-                        "end": 23,
-                        "probability": 0.7737,
-                        "type": "Place",
-                        "normalized_text": "Napa County"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376938303346388993",
-            "public_metrics": {
-                "retweet_count": 2,
-                "reply_count": 0,
-                "like_count": 5,
-                "quote_count": 0
-            },
-            "created_at": "2021-03-30T16:44:08.000Z",
-            "conversation_id": "1376938303346388993",
-            "text": "In a twist — Napa County might not advance to the second least restrictive tier because of rising case rates. https://t.co/OPMKfUtKrK"
-        },
-        {
-            "author_id": "121597316",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 242,
-                        "end": 265,
-                        "url": "https://t.co/Z5ZU2KhLb8",
-                        "expanded_url": "https://trib.al/1sbhSD2",
-                        "display_url": "trib.al/1sbhSD2"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 175,
-                        "end": 189,
-                        "probability": 0.9617,
-                        "type": "Person",
-                        "normalized_text": "President Biden"
-                    }
-                ],
-                "mentions": [
-                    {
-                        "start": 99,
-                        "end": 108,
-                        "username": "RyanKost"
-                    },
-                    {
-                        "start": 133,
-                        "end": 144,
-                        "username": "erinallday"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376933958659796994",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 4,
-                "quote_count": 0
-            },
-            "created_at": "2021-03-30T16:26:52.000Z",
-            "conversation_id": "1376933958659796994",
-            "text": "Your friends and family are all getting their shots and you’re still waiting. What’s up with that? @RyanKost on vaccine FOMO.\n\nPlus: @ErinAllday on fears of a fourth surge as President Biden begs states to continue mask mandates. \n\nListen 🎧:\nhttps://t.co/Z5ZU2KhLb8"
-        },
-        {
-            "referenced_tweets": [
-                {
-                    "type": "quoted",
-                    "id": "1376932475658665985"
-                }
-            ],
-            "author_id": "121597316",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 88,
-                        "end": 111,
-                        "url": "https://t.co/Oy9awvK8Yo",
-                        "expanded_url": "https://twitter.com/sfc_opinions/status/1376932475658665985",
-                        "display_url": "twitter.com/sfc_opinions/s…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 11,
-                        "end": 20,
-                        "probability": 0.979,
-                        "type": "Place",
-                        "normalized_text": "California"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376932548681506819",
-            "public_metrics": {
-                "retweet_count": 3,
-                "reply_count": 3,
-                "like_count": 10,
-                "quote_count": 0
-            },
-            "created_at": "2021-03-30T16:21:16.000Z",
-            "conversation_id": "1376932548681506819",
-            "text": "Editorial: California should take precautions now to avoid a resurgence of the pandemic https://t.co/Oy9awvK8Yo"
-        },
-        {
-            "author_id": "121597316",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 64,
-                        "end": 87,
-                        "url": "https://t.co/VssIv6tGeY",
-                        "expanded_url": "https://trib.al/Ou3lFIJ",
-                        "display_url": "trib.al/Ou3lFIJ"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 10,
-                        "probability": 0.7929,
-                        "type": "Place",
-                        "normalized_text": "Napa County"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376932457157648391",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 2,
-                "quote_count": 1
-            },
-            "created_at": "2021-03-30T16:20:54.000Z",
-            "conversation_id": "1376932457157648391",
-            "text": "Napa County might not advance to the orange tier. \n\nHere's why:\nhttps://t.co/VssIv6tGeY"
-        },
-        {
-            "author_id": "121597316",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 157,
-                        "end": 180,
-                        "url": "https://t.co/aB45FL15sl",
-                        "expanded_url": "https://trib.al/zcgH2HR",
-                        "display_url": "trib.al/zcgH2HR"
-                    },
-                    {
-                        "start": 248,
-                        "end": 271,
-                        "url": "https://t.co/gGfcZYoiBd",
-                        "expanded_url": "https://trib.al/ogdGRio",
-                        "display_url": "trib.al/ogdGRio"
-                    },
-                    {
-                        "start": 272,
-                        "end": 295,
-                        "url": "https://t.co/tqVaVB3nZY",
-                        "expanded_url": "https://twitter.com/sfchronicle/status/1376930783122894853/photo/1",
-                        "display_url": "pic.twitter.com/tqVaVB3nZY"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 27,
-                        "end": 36,
-                        "probability": 0.9953,
-                        "type": "Place",
-                        "normalized_text": "California"
-                    },
-                    {
-                        "start": 188,
-                        "end": 191,
-                        "probability": 0.7505,
-                        "type": "Place",
-                        "normalized_text": "U.S."
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376930783122894853",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 3,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "attachments": {
-                "media_keys": [
-                    "3_1376930780887330820"
-                ]
-            },
-            "created_at": "2021-03-30T16:14:15.000Z",
-            "conversation_id": "1376930783122894853",
-            "text": "Total cases\n• 3,638,480 in California, including 58,482 deaths\n• 421,276 in the Bay Area, including 5,878 deaths.\nCheck The Chronicle’s Coronavirus Tracker (https://t.co/aB45FL15sl) for a U.S. map and state by state case count and tally of deaths.\nhttps://t.co/gGfcZYoiBd https://t.co/tqVaVB3nZY"
-        },
-        {
-            "author_id": "121597316",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 211,
-                        "end": 234,
-                        "url": "https://t.co/90Sth1osIn",
-                        "expanded_url": "https://link.chtbl.com/KZd_G9Sm",
-                        "display_url": "link.chtbl.com/KZd_G9Sm"
-                    },
-                    {
-                        "start": 235,
-                        "end": 258,
-                        "url": "https://t.co/lSy0UjRZ6m",
-                        "expanded_url": "https://twitter.com/sfchronicle/status/1376929266269519874/video/1",
-                        "display_url": "pic.twitter.com/lSy0UjRZ6m"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 188,
-                        "end": 199,
-                        "tag": "TheDoodler"
-                    }
-                ],
-                "mentions": [
-                    {
-                        "start": 149,
-                        "end": 160,
-                        "username": "KevinChron"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376929266269519874",
-            "public_metrics": {
-                "retweet_count": 6,
-                "reply_count": 0,
-                "like_count": 3,
-                "quote_count": 0
-            },
-            "attachments": {
-                "media_keys": [
-                    "7_1376929047662366728"
-                ]
-            },
-            "created_at": "2021-03-30T16:08:13.000Z",
-            "conversation_id": "1376929266269519874",
-            "text": "In May of 1975 The Doodler killed again. \n\nWhile the characteristics of the murder were similar to the others, one thing was quite different. \n\nJoin @KevinChron, on a brand new episode of #TheDoodler out now: \n\nhttps://t.co/90Sth1osIn https://t.co/lSy0UjRZ6m"
-        },
-        {
-            "author_id": "121597316",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 206,
-                        "end": 229,
-                        "url": "https://t.co/2tV56Klkh0",
-                        "expanded_url": "https://trib.al/seUKonT",
-                        "display_url": "trib.al/seUKonT"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 25,
-                        "end": 34,
-                        "probability": 0.9987,
-                        "type": "Place",
-                        "normalized_text": "California"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376927803086626822",
-            "public_metrics": {
-                "retweet_count": 10,
-                "reply_count": 0,
-                "like_count": 22,
-                "quote_count": 2
-            },
-            "created_at": "2021-03-30T16:02:24.000Z",
-            "conversation_id": "1376927803086626822",
-            "text": "Everyone 16 and older in California will be eligible to get the coronavirus vaccine starting April 15. \n\nTo help you prepare, here are ways you can find or schedule an appointment when you become eligible: https://t.co/2tV56Klkh0"
-        },
-        {
-            "author_id": "121597316",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 223,
-                        "end": 246,
-                        "url": "https://t.co/AHtGv6nFzv",
-                        "expanded_url": "https://trib.al/wlKyNzq",
-                        "display_url": "trib.al/wlKyNzq"
-                    },
-                    {
-                        "start": 247,
-                        "end": 270,
-                        "url": "https://t.co/ebTicB5t8Y",
-                        "expanded_url": "https://twitter.com/sfchronicle/status/1376927653782036484/photo/1",
-                        "display_url": "pic.twitter.com/ebTicB5t8Y"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 48,
-                        "end": 58,
-                        "probability": 0.7974,
-                        "type": "Place",
-                        "normalized_text": "Minneapolis"
-                    },
-                    {
-                        "start": 86,
-                        "end": 97,
-                        "probability": 0.991,
-                        "type": "Person",
-                        "normalized_text": "George Floyd"
-                    },
-                    {
-                        "start": 167,
-                        "end": 171,
-                        "probability": 0.7004,
-                        "type": "Person",
-                        "normalized_text": "Floyd"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376927653782036484",
-            "public_metrics": {
-                "retweet_count": 4,
-                "reply_count": 0,
-                "like_count": 11,
-                "quote_count": 0
-            },
-            "attachments": {
-                "media_keys": [
-                    "3_1376927651517116418"
-                ]
-            },
-            "created_at": "2021-03-30T16:01:49.000Z",
-            "conversation_id": "1376927653782036484",
-            "text": "A man who was among the onlookers shouting at a Minneapolis police officer to get off George Floyd last May testified Tuesday that he called 911 after paramedics took Floyd away, “because I believed I witnessed a murder.\"  https://t.co/AHtGv6nFzv https://t.co/ebTicB5t8Y"
-        },
-        {
-            "author_id": "121597316",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 210,
-                        "end": 233,
-                        "url": "https://t.co/cAI66ZowMR",
-                        "expanded_url": "https://trib.al/VuURX80",
-                        "display_url": "trib.al/VuURX80"
-                    },
-                    {
-                        "start": 234,
-                        "end": 257,
-                        "url": "https://t.co/vFBWDe74UQ",
-                        "expanded_url": "https://twitter.com/sfchronicle/status/1376923445494218755/photo/1",
-                        "display_url": "pic.twitter.com/vFBWDe74UQ"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 30,
-                        "end": 62,
-                        "probability": 0.6049,
-                        "type": "Organization",
-                        "normalized_text": "American Journal of Public Health"
-                    },
-                    {
-                        "start": 134,
-                        "end": 140,
-                        "probability": 0.9937,
-                        "type": "Place",
-                        "normalized_text": "Florida"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376923445494218755",
-            "public_metrics": {
-                "retweet_count": 8,
-                "reply_count": 1,
-                "like_count": 7,
-                "quote_count": 1
-            },
-            "attachments": {
-                "media_keys": [
-                    "3_1376923443468308484"
-                ]
-            },
-            "created_at": "2021-03-30T15:45:06.000Z",
-            "conversation_id": "1376923445494218755",
-            "text": "New research published in the American Journal of Public Health suggests that the number of people who actually died from COVID-19 in Florida was “significantly greater” than what the state has been reporting.\nhttps://t.co/cAI66ZowMR https://t.co/vFBWDe74UQ"
-        },
-        {
-            "author_id": "121597316",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 204,
-                        "end": 227,
-                        "url": "https://t.co/UL2u3BWtdz",
-                        "expanded_url": "https://trib.al/RJjT28e",
-                        "display_url": "trib.al/RJjT28e"
-                    },
-                    {
-                        "start": 228,
-                        "end": 251,
-                        "url": "https://t.co/gwPFPc0xXd",
-                        "expanded_url": "https://twitter.com/sfchronicle/status/1376921945330028546/photo/1",
-                        "display_url": "pic.twitter.com/gwPFPc0xXd"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 108,
-                        "end": 113,
-                        "probability": 0.9968,
-                        "type": "Place",
-                        "normalized_text": "Berlin"
-                    },
-                    {
-                        "start": 119,
-                        "end": 124,
-                        "probability": 0.974,
-                        "type": "Place",
-                        "normalized_text": "Munich"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376921945330028546",
             "public_metrics": {
                 "retweet_count": 2,
                 "reply_count": 0,
                 "like_count": 2,
                 "quote_count": 0
             },
-            "attachments": {
-                "media_keys": [
-                    "3_1376921943123886085"
-                ]
-            },
-            "created_at": "2021-03-30T15:39:08.000Z",
-            "conversation_id": "1376921945330028546",
-            "text": "New reports of blood clots in people who received the AstraZeneca coronavirus vaccine prompted officials in Berlin and Munich to again suspend use of the company’s vaccine, The Associated Press reported.\nhttps://t.co/UL2u3BWtdz https://t.co/gwPFPc0xXd"
-        }
-    ],
-    [
-        {
-            "text": "GOP lawmakers take aim at Arizona renewable energy standards https://t.co/jzNcxVupv4",
-            "id": "1376936524470624257",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 61,
-                        "end": 84,
-                        "url": "https://t.co/jzNcxVupv4",
-                        "expanded_url": "http://dlvr.it/RwgnzS",
-                        "display_url": "dlvr.it/RwgnzS"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 2,
-                        "probability": 0.9009,
-                        "type": "Organization",
-                        "normalized_text": "GOP"
-                    },
-                    {
-                        "start": 26,
-                        "end": 32,
-                        "probability": 0.9842,
-                        "type": "Place",
-                        "normalized_text": "Arizona"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T16:37:04.000Z",
-            "conversation_id": "1376936524470624257",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 3,
-                "quote_count": 2
-            },
-            "author_id": "36511031"
+            "conversation_id": "1380287970016657415",
+            "author_id": "8962112",
+            "created_at": "2021-04-08T22:34:31.000Z",
+            "text": "Oakland tenants sue over alleged ‘atrocious’ living conditions https://t.co/1GNL0ryhkv",
+            "id": "1380287970016657415"
         },
         {
-            "text": "Court lets woman's defamation suit vs. Trump proceed again https://t.co/dcWKWvzeLF",
-            "id": "1376934886674591750",
-            "possibly_sensitive": false,
             "entities": {
                 "urls": [
                     {
-                        "start": 59,
-                        "end": 82,
-                        "url": "https://t.co/dcWKWvzeLF",
-                        "expanded_url": "http://dlvr.it/Rwgn2m",
-                        "display_url": "dlvr.it/Rwgn2m"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 39,
-                        "end": 43,
-                        "probability": 0.9979,
-                        "type": "Person",
-                        "normalized_text": "Trump"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T16:30:33.000Z",
-            "conversation_id": "1376934886674591750",
-            "public_metrics": {
-                "retweet_count": 4,
-                "reply_count": 0,
-                "like_count": 10,
-                "quote_count": 0
-            },
-            "author_id": "36511031"
-        },
-        {
-            "text": "The epicenter was 61 miles southwest of Eureka. https://t.co/N9MUce8EoY",
-            "id": "1376934883419779073",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 48,
-                        "end": 71,
-                        "url": "https://t.co/N9MUce8EoY",
-                        "expanded_url": "http://dlvr.it/Rwgmyw",
-                        "display_url": "dlvr.it/Rwgmyw",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376934899370708993/1VlS6rYV?format=jpg&name=orig",
-                                "width": 1163,
-                                "height": 659
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376934899370708993/1VlS6rYV?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "Magnitude 4.7 earthquake strikes off California coast Tuesday",
-                        "description": "The epicenter was 61 miles southwest of Eureka.",
-                        "unwound_url": "https://www.sfgate.com/bayarea/article/Humboldt-County-earthquake-California-16063824.php?utm_source=dlvr.it&utm_medium=twitter"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T16:30:33.000Z",
-            "conversation_id": "1376934883419779073",
-            "public_metrics": {
-                "retweet_count": 5,
-                "reply_count": 1,
-                "like_count": 6,
-                "quote_count": 0
-            },
-            "author_id": "36511031"
-        },
-        {
-            "text": "So we put out a call to talk to Bay Area folks dealing with debt.  It’s a sensitive subject, and we wanted to treat it with care. \n\nWe spoke at length with eight people about their experiences: \nhttps://t.co/SQEvmLFe8j",
-            "id": "1376934448168542213",
-            "possibly_sensitive": false,
-            "referenced_tweets": [
-                {
-                    "type": "replied_to",
-                    "id": "1376934447015059457"
-                }
-            ],
-            "entities": {
-                "urls": [
-                    {
-                        "start": 195,
-                        "end": 218,
-                        "url": "https://t.co/SQEvmLFe8j",
-                        "expanded_url": "https://www.sfgate.com/local/article/bay-area-debt-package-16061425.php?IPID=SFGate-HP-CP-Spotlight",
-                        "display_url": "sfgate.com/local/article/…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 32,
-                        "end": 39,
-                        "probability": 0.7357,
-                        "type": "Place",
-                        "normalized_text": "Bay Area"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T16:28:49.000Z",
-            "conversation_id": "1376934445622513666",
-            "in_reply_to_user_id": "36511031",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 5,
-                "quote_count": 0
-            },
-            "author_id": "36511031"
-        },
-        {
-            "text": "The bevy of moratoriums during the pandemic have helped a little. \n\nBut these unexpected, if welcome, developments will end eventually, and it’s still unclear how much local, state and federal officials are willing to lift up those who’ve fallen behind.\nhttps://t.co/SQEvmLFe8j",
-            "id": "1376934447015059457",
-            "possibly_sensitive": false,
-            "referenced_tweets": [
-                {
-                    "type": "replied_to",
-                    "id": "1376934445622513666"
-                }
-            ],
-            "entities": {
-                "urls": [
-                    {
-                        "start": 254,
-                        "end": 277,
-                        "url": "https://t.co/SQEvmLFe8j",
-                        "expanded_url": "https://www.sfgate.com/local/article/bay-area-debt-package-16061425.php?IPID=SFGate-HP-CP-Spotlight",
-                        "display_url": "sfgate.com/local/article/…"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T16:28:49.000Z",
-            "conversation_id": "1376934445622513666",
-            "in_reply_to_user_id": "36511031",
-            "public_metrics": {
-                "retweet_count": 4,
-                "reply_count": 2,
-                "like_count": 7,
-                "quote_count": 0
-            },
-            "author_id": "36511031"
-        },
-        {
-            "text": "In the United States — and in the Bay Area — debt has ballooned into a near-universal experience. If you don’t have it, you know someone who does. \n\nThe pandemic brought debt to the forefront of local and national discussions.\nhttps://t.co/SQEvmLFe8j",
-            "id": "1376934445622513666",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 227,
-                        "end": 250,
-                        "url": "https://t.co/SQEvmLFe8j",
-                        "expanded_url": "https://www.sfgate.com/local/article/bay-area-debt-package-16061425.php?IPID=SFGate-HP-CP-Spotlight",
-                        "display_url": "sfgate.com/local/article/…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 7,
-                        "end": 19,
-                        "probability": 0.9126,
-                        "type": "Place",
-                        "normalized_text": "United States"
-                    },
-                    {
-                        "start": 34,
-                        "end": 41,
-                        "probability": 0.5694,
-                        "type": "Place",
-                        "normalized_text": "Bay Area"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T16:28:48.000Z",
-            "conversation_id": "1376934445622513666",
-            "public_metrics": {
-                "retweet_count": 6,
-                "reply_count": 3,
-                "like_count": 12,
-                "quote_count": 0
-            },
-            "author_id": "36511031"
-        },
-        {
-            "text": "Virgin Galactic rolls out latest generation of spaceship https://t.co/5umotibIgD",
-            "id": "1376931492593471493",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 57,
-                        "end": 80,
-                        "url": "https://t.co/5umotibIgD",
-                        "expanded_url": "http://dlvr.it/RwgkZ9",
-                        "display_url": "dlvr.it/RwgkZ9"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T16:17:04.000Z",
-            "conversation_id": "1376931492593471493",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 1,
-                "like_count": 8,
-                "quote_count": 0
-            },
-            "author_id": "36511031"
-        },
-        {
-            "text": "This marks the city's eighth homicide. https://t.co/m93Dq6yMcO",
-            "id": "1376931489246375939",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 39,
-                        "end": 62,
-                        "url": "https://t.co/m93Dq6yMcO",
-                        "expanded_url": "http://dlvr.it/RwgkXP",
-                        "display_url": "dlvr.it/RwgkXP"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T16:17:03.000Z",
-            "conversation_id": "1376931489246375939",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 4,
-                "quote_count": 0
-            },
-            "author_id": "36511031"
-        },
-        {
-            "text": "Rizzo returning to MLB Network as contributor on 'High Heat' https://t.co/3rkJT8uYWX",
-            "id": "1376924694310383626",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 61,
-                        "end": 84,
-                        "url": "https://t.co/3rkJT8uYWX",
-                        "expanded_url": "http://dlvr.it/RwgdlB",
-                        "display_url": "dlvr.it/RwgdlB"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 4,
-                        "probability": 0.9568,
-                        "type": "Person",
-                        "normalized_text": "Rizzo"
-                    },
-                    {
-                        "start": 19,
-                        "end": 29,
-                        "probability": 0.7198,
-                        "type": "Organization",
-                        "normalized_text": "MLB Network"
-                    },
-                    {
-                        "start": 50,
-                        "end": 58,
-                        "probability": 0.545,
-                        "type": "Other",
-                        "normalized_text": "High Heat"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T15:50:03.000Z",
-            "conversation_id": "1376924694310383626",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 2,
-                "quote_count": 0
-            },
-            "author_id": "36511031"
-        },
-        {
-            "text": "Sydney West's family has upped the reward for her return. https://t.co/UyaC9PRBoY",
-            "id": "1376922930085437444",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 58,
-                        "end": 81,
-                        "url": "https://t.co/UyaC9PRBoY",
-                        "expanded_url": "http://dlvr.it/RwgcLH",
-                        "display_url": "dlvr.it/RwgcLH"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 10,
-                        "probability": 0.5385,
-                        "type": "Organization",
-                        "normalized_text": "Sydney West"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T15:43:03.000Z",
-            "conversation_id": "1376922930085437444",
-            "public_metrics": {
-                "retweet_count": 4,
-                "reply_count": 2,
-                "like_count": 8,
-                "quote_count": 0
-            },
-            "author_id": "36511031"
-        }
-    ],
-    null,
-    [
-        {
-            "text": "Former energy secretary Ernest Moniz and Duke Energy CEO Lynn Good join The Post to discuss how we can help meet America’s future energy needs. https://t.co/X8FwHhH7py",
-            "id": "1376942126311862278",
-            "possibly_sensitive": false,
-            "author_id": "2467791",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 144,
-                        "end": 167,
-                        "url": "https://t.co/X8FwHhH7py",
-                        "expanded_url": "https://twitter.com/i/broadcasts/1vAxRwVqWgzKl",
-                        "display_url": "twitter.com/i/broadcasts/1…",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376942127704334337/1MFEJkyM?format=jpg&name=orig",
-                                "width": 1280,
-                                "height": 720
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376942127704334337/1MFEJkyM?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "Washington Post",
-                        "description": "Former energy secretaryErnest Moniz and Duke Energy CEO Lynn Good join The Post to discuss how we can help meet America’s future energy needs.",
-                        "unwound_url": "https://twitter.com/i/broadcasts/1vAxRwVqWgzKl"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 24,
-                        "end": 35,
-                        "probability": 0.942,
-                        "type": "Person",
-                        "normalized_text": "Ernest Moniz"
-                    },
-                    {
-                        "start": 41,
-                        "end": 51,
-                        "probability": 0.4478,
-                        "type": "Organization",
-                        "normalized_text": "Duke Energy"
-                    },
-                    {
-                        "start": 57,
-                        "end": 60,
-                        "probability": 0.5875,
-                        "type": "Person",
-                        "normalized_text": "Lynn"
-                    },
-                    {
-                        "start": 113,
-                        "end": 119,
-                        "probability": 0.9354,
-                        "type": "Place",
-                        "normalized_text": "America"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 22,
-                "reply_count": 12,
-                "like_count": 73,
-                "quote_count": 1
-            },
-            "conversation_id": "1376942126311862278",
-            "created_at": "2021-03-30T16:59:19.000Z"
-        },
-        {
-            "text": "The big ship is free, but the hard part isn’t over https://t.co/mD0fThpHJ1",
-            "id": "1376940440541392898",
-            "possibly_sensitive": false,
-            "author_id": "2467791",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 51,
-                        "end": 74,
-                        "url": "https://t.co/mD0fThpHJ1",
-                        "expanded_url": "https://wapo.st/2PC01h7",
-                        "display_url": "wapo.st/2PC01h7"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 54,
-                "reply_count": 26,
-                "like_count": 187,
-                "quote_count": 6
-            },
-            "conversation_id": "1376940440541392898",
-            "created_at": "2021-03-30T16:52:37.000Z"
-        },
-        {
-            "text": "Jockeying begins over White House’s infrastructure plan as details emerge https://t.co/6g1MCqHsiG",
-            "id": "1376935951524585478",
-            "possibly_sensitive": false,
-            "author_id": "2467791",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 74,
-                        "end": 97,
-                        "url": "https://t.co/6g1MCqHsiG",
-                        "expanded_url": "https://wapo.st/3m5QgUr",
-                        "display_url": "wapo.st/3m5QgUr"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 22,
-                        "end": 32,
-                        "probability": 0.8421,
-                        "type": "Place",
-                        "normalized_text": "White House"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 28,
-                "reply_count": 19,
-                "like_count": 125,
-                "quote_count": 2
-            },
-            "conversation_id": "1376935951524585478",
-            "created_at": "2021-03-30T16:34:47.000Z"
-        },
-        {
-            "text": "145,000 hearts are being painted on a wall opposite Britain’s Parliament — one for each life lost to covid-19 https://t.co/Nqg5VfVI2x",
-            "id": "1376931943040872450",
-            "possibly_sensitive": false,
-            "author_id": "2467791",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 110,
-                        "end": 133,
-                        "url": "https://t.co/Nqg5VfVI2x",
-                        "expanded_url": "https://wapo.st/3w9QFKh",
-                        "display_url": "wapo.st/3w9QFKh"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 52,
-                        "end": 58,
-                        "probability": 0.9554,
-                        "type": "Place",
-                        "normalized_text": "Britain"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 73,
-                "reply_count": 18,
-                "like_count": 377,
-                "quote_count": 5
-            },
-            "conversation_id": "1376931943040872450",
-            "created_at": "2021-03-30T16:18:52.000Z"
-        },
-        {
-            "text": "John Lewis’s posthumous new graphic novel will be out this summer, in time for a new battle over voting rights https://t.co/xLWlMmETQo",
-            "id": "1376927892857360389",
-            "possibly_sensitive": false,
-            "author_id": "2467791",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 111,
-                        "end": 134,
-                        "url": "https://t.co/xLWlMmETQo",
-                        "expanded_url": "https://wapo.st/39tDD0t",
-                        "display_url": "wapo.st/39tDD0t"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 9,
-                        "probability": 0.993,
-                        "type": "Person",
-                        "normalized_text": "John Lewis"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 136,
-                "reply_count": 23,
-                "like_count": 426,
-                "quote_count": 12
-            },
-            "conversation_id": "1376927892857360389",
-            "created_at": "2021-03-30T16:02:46.000Z"
-        },
-        {
-            "text": "Auto negotiations test Biden’s vow to create a climate-friendly future https://t.co/UYkp5uKfk3",
-            "id": "1376923373863845900",
-            "possibly_sensitive": false,
-            "author_id": "2467791",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 71,
-                        "end": 94,
-                        "url": "https://t.co/UYkp5uKfk3",
-                        "expanded_url": "https://wapo.st/31xE1Xu",
-                        "display_url": "wapo.st/31xE1Xu"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 23,
-                        "end": 27,
-                        "probability": 0.9725,
-                        "type": "Person",
-                        "normalized_text": "Biden"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 26,
-                "reply_count": 13,
-                "like_count": 78,
-                "quote_count": 3
-            },
-            "conversation_id": "1376923373863845900",
-            "created_at": "2021-03-30T15:44:48.000Z"
-        },
-        {
-            "text": "VW confirms it’s going all in on electric, starting with new US name: Voltswagen https://t.co/sDvZfRKv63",
-            "id": "1376919590190657536",
-            "possibly_sensitive": false,
-            "author_id": "2467791",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 81,
-                        "end": 104,
-                        "url": "https://t.co/sDvZfRKv63",
-                        "expanded_url": "https://wapo.st/39rIMGd",
-                        "display_url": "wapo.st/39rIMGd"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 1,
-                        "probability": 0.7811,
-                        "type": "Organization",
-                        "normalized_text": "VW"
-                    },
-                    {
-                        "start": 61,
-                        "end": 62,
-                        "probability": 0.5604,
-                        "type": "Place",
-                        "normalized_text": "US"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 185,
-                "reply_count": 61,
-                "like_count": 910,
-                "quote_count": 105
-            },
-            "conversation_id": "1376919590190657536",
-            "created_at": "2021-03-30T15:29:46.000Z"
-        },
-        {
-            "text": "Analysis: Biden’s \"if America wants it, it’s unifying\" argument is about to be strained https://t.co/EWTCGGUpGA",
-            "id": "1376915315490226181",
-            "possibly_sensitive": false,
-            "author_id": "2467791",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 88,
-                        "end": 111,
-                        "url": "https://t.co/EWTCGGUpGA",
-                        "expanded_url": "https://wapo.st/3cwD4VE",
-                        "display_url": "wapo.st/3cwD4VE"
+                        "start": 150,
+                        "end": 173,
+                        "url": "https://t.co/DuBR1jeB7E",
+                        "expanded_url": "https://bayareane.ws/2Qc2u1S",
+                        "display_url": "bayareane.ws/2Qc2u1S"
                     }
                 ],
                 "annotations": [
                     {
                         "start": 10,
-                        "end": 14,
-                        "probability": 0.9847,
-                        "type": "Person",
-                        "normalized_text": "Biden"
-                    },
-                    {
-                        "start": 22,
-                        "end": 28,
-                        "probability": 0.9933,
-                        "type": "Place",
-                        "normalized_text": "America"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 25,
-                "reply_count": 42,
-                "like_count": 90,
-                "quote_count": 2
-            },
-            "conversation_id": "1376915315490226181",
-            "created_at": "2021-03-30T15:12:47.000Z"
-        },
-        {
-            "text": "Opinion: Trump’s favorite new candidate exposes the true depths of GOP radicalization https://t.co/9LUOBVESFM",
-            "id": "1376911252182695940",
-            "possibly_sensitive": false,
-            "author_id": "2467791",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 86,
-                        "end": 109,
-                        "url": "https://t.co/9LUOBVESFM",
-                        "expanded_url": "https://wapo.st/39q292o",
-                        "display_url": "wapo.st/39q292o"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 9,
-                        "end": 13,
-                        "probability": 0.997,
-                        "type": "Person",
-                        "normalized_text": "Trump"
-                    },
-                    {
-                        "start": 67,
-                        "end": 69,
-                        "probability": 0.7505,
-                        "type": "Organization",
-                        "normalized_text": "GOP"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 58,
-                "reply_count": 38,
-                "like_count": 108,
-                "quote_count": 8
-            },
-            "conversation_id": "1376911252182695940",
-            "created_at": "2021-03-30T14:56:38.000Z"
-        },
-        {
-            "text": "Review: \"Godzilla vs. Kong\" is a clash of the titans — and mismatched storytelling styles https://t.co/JDkry0pCE4",
-            "id": "1376907287193849858",
-            "possibly_sensitive": false,
-            "author_id": "2467791",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 90,
-                        "end": 113,
-                        "url": "https://t.co/JDkry0pCE4",
-                        "expanded_url": "https://wapo.st/31yO6TS",
-                        "display_url": "wapo.st/31yO6TS"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 9,
-                        "end": 25,
-                        "probability": 0.1295,
-                        "type": "Other",
-                        "normalized_text": "Godzilla vs. Kong"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 25,
-                "reply_count": 19,
-                "like_count": 99,
-                "quote_count": 8
-            },
-            "conversation_id": "1376907287193849858",
-            "created_at": "2021-03-30T14:40:53.000Z"
-        }
-    ],
-    [
-        {
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T16:42:04.000Z",
-            "public_metrics": {
-                "retweet_count": 332,
-                "reply_count": 107,
-                "like_count": 537,
-                "quote_count": 150
-            },
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 7,
-                        "end": 19,
-                        "probability": 0.9189,
-                        "type": "Place",
-                        "normalized_text": "New York City"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 165,
-                        "end": 188,
-                        "url": "https://t.co/hMMxEt7hSa",
-                        "expanded_url": "https://nyti.ms/3m6HV31",
-                        "display_url": "nyti.ms/3m6HV31",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376936125412020224/WJQZ5w4w?format=jpg&name=orig",
-                                "width": 3000,
-                                "height": 1688
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376936125412020224/WJQZ5w4w?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "‘It Felt Like Deception’: An Elite NYC Hospital Charges Huge Covid Test Fees",
-                        "description": "Insurers are stuck with the big bills from Lenox Hill, but the public ultimately pays through higher premiums.",
-                        "unwound_url": "https://www.nytimes.com/2021/03/30/upshot/covid-test-fees-lenox-hill.html?smtyp=cur&smid=tw-nytimes"
-                    }
-                ]
-            },
-            "author_id": "807095",
-            "id": "1376937781457530886",
-            "text": "One of New York City’s best-known hospitals repeatedly billed patients more than $3,000 for a routine nasal swab Covid test, about 30 times the test’s typical cost. https://t.co/hMMxEt7hSa",
-            "conversation_id": "1376937781457530886"
-        },
-        {
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T16:40:51.000Z",
-            "public_metrics": {
-                "retweet_count": 63,
-                "reply_count": 36,
-                "like_count": 314,
-                "quote_count": 5
-            },
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 15,
-                        "probability": 0.9047,
-                        "type": "Person",
-                        "normalized_text": "Darnella Frazier"
-                    },
-                    {
-                        "start": 44,
-                        "end": 56,
-                        "probability": 0.9982,
-                        "type": "Person",
-                        "normalized_text": "Derek Chauvin"
-                    },
-                    {
-                        "start": 73,
-                        "end": 84,
-                        "probability": 0.9809,
-                        "type": "Person",
-                        "normalized_text": "George Floyd"
-                    },
-                    {
-                        "start": 184,
-                        "end": 188,
-                        "probability": 0.7557,
-                        "type": "Person",
-                        "normalized_text": "Floyd"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 236,
-                        "end": 259,
-                        "url": "https://t.co/bgi5KpnZyG",
-                        "expanded_url": "https://nyti.ms/31vNgHs",
-                        "display_url": "nyti.ms/31vNgHs"
-                    }
-                ]
-            },
-            "author_id": "807095",
-            "id": "1376937475952758786",
-            "text": "Darnella Frazier, the teenager who recorded Derek Chauvin as he knelt on George Floyd’s neck in a video that challenged the initial police narrative and brought a wave of attention to Floyd’s death, began to testify on Tuesday morning.\nhttps://t.co/bgi5KpnZyG",
-            "conversation_id": "1376937475952758786"
-        },
-        {
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T16:30:22.000Z",
-            "public_metrics": {
-                "retweet_count": 140,
-                "reply_count": 10,
-                "like_count": 645,
-                "quote_count": 8
-            },
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 35,
-                        "end": 45,
-                        "probability": 0.9923,
-                        "type": "Person",
-                        "normalized_text": "Alvin Sykes"
-                    },
-                    {
-                        "start": 155,
-                        "end": 160,
-                        "probability": 0.4077,
-                        "type": "Person",
-                        "normalized_text": "Emmett"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 251,
-                        "end": 274,
-                        "url": "https://t.co/TRrfXtePR3",
-                        "expanded_url": "https://nyti.ms/3dlA0eg",
-                        "display_url": "nyti.ms/3dlA0eg"
-                    }
-                ]
-            },
-            "author_id": "807095",
-            "id": "1376934840847761413",
-            "text": "After dropping out of high school, Alvin Sykes studied law at the public library, then used his knowledge to reopen cold cases — including the lynching of Emmett Till. Though he never took a bar exam, he was an admired legal and legislative operator. https://t.co/TRrfXtePR3",
-            "conversation_id": "1376934840847761413"
-        },
-        {
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T16:10:06.000Z",
-            "public_metrics": {
-                "retweet_count": 50,
-                "reply_count": 16,
-                "like_count": 185,
-                "quote_count": 3
-            },
-            "author_id": "807095",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 248,
-                        "end": 271,
-                        "url": "https://t.co/XQlbCY6MSN",
-                        "expanded_url": "https://nyti.ms/2PM4LRy",
-                        "display_url": "nyti.ms/2PM4LRy"
-                    }
-                ]
-            },
-            "id": "1376929739135406082",
-            "text": "The British government has said that every person living in the country would be eligible for a coronavirus vaccine, free of charge, regardless of their immigration status. But many undocumented immigrants remain fearful and confused about access. https://t.co/XQlbCY6MSN",
-            "conversation_id": "1376929739135406082"
-        },
-        {
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T16:05:27.000Z",
-            "public_metrics": {
-                "retweet_count": 43,
-                "reply_count": 18,
-                "like_count": 256,
-                "quote_count": 5
-            },
-            "in_reply_to_user_id": "807095",
-            "referenced_tweets": [
-                {
-                    "type": "replied_to",
-                    "id": "1376928467913170944"
-                }
-            ],
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 14,
-                        "probability": 0.997,
-                        "type": "Person",
-                        "normalized_text": "Donald Williams"
-                    },
-                    {
-                        "start": 67,
-                        "end": 78,
-                        "probability": 0.9919,
-                        "type": "Person",
-                        "normalized_text": "George Floyd"
-                    },
-                    {
-                        "start": 139,
-                        "end": 151,
-                        "probability": 0.9761,
-                        "type": "Person",
-                        "normalized_text": "Derek Chauvin"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 191,
-                        "end": 214,
-                        "url": "https://t.co/fe7bnaRMkg",
-                        "expanded_url": "https://nyti.ms/3dk5hhB",
-                        "display_url": "nyti.ms/3dk5hhB"
-                    }
-                ]
-            },
-            "author_id": "807095",
-            "id": "1376928568454811650",
-            "text": "Donald Williams, a mixed-martial artist who witnessed the death of George Floyd, was the first witness to testify on the second day of the Derek Chauvin trial. Read more about his testimony: https://t.co/fe7bnaRMkg",
-            "conversation_id": "1376928467913170944"
-        },
-        {
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T16:05:03.000Z",
-            "public_metrics": {
-                "retweet_count": 122,
-                "reply_count": 24,
-                "like_count": 608,
-                "quote_count": 6
-            },
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 35,
-                        "end": 49,
-                        "probability": 0.9988,
-                        "type": "Person",
-                        "normalized_text": "Donald Williams"
-                    },
-                    {
-                        "start": 89,
-                        "end": 101,
-                        "probability": 0.9766,
-                        "type": "Person",
-                        "normalized_text": "Derek Chauvin"
-                    },
-                    {
-                        "start": 214,
-                        "end": 225,
-                        "probability": 0.9823,
-                        "type": "Person",
-                        "normalized_text": "George Floyd"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 250,
-                        "end": 273,
-                        "url": "https://t.co/zrTAYfY8zc",
-                        "expanded_url": "https://nyti.ms/3m4BnBM",
-                        "display_url": "nyti.ms/3m4BnBM"
-                    },
-                    {
-                        "start": 274,
-                        "end": 297,
-                        "url": "https://t.co/81hhm2qfrT",
-                        "expanded_url": "https://twitter.com/nytimes/status/1376928467913170944/photo/1",
-                        "display_url": "pic.twitter.com/81hhm2qfrT"
-                    }
-                ]
-            },
-            "author_id": "807095",
-            "id": "1376928467913170944",
-            "text": "“I believed I witnessed a murder,” Donald Williams said. He is the second witness in the Derek Chauvin trial to testify that he called the police on the police after watching the encounter between the officers and George Floyd. Watch the trial live:\nhttps://t.co/zrTAYfY8zc https://t.co/81hhm2qfrT",
-            "conversation_id": "1376928467913170944",
-            "attachments": {
-                "media_keys": [
-                    "3_1376928465031663617"
-                ]
-            }
-        },
-        {
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T16:01:08.000Z",
-            "public_metrics": {
-                "retweet_count": 44,
-                "reply_count": 9,
-                "like_count": 171,
-                "quote_count": 2
-            },
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 35,
-                        "end": 40,
-                        "probability": 0.9968,
-                        "type": "Place",
-                        "normalized_text": "Russia"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 249,
-                        "end": 272,
-                        "url": "https://t.co/ixMBcNB2II",
-                        "expanded_url": "https://nyti.ms/2P9NYYF",
-                        "display_url": "nyti.ms/2P9NYYF"
-                    }
-                ]
-            },
-            "author_id": "807095",
-            "id": "1376927480485978122",
-            "text": "Today’s Great Read:\n\nScientists in Russia are using a telescope built to explore space to hunt for tiny cosmic particles in the world’s deepest lake.\n\nTheir findings could alter our understanding of the universe in ways we cannot yet fully fathom.\n\nhttps://t.co/ixMBcNB2II",
-            "conversation_id": "1376927480485978122"
-        },
-        {
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T15:40:06.000Z",
-            "public_metrics": {
-                "retweet_count": 60,
-                "reply_count": 74,
-                "like_count": 281,
-                "quote_count": 2
-            },
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 14,
-                        "probability": 0.8382,
-                        "type": "Person",
-                        "normalized_text": "President Biden"
-                    },
-                    {
-                        "start": 145,
-                        "end": 156,
-                        "probability": 0.998,
-                        "type": "Person",
-                        "normalized_text": "Donald Trump"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 225,
-                        "end": 248,
-                        "url": "https://t.co/wyY7s61Ikn",
-                        "expanded_url": "https://nyti.ms/3fpEUJR",
-                        "display_url": "nyti.ms/3fpEUJR"
-                    }
-                ]
-            },
-            "author_id": "807095",
-            "id": "1376922187924398082",
-            "text": "President Biden's new judicial nominations put an emphasis on diversity, in an effort partly motivated by a desire to offset the appointments by Donald Trump, who won confirmation of more than 220 judges, mostly white men.   https://t.co/wyY7s61Ikn",
-            "conversation_id": "1376922187924398082"
-        },
-        {
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T15:35:04.000Z",
-            "public_metrics": {
-                "retweet_count": 130,
-                "reply_count": 65,
-                "like_count": 523,
-                "quote_count": 12
-            },
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 12,
-                        "probability": 0.9984,
-                        "type": "Person",
-                        "normalized_text": "Derek Chauvin"
-                    },
-                    {
-                        "start": 23,
-                        "end": 34,
-                        "probability": 0.9449,
-                        "type": "Person",
-                        "normalized_text": "George Floyd"
-                    },
-                    {
-                        "start": 205,
-                        "end": 222,
-                        "probability": 0.9851,
-                        "type": "Person",
-                        "normalized_text": "Jerry W. Blackwell"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 255,
-                        "end": 278,
-                        "url": "https://t.co/drgduqolC5",
-                        "expanded_url": "https://nyti.ms/3sFw2ng",
-                        "display_url": "nyti.ms/3sFw2ng"
-                    }
-                ]
-            },
-            "author_id": "807095",
-            "id": "1376920923031359490",
-            "text": "Derek Chauvin knelt on George Floyd for 9 minutes and 29 seconds, prosecutors say, almost a minute longer than first reported. “The most important numbers you will hear in this trial are nine, two, nine,\" Jerry W. Blackwell said in his opening statement.\nhttps://t.co/drgduqolC5",
-            "conversation_id": "1376920923031359490"
-        },
-        {
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T15:30:14.000Z",
-            "public_metrics": {
-                "retweet_count": 44,
-                "reply_count": 26,
-                "like_count": 257,
-                "quote_count": 30
-            },
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 33,
-                        "end": 37,
-                        "probability": 0.7378,
-                        "type": "Person",
-                        "normalized_text": "Diana"
-                    },
-                    {
-                        "start": 88,
-                        "end": 103,
-                        "probability": 0.4239,
-                        "type": "Other",
-                        "normalized_text": "British princess"
-                    },
-                    {
-                        "start": 130,
-                        "end": 136,
-                        "probability": 0.6001,
-                        "type": "Product",
-                        "normalized_text": "Netflix"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 208,
-                        "end": 231,
-                        "url": "https://t.co/yzoREmWtcO",
-                        "expanded_url": "https://nyti.ms/3frWe0U",
-                        "display_url": "nyti.ms/3frWe0U"
-                    }
-                ]
-            },
-            "author_id": "807095",
-            "id": "1376919705399738373",
-            "text": "In a first for a Broadway show, “Diana,” a new musical about the idolized but ill-fated British princess, will start streaming on Netflix in October. Audiences can see it live if theaters reopen in December. https://t.co/yzoREmWtcO",
-            "conversation_id": "1376919705399738373"
-        }
-    ],
-    [
-        {
-            "possibly_sensitive": false,
-            "text": "No convictions were returned for three white St. Louis police officers accused of beating a Black undercover colleague so severely during a protest over another officer’s acquittal that he had to undergo multiple surgeries. https://t.co/Ee5BepWs57",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 45,
-                        "end": 53,
-                        "probability": 0.6413,
-                        "type": "Place",
-                        "normalized_text": "St. Louis"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 224,
-                        "end": 247,
-                        "url": "https://t.co/Ee5BepWs57",
-                        "expanded_url": "http://apne.ws/LKmI4aS",
-                        "display_url": "apne.ws/LKmI4aS"
-                    }
-                ]
-            },
-            "conversation_id": "1376935032217026567",
-            "public_metrics": {
-                "retweet_count": 623,
-                "reply_count": 115,
-                "like_count": 627,
-                "quote_count": 173
-            },
-            "id": "1376935032217026567",
-            "created_at": "2021-03-30T16:31:08.000Z",
-            "author_id": "51241574"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "BREAKING: In a sharp rebuke to Trump-era policies, Secretary of State Antony Blinken will scrap a blueprint championed by his predecessor to limit U.S. promotion of human rights abroad to causes favored by conservatives like religious freedom. https://t.co/IDhCavK7gv",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 31,
-                        "end": 39,
-                        "probability": 0.3176,
-                        "type": "Person",
-                        "normalized_text": "Trump-era"
-                    },
-                    {
-                        "start": 51,
-                        "end": 83,
-                        "probability": 0.3798,
-                        "type": "Person",
-                        "normalized_text": "Secretary of State Antony Blinken"
-                    },
-                    {
-                        "start": 147,
-                        "end": 150,
-                        "probability": 0.7768,
-                        "type": "Place",
-                        "normalized_text": "U.S."
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 244,
-                        "end": 267,
-                        "url": "https://t.co/IDhCavK7gv",
-                        "expanded_url": "http://apne.ws/BKjzhlb",
-                        "display_url": "apne.ws/BKjzhlb"
-                    }
-                ]
-            },
-            "conversation_id": "1376929172086517760",
-            "public_metrics": {
-                "retweet_count": 251,
-                "reply_count": 88,
-                "like_count": 1035,
-                "quote_count": 43
-            },
-            "id": "1376929172086517760",
-            "created_at": "2021-03-30T16:07:51.000Z",
-            "author_id": "51241574"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "PHOTOS: It's a little different this year with virus protocols in place. But for fans, spring training is still baseball’s most charmed season. https://t.co/Nyx79xo9vX",
-            "conversation_id": "1376927835391148034",
-            "public_metrics": {
-                "retweet_count": 10,
-                "reply_count": 5,
-                "like_count": 70,
-                "quote_count": 2
-            },
-            "id": "1376927835391148034",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 144,
-                        "end": 167,
-                        "url": "https://t.co/Nyx79xo9vX",
-                        "expanded_url": "http://apne.ws/ZJrXehR",
-                        "display_url": "apne.ws/ZJrXehR"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T16:02:32.000Z",
-            "author_id": "51241574"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "A man who was among the onlookers shouting at a Minneapolis police officer to get off George Floyd last May testified Tuesday that he called 911 after paramedics took Floyd away, “because I believed I witnessed a murder.\" https://t.co/qBiyHVEGvd",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 48,
-                        "end": 58,
-                        "probability": 0.7965,
-                        "type": "Place",
-                        "normalized_text": "Minneapolis"
-                    },
-                    {
-                        "start": 86,
-                        "end": 97,
-                        "probability": 0.9912,
-                        "type": "Person",
-                        "normalized_text": "George Floyd"
-                    },
-                    {
-                        "start": 167,
-                        "end": 171,
-                        "probability": 0.7122,
-                        "type": "Person",
-                        "normalized_text": "Floyd"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 222,
-                        "end": 245,
-                        "url": "https://t.co/qBiyHVEGvd",
-                        "expanded_url": "http://apne.ws/1wzH6Lc",
-                        "display_url": "apne.ws/1wzH6Lc"
-                    }
-                ]
-            },
-            "conversation_id": "1376919914607476747",
-            "public_metrics": {
-                "retweet_count": 154,
-                "reply_count": 17,
-                "like_count": 558,
-                "quote_count": 4
-            },
-            "id": "1376919914607476747",
-            "created_at": "2021-03-30T15:31:04.000Z",
-            "author_id": "51241574"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "A Michigan barber who defied Gov. Gretchen Whitmer and reopened his shop last spring during the coronavirus pandemic was fined $9,000 for violating licensing rules, including joining a protest where hairstylists cut hair on the Capitol lawn. https://t.co/jxBrCMZU2f",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 2,
-                        "end": 9,
-                        "probability": 0.6515,
-                        "type": "Place",
-                        "normalized_text": "Michigan"
-                    },
-                    {
-                        "start": 34,
-                        "end": 49,
-                        "probability": 0.9148,
-                        "type": "Person",
-                        "normalized_text": "Gretchen Whitmer"
-                    },
-                    {
-                        "start": 228,
-                        "end": 234,
-                        "probability": 0.5863,
-                        "type": "Place",
-                        "normalized_text": "Capitol"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 242,
-                        "end": 265,
-                        "url": "https://t.co/jxBrCMZU2f",
-                        "expanded_url": "http://apne.ws/VgMs969",
-                        "display_url": "apne.ws/VgMs969"
-                    }
-                ]
-            },
-            "conversation_id": "1376912362691833857",
-            "public_metrics": {
-                "retweet_count": 59,
-                "reply_count": 33,
-                "like_count": 295,
-                "quote_count": 9
-            },
-            "id": "1376912362691833857",
-            "created_at": "2021-03-30T15:01:03.000Z",
-            "author_id": "51241574"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "Asian American and Pacific Islanders groups have seen a spike in donations and contribution pledges since the shooting in Atlanta that killed eight people, including six women of Asian descent. https://t.co/gj1HZRxDr9",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 19,
-                        "end": 35,
-                        "probability": 0.6678,
-                        "type": "Organization",
-                        "normalized_text": "Pacific Islanders"
-                    },
-                    {
-                        "start": 122,
-                        "end": 128,
-                        "probability": 0.9936,
-                        "type": "Place",
-                        "normalized_text": "Atlanta"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 194,
-                        "end": 217,
-                        "url": "https://t.co/gj1HZRxDr9",
-                        "expanded_url": "http://apne.ws/Jhu7JP2",
-                        "display_url": "apne.ws/Jhu7JP2"
-                    }
-                ]
-            },
-            "conversation_id": "1376904829440778245",
-            "public_metrics": {
-                "retweet_count": 46,
-                "reply_count": 22,
-                "like_count": 203,
-                "quote_count": 7
-            },
-            "id": "1376904829440778245",
-            "created_at": "2021-03-30T14:31:07.000Z",
-            "author_id": "51241574"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "EXPLAINER: It's clear video will be the focus at the trial of a white former police officer charged with killing George Floyd, and not just the bystander video that set off nationwide protests. The defense says it will also turn to videos to make its case. https://t.co/vY3QybT54d",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 113,
-                        "end": 124,
-                        "probability": 0.9933,
-                        "type": "Person",
-                        "normalized_text": "George Floyd"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 257,
-                        "end": 280,
-                        "url": "https://t.co/vY3QybT54d",
-                        "expanded_url": "http://apne.ws/LbEb0UA",
-                        "display_url": "apne.ws/LbEb0UA"
-                    }
-                ]
-            },
-            "conversation_id": "1376889727392038913",
-            "public_metrics": {
-                "retweet_count": 43,
-                "reply_count": 27,
-                "like_count": 141,
-                "quote_count": 3
-            },
-            "id": "1376889727392038913",
-            "created_at": "2021-03-30T13:31:07.000Z",
-            "author_id": "51241574"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "Experts boarded the massive container ship that had blocked Egypt's vital Suez Canal and disrupted global trade for nearly a week, seeking answers to a single question that could have billions of dollars in legal repercussions: What went wrong?https://t.co/f5vn2BZtnc",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 60,
-                        "end": 64,
-                        "probability": 0.8545,
-                        "type": "Place",
-                        "normalized_text": "Egypt"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 244,
-                        "end": 267,
-                        "url": "https://t.co/f5vn2BZtnc",
-                        "expanded_url": "http://apne.ws/EhHSRKj",
-                        "display_url": "apne.ws/EhHSRKj"
-                    }
-                ]
-            },
-            "conversation_id": "1376882176684347397",
-            "public_metrics": {
-                "retweet_count": 56,
-                "reply_count": 25,
-                "like_count": 165,
-                "quote_count": 13
-            },
-            "id": "1376882176684347397",
-            "created_at": "2021-03-30T13:01:06.000Z",
-            "author_id": "51241574"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "Virus update: \n• Biden, CDC director warn of virus rebound.\n• Vital to a clean world, scavengers plead for vaccine.\n• World leaders call for a pandemic treaty.\n• Turkey reinstates restrictions after cases rise.\nFollow all @AP coverage: https://t.co/Sr8oALy1zP",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 17,
-                        "end": 21,
-                        "probability": 0.9437,
-                        "type": "Person",
-                        "normalized_text": "Biden"
-                    },
-                    {
-                        "start": 162,
-                        "end": 167,
-                        "probability": 0.6671,
-                        "type": "Place",
-                        "normalized_text": "Turkey"
-                    }
-                ],
-                "mentions": [
-                    {
-                        "start": 222,
-                        "end": 225,
-                        "username": "AP"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 236,
-                        "end": 259,
-                        "url": "https://t.co/Sr8oALy1zP",
-                        "expanded_url": "http://apne.ws/Q3OWYWq",
-                        "display_url": "apne.ws/Q3OWYWq"
-                    }
-                ]
-            },
-            "conversation_id": "1376867066268028930",
-            "public_metrics": {
-                "retweet_count": 41,
-                "reply_count": 15,
-                "like_count": 114,
-                "quote_count": 1
-            },
-            "id": "1376867066268028930",
-            "created_at": "2021-03-30T12:01:04.000Z",
-            "author_id": "51241574"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "An Asian American woman was attacked by a man who repeatedly kicked her in front of witnesses who seemingly stood by, according to surveillance footage released by the New York City Police Department. The woman was hospitalized with serious injuries. https://t.co/ptxh9w1SgX",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 168,
-                        "end": 198,
-                        "probability": 0.8183,
-                        "type": "Organization",
-                        "normalized_text": "New York City Police Department"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 251,
-                        "end": 274,
-                        "url": "https://t.co/ptxh9w1SgX",
-                        "expanded_url": "http://apne.ws/trGSm7W",
-                        "display_url": "apne.ws/trGSm7W"
-                    }
-                ]
-            },
-            "conversation_id": "1376863057478049796",
-            "public_metrics": {
-                "retweet_count": 144,
-                "reply_count": 108,
-                "like_count": 268,
-                "quote_count": 50
-            },
-            "id": "1376863057478049796",
-            "created_at": "2021-03-30T11:45:08.000Z",
-            "author_id": "51241574"
-        }
-    ],
-    [
-        {
-            "created_at": "2021-03-30T16:40:27.000Z",
-            "id": "1376937377227149312",
-            "conversation_id": "1376937377227149312",
-            "referenced_tweets": [
-                {
-                    "type": "quoted",
-                    "id": "1376627946685890566"
-                }
-            ],
-            "entities": {
-                "urls": [
-                    {
-                        "start": 11,
-                        "end": 34,
-                        "url": "https://t.co/GqMwV9yjaF",
-                        "expanded_url": "https://twitter.com/TheOnion/status/1376627946685890566",
-                        "display_url": "twitter.com/TheOnion/statu…"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 667,
-                "reply_count": 321,
-                "like_count": 6709,
-                "quote_count": 44
-            },
-            "possibly_sensitive": false,
-            "text": "Nailed it. https://t.co/GqMwV9yjaF",
-            "author_id": "11347122"
-        },
-        {
-            "created_at": "2021-03-30T14:34:34.000Z",
-            "id": "1376905696516562948",
-            "conversation_id": "1376905696516562948",
-            "referenced_tweets": [
-                {
-                    "type": "quoted",
-                    "id": "1376801380455878657"
-                }
-            ],
-            "entities": {
-                "urls": [
-                    {
-                        "start": 97,
-                        "end": 120,
-                        "url": "https://t.co/RDNh4JcSDj",
-                        "expanded_url": "https://twitter.com/abc7newsbayarea/status/1376801380455878657",
-                        "display_url": "twitter.com/abc7newsbayare…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 78,
-                        "end": 79,
-                        "probability": 0.9771,
-                        "type": "Place",
-                        "normalized_text": "CA"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 82,
-                        "end": 96,
-                        "tag": "StopAsianHate"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 2003,
-                "reply_count": 486,
-                "like_count": 7505,
-                "quote_count": 142
-            },
-            "possibly_sensitive": false,
-            "text": "Heartbreaking and horrifying. These acts of hate and bigotry have no place in CA. #StopAsianHate https://t.co/RDNh4JcSDj",
-            "author_id": "11347122"
-        },
-        {
-            "created_at": "2021-03-30T03:50:59.000Z",
-            "id": "1376743734000279556",
-            "conversation_id": "1376743734000279556",
-            "entities": {
-                "mentions": [
-                    {
-                        "start": 115,
-                        "end": 119,
-                        "username": "GOP"
-                    },
-                    {
-                        "start": 162,
-                        "end": 166,
-                        "username": "GOP"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 240,
-                        "end": 263,
-                        "url": "https://t.co/Twyicqn6sS",
-                        "expanded_url": "https://www.cnn.com/2021/03/23/us/7-mass-shootings-7-days-trnd/index.html",
-                        "display_url": "cnn.com/2021/03/23/us/…"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 375,
-                "reply_count": 331,
-                "like_count": 1795,
-                "quote_count": 17
-            },
-            "possibly_sensitive": false,
-            "text": "250+ new voter suppression bills have been introduced across the country to solve an election fraud issue that the @GOP have made up.\n\nStill waiting for the 250+ @GOP bills to prevent gun violence. Meanwhile -- this was one week ago today. https://t.co/Twyicqn6sS",
-            "author_id": "11347122"
-        },
-        {
-            "created_at": "2021-03-29T22:23:23.000Z",
-            "id": "1376661289510916097",
-            "conversation_id": "1376661289510916097",
-            "referenced_tweets": [
-                {
-                    "type": "quoted",
-                    "id": "1376649057775587332"
-                }
-            ],
-            "entities": {
-                "urls": [
-                    {
-                        "start": 25,
-                        "end": 48,
-                        "url": "https://t.co/n7YniufLjx",
-                        "expanded_url": "https://twitter.com/aclu/status/1376649057775587332",
-                        "display_url": "twitter.com/aclu/status/13…"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 3709,
-                "reply_count": 1375,
-                "like_count": 25399,
-                "quote_count": 250
-            },
-            "possibly_sensitive": false,
-            "text": "This is absolutely sick. https://t.co/n7YniufLjx",
-            "author_id": "11347122"
-        },
-        {
-            "created_at": "2021-03-29T21:46:25.000Z",
-            "id": "1376651985726791684",
-            "conversation_id": "1376651985726791684",
-            "referenced_tweets": [
-                {
-                    "type": "quoted",
-                    "id": "1376632757145591810"
-                }
-            ],
-            "entities": {
-                "urls": [
-                    {
-                        "start": 75,
-                        "end": 98,
-                        "url": "https://t.co/JTEua1sHLt",
-                        "expanded_url": "https://twitter.com/kylegriffin1/status/1376632757145591810",
-                        "display_url": "twitter.com/kylegriffin1/s…"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 195,
-                "reply_count": 262,
-                "like_count": 1237,
-                "quote_count": 21
-            },
-            "possibly_sensitive": false,
-            "text": "These dangerous proposals should produce outrage not praise and imitation. https://t.co/JTEua1sHLt",
-            "author_id": "11347122"
-        },
-        {
-            "created_at": "2021-03-29T19:23:41.000Z",
-            "id": "1376616066928025603",
-            "conversation_id": "1376616066928025603",
-            "referenced_tweets": [
-                {
-                    "type": "quoted",
-                    "id": "1376566096019353605"
-                }
-            ],
-            "entities": {
-                "urls": [
-                    {
-                        "start": 122,
-                        "end": 145,
-                        "url": "https://t.co/PNs0eO1C57",
-                        "expanded_url": "https://twitter.com/RobertGarcia/status/1376566096019353605",
-                        "display_url": "twitter.com/RobertGarcia/s…"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 7,
-                        "end": 24,
-                        "probability": 0.6966,
-                        "type": "Organization",
-                        "normalized_text": "Long Beach Unified"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 213,
-                "reply_count": 247,
-                "like_count": 2188,
-                "quote_count": 32
-            },
-            "possibly_sensitive": false,
-            "text": "Today, Long Beach Unified became the largest public school system to bring kids back into the classroom. It’s a good day. https://t.co/PNs0eO1C57",
-            "author_id": "11347122"
-        }
-    ],
-    null,
-    [
-        {
-            "text": "But we need to remember that we're not out of the woods yet. We're making faster and faster progress on our vaccinations, but cases in other states are beginning to rise again.\n\nWe need to stay safe over the coming months, keep our cases low, and end this pandemic.",
-            "id": "1376938940121247747",
-            "possibly_sensitive": false,
-            "referenced_tweets": [
-                {
-                    "type": "replied_to",
-                    "id": "1376938939068477446"
-                }
-            ],
-            "created_at": "2021-03-30T16:46:40.000Z",
-            "conversation_id": "1376938939068477446",
-            "in_reply_to_user_id": "2927379996",
-            "public_metrics": {
-                "retweet_count": 6,
-                "reply_count": 6,
-                "like_count": 68,
-                "quote_count": 1
-            },
-            "author_id": "2927379996"
-        },
-        {
-            "text": "The Moscone Center has served as the City’s Emergency Operations Center and now a high volume vaccination site.\n\nI'm excited to see it back hosting conventions, bringing visitors from around the world, and helping to drive our economic recovery. https://t.co/nckU5TeSVY",
-            "id": "1376938939068477446",
-            "possibly_sensitive": false,
-            "entities": {
-                "urls": [
-                    {
-                        "start": 246,
-                        "end": 269,
-                        "url": "https://t.co/nckU5TeSVY",
-                        "expanded_url": "https://www.sfchronicle.com/business/article/Moscone-Center-s-first-fall-conference-has-been-16061908.php",
-                        "display_url": "sfchronicle.com/business/artic…",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376650762600673285/ULdtgBF6?format=jpg&name=orig",
-                                "width": 2048,
-                                "height": 1366
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376650762600673285/ULdtgBF6?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "Moscone Center's first fall conference has been confirmed. Here's why it's committing to S.F.",
-                        "description": "The meeting is the first confirmed commitment since the pandemic devastated corporate...",
-                        "unwound_url": "https://www.sfchronicle.com/business/article/Moscone-Center-s-first-fall-conference-has-been-16061908.php"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 4,
-                        "end": 17,
-                        "probability": 0.6372,
-                        "type": "Place",
-                        "normalized_text": "Moscone Center"
-                    }
-                ]
-            },
-            "created_at": "2021-03-30T16:46:40.000Z",
-            "conversation_id": "1376938939068477446",
-            "public_metrics": {
-                "retweet_count": 17,
-                "reply_count": 18,
-                "like_count": 172,
-                "quote_count": 4
-            },
-            "author_id": "2927379996"
-        }
-    ],
-    [
-        {
-            "text": "There is a gardening comic book, and it aims to help you grow your food https://t.co/Knew2xbk5K",
-            "id": "1376935307841523712",
-            "conversation_id": "1376935307841523712",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T16:32:14.000Z",
-            "author_id": "10433782",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 72,
-                        "end": 95,
-                        "url": "https://t.co/Knew2xbk5K",
-                        "expanded_url": "https://bayareane.ws/3cy7Ey2",
-                        "display_url": "bayareane.ws/3cy7Ey2"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 4,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Monterey Bay Aquarium announces reopening date https://t.co/Oql5ijXU8Y",
-            "id": "1376935301143203843",
-            "conversation_id": "1376935301143203843",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T16:32:12.000Z",
-            "author_id": "10433782",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 47,
-                        "end": 70,
-                        "url": "https://t.co/Oql5ijXU8Y",
-                        "expanded_url": "https://bayareane.ws/31KNpY1",
-                        "display_url": "bayareane.ws/31KNpY1"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
                         "end": 20,
-                        "probability": 0.6496,
-                        "type": "Place",
-                        "normalized_text": "Monterey Bay Aquarium"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 8,
-                "reply_count": 1,
-                "like_count": 50,
-                "quote_count": 1
-            }
-        },
-        {
-            "text": "Recipe: For a sweet treat, invest in financiers https://t.co/0g5m2NMzjx",
-            "id": "1376929598781394947",
-            "conversation_id": "1376929598781394947",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T16:09:33.000Z",
-            "author_id": "10433782",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 48,
-                        "end": 71,
-                        "url": "https://t.co/0g5m2NMzjx",
-                        "expanded_url": "https://bayareane.ws/3fmaPea",
-                        "display_url": "bayareane.ws/3fmaPea"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Woman killed when her car is struck by suspects who had fled California cops https://t.co/d4RulwikId",
-            "id": "1376923347712405504",
-            "conversation_id": "1376923347712405504",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T15:44:42.000Z",
-            "author_id": "10433782",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 77,
-                        "end": 100,
-                        "url": "https://t.co/d4RulwikId",
-                        "expanded_url": "https://bayareane.ws/3m5OTFn",
-                        "display_url": "bayareane.ws/3m5OTFn",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376923351537614850/dKm78os9?format=jpg&name=orig",
-                                "width": 640,
-                                "height": 426
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376923351537614850/dKm78os9?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "Woman killed when her car is struck by suspects who had fled California cops",
-                        "description": "They were arrested on suspicion of charges including murder, evading a peace officer, negligent discharge of a firearm and felon in possession of a firearm, the Sheriff’s Department said.",
-                        "unwound_url": "https://www.mercurynews.com/2021/03/30/highland-driver-killed-when-her-car-is-struck-by-suspects-who-had-fled-police/?utm_source=twitter.com&utm_content=tw-mercnews&utm_campaign=socialflow&utm_medium=social"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 61,
-                        "end": 70,
-                        "probability": 0.9864,
-                        "type": "Place",
-                        "normalized_text": "California"
+                        "probability": 0.9928,
+                        "type": "Person",
+                        "normalized_text": "Roger Kibbe"
                     }
                 ]
             },
             "public_metrics": {
                 "retweet_count": 1,
                 "reply_count": 0,
-                "like_count": 1,
+                "like_count": 0,
                 "quote_count": 0
-            }
+            },
+            "conversation_id": "1380237507724447748",
+            "author_id": "8962112",
+            "created_at": "2021-04-08T19:14:00.000Z",
+            "text": "‘I killed Roger Kibbe the same day I became his cellmate’: DA charges man who admitted to strangling I-5 Strangler, but won’t seek death, report says https://t.co/DuBR1jeB7E",
+            "id": "1380237507724447748"
+        }
+    ],
+    [
+        {
+            "author_id": "18993395",
+            "conversation_id": "1380563706602479620",
+            "id": "1380563706602479620",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 12,
+                "like_count": 10,
+                "quote_count": 1
+            },
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 6,
+                        "end": 10,
+                        "probability": 0.9898,
+                        "type": "Person",
+                        "normalized_text": "Biden"
+                    },
+                    {
+                        "start": 47,
+                        "end": 53,
+                        "probability": 0.9756,
+                        "type": "Place",
+                        "normalized_text": "Oakland"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 85,
+                        "end": 108,
+                        "url": "https://t.co/YFHeeUInK8",
+                        "expanded_url": "http://abc7ne.ws/3wC61aN",
+                        "display_url": "abc7ne.ws/3wC61aN"
+                    }
+                ]
+            },
+            "text": "Could Biden's 'ghost gun' control measure curb Oakland crime? Police chief thinks so https://t.co/YFHeeUInK8",
+            "created_at": "2021-04-09T16:50:11.000Z"
         },
         {
-            "text": "76 all-cash offers on one home. The housing madness shows no signs of slowing https://t.co/rqZYgykaqN",
-            "id": "1376920503659692039",
-            "conversation_id": "1376920503659692039",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T15:33:24.000Z",
-            "author_id": "10433782",
+            "author_id": "18993395",
+            "conversation_id": "1380561182910713862",
+            "id": "1380561182910713862",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 1,
+                "like_count": 6,
+                "quote_count": 0
+            },
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 12,
+                        "end": 25,
+                        "probability": 0.9951,
+                        "type": "Person",
+                        "normalized_text": "Ruben Victorio"
+                    },
+                    {
+                        "start": 169,
+                        "end": 185,
+                        "probability": 0.6829,
+                        "type": "Place",
+                        "normalized_text": "Stanford Hospital"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 188,
+                        "end": 211,
+                        "url": "https://t.co/9LITRquFck",
+                        "expanded_url": "http://abc7ne.ws/3fTGmV7",
+                        "display_url": "abc7ne.ws/3fTGmV7"
+                    },
+                    {
+                        "start": 212,
+                        "end": 235,
+                        "url": "https://t.co/5FR5kNQcD6",
+                        "expanded_url": "https://twitter.com/abc7newsbayarea/status/1380561182910713862/photo/1",
+                        "display_url": "pic.twitter.com/5FR5kNQcD6"
+                    }
+                ]
+            },
+            "attachments": {
+                "media_keys": [
+                    "3_1380561179425316869"
+                ]
+            },
+            "text": "83-year-old Ruben Victorio has loved playing the jazz saxophone since he was a young man. Just ask his family. But he turned to his own music while fighting COVID-19 at Stanford Hospital. https://t.co/9LITRquFck https://t.co/5FR5kNQcD6",
+            "created_at": "2021-04-09T16:40:10.000Z"
+        },
+        {
+            "author_id": "18993395",
+            "conversation_id": "1380558718186762240",
+            "id": "1380558718186762240",
+            "public_metrics": {
+                "retweet_count": 9,
+                "reply_count": 3,
+                "like_count": 30,
+                "quote_count": 3
+            },
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 9,
+                        "probability": 0.8818,
+                        "type": "Person",
+                        "normalized_text": "Rapper DMX"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 90,
+                        "end": 113,
+                        "url": "https://t.co/cbEYK80oJD",
+                        "expanded_url": "http://abc7ne.ws/3wG154H",
+                        "display_url": "abc7ne.ws/3wG154H"
+                    }
+                ]
+            },
+            "text": "Rapper DMX dead at 50 after week on life support following heart attack: Family statement https://t.co/cbEYK80oJD",
+            "created_at": "2021-04-09T16:30:22.000Z"
+        },
+        {
+            "author_id": "18993395",
+            "conversation_id": "1380556196999004162",
+            "id": "1380556196999004162",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 4,
+                "quote_count": 0
+            },
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 42,
+                        "end": 48,
+                        "probability": 0.9911,
+                        "type": "Place",
+                        "normalized_text": "Windsor"
+                    },
+                    {
+                        "start": 93,
+                        "end": 113,
+                        "probability": 0.5602,
+                        "type": "Person",
+                        "normalized_text": "Mayor Dominic Foppoli"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 116,
+                        "end": 139,
+                        "url": "https://t.co/sAqmpq97IF",
+                        "expanded_url": "http://abc7ne.ws/3dNmK28",
+                        "display_url": "abc7ne.ws/3dNmK28"
+                    },
+                    {
+                        "start": 140,
+                        "end": 163,
+                        "url": "https://t.co/LlqQlumqca",
+                        "expanded_url": "https://twitter.com/abc7newsbayarea/status/1380556196999004162/photo/1",
+                        "display_url": "pic.twitter.com/LlqQlumqca"
+                    }
+                ]
+            },
+            "attachments": {
+                "media_keys": [
+                    "3_1380556194113273859"
+                ]
+            },
+            "text": "On what would appear to be a quiet day in Windsor, it wasn't. Not, at least, for 38 year-old Mayor Dominic Foppoli. https://t.co/sAqmpq97IF https://t.co/LlqQlumqca",
+            "created_at": "2021-04-09T16:20:21.000Z"
+        },
+        {
+            "author_id": "18993395",
+            "conversation_id": "1380551141692481541",
+            "id": "1380551141692481541",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 4,
+                "like_count": 8,
+                "quote_count": 1
+            },
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 13,
+                        "end": 19,
+                        "probability": 0.9156,
+                        "type": "Place",
+                        "normalized_text": "Florida"
+                    },
+                    {
+                        "start": 141,
+                        "end": 152,
+                        "probability": 0.9935,
+                        "type": "Person",
+                        "normalized_text": "Ron DeSantis"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 174,
+                        "end": 197,
+                        "url": "https://t.co/0GZZaeSAqw",
+                        "expanded_url": "http://abc7ne.ws/2Rhx8rf",
+                        "display_url": "abc7ne.ws/2Rhx8rf"
+                    },
+                    {
+                        "start": 198,
+                        "end": 221,
+                        "url": "https://t.co/Rt3T4zfwW8",
+                        "expanded_url": "https://twitter.com/abc7newsbayarea/status/1380551141692481541/photo/1",
+                        "display_url": "pic.twitter.com/Rt3T4zfwW8"
+                    }
+                ]
+            },
+            "attachments": {
+                "media_keys": [
+                    "3_1380551137120694273"
+                ]
+            },
+            "text": "The state of Florida has filed a lawsuit against the federal government to demand cruise ships be allowed to start sailing immediately, Gov. Ron DeSantis announced Thursday. https://t.co/0GZZaeSAqw https://t.co/Rt3T4zfwW8",
+            "created_at": "2021-04-09T16:00:16.000Z"
+        },
+        {
+            "author_id": "18993395",
+            "conversation_id": "1380548605409382405",
+            "id": "1380548605409382405",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 4,
+                "quote_count": 0
+            },
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 53,
+                        "end": 56,
+                        "probability": 0.5687,
+                        "type": "Organization",
+                        "normalized_text": "NOAA"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 63,
+                        "end": 86,
+                        "url": "https://t.co/lvLRu7KHvn",
+                        "expanded_url": "http://abc7ne.ws/3mzr7Su",
+                        "display_url": "abc7ne.ws/3mzr7Su"
+                    }
+                ]
+            },
+            "text": "'Average' hurricane season now includes more storms, NOAA says https://t.co/lvLRu7KHvn",
+            "created_at": "2021-04-09T15:50:11.000Z"
+        },
+        {
+            "author_id": "18993395",
+            "conversation_id": "1380546086482411521",
+            "id": "1380546086482411521",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "attachments": {
+                "media_keys": [
+                    "3_1380546082967535617"
+                ]
+            },
+            "text": "A little more than a year ago, the cast of the new ABC drama \"Rebel\" was ready to shoot the premiere episode -- but then the COVID-19 pandemic shut down all production. https://t.co/pdv4P3opQc https://t.co/aoWQigTWIo",
+            "created_at": "2021-04-09T15:40:10.000Z",
             "entities": {
                 "urls": [
                     {
-                        "start": 78,
-                        "end": 101,
-                        "url": "https://t.co/rqZYgykaqN",
-                        "expanded_url": "https://bayareane.ws/3cz1H3P",
-                        "display_url": "bayareane.ws/3cz1H3P",
+                        "start": 169,
+                        "end": 192,
+                        "url": "https://t.co/pdv4P3opQc",
+                        "expanded_url": "http://abc7ne.ws/3dPw85p",
+                        "display_url": "abc7ne.ws/3dPw85p"
+                    },
+                    {
+                        "start": 193,
+                        "end": 216,
+                        "url": "https://t.co/aoWQigTWIo",
+                        "expanded_url": "https://twitter.com/abc7newsbayarea/status/1380546086482411521/photo/1",
+                        "display_url": "pic.twitter.com/aoWQigTWIo"
+                    }
+                ]
+            }
+        },
+        {
+            "author_id": "18993395",
+            "conversation_id": "1380542398124630024",
+            "id": "1380542398124630024",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 1,
+                "like_count": 9,
+                "quote_count": 0
+            },
+            "entities": {
+                "hashtags": [
+                    {
+                        "start": 161,
+                        "end": 174,
+                        "tag": "PrincePhilip"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 108,
+                        "end": 116,
+                        "probability": 0.9858,
+                        "type": "Person",
+                        "normalized_text": "Joe Biden"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 176,
+                        "end": 199,
+                        "url": "https://t.co/HcGkMJHQ8y",
+                        "expanded_url": "https://abc7ne.ws/3s5OhkD",
+                        "display_url": "abc7ne.ws/3s5OhkD",
                         "images": [
                             {
-                                "url": "https://pbs.twimg.com/news_img/1376920514871107588/kQ02lCfo?format=jpg&name=orig",
-                                "width": 640,
-                                "height": 427
+                                "url": "https://pbs.twimg.com/news_img/1380542399949107200/UppPVYtw?format=jpg&name=orig",
+                                "width": 1600,
+                                "height": 900
                             },
                             {
-                                "url": "https://pbs.twimg.com/news_img/1376920514871107588/kQ02lCfo?format=jpg&name=150x150",
+                                "url": "https://pbs.twimg.com/news_img/1380542399949107200/UppPVYtw?format=jpg&name=150x150",
                                 "width": 150,
                                 "height": 150
                             }
                         ],
                         "status": 200,
-                        "title": "76 all-cash offers on one home. The housing madness shows no signs of slowing",
-                        "description": "Millions of homeowners took advantage of record low interest rates over the past year to refinance into a lower rate, more affordable payment or shorter loan term on their current mortgage. Those h…",
-                        "unwound_url": "https://www.mercurynews.com/2021/03/30/76-all-cash-offers-on-one-home-the-housing-madness-shows-no-signs-of-slowing/?utm_source=twitter.com&utm_content=tw-mercnews&utm_campaign=socialflow&utm_medium=social"
+                        "title": "Britain mourns Prince Philip's death; leaders honor service to Queen Elizabeth",
+                        "description": "BBC interrupted scheduled programming to broadcast the national anthem, \"God Save the Queen.\"",
+                        "unwound_url": "https://abc7news.com/prince-philip-death-britian-reaction-did-die-queen-elizabeth/10501310/"
+                    }
+                ]
+            },
+            "text": "\"His legacy will live on not only through his family, but in all the charitable endeavors he shaped.\" Pres. Joe Biden, other world leaders react to the death of #PrincePhilip: https://t.co/HcGkMJHQ8y",
+            "created_at": "2021-04-09T15:25:31.000Z"
+        },
+        {
+            "author_id": "18993395",
+            "conversation_id": "1380541085835988997",
+            "id": "1380541085835988997",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 9,
+                "quote_count": 2
+            },
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 4,
+                        "end": 14,
+                        "probability": 0.2789,
+                        "type": "Place",
+                        "normalized_text": "Los Angeles"
+                    },
+                    {
+                        "start": 34,
+                        "end": 43,
+                        "probability": 0.7513,
+                        "type": "Place",
+                        "normalized_text": "El Segundo"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 133,
+                        "end": 156,
+                        "url": "https://t.co/3F3jJajYHT",
+                        "expanded_url": "http://abc7ne.ws/320v1dE",
+                        "display_url": "abc7ne.ws/320v1dE"
+                    },
+                    {
+                        "start": 157,
+                        "end": 180,
+                        "url": "https://t.co/tOv4tfYhdg",
+                        "expanded_url": "https://twitter.com/abc7newsbayarea/status/1380541085835988997/photo/1",
+                        "display_url": "pic.twitter.com/tOv4tfYhdg"
+                    }
+                ]
+            },
+            "attachments": {
+                "media_keys": [
+                    "3_1380541081209700353"
+                ]
+            },
+            "text": "The Los Angeles Air Force Base in El Segundo will serve as a field command site for the U.S. Space Force, it was announced Thursday. https://t.co/3F3jJajYHT https://t.co/tOv4tfYhdg",
+            "created_at": "2021-04-09T15:20:18.000Z"
+        },
+        {
+            "author_id": "18993395",
+            "conversation_id": "1380538526098407427",
+            "id": "1380538526098407427",
+            "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 5,
+                "like_count": 23,
+                "quote_count": 0
+            },
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 58,
+                        "end": 67,
+                        "probability": 0.9896,
+                        "type": "Place",
+                        "normalized_text": "California"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 108,
+                        "end": 131,
+                        "url": "https://t.co/xnXjzhGGT6",
+                        "expanded_url": "https://abc7news.com/10498412/?ex_cid=TA_KGO_TW&taid=60706a5e9e2a0e0001531baa&utm_campaign=trueAnthem%3A+Trending+Content&utm_medium=trueAnthem&utm_source=twitter",
+                        "display_url": "abc7news.com/10498412/?ex_c…"
+                    }
+                ]
+            },
+            "text": "Some experts think we'll be masking into 2022. Here's why California is clinging tight to its mask mandate. https://t.co/xnXjzhGGT6",
+            "created_at": "2021-04-09T15:10:08.000Z"
+        }
+    ],
+    [
+        {
+            "conversation_id": "1380564928357146628",
+            "id": "1380564928357146628",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 90,
+                        "end": 113,
+                        "url": "https://t.co/3yqHsuajHk",
+                        "expanded_url": "https://sanfrancisco.cbslocal.com/2021/04/09/oakland-police-request-publics-help-in-finding-missing-man/?utm_campaign=snd-autopilot",
+                        "display_url": "sanfrancisco.cbslocal.com/2021/04/09/oak…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 6,
+                        "probability": 0.569,
+                        "type": "Place",
+                        "normalized_text": "Oakland"
+                    }
+                ]
+            },
+            "text": "Oakland Police requested the public's help Friday in finding a missing man with dementia. https://t.co/3yqHsuajHk",
+            "created_at": "2021-04-09T16:55:03.000Z",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 1,
+                "like_count": 7,
+                "quote_count": 0
+            },
+            "author_id": "16657699"
+        },
+        {
+            "conversation_id": "1380556876677517315",
+            "id": "1380556876677517315",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 81,
+                        "end": 104,
+                        "url": "https://t.co/tmKDBq3fm5",
+                        "expanded_url": "https://sanfrancisco.cbslocal.com/2021/04/09/man-shot-dead-in-east-oakland-3rd-homicide-in-less-than-24-hours/?utm_campaign=snd-autopilot",
+                        "display_url": "sanfrancisco.cbslocal.com/2021/04/09/man…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 47,
+                        "end": 58,
+                        "probability": 0.9358,
+                        "type": "Place",
+                        "normalized_text": "East Oakland"
+                    }
+                ]
+            },
+            "text": "A man died in a shooting Thursday afternoon in East Oakland, police said Friday. https://t.co/tmKDBq3fm5",
+            "created_at": "2021-04-09T16:23:03.000Z",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "author_id": "16657699"
+        },
+        {
+            "entities": {
+                "hashtags": [
+                    {
+                        "start": 22,
+                        "end": 38,
+                        "tag": "dukeofedinburgh"
+                    },
+                    {
+                        "start": 39,
+                        "end": 52,
+                        "tag": "PrincePhilip"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 87,
+                        "end": 110,
+                        "url": "https://t.co/YNqjqX9N06",
+                        "expanded_url": "https://cbsloc.al/2Q5DZ6G",
+                        "display_url": "cbsloc.al/2Q5DZ6G"
+                    },
+                    {
+                        "start": 111,
+                        "end": 134,
+                        "url": "https://t.co/qeMqYQByxX",
+                        "expanded_url": "https://twitter.com/KPIXtv/status/1380556183371583488/video/1",
+                        "display_url": "pic.twitter.com/qeMqYQByxX"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 4,
+                        "end": 16,
+                        "probability": 0.783,
+                        "type": "Person",
+                        "normalized_text": "PRINCE PHILIP"
+                    }
+                ]
+            },
+            "conversation_id": "1380556183371583488",
+            "id": "1380556183371583488",
+            "text": "RIP PRINCE PHILIP\nThe #dukeofedinburgh #PrincePhilip has died. He was 99 years old.  \n\nhttps://t.co/YNqjqX9N06 https://t.co/qeMqYQByxX",
+            "created_at": "2021-04-09T16:20:18.000Z",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 6,
+                "quote_count": 0
+            },
+            "author_id": "16657699",
+            "attachments": {
+                "media_keys": [
+                    "7_1380556131047641094"
+                ]
+            }
+        },
+        {
+            "conversation_id": "1380549020834131974",
+            "id": "1380549020834131974",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 90,
+                        "end": 113,
+                        "url": "https://t.co/yW6vtMvZkX",
+                        "expanded_url": "https://sanfrancisco.cbslocal.com/2021/04/09/oakland-police-request-publics-help-in-finding-missing-man/",
+                        "display_url": "sanfrancisco.cbslocal.com/2021/04/09/oak…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 6,
+                        "probability": 0.5864,
+                        "type": "Place",
+                        "normalized_text": "Oakland"
+                    }
+                ]
+            },
+            "text": "Oakland Police requested the public’s help Friday in finding a missing man with dementia.\nhttps://t.co/yW6vtMvZkX",
+            "created_at": "2021-04-09T15:51:50.000Z",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "author_id": "16657699"
+        },
+        {
+            "conversation_id": "1380545044357189635",
+            "id": "1380545044357189635",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 99,
+                        "end": 122,
+                        "url": "https://t.co/XFhSdhvxp6",
+                        "expanded_url": "https://sanfrancisco.cbslocal.com/2021/04/09/large-rockslide-blocks-u-s-highway-50-near-echo-summit/?utm_campaign=snd-autopilot",
+                        "display_url": "sanfrancisco.cbslocal.com/2021/04/09/lar…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 25,
+                        "end": 30,
+                        "probability": 0.4803,
+                        "type": "Place",
+                        "normalized_text": "Sierra"
+                    },
+                    {
+                        "start": 80,
+                        "end": 89,
+                        "probability": 0.8353,
+                        "type": "Place",
+                        "normalized_text": "Lake Tahoe"
+                    }
+                ]
+            },
+            "text": "A large rockslide in the Sierra has blocked a major artery from the Bay Area to Lake Tahoe Friday. https://t.co/XFhSdhvxp6",
+            "created_at": "2021-04-09T15:36:02.000Z",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 4,
+                "quote_count": 0
+            },
+            "author_id": "16657699"
+        },
+        {
+            "entities": {
+                "hashtags": [
+                    {
+                        "start": 11,
+                        "end": 18,
+                        "tag": "Sierra"
+                    },
+                    {
+                        "start": 21,
+                        "end": 31,
+                        "tag": "LakeTahoe"
+                    },
+                    {
+                        "start": 76,
+                        "end": 86,
+                        "tag": "Highway50"
+                    },
+                    {
+                        "start": 92,
+                        "end": 103,
+                        "tag": "EchoSummit"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 104,
+                        "end": 127,
+                        "url": "https://t.co/le53EQZfIO",
+                        "expanded_url": "https://cbsloc.al/3fTbX9n",
+                        "display_url": "cbsloc.al/3fTbX9n"
+                    },
+                    {
+                        "start": 128,
+                        "end": 151,
+                        "url": "https://t.co/92N1NSWLMb",
+                        "expanded_url": "https://twitter.com/KPIXtv/status/1380537190904516610/photo/1",
+                        "display_url": "pic.twitter.com/92N1NSWLMb"
+                    }
+                ]
+            },
+            "conversation_id": "1380537190904516610",
+            "id": "1380537190904516610",
+            "text": "Heading to #Sierra / #LakeTahoe? Heads up! Rockslide has completely blocked #Highway50 near #EchoSummit https://t.co/le53EQZfIO https://t.co/92N1NSWLMb",
+            "created_at": "2021-04-09T15:04:50.000Z",
+            "public_metrics": {
+                "retweet_count": 14,
+                "reply_count": 1,
+                "like_count": 25,
+                "quote_count": 2
+            },
+            "author_id": "16657699",
+            "attachments": {
+                "media_keys": [
+                    "3_1380537033081298944"
+                ]
+            }
+        },
+        {
+            "conversation_id": "1380533716359991299",
+            "id": "1380533716359991299",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 175,
+                        "end": 198,
+                        "url": "https://t.co/iYVeejIGqq",
+                        "expanded_url": "https://sanfrancisco.cbslocal.com/2021/04/09/sheriff-launches-investigation-into-sexual-assault-allegations-against-windsor-mayor-dominic-foppoli/?utm_campaign=snd-autopilot",
+                        "display_url": "sanfrancisco.cbslocal.com/2021/04/09/she…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 4,
+                        "end": 24,
+                        "probability": 0.6622,
+                        "type": "Organization",
+                        "normalized_text": "Sonoma County Sheriff"
+                    },
+                    {
+                        "start": 96,
+                        "end": 108,
+                        "probability": 0.3722,
+                        "type": "Organization",
+                        "normalized_text": "Windsor Mayor"
+                    },
+                    {
+                        "start": 110,
+                        "end": 124,
+                        "probability": 0.8797,
+                        "type": "Person",
+                        "normalized_text": "Dominic Foppoli"
+                    }
+                ]
+            },
+            "text": "The Sonoma County Sheriff has launched an investigation into sexual assault allegations against Windsor Mayor Dominic Foppoli amid a rising tide of calls for his resignation. https://t.co/iYVeejIGqq",
+            "created_at": "2021-04-09T14:51:01.000Z",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 1
+            },
+            "author_id": "16657699"
+        },
+        {
+            "conversation_id": "1380525666148487170",
+            "id": "1380525666148487170",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 175,
+                        "end": 198,
+                        "url": "https://t.co/8G01AaMuyF",
+                        "expanded_url": "https://sanfrancisco.cbslocal.com/2021/04/09/sheriff-investigation-sexual-assault-allegations-windsor-mayor-dominic-foppoli/?utm_campaign=snd-autopilot",
+                        "display_url": "sanfrancisco.cbslocal.com/2021/04/09/she…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 4,
+                        "end": 24,
+                        "probability": 0.6622,
+                        "type": "Organization",
+                        "normalized_text": "Sonoma County Sheriff"
+                    },
+                    {
+                        "start": 96,
+                        "end": 108,
+                        "probability": 0.3722,
+                        "type": "Organization",
+                        "normalized_text": "Windsor Mayor"
+                    },
+                    {
+                        "start": 110,
+                        "end": 124,
+                        "probability": 0.8797,
+                        "type": "Person",
+                        "normalized_text": "Dominic Foppoli"
+                    }
+                ]
+            },
+            "text": "The Sonoma County Sheriff has launched an investigation into sexual assault allegations against Windsor Mayor Dominic Foppoli amid a rising tide of calls for his resignation. https://t.co/8G01AaMuyF",
+            "created_at": "2021-04-09T14:19:02.000Z",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 4,
+                "quote_count": 0
+            },
+            "author_id": "16657699"
+        },
+        {
+            "conversation_id": "1380517618969407491",
+            "id": "1380517618969407491",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 75,
+                        "end": 98,
+                        "url": "https://t.co/CLxGmVNtKc",
+                        "expanded_url": "https://sanfrancisco.cbslocal.com/2021/04/09/bicyclist-killed-in-crash-with-vehicle-in-martinez/?utm_campaign=snd-autopilot",
+                        "display_url": "sanfrancisco.cbslocal.com/2021/04/09/bic…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 65,
+                        "end": 72,
+                        "probability": 0.746,
+                        "type": "Place",
+                        "normalized_text": "Martinez"
+                    }
+                ]
+            },
+            "text": "A bicyclist was killed Thursday in a collision with a vehicle in Martinez. https://t.co/CLxGmVNtKc",
+            "created_at": "2021-04-09T13:47:03.000Z",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "author_id": "16657699"
+        },
+        {
+            "conversation_id": "1380505036430716929",
+            "id": "1380505036430716929",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 80,
+                        "end": 103,
+                        "url": "https://t.co/On5uwJC6n2",
+                        "expanded_url": "https://sanfrancisco.cbslocal.com/2021/04/08/fans-allowed-at-golden-state-warriors-games-starting-april-23/?utm_campaign=snd-autopilot",
+                        "display_url": "sanfrancisco.cbslocal.com/2021/04/08/fan…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 35,
+                        "end": 55,
+                        "probability": 0.9178,
+                        "type": "Organization",
+                        "normalized_text": "Golden State Warriors"
+                    },
+                    {
+                        "start": 66,
+                        "end": 77,
+                        "probability": 0.6005,
+                        "type": "Place",
+                        "normalized_text": "Chase Center"
+                    }
+                ]
+            },
+            "text": "Starting April 23, fans can attend Golden State Warriors games at Chase Center. https://t.co/On5uwJC6n2",
+            "created_at": "2021-04-09T12:57:03.000Z",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "author_id": "16657699"
+        }
+    ],
+    [
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 122,
+                        "end": 145,
+                        "url": "https://t.co/aeMiM10S7J",
+                        "expanded_url": "https://www.ktvu.com/news/royal-consorts-past-and-future-in-britains-changing-monarchy?taid=6070836a7cca5200012b6428&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
+                        "display_url": "ktvu.com/news/royal-con…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 12,
+                        "probability": 0.9876,
+                        "type": "Person",
+                        "normalized_text": "Prince Philip"
+                    },
+                    {
+                        "start": 55,
+                        "end": 61,
+                        "probability": 0.5321,
+                        "type": "Place",
+                        "normalized_text": "British"
+                    }
+                ]
+            },
+            "text": "Prince Philip was the longest-serving royal consort in British history by more than a decade when he died Friday at 99.​  https://t.co/aeMiM10S7J",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 5,
+                "quote_count": 1
+            },
+            "conversation_id": "1380561184617857028",
+            "author_id": "15652540",
+            "id": "1380561184617857028",
+            "created_at": "2021-04-09T16:40:10.000Z"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 114,
+                        "end": 137,
+                        "url": "https://t.co/6MwkL0RWNe",
+                        "expanded_url": "https://www.ktvu.com/news/rapper-dmx-dead-at-the-age-of-50?taid=60708063d0d7ec000185c6d1&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
+                        "display_url": "ktvu.com/news/rapper-dm…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 9,
+                        "probability": 0.8621,
+                        "type": "Person",
+                        "normalized_text": "Rapper DMX"
+                    }
+                ]
+            },
+            "text": "Rapper DMX has died at the age of 50. The rapper was taken to the hospital on April 2 following a heart attack.​  https://t.co/6MwkL0RWNe",
+            "public_metrics": {
+                "retweet_count": 31,
+                "reply_count": 9,
+                "like_count": 103,
+                "quote_count": 8
+            },
+            "conversation_id": "1380557968039628812",
+            "author_id": "15652540",
+            "id": "1380557968039628812",
+            "created_at": "2021-04-09T16:27:23.000Z"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 151,
+                        "end": 174,
+                        "url": "https://t.co/FHj3oBohEK",
+                        "expanded_url": "https://www.ktvu.com/news/a-comeback-story-sponsored-by-the-goodwill-of-an-east-bay-community?taid=60707ebe4ab4da0001c18767&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
+                        "display_url": "ktvu.com/news/a-comebac…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 52,
+                        "end": 56,
+                        "probability": 0.343,
+                        "type": "Person",
+                        "normalized_text": "COVID"
+                    }
+                ]
+            },
+            "text": "An East Bay hairstylist who lost her job because of COVID is now opening up her own salon, due in large part to the generosity of community members.​  https://t.co/FHj3oBohEK",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 10,
+                "quote_count": 0
+            },
+            "conversation_id": "1380556169962528781",
+            "author_id": "15652540",
+            "id": "1380556169962528781",
+            "created_at": "2021-04-09T16:20:15.000Z"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 202,
+                        "end": 225,
+                        "url": "https://t.co/02xuHoVGMt",
+                        "expanded_url": "https://www.ktvu.com/news/california-advances-bill-aimed-at-massive-unemployment-fraud?taid=60707a0a7cca5200012b63f4&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
+                        "display_url": "ktvu.com/news/californi…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 75,
+                        "end": 107,
+                        "probability": 0.4087,
+                        "type": "Organization",
+                        "normalized_text": "Employment Development Department"
+                    }
+                ]
+            },
+            "text": "The measure that cleared its first committee would require the beleaguered Employment Development Department to crosscheck unemployment applications with inmate records to identify fraudulent claims.​  https://t.co/02xuHoVGMt",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 3,
+                "like_count": 5,
+                "quote_count": 0
+            },
+            "conversation_id": "1380551116727988231",
+            "author_id": "15652540",
+            "id": "1380551116727988231",
+            "created_at": "2021-04-09T16:00:10.000Z"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 137,
+                        "end": 160,
+                        "url": "https://t.co/MqtQbEQ0mq",
+                        "expanded_url": "https://www.ktvu.com/news/japanese-artist-in-san-francisco-shows-the-power-of-paper-to-combat-anti-asian-hate?taid=60707557b509cb0001408665&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
+                        "display_url": "ktvu.com/news/japanese-…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 3,
+                        "end": 7,
+                        "probability": 0.9607,
+                        "type": "Place",
+                        "normalized_text": "Japan"
+                    }
+                ]
+            },
+            "text": "In Japan, there's a tradition that you fold origami cranes to make a wish, but this artist found a new way to show the power of paper.​  https://t.co/MqtQbEQ0mq",
+            "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 1,
+                "like_count": 11,
+                "quote_count": 1
+            },
+            "conversation_id": "1380546070774697984",
+            "author_id": "15652540",
+            "id": "1380546070774697984",
+            "created_at": "2021-04-09T15:40:07.000Z"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 251,
+                        "end": 274,
+                        "url": "https://t.co/xYIu5aw11E",
+                        "expanded_url": "https://www.ktvu.com/news/white-house-selects-oakland-police-chief-as-only-law-enforcement-guest-for-bidens-gun-control-announcements?taid=607070aeb509cb0001408648&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
+                        "display_url": "ktvu.com/news/white-hou…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "probability": 0.66,
+                        "type": "Place",
+                        "normalized_text": "U.S."
+                    },
+                    {
+                        "start": 15,
+                        "end": 23,
+                        "probability": 0.7227,
+                        "type": "Person",
+                        "normalized_text": "Joe Biden"
+                    },
+                    {
+                        "start": 34,
+                        "end": 40,
+                        "probability": 0.6712,
+                        "type": "Organization",
+                        "normalized_text": "Oakland"
+                    },
+                    {
+                        "start": 55,
+                        "end": 71,
+                        "probability": 0.8647,
+                        "type": "Person",
+                        "normalized_text": "LeRonne Armstrong"
+                    },
+                    {
+                        "start": 76,
+                        "end": 90,
+                        "probability": 0.7438,
+                        "type": "Place",
+                        "normalized_text": "Washington D.C."
+                    },
+                    {
+                        "start": 110,
+                        "end": 114,
+                        "probability": 0.9869,
+                        "type": "Person",
+                        "normalized_text": "Biden"
+                    },
+                    {
+                        "start": 175,
+                        "end": 183,
+                        "probability": 0.9669,
+                        "type": "Person",
+                        "normalized_text": "Armstrong"
+                    },
+                    {
+                        "start": 236,
+                        "end": 246,
+                        "probability": 0.8937,
+                        "type": "Place",
+                        "normalized_text": "White House"
+                    }
+                ]
+            },
+            "text": "U.S. President Joe Biden met with Oakland Police Chief LeRonne Armstrong in Washington D.C. on Thursday after Biden announced a series of new executive orders on gun control. Armstrong was the only law enforcement leader invited to the White House.​  https://t.co/xYIu5aw11E",
+            "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 8,
+                "like_count": 32,
+                "quote_count": 1
+            },
+            "conversation_id": "1380541068228321284",
+            "author_id": "15652540",
+            "id": "1380541068228321284",
+            "created_at": "2021-04-09T15:20:14.000Z"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 126,
+                        "end": 149,
+                        "url": "https://t.co/Xg2K8U30VQ",
+                        "expanded_url": "https://www.ktvu.com/news/yosemite-is-requiring-advanced-reservations-for-day-visitors-this-summer?taid=60706bf74ab4da0001c186f3&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
+                        "display_url": "ktvu.com/news/yosemite-…",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380536007234293760/_PSJoJzc?format=jpg&name=orig",
+                                "width": 724,
+                                "height": 407
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380536007234293760/_PSJoJzc?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Yosemite is requiring advanced reservations for day visitors this summer",
+                        "description": "Under the new rules, advance reservations will be required for day use visitors who enter Yosemite from May 21 to Sept. 30.",
+                        "unwound_url": "https://www.ktvu.com/news/yosemite-is-requiring-advanced-reservations-for-day-visitors-this-summer?taid=60706bf74ab4da0001c186f3&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 90,
+                        "end": 97,
+                        "probability": 0.6973,
+                        "type": "Place",
+                        "normalized_text": "Yosemite"
+                    }
+                ]
+            },
+            "text": "Under the new rules, advance reservations will be required for day use visitors who enter Yosemite from May 21 to Sept. 30.​  https://t.co/Xg2K8U30VQ",
+            "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 0,
+                "like_count": 10,
+                "quote_count": 0
+            },
+            "conversation_id": "1380536004210266118",
+            "author_id": "15652540",
+            "id": "1380536004210266118",
+            "created_at": "2021-04-09T15:00:07.000Z"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 156,
+                        "end": 179,
+                        "url": "https://t.co/dN1YVpUigj",
+                        "expanded_url": "https://www.ktvu.com/news/play-ball-fans-excited-to-cheer-on-san-francisco-giants-live-and-in-person?taid=6070674e7cca5200012b6395&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
+                        "display_url": "ktvu.com/news/play-ball…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 28,
+                        "end": 47,
+                        "probability": 0.9268,
+                        "type": "Organization",
+                        "normalized_text": "San Francisco Giants"
+                    }
+                ]
+            },
+            "text": "Despite the COVID protocol, San Francisco Giants fans are excited for the atmosphere of a live game and feel this is the start of getting back to normal.​  https://t.co/dN1YVpUigj",
+            "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 3,
+                "like_count": 17,
+                "quote_count": 0
+            },
+            "conversation_id": "1380531003626827777",
+            "author_id": "15652540",
+            "id": "1380531003626827777",
+            "created_at": "2021-04-09T14:40:14.000Z"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 213,
+                        "end": 236,
+                        "url": "https://t.co/DM9XBEm5fc",
+                        "expanded_url": "https://www.ktvu.com/news/community-rallies-to-help-oakland-father-who-lost-legs-in-hit-and-run?taid=607062abb509cb00014085f8&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
+                        "display_url": "ktvu.com/news/community…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 41,
+                        "end": 47,
+                        "probability": 0.5086,
+                        "type": "Organization",
+                        "normalized_text": "Oakland"
+                    },
+                    {
+                        "start": 94,
+                        "end": 100,
+                        "probability": 0.7995,
+                        "type": "Place",
+                        "normalized_text": "Antioch"
+                    }
+                ]
+            },
+            "text": "Community members are rallying behind an Oakland father, who was a victim in a hit-and-run in Antioch and lost both his legs in the crash.​ His 6-y/o daughter is credited for calling for help and saving his life. https://t.co/DM9XBEm5fc",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 1,
+                "like_count": 19,
+                "quote_count": 0
+            },
+            "conversation_id": "1380526024040013828",
+            "author_id": "15652540",
+            "id": "1380526024040013828",
+            "created_at": "2021-04-09T14:20:27.000Z"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 196,
+                        "end": 219,
+                        "url": "https://t.co/8TIfEoUsNy",
+                        "expanded_url": "https://www.ktvu.com/news/video-hayward-police-officers-kick-punch-intoxicated-man-allegedly-armed-with-pistol?taid=60705deeb509cb00014085dc&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
+                        "display_url": "ktvu.com/news/video-hay…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 4,
+                        "end": 28,
+                        "probability": 0.5674,
+                        "type": "Organization",
+                        "normalized_text": "Hayward Police Department"
+                    },
+                    {
+                        "start": 83,
+                        "end": 89,
+                        "probability": 0.7138,
+                        "type": "Place",
+                        "normalized_text": "Hayward"
+                    }
+                ]
+            },
+            "text": "The Hayward Police Department is investigating cell phone video footage of several Hayward police officers punching and kicking a man while holding him to the ground in an effort to arrest him.​  https://t.co/8TIfEoUsNy",
+            "public_metrics": {
+                "retweet_count": 12,
+                "reply_count": 2,
+                "like_count": 12,
+                "quote_count": 1
+            },
+            "conversation_id": "1380520934025617409",
+            "author_id": "15652540",
+            "id": "1380520934025617409",
+            "created_at": "2021-04-09T14:00:14.000Z"
+        }
+    ],
+    [
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 145,
+                        "end": 168,
+                        "url": "https://t.co/WZySqYYIeA",
+                        "expanded_url": "https://www.kron4.com/entertainment-news/dmx-dies-at-age-50/",
+                        "display_url": "kron4.com/entertainment-…"
+                    },
+                    {
+                        "start": 169,
+                        "end": 192,
+                        "url": "https://t.co/dsUPwPaxI9",
+                        "expanded_url": "https://twitter.com/kron4news/status/1380563682833264646/photo/1",
+                        "display_url": "pic.twitter.com/dsUPwPaxI9"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 47,
+                        "end": 49,
+                        "probability": 0.9531,
+                        "type": "Person",
+                        "normalized_text": "DMX"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 21,
+                "quote_count": 1
+            },
+            "conversation_id": "1380563682833264646",
+            "author_id": "19031057",
+            "created_at": "2021-04-09T16:50:06.000Z",
+            "text": "REST IN PEACE: A statement from relatives said DMX  died “with his family by his side after being placed on life support for the past few days.” https://t.co/WZySqYYIeA https://t.co/dsUPwPaxI9",
+            "attachments": {
+                "media_keys": [
+                    "3_1380563666680999937"
+                ]
+            },
+            "id": "1380563682833264646"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 41,
+                        "end": 64,
+                        "url": "https://t.co/WZySqYYIeA",
+                        "expanded_url": "https://www.kron4.com/entertainment-news/dmx-dies-at-age-50/",
+                        "display_url": "kron4.com/entertainment-…"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 0,
+                        "end": 9,
+                        "tag": "BREAKING"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 10,
+                        "end": 19,
+                        "probability": 0.9025,
+                        "type": "Person",
+                        "normalized_text": "Rapper DMX"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 14,
+                "reply_count": 1,
+                "like_count": 52,
+                "quote_count": 5
+            },
+            "conversation_id": "1380557101521494019",
+            "author_id": "19031057",
+            "created_at": "2021-04-09T16:23:57.000Z",
+            "text": "#BREAKING Rapper DMX has died at age 50. https://t.co/WZySqYYIeA",
+            "id": "1380557101521494019"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 120,
+                        "end": 143,
+                        "url": "https://t.co/DjdpRfBw3T",
+                        "expanded_url": "https://www.kron4.com/news/national/world-reacts-to-prince-philips-death/",
+                        "display_url": "kron4.com/news/national/…"
+                    },
+                    {
+                        "start": 144,
+                        "end": 167,
+                        "url": "https://t.co/Jevym8KTXu",
+                        "expanded_url": "https://twitter.com/kron4news/status/1380553999351390210/photo/1",
+                        "display_url": "pic.twitter.com/Jevym8KTXu"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 21,
+                        "end": 33,
+                        "probability": 0.9734,
+                        "type": "Person",
+                        "normalized_text": "Prince Philip"
+                    },
+                    {
+                        "start": 93,
+                        "end": 109,
+                        "probability": 0.3203,
+                        "type": "Organization",
+                        "normalized_text": "Duke of Edinburgh"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 4,
+                "quote_count": 0
+            },
+            "conversation_id": "1380553999351390210",
+            "author_id": "19031057",
+            "created_at": "2021-04-09T16:11:37.000Z",
+            "text": "Memories of the late Prince Philip are pouring in on social media as the world reacts to the Duke of Edinburgh’s death. https://t.co/DjdpRfBw3T https://t.co/Jevym8KTXu",
+            "attachments": {
+                "media_keys": [
+                    "3_1380553985501749249"
+                ]
+            },
+            "id": "1380553999351390210"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 26,
+                        "end": 49,
+                        "url": "https://t.co/Cwg9YEGOVX",
+                        "expanded_url": "https://www.kron4.com/news/bay-area/alameda-county-expands-vaccine-eligibility-to-these-zip-codes/",
+                        "display_url": "kron4.com/news/bay-area/…"
                     }
                 ]
             },
             "public_metrics": {
                 "retweet_count": 3,
                 "reply_count": 0,
-                "like_count": 1,
-                "quote_count": 0
-            }
+                "like_count": 5,
+                "quote_count": 1
+            },
+            "conversation_id": "1380549579561594881",
+            "author_id": "19031057",
+            "created_at": "2021-04-09T15:54:03.000Z",
+            "text": "Check if you're eligible! https://t.co/Cwg9YEGOVX",
+            "id": "1380549579561594881"
         },
         {
-            "text": "NL West Division preview: How the SF Giants stack up against the juggernauts https://t.co/zj6cljFJ7m",
-            "id": "1376920503584239628",
-            "conversation_id": "1376920503584239628",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T15:33:24.000Z",
-            "author_id": "10433782",
             "entities": {
                 "urls": [
                     {
-                        "start": 77,
-                        "end": 100,
-                        "url": "https://t.co/zj6cljFJ7m",
-                        "expanded_url": "https://bayareane.ws/3dnphQv",
-                        "display_url": "bayareane.ws/3dnphQv"
+                        "start": 67,
+                        "end": 90,
+                        "url": "https://t.co/vbaZlHAS9j",
+                        "expanded_url": "https://www.kron4.com/news/bay-area/facebook-headquarters-to-open-covid-19-vaccinations/",
+                        "display_url": "kron4.com/news/bay-area/…"
                     }
                 ],
                 "annotations": [
                     {
-                        "start": 0,
-                        "end": 15,
-                        "probability": 0.4019,
+                        "start": 43,
+                        "end": 50,
+                        "probability": 0.7999,
                         "type": "Organization",
-                        "normalized_text": "NL West Division"
+                        "normalized_text": "Facebook"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "conversation_id": "1380544065704394755",
+            "author_id": "19031057",
+            "created_at": "2021-04-09T15:32:09.000Z",
+            "text": "You can soon get a COVID-19 vaccine at the Facebook headquarters 💉 https://t.co/vbaZlHAS9j",
+            "id": "1380544065704394755"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 41,
+                        "end": 64,
+                        "url": "https://t.co/yVIvOkitmt",
+                        "expanded_url": "https://www.kron4.com/news/bay-area/hit-the-brakes-bay-area-gas-prices-now-average-4/",
+                        "display_url": "kron4.com/news/bay-area/…"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 9,
+                "reply_count": 19,
+                "like_count": 39,
+                "quote_count": 12
+            },
+            "conversation_id": "1380539750692442118",
+            "author_id": "19031057",
+            "created_at": "2021-04-09T15:15:00.000Z",
+            "text": "If you needed a reason to buy a bike.... https://t.co/yVIvOkitmt",
+            "id": "1380539750692442118"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 137,
+                        "end": 160,
+                        "url": "https://t.co/prgp3RyNwp",
+                        "expanded_url": "https://www.kron4.com/news/bay-area/giants-2021-home-opener-is-first-game-in-front-of-fans/",
+                        "display_url": "kron4.com/news/bay-area/…"
                     },
                     {
-                        "start": 37,
-                        "end": 42,
-                        "probability": 0.7765,
+                        "start": 161,
+                        "end": 184,
+                        "url": "https://t.co/fkXI7VCW4K",
+                        "expanded_url": "https://twitter.com/kron4news/status/1380535979363033096/video/1",
+                        "display_url": "pic.twitter.com/fkXI7VCW4K"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 20,
+                        "end": 30,
+                        "probability": 0.7507,
+                        "type": "Place",
+                        "normalized_text": "Oracle Park"
+                    },
+                    {
+                        "start": 106,
+                        "end": 111,
+                        "probability": 0.8464,
                         "type": "Organization",
                         "normalized_text": "Giants"
                     }
                 ]
             },
             "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 0,
-                "like_count": 0,
+                "retweet_count": 2,
+                "reply_count": 2,
+                "like_count": 10,
                 "quote_count": 0
-            }
-        },
-        {
-            "text": "Witness in George Floyd case: ‘I witnessed a murder’ https://t.co/SdcXXUIlX4",
-            "id": "1376918880300466180",
-            "conversation_id": "1376918880300466180",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T15:26:57.000Z",
-            "author_id": "10433782",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 53,
-                        "end": 76,
-                        "url": "https://t.co/SdcXXUIlX4",
-                        "expanded_url": "https://bayareane.ws/39slNL8",
-                        "display_url": "bayareane.ws/39slNL8"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 11,
-                        "end": 22,
-                        "probability": 0.9062,
-                        "type": "Person",
-                        "normalized_text": "George Floyd"
-                    }
-                ]
             },
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 0,
-                "like_count": 2,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Elite Eight preview: Stanford women face Louisville on path to Final Four https://t.co/IEvQioMGkL",
-            "id": "1376914969887924226",
-            "conversation_id": "1376914969887924226",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T15:11:25.000Z",
-            "author_id": "10433782",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 74,
-                        "end": 97,
-                        "url": "https://t.co/IEvQioMGkL",
-                        "expanded_url": "https://bayareane.ws/3fqqlWk",
-                        "display_url": "bayareane.ws/3fqqlWk"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 21,
-                        "end": 28,
-                        "probability": 0.8354,
-                        "type": "Organization",
-                        "normalized_text": "Stanford"
-                    },
-                    {
-                        "start": 41,
-                        "end": 50,
-                        "probability": 0.893,
-                        "type": "Organization",
-                        "normalized_text": "Louisville"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 0,
-                "like_count": 2,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "‘Hemingway’: Ken Burns separates the man from myth in new documentary https://t.co/5HzHqBlVxx",
-            "id": "1376912560893652998",
-            "conversation_id": "1376912560893652998",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T15:01:50.000Z",
-            "author_id": "10433782",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 70,
-                        "end": 93,
-                        "url": "https://t.co/5HzHqBlVxx",
-                        "expanded_url": "https://bayareane.ws/3wceJMF",
-                        "display_url": "bayareane.ws/3wceJMF"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 1,
-                        "end": 9,
-                        "probability": 0.6397,
-                        "type": "Person",
-                        "normalized_text": "Hemingway"
-                    },
-                    {
-                        "start": 13,
-                        "end": 21,
-                        "probability": 0.9572,
-                        "type": "Person",
-                        "normalized_text": "Ken Burns"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Razer releasing a second apparel lineup with an environmental theme https://t.co/JJcnq4ZOzj",
-            "id": "1376912559132053505",
-            "conversation_id": "1376912559132053505",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-30T15:01:50.000Z",
-            "author_id": "10433782",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 68,
-                        "end": 91,
-                        "url": "https://t.co/JJcnq4ZOzj",
-                        "expanded_url": "https://bayareane.ws/3fxzdcZ",
-                        "display_url": "bayareane.ws/3fxzdcZ"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 4,
-                        "probability": 0.5238,
-                        "type": "Product",
-                        "normalized_text": "Razer"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        }
-    ],
-    [
-        {
-            "author_id": "759251",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 137,
-                        "end": 160,
-                        "url": "https://t.co/pXd0nCCDPn",
-                        "expanded_url": "https://cnn.it/3dmkL4v",
-                        "display_url": "cnn.it/3dmkL4v"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376938536759402501",
-            "public_metrics": {
-                "retweet_count": 283,
-                "reply_count": 137,
-                "like_count": 556,
-                "quote_count": 72
-            },
-            "created_at": "2021-03-30T16:45:04.000Z",
-            "conversation_id": "1376938536759402501",
-            "text": "Waste from lifesaving personal protective equipment (PPE) is killing birds, fish and other wildlife across the globe, a study has found. https://t.co/pXd0nCCDPn"
-        },
-        {
-            "author_id": "759251",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 244,
-                        "end": 267,
-                        "url": "https://t.co/DWEudnvN0Q",
-                        "expanded_url": "https://cnn.it/2PIRBok",
-                        "display_url": "cnn.it/2PIRBok"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 7,
-                        "probability": 0.6681,
-                        "type": "Organization",
-                        "normalized_text": "Chipotle"
-                    },
-                    {
-                        "start": 147,
-                        "end": 154,
-                        "probability": 0.8994,
-                        "type": "Organization",
-                        "normalized_text": "Chipotle"
-                    },
-                    {
-                        "start": 222,
-                        "end": 241,
-                        "probability": 0.6342,
-                        "type": "Other",
-                        "normalized_text": "National Burrito Day"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376934802578886659",
-            "public_metrics": {
-                "retweet_count": 146,
-                "reply_count": 51,
-                "like_count": 529,
-                "quote_count": 50
-            },
-            "created_at": "2021-03-30T16:30:13.000Z",
-            "conversation_id": "1376934802578886659",
-            "text": "Chipotle is jumping into the bitcoin craze. Sort of.\n\nNo, the chain isn't accepting the cryptocurrency as payment for its Mexican dishes. Instead, Chipotle is giving away $100,000 worth of bitcoin on Thursday to celebrate National Burrito Day. https://t.co/DWEudnvN0Q"
-        },
-        {
-            "author_id": "759251",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 163,
-                        "end": 186,
-                        "url": "https://t.co/1wBZ3bg8BK",
-                        "expanded_url": "https://cnn.it/3wfBpMa",
-                        "display_url": "cnn.it/3wfBpMa"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 133,
-                        "end": 142,
-                        "probability": 0.4742,
-                        "type": "Place",
-                        "normalized_text": "Suez Canal"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376930489613828100",
-            "public_metrics": {
-                "retweet_count": 125,
-                "reply_count": 34,
-                "like_count": 552,
-                "quote_count": 22
-            },
-            "created_at": "2021-03-30T16:13:05.000Z",
-            "conversation_id": "1376930489613828100",
-            "text": "A piece of celestial good luck likely made it easier for engineers to successfully refloat the giant container ship that blocked the Suez Canal for almost a week. https://t.co/1wBZ3bg8BK"
-        },
-        {
-            "author_id": "759251",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 128,
-                        "end": 151,
-                        "url": "https://t.co/11lXxmvPsq",
-                        "expanded_url": "https://cnn.it/3m3tXyV",
-                        "display_url": "cnn.it/3m3tXyV"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376927241213513731",
-            "public_metrics": {
-                "retweet_count": 37,
-                "reply_count": 27,
-                "like_count": 116,
-                "quote_count": 7
-            },
-            "created_at": "2021-03-30T16:00:11.000Z",
-            "conversation_id": "1376927241213513731",
-            "text": "If you were working remotely from one state in 2020 and your employer was in another, you could be in for a big state tax bill. https://t.co/11lXxmvPsq"
-        },
-        {
-            "author_id": "759251",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 90,
-                        "end": 113,
-                        "url": "https://t.co/6xhYqirk1x",
-                        "expanded_url": "https://cnn.it/31wIr0H",
-                        "display_url": "cnn.it/31wIr0H"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376922429742837767",
-            "public_metrics": {
-                "retweet_count": 56,
-                "reply_count": 43,
-                "like_count": 182,
-                "quote_count": 16
-            },
-            "created_at": "2021-03-30T15:41:03.000Z",
-            "conversation_id": "1376922429742837767",
-            "text": "Living in one state and working remotely from another? You could owe income taxes in both https://t.co/6xhYqirk1x"
-        },
-        {
-            "author_id": "759251",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 75,
-                        "end": 98,
-                        "url": "https://t.co/6vix1J6EGH",
-                        "expanded_url": "https://cnn.it/3u1InlG",
-                        "display_url": "cnn.it/3u1InlG"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 45,
-                        "end": 50,
-                        "probability": 0.8812,
-                        "type": "Organization",
-                        "normalized_text": "SpaceX"
-                    },
-                    {
-                        "start": 56,
-                        "end": 64,
-                        "probability": 0.8277,
-                        "type": "Person",
-                        "normalized_text": "Elon Musk"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376919689390088199",
-            "public_metrics": {
-                "retweet_count": 54,
-                "reply_count": 21,
-                "like_count": 274,
-                "quote_count": 9
-            },
-            "created_at": "2021-03-30T15:30:10.000Z",
-            "conversation_id": "1376919689390088199",
-            "text": "\"At least the crater is in the right place!\" SpaceX CEO Elon Musk tweeted. https://t.co/6vix1J6EGH"
-        },
-        {
-            "author_id": "759251",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 51,
-                        "end": 74,
-                        "url": "https://t.co/bXYpreipPg",
-                        "expanded_url": "https://cnn.it/3u6jOEf",
-                        "display_url": "cnn.it/3u6jOEf"
-                    },
-                    {
-                        "start": 75,
-                        "end": 98,
-                        "url": "https://t.co/GyGqvyL04X",
-                        "expanded_url": "https://twitter.com/CNN/status/1376915154982567942/photo/1",
-                        "display_url": "pic.twitter.com/GyGqvyL04X"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376915154982567942",
-            "public_metrics": {
-                "retweet_count": 101,
-                "reply_count": 77,
-                "like_count": 580,
-                "quote_count": 36
-            },
+            "conversation_id": "1380535979363033096",
+            "author_id": "19031057",
+            "created_at": "2021-04-09T15:00:01.000Z",
+            "text": "Spirits are high at Oracle Park! \"It's opening day, the sun is coming up, it's just nice to be back,\" the Giants spokesperson tells us.  https://t.co/prgp3RyNwp https://t.co/fkXI7VCW4K",
             "attachments": {
                 "media_keys": [
-                    "16_1376915134208225280"
+                    "7_1380524588358979584"
                 ]
             },
-            "created_at": "2021-03-30T15:12:09.000Z",
-            "conversation_id": "1376915154982567942",
-            "text": "The science behind the perfect bowl of fried rice: https://t.co/bXYpreipPg https://t.co/GyGqvyL04X"
+            "id": "1380535979363033096"
         },
         {
-            "author_id": "759251",
             "entities": {
                 "urls": [
                     {
-                        "start": 175,
-                        "end": 198,
-                        "url": "https://t.co/2VLzx43xt2",
-                        "expanded_url": "https://cnn.it/3sDgdx4",
-                        "display_url": "cnn.it/3sDgdx4"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 9,
-                        "probability": 0.6728,
-                        "type": "Organization",
-                        "normalized_text": "US Customs"
-                    },
-                    {
-                        "start": 171,
-                        "end": 173,
-                        "probability": 0.988,
-                        "type": "Organization",
-                        "normalized_text": "CNN"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376908592155131909",
-            "public_metrics": {
-                "retweet_count": 37,
-                "reply_count": 83,
-                "like_count": 154,
-                "quote_count": 5
-            },
-            "created_at": "2021-03-30T14:46:04.000Z",
-            "conversation_id": "1376908592155131909",
-            "text": "US Customs and Border Protection is deploying more agents to the US-Mexico border as the agency continues to face a growing number of migrants, an agency spokeswoman told CNN https://t.co/2VLzx43xt2"
-        },
-        {
-            "author_id": "759251",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 150,
-                        "end": 173,
-                        "url": "https://t.co/VDQBDawrnQ",
-                        "expanded_url": "https://cnn.it/3cBYLn2",
-                        "display_url": "cnn.it/3cBYLn2"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 36,
-                        "end": 42,
-                        "probability": 0.8915,
-                        "type": "Place",
-                        "normalized_text": "Capitol"
-                    },
-                    {
-                        "start": 72,
-                        "end": 76,
-                        "probability": 0.9985,
-                        "type": "Person",
-                        "normalized_text": "Trump"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376905087851900932",
-            "public_metrics": {
-                "retweet_count": 291,
-                "reply_count": 214,
-                "like_count": 1274,
-                "quote_count": 15
-            },
-            "created_at": "2021-03-30T14:32:09.000Z",
-            "conversation_id": "1376905087851900932",
-            "text": "Mother of police officer injured in Capitol riot says she's outraged by Trump's lie that his supporters were \"hugging and kissing\" cops during attack https://t.co/VDQBDawrnQ"
-        },
-        {
-            "author_id": "759251",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 204,
-                        "end": 227,
-                        "url": "https://t.co/vHMnEMxAZh",
-                        "expanded_url": "https://cnn.it/3u68AQb",
-                        "display_url": "cnn.it/3u68AQb"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 75,
-                        "end": 84,
-                        "probability": 0.8151,
-                        "type": "Place",
-                        "normalized_text": "Mozambique"
-                    }
-                ]
-            },
-            "possibly_sensitive": false,
-            "id": "1376897066258030593",
-            "public_metrics": {
-                "retweet_count": 35,
-                "reply_count": 32,
-                "like_count": 158,
-                "quote_count": 4
-            },
-            "created_at": "2021-03-30T14:00:16.000Z",
-            "conversation_id": "1376897066258030593",
-            "text": "The assault over the last week by Islamist militants on a town in northern Mozambique is the most serious and deadly in their four-year insurgency -- and directly threatens the country's economic future. https://t.co/vHMnEMxAZh"
-        }
-    ],
-    [
-        {
-            "text": "I met today with Special Envoy for the Northern Triangle, Ricardo Zúñiga. We are implementing our plan to engage the governments and people of the region, and address the root causes of migration from Central America. This will take time, but it's important and necessary work. https://t.co/eVKQkSe0uG",
-            "id": "1376678435389636610",
-            "conversation_id": "1376678435389636610",
-            "attachments": {
-                "media_keys": [
-                    "3_1376677297810518020"
-                ]
-            },
-            "possibly_sensitive": false,
-            "created_at": "2021-03-29T23:31:31.000Z",
-            "author_id": "803694179079458816",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 278,
-                        "end": 301,
-                        "url": "https://t.co/eVKQkSe0uG",
-                        "expanded_url": "https://twitter.com/VP/status/1376678435389636610/photo/1",
-                        "display_url": "pic.twitter.com/eVKQkSe0uG"
+                        "start": 158,
+                        "end": 181,
+                        "url": "https://t.co/vI5McnsPHg",
+                        "expanded_url": "https://www.kron4.com/news/bay-area/why-san-francisco-isnt-moving-to-the-yellow-tier/",
+                        "display_url": "kron4.com/news/bay-area/…",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380533462201815045/UBUQP3_k?format=jpg&name=orig",
+                                "width": 640,
+                                "height": 427
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380533462201815045/UBUQP3_k?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Why San Francisco isn’t moving to the yellow tier",
+                        "description": "San Francisco will not move into the yellow tier next week as originally expected.",
+                        "unwound_url": "https://www.kron4.com/news/bay-area/why-san-francisco-isnt-moving-to-the-yellow-tier/"
                     }
                 ],
                 "annotations": [
                     {
                         "start": 17,
                         "end": 29,
-                        "probability": 0.3574,
-                        "type": "Organization",
-                        "normalized_text": "Special Envoy"
-                    },
-                    {
-                        "start": 39,
-                        "end": 55,
-                        "probability": 0.7668,
+                        "probability": 0.7889,
                         "type": "Place",
-                        "normalized_text": "Northern Triangle"
-                    },
-                    {
-                        "start": 58,
-                        "end": 71,
-                        "probability": 0.9589,
-                        "type": "Person",
-                        "normalized_text": "Ricardo Zúñiga"
-                    },
-                    {
-                        "start": 201,
-                        "end": 215,
-                        "probability": 0.9197,
-                        "type": "Place",
-                        "normalized_text": "Central America"
+                        "normalized_text": "San Francisco"
                     }
                 ]
             },
             "public_metrics": {
-                "retweet_count": 2047,
-                "reply_count": 921,
-                "like_count": 12787,
-                "quote_count": 141
-            }
+                "retweet_count": 7,
+                "reply_count": 2,
+                "like_count": 27,
+                "quote_count": 1
+            },
+            "conversation_id": "1380533458699612160",
+            "author_id": "19031057",
+            "created_at": "2021-04-09T14:50:00.000Z",
+            "text": "CHANGE OF PLANS: San Francisco officials were expecting a move to the yellow tier - and even fewer restrictions - next week. Now they say it's not happening. https://t.co/vI5McnsPHg",
+            "id": "1380533458699612160"
         },
         {
-            "text": "We are making real progress to beat this virus:\n- More than a third of adults in our country have at least one shot. \n- In just three weeks at least 90% of adults will be eligible to get a shot and 90% of Americans will live within 5 miles of a vaccination site.",
-            "id": "1376670509300129796",
-            "conversation_id": "1376670509300129796",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-29T23:00:01.000Z",
-            "author_id": "803694179079458816",
-            "public_metrics": {
-                "retweet_count": 2640,
-                "reply_count": 837,
-                "like_count": 21874,
-                "quote_count": 113
-            }
-        },
-        {
-            "text": "We cannot have health, economic, racial, or educational justice without environmental justice. The historic White House Environmental Justice Advisory Council will ensure that our work is informed by insights and expertise of environmental justice leaders. https://t.co/daX9pNDpc1",
-            "id": "1376657549429182464",
-            "conversation_id": "1376657549429182464",
-            "possibly_sensitive": false,
-            "created_at": "2021-03-29T22:08:31.000Z",
-            "author_id": "803694179079458816",
             "entities": {
                 "urls": [
                     {
-                        "start": 257,
-                        "end": 280,
-                        "url": "https://t.co/daX9pNDpc1",
-                        "expanded_url": "http://go.usa.gov/xshrC",
-                        "display_url": "go.usa.gov/xshrC",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376555045836193798/gN7jCWOC?format=jpg&name=orig",
-                                "width": 1200,
-                                "height": 630
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376555045836193798/gN7jCWOC?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "White House Announces Environmental Justice Advisory Council Members | The White House",
-                        "description": "Today, the White House announced the members of the White House Environmental Justice Advisory Council. The advisory council will provide advice and recommendations to the Chair of the Council on Environmental Quality (CEQ) and the White House Environmental Justice Interagency Council on how to address current and historic environmental injustices, including recommendations for updating Executive…",
-                        "unwound_url": "https://www.whitehouse.gov/briefing-room/statements-releases/2021/03/29/white-house-announces-environmental-justice-advisory-council-members/"
+                        "start": 87,
+                        "end": 110,
+                        "url": "https://t.co/Li5lkoaf0p",
+                        "expanded_url": "https://www.kron4.com/weather/san-francisco-bay-area-weather-forecast/",
+                        "display_url": "kron4.com/weather/san-fr…"
+                    },
+                    {
+                        "start": 111,
+                        "end": 134,
+                        "url": "https://t.co/Q0MVFTaYFV",
+                        "expanded_url": "https://twitter.com/kron4news/status/1380529683842879497/photo/1",
+                        "display_url": "pic.twitter.com/Q0MVFTaYFV"
                     }
                 ],
-                "annotations": [
+                "mentions": [
                     {
-                        "start": 108,
-                        "end": 157,
-                        "probability": 0.9209,
-                        "type": "Organization",
-                        "normalized_text": "White House Environmental Justice Advisory Council"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 936,
-                "reply_count": 306,
-                "like_count": 5364,
-                "quote_count": 46
-            }
-        },
-        {
-            "text": "Our veterans sacrifice to protect our country. Today, on #NationalVietnamWarVeteransDay, I called U.S. Army First Sergeant (Retired) Gumersindo Gomez, to thank him for his service in Vietnam, his 20 years of service in uniform, and the work he continues to do for veterans. https://t.co/DdVjJ4oy6T",
-            "id": "1376591948664991754",
-            "conversation_id": "1376591948664991754",
-            "attachments": {
-                "media_keys": [
-                    "3_1376589041492234240",
-                    "3_1376589159113109505"
-                ]
-            },
-            "possibly_sensitive": false,
-            "created_at": "2021-03-29T17:47:51.000Z",
-            "author_id": "803694179079458816",
-            "entities": {
-                "urls": [
-                    {
-                        "start": 274,
-                        "end": 297,
-                        "url": "https://t.co/DdVjJ4oy6T",
-                        "expanded_url": "https://twitter.com/VP/status/1376591948664991754/photo/1",
-                        "display_url": "pic.twitter.com/DdVjJ4oy6T"
-                    },
-                    {
-                        "start": 274,
-                        "end": 297,
-                        "url": "https://t.co/DdVjJ4oy6T",
-                        "expanded_url": "https://twitter.com/VP/status/1376591948664991754/photo/1",
-                        "display_url": "pic.twitter.com/DdVjJ4oy6T"
+                        "start": 24,
+                        "end": 36,
+                        "username": "JohnShrable"
                     }
                 ],
                 "hashtags": [
                     {
-                        "start": 57,
-                        "end": 87,
-                        "tag": "NationalVietnamWarVeteransDay"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 98,
-                        "end": 106,
-                        "probability": 0.6595,
-                        "type": "Organization",
-                        "normalized_text": "U.S. Army"
-                    },
-                    {
-                        "start": 133,
-                        "end": 148,
-                        "probability": 0.8546,
-                        "type": "Person",
-                        "normalized_text": "Gumersindo Gomez"
-                    },
-                    {
-                        "start": 183,
-                        "end": 189,
-                        "probability": 0.993,
-                        "type": "Place",
-                        "normalized_text": "Vietnam"
+                        "start": 14,
+                        "end": 22,
+                        "tag": "BayArea"
                     }
                 ]
             },
-            "public_metrics": {
-                "retweet_count": 1410,
-                "reply_count": 447,
-                "like_count": 11068,
-                "quote_count": 64
-            }
-        }
-    ],
-    [
-        {
-            "possibly_sensitive": false,
-            "text": "Lady Gaga’s dog walker is giving a health update more than one month after he was shot in Hollywood when two of the singer’s French bulldogs were stolen. https://t.co/87TKF3Afmk",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 8,
-                        "probability": 0.9594,
-                        "type": "Person",
-                        "normalized_text": "Lady Gaga"
-                    },
-                    {
-                        "start": 90,
-                        "end": 98,
-                        "probability": 0.8297,
-                        "type": "Place",
-                        "normalized_text": "Hollywood"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 154,
-                        "end": 177,
-                        "url": "https://t.co/87TKF3Afmk",
-                        "expanded_url": "http://nbcbay.com/H3U1yNQ",
-                        "display_url": "nbcbay.com/H3U1yNQ"
-                    }
-                ]
-            },
-            "conversation_id": "1376935016597495810",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 2,
-                "quote_count": 1
-            },
-            "id": "1376935016597495810",
-            "created_at": "2021-03-30T16:31:04.000Z",
-            "author_id": "20097362"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "COVID-19 restrictions are expected to loosen up this week in Napa and Alameda counties with those areas expected to move into the orange tier in the state's reopening guidance. https://t.co/of8hd2GEAJ",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 61,
-                        "end": 64,
-                        "probability": 0.9842,
-                        "type": "Place",
-                        "normalized_text": "Napa"
-                    },
-                    {
-                        "start": 70,
-                        "end": 76,
-                        "probability": 0.7233,
-                        "type": "Place",
-                        "normalized_text": "Alameda"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 177,
-                        "end": 200,
-                        "url": "https://t.co/of8hd2GEAJ",
-                        "expanded_url": "http://nbcbay.com/kHjMSQV",
-                        "display_url": "nbcbay.com/kHjMSQV"
-                    }
-                ]
-            },
-            "conversation_id": "1376927231046524931",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 1,
-                "like_count": 4,
-                "quote_count": 0
-            },
-            "id": "1376927231046524931",
-            "created_at": "2021-03-30T16:00:08.000Z",
-            "author_id": "20097362"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "Nearly 70 migrant girls who are being housed at the San Diego Convention Center have tested positive for COVID-19, officials say. https://t.co/U6BZrsipJs",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 52,
-                        "end": 78,
-                        "probability": 0.8449,
-                        "type": "Place",
-                        "normalized_text": "San Diego Convention Center"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 130,
-                        "end": 153,
-                        "url": "https://t.co/U6BZrsipJs",
-                        "expanded_url": "http://nbcbay.com/Y8HZ4EY",
-                        "display_url": "nbcbay.com/Y8HZ4EY",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376919165215342592/KG34_Ia1?format=jpg&name=orig",
-                                "width": 1200,
-                                "height": 675
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1376919165215342592/KG34_Ia1?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "Dozens of Migrants at San Diego Convention Center COVID-19 Positive",
-                        "description": "Nearly 70 migrant girls who are being housed at the San Diego Convention Center have tested positive for COVID-19, a HHS spokesperson said.",
-                        "unwound_url": "https://www.nbcbayarea.com/news/california/dozens-of-migrants-at-san-diego-convention-center-covid-19-positive-more-expected-to-arrive-monday/2505767/?_osource=SocialFlowTwt_BAYBrand"
-                    }
-                ]
-            },
-            "conversation_id": "1376919157388800006",
-            "public_metrics": {
-                "retweet_count": 3,
-                "reply_count": 1,
-                "like_count": 2,
-                "quote_count": 0
-            },
-            "id": "1376919157388800006",
-            "created_at": "2021-03-30T15:28:03.000Z",
-            "author_id": "20097362"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "Some of the youngest learners in the Oakland Unified School District are scheduled to return to in-person learning today, but the planned reopening of elementary schools has been scaled back a bit. https://t.co/fBvsyPLOok https://t.co/2vQZQKv36v",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 37,
-                        "end": 67,
-                        "probability": 0.9461,
-                        "type": "Organization",
-                        "normalized_text": "Oakland Unified School District"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 198,
-                        "end": 221,
-                        "url": "https://t.co/fBvsyPLOok",
-                        "expanded_url": "http://nbcbay.com/L5kr6e0",
-                        "display_url": "nbcbay.com/L5kr6e0"
-                    },
-                    {
-                        "start": 222,
-                        "end": 245,
-                        "url": "https://t.co/2vQZQKv36v",
-                        "expanded_url": "https://twitter.com/nbcbayarea/status/1376912140553031682/video/1",
-                        "display_url": "pic.twitter.com/2vQZQKv36v"
-                    }
-                ]
-            },
-            "conversation_id": "1376912140553031682",
-            "attachments": {
-                "media_keys": [
-                    "13_1376909519008174082"
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 1,
-                "like_count": 2,
-                "quote_count": 0
-            },
-            "id": "1376912140553031682",
-            "created_at": "2021-03-30T15:00:10.000Z",
-            "author_id": "20097362"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "Pharrell Williams is speaking out after his cousin was killed in a string of shootings in Virginia Beach. https://t.co/Xw8OvHVyEs",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 0,
-                        "end": 16,
-                        "probability": 0.9869,
-                        "type": "Person",
-                        "normalized_text": "Pharrell Williams"
-                    },
-                    {
-                        "start": 90,
-                        "end": 103,
-                        "probability": 0.909,
-                        "type": "Place",
-                        "normalized_text": "Virginia Beach"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 106,
-                        "end": 129,
-                        "url": "https://t.co/Xw8OvHVyEs",
-                        "expanded_url": "http://nbcbay.com/gIOshoz",
-                        "display_url": "nbcbay.com/gIOshoz"
-                    }
-                ]
-            },
-            "conversation_id": "1376905076648841227",
             "public_metrics": {
                 "retweet_count": 2,
                 "reply_count": 0,
                 "like_count": 6,
                 "quote_count": 0
             },
-            "id": "1376905076648841227",
-            "created_at": "2021-03-30T14:32:06.000Z",
-            "author_id": "20097362"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "Experts have boarded a colossal container ship that had been stuck sideways for nearly a week in the Suez Canal before it was dislodged. https://t.co/6Wzu9dykcK",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 101,
-                        "end": 110,
-                        "probability": 0.5863,
-                        "type": "Place",
-                        "normalized_text": "Suez Canal"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 137,
-                        "end": 160,
-                        "url": "https://t.co/6Wzu9dykcK",
-                        "expanded_url": "http://nbcbay.com/EvZtP2J",
-                        "display_url": "nbcbay.com/EvZtP2J"
-                    }
+            "conversation_id": "1380529683842879497",
+            "author_id": "19031057",
+            "created_at": "2021-04-09T14:35:00.000Z",
+            "text": "Happy FriYAY, #BayArea! @JohnShrable's  weather forecast can help plan your weekend ☀  https://t.co/Li5lkoaf0p https://t.co/Q0MVFTaYFV",
+            "attachments": {
+                "media_keys": [
+                    "3_1380522383296012289"
                 ]
             },
-            "conversation_id": "1376897044988710917",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 1,
-                "quote_count": 0
-            },
-            "id": "1376897044988710917",
-            "created_at": "2021-03-30T14:00:11.000Z",
-            "author_id": "20097362"
+            "id": "1380529683842879497"
         },
         {
-            "possibly_sensitive": false,
-            "text": "Undergraduate students at Brown University have voted overwhelmingly that the institution should offer reparations to descendants of slaves who were affiliated with the school and its founders, NBC News reports. https://t.co/3sPb110tvt",
             "entities": {
-                "annotations": [
+                "urls": [
                     {
-                        "start": 26,
-                        "end": 41,
-                        "probability": 0.8769,
-                        "type": "Organization",
-                        "normalized_text": "Brown University"
+                        "start": 46,
+                        "end": 69,
+                        "url": "https://t.co/1vUGChPSUU",
+                        "expanded_url": "http://kronon.tv",
+                        "display_url": "kronon.tv"
                     },
                     {
-                        "start": 194,
-                        "end": 201,
-                        "probability": 0.9256,
-                        "type": "Organization",
-                        "normalized_text": "NBC News"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 212,
-                        "end": 235,
-                        "url": "https://t.co/3sPb110tvt",
-                        "expanded_url": "http://nbcbay.com/F9ey2AR",
-                        "display_url": "nbcbay.com/F9ey2AR"
-                    }
-                ]
-            },
-            "conversation_id": "1376889203984859142",
-            "public_metrics": {
-                "retweet_count": 2,
-                "reply_count": 1,
-                "like_count": 10,
-                "quote_count": 1
-            },
-            "id": "1376889203984859142",
-            "created_at": "2021-03-30T13:29:02.000Z",
-            "author_id": "20097362"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "Police are looking for the man seen on video choking an Asian man aboard a Manhattan-bound subway train — one of at least two reported attacks on Asian people in the city Monday. https://t.co/W0ooFzJXNl",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 75,
-                        "end": 83,
-                        "probability": 0.8648,
-                        "type": "Place",
-                        "normalized_text": "Manhattan"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 179,
-                        "end": 202,
-                        "url": "https://t.co/W0ooFzJXNl",
-                        "expanded_url": "http://nbcbay.com/X1bWnTu",
-                        "display_url": "nbcbay.com/X1bWnTu"
-                    }
-                ]
-            },
-            "conversation_id": "1376885706455408646",
-            "public_metrics": {
-                "retweet_count": 4,
-                "reply_count": 3,
-                "like_count": 5,
-                "quote_count": 1
-            },
-            "id": "1376885706455408646",
-            "created_at": "2021-03-30T13:15:08.000Z",
-            "author_id": "20097362"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "LIVE VIDEO: @CierraJonhsonTV  is live at 6:02 with the latest on some Oakland schools set to reopen today but only partially and with a modified schedule. https://t.co/rY2j4sA9D0",
-            "entities": {
-                "annotations": [
-                    {
                         "start": 70,
-                        "end": 76,
-                        "probability": 0.8182,
-                        "type": "Place",
-                        "normalized_text": "Oakland"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 155,
-                        "end": 178,
-                        "url": "https://t.co/rY2j4sA9D0",
-                        "expanded_url": "http://nbcbay.com/DdOA3f9",
-                        "display_url": "nbcbay.com/DdOA3f9"
+                        "end": 93,
+                        "url": "https://t.co/QxL4qtPQYN",
+                        "expanded_url": "https://twitter.com/kron4news/status/1380524650556448778/photo/1",
+                        "display_url": "pic.twitter.com/QxL4qtPQYN"
                     }
                 ]
             },
-            "conversation_id": "1376881934819819521",
             "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 1,
+                "retweet_count": 1,
+                "reply_count": 2,
+                "like_count": 8,
                 "quote_count": 0
             },
-            "id": "1376881934819819521",
-            "created_at": "2021-03-30T13:00:09.000Z",
-            "author_id": "20097362"
-        },
-        {
-            "possibly_sensitive": false,
-            "text": "LIVE VIDEO: Alameda and Napa counties are expected to move into the less restrictive COVID-19 orange tier today. @BobNBC is live at 5:30 with the details. https://t.co/JdfgsXh5aU",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 24,
-                        "end": 27,
-                        "probability": 0.4045,
-                        "type": "Place",
-                        "normalized_text": "Napa"
-                    }
-                ],
-                "mentions": [
-                    {
-                        "start": 113,
-                        "end": 120,
-                        "username": "BobNBC"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 155,
-                        "end": 178,
-                        "url": "https://t.co/JdfgsXh5aU",
-                        "expanded_url": "http://nbcbay.com/nGcBY91",
-                        "display_url": "nbcbay.com/nGcBY91"
-                    }
+            "conversation_id": "1380524650556448778",
+            "author_id": "19031057",
+            "created_at": "2021-04-09T14:15:00.000Z",
+            "text": "Good morning 😍 Wake up with KRON4! Live here: https://t.co/1vUGChPSUU https://t.co/QxL4qtPQYN",
+            "attachments": {
+                "media_keys": [
+                    "3_1380522013115084801"
                 ]
             },
-            "conversation_id": "1376873862533685256",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 4,
-                "quote_count": 0
-            },
-            "id": "1376873862533685256",
-            "created_at": "2021-03-30T12:28:04.000Z",
-            "author_id": "20097362"
+            "id": "1380524650556448778"
         }
     ],
     [
         {
-            "text": "We can’t be silent in the face of rising violence against Asian Americans. That’s why today I’m taking additional steps to respond–including establishing an initiative at the Department of Justice to address anti-Asian crimes.\n\nThese attacks are wrong, un-American, and must stop.",
-            "id": "1376931500852187143",
-            "possibly_sensitive": false,
-            "author_id": "1349149096909668363",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1380564078188355589"
+                }
+            ],
+            "in_reply_to_user_id": "121597316",
+            "text": "Correction: An earlier version of this story was tweeted with the wrong photo. That tweet has been deleted.",
+            "id": "1380564996397047811",
             "public_metrics": {
-                "retweet_count": 10741,
-                "reply_count": 4249,
-                "like_count": 68384,
-                "quote_count": 687
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 1
             },
-            "conversation_id": "1376931500852187143",
-            "created_at": "2021-03-30T16:17:06.000Z"
+            "author_id": "121597316",
+            "created_at": "2021-04-09T16:55:19.000Z",
+            "conversation_id": "1380564078188355589"
         },
         {
-            "text": "We have a sacred obligation to care for our nation’s veterans and their families. The American Rescue Plan will help deliver on that obligation by ensuring access to VA health care and providing immediate economic relief.",
-            "id": "1376700955295686667",
-            "possibly_sensitive": false,
-            "author_id": "1349149096909668363",
-            "public_metrics": {
-                "retweet_count": 3364,
-                "reply_count": 1886,
-                "like_count": 25196,
-                "quote_count": 161
-            },
-            "conversation_id": "1376700955295686667",
-            "created_at": "2021-03-30T01:01:00.000Z",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 86,
-                        "end": 105,
-                        "probability": 0.6521,
-                        "type": "Organization",
-                        "normalized_text": "American Rescue Plan"
-                    },
-                    {
-                        "start": 166,
-                        "end": 167,
-                        "probability": 0.5636,
-                        "type": "Place",
-                        "normalized_text": "VA"
-                    }
-                ]
-            }
-        },
-        {
-            "text": "In the next three weeks, we will more than double the number of pharmacies where you can get vaccinated and increase the number of federally-run mass vaccination sites. \n\nWe’re going to make sure that 90% of Americans live within 5 miles of a vaccination site by April 19.",
-            "id": "1376693154867515402",
-            "possibly_sensitive": false,
-            "author_id": "1349149096909668363",
-            "public_metrics": {
-                "retweet_count": 4970,
-                "reply_count": 1554,
-                "like_count": 35244,
-                "quote_count": 362
-            },
-            "conversation_id": "1376693154867515402",
-            "created_at": "2021-03-30T00:30:00.000Z"
-        },
-        {
-            "text": "This Vietnam War Veterans Day, and every day, we remember the brave members of our armed forces who sacrificed so much in service of our nation. We owe them and their families more than we could ever repay. https://t.co/77TEfX6OF8",
-            "id": "1376687510894620672",
-            "possibly_sensitive": false,
-            "author_id": "1349149096909668363",
             "entities": {
                 "urls": [
                     {
-                        "start": 207,
-                        "end": 230,
-                        "url": "https://t.co/77TEfX6OF8",
-                        "expanded_url": "https://twitter.com/POTUS/status/1376687510894620672/photo/1",
-                        "display_url": "pic.twitter.com/77TEfX6OF8"
+                        "start": 47,
+                        "end": 70,
+                        "url": "https://t.co/UPpYmRxHOY",
+                        "expanded_url": "https://www.sfchronicle.com/news/article/Rapper-actor-DMX-known-for-gruff-delivery-dead-16089149.php",
+                        "display_url": "sfchronicle.com/news/article/R…"
                     }
                 ],
                 "annotations": [
                     {
-                        "start": 5,
-                        "end": 28,
-                        "probability": 0.7831,
-                        "type": "Other",
-                        "normalized_text": "Vietnam War Veterans Day"
-                    }
-                ]
-            },
-            "public_metrics": {
-                "retweet_count": 2135,
-                "reply_count": 787,
-                "like_count": 16938,
-                "quote_count": 144
-            },
-            "conversation_id": "1376687510894620672",
-            "attachments": {
-                "media_keys": [
-                    "3_1376687509476900865"
-                ]
-            },
-            "created_at": "2021-03-30T00:07:34.000Z"
-        },
-        {
-            "text": "We’ve made enormous progress when it comes to COVID-19, but new variants are spreading quickly. Now is not the time to let up — we have to hold the line while we get the country vaccinated.\n\nWash your hands.\nStay socially distanced.\nWear a mask.\nGet vaccinated when you can.",
-            "id": "1376663734681268228",
-            "possibly_sensitive": false,
-            "author_id": "1349149096909668363",
-            "public_metrics": {
-                "retweet_count": 5243,
-                "reply_count": 1678,
-                "like_count": 29974,
-                "quote_count": 289
-            },
-            "conversation_id": "1376663734681268228",
-            "created_at": "2021-03-29T22:33:06.000Z"
-        },
-        {
-            "text": "Over the last three days, we have had a record number of shots in arms with nearly 10 million shots recorded.\n\nThat would have been inconceivable in January.",
-            "id": "1376637789119336454",
-            "possibly_sensitive": false,
-            "author_id": "1349149096909668363",
-            "public_metrics": {
-                "retweet_count": 5541,
-                "reply_count": 2530,
-                "like_count": 51782,
-                "quote_count": 456
-            },
-            "conversation_id": "1376637789119336454",
-            "created_at": "2021-03-29T20:50:00.000Z"
-        },
-        {
-            "text": "I’m proud to announce that three weeks from today, 90% of adults will be eligible to get vaccinated — and 90% of Americans will live within 5 miles of a place to get a shot.",
-            "id": "1376610861603774466",
-            "possibly_sensitive": false,
-            "author_id": "1349149096909668363",
-            "public_metrics": {
-                "retweet_count": 20635,
-                "reply_count": 8457,
-                "like_count": 216122,
-                "quote_count": 2977
-            },
-            "conversation_id": "1376610861603774466",
-            "created_at": "2021-03-29T19:03:00.000Z",
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 113,
-                        "end": 121,
-                        "probability": 0.4888,
+                        "start": 28,
+                        "end": 30,
+                        "probability": 0.7361,
                         "type": "Person",
-                        "normalized_text": "Americans"
+                        "normalized_text": "DMX"
                     }
                 ]
-            }
+            },
+            "text": "Breaking News: Rapper-actor DMX has died at 50 https://t.co/UPpYmRxHOY",
+            "id": "1380564078188355589",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 4,
+                "like_count": 16,
+                "quote_count": 0
+            },
+            "author_id": "121597316",
+            "created_at": "2021-04-09T16:51:40.000Z",
+            "conversation_id": "1380564078188355589"
         },
         {
-            "text": "Vice President Harris and I just wrapped up a COVID-19 briefing. Tune in as I give an update on our response to the virus and the state of vaccinations. https://t.co/eAex72VFDH",
-            "id": "1376602772116807680",
-            "possibly_sensitive": false,
-            "author_id": "1349149096909668363",
             "entities": {
                 "urls": [
                     {
-                        "start": 153,
-                        "end": 176,
-                        "url": "https://t.co/eAex72VFDH",
-                        "expanded_url": "https://twitter.com/i/broadcasts/1BRJjBrebppJw",
-                        "display_url": "twitter.com/i/broadcasts/1…",
+                        "start": 64,
+                        "end": 87,
+                        "url": "https://t.co/BRgZ6S4Q71",
+                        "expanded_url": "https://trib.al/BOqO4kA",
+                        "display_url": "trib.al/BOqO4kA"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 53,
+                        "end": 62,
+                        "probability": 0.9727,
+                        "type": "Place",
+                        "normalized_text": "Lake Tahoe"
+                    }
+                ]
+            },
+            "text": "Massive rockslide cuts off popular Bay Area route to Lake Tahoe https://t.co/BRgZ6S4Q71",
+            "id": "1380557031988473856",
+            "public_metrics": {
+                "retweet_count": 10,
+                "reply_count": 1,
+                "like_count": 4,
+                "quote_count": 0
+            },
+            "author_id": "121597316",
+            "created_at": "2021-04-09T16:23:40.000Z",
+            "conversation_id": "1380557031988473856"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 65,
+                        "end": 88,
+                        "url": "https://t.co/bpOYimDdvE",
+                        "expanded_url": "https://trib.al/8EtC6tt",
+                        "display_url": "trib.al/8EtC6tt",
                         "images": [
                             {
-                                "url": "https://pbs.twimg.com/news_img/1376602773589000199/ZNI3uCAb?format=jpg&name=orig",
-                                "width": 1280,
-                                "height": 720
+                                "url": "https://pbs.twimg.com/news_img/1380554150463823872/XVb-1-ST?format=jpg&name=orig",
+                                "width": 1277,
+                                "height": 848
                             },
                             {
-                                "url": "https://pbs.twimg.com/news_img/1376602773589000199/ZNI3uCAb?format=jpg&name=150x150",
+                                "url": "https://pbs.twimg.com/news_img/1380554150463823872/XVb-1-ST?format=jpg&name=150x150",
                                 "width": 150,
                                 "height": 150
                             }
                         ],
                         "status": 200,
-                        "title": "President Biden",
-                        "description": "Vice President Harris and I just wrapped up a COVID-19 briefing. Tune in as I give an update on our response to the virus and the state of vaccinations.",
-                        "unwound_url": "https://twitter.com/i/broadcasts/1BRJjBrebppJw"
+                        "title": "Massive rockslide cuts off popular Bay Area route to Lake Tahoe",
+                        "description": "A massive rockslide shut down part of US-50 in El Dorado County, Caltrans officials said...",
+                        "unwound_url": "https://www.sfchronicle.com/local/article/Massive-rockslide-cuts-off-popular-Bay-Area-route-16089104.php"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 38,
+                        "end": 39,
+                        "probability": 0.7252,
+                        "type": "Place",
+                        "normalized_text": "US"
+                    },
+                    {
+                        "start": 47,
+                        "end": 62,
+                        "probability": 0.9712,
+                        "type": "Place",
+                        "normalized_text": "El Dorado County"
+                    }
+                ]
+            },
+            "text": "A massive rockslide shut down part of US-50 in El Dorado County. https://t.co/bpOYimDdvE",
+            "id": "1380555428938059781",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "author_id": "121597316",
+            "created_at": "2021-04-09T16:17:18.000Z",
+            "conversation_id": "1380555428938059781"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 64,
+                        "end": 87,
+                        "url": "https://t.co/tsPUxiufHO",
+                        "expanded_url": "https://trib.al/Fu7pJo0",
+                        "display_url": "trib.al/Fu7pJo0",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380554150463823872/XVb-1-ST?format=jpg&name=orig",
+                                "width": 1277,
+                                "height": 848
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380554150463823872/XVb-1-ST?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Massive rockslide cuts off popular Bay Area route to Lake Tahoe",
+                        "description": "A massive rockslide shut down part of US-50 in El Dorado County, Caltrans officials said...",
+                        "unwound_url": "https://www.sfchronicle.com/local/article/Massive-rockslide-cuts-off-popular-Bay-Area-route-16089104.php"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 53,
+                        "end": 62,
+                        "probability": 0.9727,
+                        "type": "Place",
+                        "normalized_text": "Lake Tahoe"
+                    }
+                ]
+            },
+            "text": "Massive rockslide cuts off popular Bay Area route to Lake Tahoe https://t.co/tsPUxiufHO",
+            "id": "1380554147217432584",
+            "public_metrics": {
+                "retweet_count": 9,
+                "reply_count": 3,
+                "like_count": 14,
+                "quote_count": 2
+            },
+            "author_id": "121597316",
+            "created_at": "2021-04-09T16:12:12.000Z",
+            "conversation_id": "1380554147217432584"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 256,
+                        "end": 279,
+                        "url": "https://t.co/87gBEMLwb6",
+                        "expanded_url": "https://trib.al/WDFaRoX",
+                        "display_url": "trib.al/WDFaRoX"
+                    },
+                    {
+                        "start": 280,
+                        "end": 303,
+                        "url": "https://t.co/rNcMOPYiWv",
+                        "expanded_url": "https://twitter.com/sfchronicle/status/1380553080635334659/video/1",
+                        "display_url": "pic.twitter.com/rNcMOPYiWv"
                     }
                 ],
                 "annotations": [
                     {
                         "start": 0,
-                        "end": 20,
-                        "probability": 0.7504,
+                        "end": 9,
+                        "probability": 0.6326,
+                        "type": "Place",
+                        "normalized_text": "California"
+                    }
+                ]
+            },
+            "text": "California’s wet season is coming to a close, setting the stage for a painful escalation of drought in the coming months. This marks a second straight year of significantly dry conditions, raising concerns about a difficult fire season ahead. \n\nRead more: https://t.co/87gBEMLwb6 https://t.co/rNcMOPYiWv",
+            "id": "1380553080635334659",
+            "public_metrics": {
+                "retweet_count": 7,
+                "reply_count": 1,
+                "like_count": 8,
+                "quote_count": 1
+            },
+            "attachments": {
+                "media_keys": [
+                    "13_1380307183104106497"
+                ]
+            },
+            "author_id": "121597316",
+            "created_at": "2021-04-09T16:07:58.000Z",
+            "conversation_id": "1380553080635334659"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 169,
+                        "end": 192,
+                        "url": "https://t.co/hXXRxopbnY",
+                        "expanded_url": "https://trib.al/OpZXOia",
+                        "display_url": "trib.al/OpZXOia",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380531318342172672/tnGpW805?format=jpg&name=orig",
+                                "width": 2048,
+                                "height": 1365
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380531318342172672/tnGpW805?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Caitlyn Jenner is no Arnold Schwarzenegger. And she's no threat to Newsom",
+                        "description": "Caitlyn Jenner would not be the next Arnold Schwarzenegger. She’d be more like the next...",
+                        "unwound_url": "https://www.sfchronicle.com/politics/article/Caitlyn-Jenner-is-no-Arnold-Schwarzenegger-And-16086907.php"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "start": 156,
+                        "end": 168,
+                        "username": "joegarofoli"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 13,
+                        "probability": 0.9963,
                         "type": "Person",
-                        "normalized_text": "Vice President Harris"
+                        "normalized_text": "Caitlyn Jenner"
+                    },
+                    {
+                        "start": 81,
+                        "end": 92,
+                        "probability": 0.985,
+                        "type": "Person",
+                        "normalized_text": "Gavin Newsom"
+                    }
+                ]
+            },
+            "text": "Caitlyn Jenner’s name is floating around as a possible recall challenger to Gov. Gavin Newsom.  \n\nBut don’t buy into the hype, says senior political writer @joegarofoli https://t.co/hXXRxopbnY",
+            "id": "1380551608388481024",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 14,
+                "like_count": 4,
+                "quote_count": 1
+            },
+            "author_id": "121597316",
+            "created_at": "2021-04-09T16:02:07.000Z",
+            "conversation_id": "1380551608388481024"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1380545152955998209"
+                }
+            ],
+            "entities": {
+                "urls": [
+                    {
+                        "start": 73,
+                        "end": 96,
+                        "url": "https://t.co/WPibgBRGoY",
+                        "expanded_url": "https://twitter.com/sfc_opinions/status/1380545152955998209",
+                        "display_url": "twitter.com/sfc_opinions/s…"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "start": 5,
+                        "end": 16,
+                        "username": "JoshGohlke"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 18,
+                        "end": 23,
+                        "probability": 0.3914,
+                        "type": "Person",
+                        "normalized_text": "Newsom"
+                    }
+                ]
+            },
+            "text": "From @JoshGohlke: Newsom's defense is even more partisan than the recall https://t.co/WPibgBRGoY",
+            "id": "1380545247676047365",
+            "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 5,
+                "like_count": 6,
+                "quote_count": 1
+            },
+            "author_id": "121597316",
+            "created_at": "2021-04-09T15:36:50.000Z",
+            "conversation_id": "1380545247676047365"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 165,
+                        "end": 188,
+                        "url": "https://t.co/W66VmMoZQH",
+                        "expanded_url": "https://trib.al/6en59sE",
+                        "display_url": "trib.al/6en59sE"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 5,
+                        "end": 12,
+                        "probability": 0.5747,
+                        "type": "Organization",
+                        "normalized_text": "Facebook"
+                    },
+                    {
+                        "start": 19,
+                        "end": 33,
+                        "probability": 0.9572,
+                        "type": "Person",
+                        "normalized_text": "Sheryl Sandberg"
+                    },
+                    {
+                        "start": 67,
+                        "end": 76,
+                        "probability": 0.4438,
+                        "type": "Organization",
+                        "normalized_text": "Ravenswood"
+                    }
+                ]
+            },
+            "text": "In a Facebook post Sheryl Sandberg said the company partnered with Ravenswood to increase vaccine access for communities that have been hit hardest by the pandemic. https://t.co/W66VmMoZQH",
+            "id": "1380543540137197570",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 4,
+                "quote_count": 0
+            },
+            "author_id": "121597316",
+            "created_at": "2021-04-09T15:30:03.000Z",
+            "conversation_id": "1380543540137197570"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 176,
+                        "end": 199,
+                        "url": "https://t.co/ko9oNFIYmm",
+                        "expanded_url": "https://trib.al/KBBmtd7",
+                        "display_url": "trib.al/KBBmtd7"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 28,
+                        "end": 54,
+                        "probability": 0.2831,
+                        "type": "Place",
+                        "normalized_text": "East Palo Alto, Belle Haven"
+                    },
+                    {
+                        "start": 59,
+                        "end": 73,
+                        "probability": 0.5895,
+                        "type": "Place",
+                        "normalized_text": "North Fair Oaks"
+                    },
+                    {
+                        "start": 129,
+                        "end": 151,
+                        "probability": 0.5578,
+                        "type": "Place",
+                        "normalized_text": "Menlo Park Headquarters"
+                    }
+                ]
+            },
+            "text": "Anyone over 18 who lives in East Palo Alto, Belle Haven or North Fair Oaks will be eligible to receive the shot at the company’s Menlo Park Headquarters starting this Saturday https://t.co/ko9oNFIYmm",
+            "id": "1380542184919855114",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 1,
+                "like_count": 12,
+                "quote_count": 0
+            },
+            "author_id": "121597316",
+            "created_at": "2021-04-09T15:24:40.000Z",
+            "conversation_id": "1380542184919855114"
+        }
+    ],
+    [
+        {
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 17,
+                        "end": 24,
+                        "probability": 0.5478,
+                        "type": "Organization",
+                        "normalized_text": "Caltrans"
+                    },
+                    {
+                        "start": 29,
+                        "end": 35,
+                        "probability": 0.5804,
+                        "type": "Organization",
+                        "normalized_text": "Twitter"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 86,
+                        "end": 109,
+                        "url": "https://t.co/B8TMaetX2v",
+                        "expanded_url": "http://dlvr.it/RxKv2X",
+                        "display_url": "dlvr.it/RxKv2X"
+                    }
+                ]
+            },
+            "id": "1380559143791075331",
+            "created_at": "2021-04-09T16:32:04.000Z",
+            "author_id": "36511031",
+            "conversation_id": "1380559143791075331",
+            "text": "Photos shared by Caltrans on Twitter show massive boulders in the middle of the road. https://t.co/B8TMaetX2v",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 1,
+                "like_count": 17,
+                "quote_count": 2
+            }
+        },
+        {
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 44,
+                        "end": 65,
+                        "probability": 0.6308,
+                        "type": "Organization",
+                        "normalized_text": "Better Business Bureau"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 85,
+                        "end": 108,
+                        "url": "https://t.co/A76XO8DQCQ",
+                        "expanded_url": "http://dlvr.it/RxKj0R",
+                        "display_url": "dlvr.it/RxKj0R"
+                    }
+                ]
+            },
+            "id": "1380544419275870211",
+            "created_at": "2021-04-09T15:33:33.000Z",
+            "author_id": "36511031",
+            "conversation_id": "1380544419275870211",
+            "text": "It's the latest social media trend, but the Better Business Bureau says don't do it. https://t.co/A76XO8DQCQ",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 5,
+                "like_count": 12,
+                "quote_count": 1
+            }
+        },
+        {
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 5,
+                        "end": 16,
+                        "probability": 0.9978,
+                        "type": "Person",
+                        "normalized_text": "Henry Cortez"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 108,
+                        "end": 131,
+                        "url": "https://t.co/oTKjyQ38V8",
+                        "expanded_url": "http://dlvr.it/RxJnYb",
+                        "display_url": "dlvr.it/RxJnYb"
+                    }
+                ]
+            },
+            "id": "1380478389023215624",
+            "created_at": "2021-04-09T11:11:10.000Z",
+            "author_id": "36511031",
+            "conversation_id": "1380478389023215624",
+            "text": "When Henry Cortez arrives at his job each morning, he’s greeted by a cacophony of bleats, honks and quacks. https://t.co/oTKjyQ38V8",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 11,
+                "quote_count": 1
+            }
+        },
+        {
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 7,
+                        "probability": 0.9984,
+                        "type": "Person",
+                        "normalized_text": "John Cox"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 80,
+                        "end": 103,
+                        "url": "https://t.co/8IjlK7rSUC",
+                        "expanded_url": "http://dlvr.it/RxJnYT",
+                        "display_url": "dlvr.it/RxJnYT"
+                    }
+                ]
+            },
+            "id": "1380478385080528898",
+            "created_at": "2021-04-09T11:11:09.000Z",
+            "author_id": "36511031",
+            "conversation_id": "1380478385080528898",
+            "text": "John Cox is back for the recall election likely to take place in the fall. Why? https://t.co/8IjlK7rSUC",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "probability": 0.6853,
+                        "type": "Organization",
+                        "normalized_text": "SFGATE"
+                    },
+                    {
+                        "start": 9,
+                        "end": 17,
+                        "probability": 0.9511,
+                        "type": "Person",
+                        "normalized_text": "Eric Ting"
+                    },
+                    {
+                        "start": 52,
+                        "end": 57,
+                        "probability": 0.9428,
+                        "type": "Organization",
+                        "normalized_text": "Niners"
+                    },
+                    {
+                        "start": 76,
+                        "end": 87,
+                        "probability": 0.8395,
+                        "type": "Person",
+                        "normalized_text": "Kirk Cousins"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 99,
+                        "end": 122,
+                        "url": "https://t.co/9lXQGBGJB1",
+                        "expanded_url": "http://dlvr.it/RxJnYC",
+                        "display_url": "dlvr.it/RxJnYC"
+                    }
+                ]
+            },
+            "id": "1380478381481893894",
+            "created_at": "2021-04-09T11:11:08.000Z",
+            "author_id": "36511031",
+            "conversation_id": "1380478381481893894",
+            "text": "SFGATE's Eric Ting on why it'd be a big mistake for Niners to take the next Kirk Cousins so early. https://t.co/9lXQGBGJB1",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 2,
+                "quote_count": 1
+            }
+        },
+        {
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 7,
+                        "end": 14,
+                        "probability": 0.5997,
+                        "type": "Organization",
+                        "normalized_text": "Facebook"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 98,
+                        "end": 121,
+                        "url": "https://t.co/H9Mtj313Wt",
+                        "expanded_url": "http://dlvr.it/RxJnXs",
+                        "display_url": "dlvr.it/RxJnXs"
+                    }
+                ]
+            },
+            "id": "1380478377581182977",
+            "created_at": "2021-04-09T11:11:07.000Z",
+            "author_id": "36511031",
+            "conversation_id": "1380478377581182977",
+            "text": "From a Facebook group, one S.F. man learned he could drive 237 miles and get a vaccine that week. https://t.co/H9Mtj313Wt",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 1
+            }
+        },
+        {
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 29,
+                        "end": 36,
+                        "probability": 0.7195,
+                        "type": "Place",
+                        "normalized_text": "Richmond"
+                    },
+                    {
+                        "start": 50,
+                        "end": 70,
+                        "probability": 0.2895,
+                        "type": "Other",
+                        "normalized_text": "Black Star Pirate BBQ"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 110,
+                        "end": 133,
+                        "url": "https://t.co/pDB2mw1qjc",
+                        "expanded_url": "http://dlvr.it/RxJnWn",
+                        "display_url": "dlvr.it/RxJnWn"
+                    }
+                ]
+            },
+            "id": "1380478367435137027",
+            "created_at": "2021-04-09T11:11:05.000Z",
+            "author_id": "36511031",
+            "conversation_id": "1380478367435137027",
+            "text": "Over the mudflats behind the Richmond refineries, Black Star Pirate BBQ is my new favorite Bay Area day trip. https://t.co/pDB2mw1qjc",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 6,
+                "quote_count": 3
+            }
+        },
+        {
+            "id": "1380478361479221250",
+            "created_at": "2021-04-09T11:11:04.000Z",
+            "author_id": "36511031",
+            "conversation_id": "1380478361479221250",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 90,
+                        "end": 113,
+                        "url": "https://t.co/IWUezBwtkl",
+                        "expanded_url": "http://dlvr.it/RxJnSm",
+                        "display_url": "dlvr.it/RxJnSm"
+                    }
+                ]
+            },
+            "text": "On any given afternoon, live opera singing and piano might reverberate onto the sidewalk. https://t.co/IWUezBwtkl",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            }
+        },
+        {
+            "id": "1380426272497496066",
+            "created_at": "2021-04-09T07:44:05.000Z",
+            "author_id": "36511031",
+            "conversation_id": "1380426272497496066",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 59,
+                        "end": 82,
+                        "url": "https://t.co/1EW0TS1dGq",
+                        "expanded_url": "http://dlvr.it/RxJ9RS",
+                        "display_url": "dlvr.it/RxJ9RS"
+                    }
+                ]
+            },
+            "text": "Ready to buy a home? The trick is finding or affording one https://t.co/1EW0TS1dGq",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 2,
+                "like_count": 2,
+                "quote_count": 1
+            }
+        },
+        {
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 38,
+                        "end": 43,
+                        "probability": 0.897,
+                        "type": "Place",
+                        "normalized_text": "Nevada"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 58,
+                        "end": 81,
+                        "url": "https://t.co/7YEXyF08a3",
+                        "expanded_url": "http://dlvr.it/RxHkLJ",
+                        "display_url": "dlvr.it/RxHkLJ"
+                    }
+                ]
+            },
+            "id": "1380376181871046659",
+            "created_at": "2021-04-09T04:25:02.000Z",
+            "author_id": "36511031",
+            "conversation_id": "1380376181871046659",
+            "text": "Old documents fuel latest bid to halt Nevada lithium mine https://t.co/7YEXyF08a3",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 5,
+                "quote_count": 0
+            }
+        }
+    ],
+    [
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 92,
+                        "end": 115,
+                        "url": "https://t.co/AHYZqzLzA3",
+                        "expanded_url": "http://reut.rs/31X5vGe",
+                        "display_url": "reut.rs/31X5vGe"
+                    },
+                    {
+                        "start": 116,
+                        "end": 139,
+                        "url": "https://t.co/SRkEzCRMTE",
+                        "expanded_url": "https://twitter.com/Reuters/status/1380564953409671168/photo/1",
+                        "display_url": "pic.twitter.com/SRkEzCRMTE"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "probability": 0.9516,
+                        "type": "Person",
+                        "normalized_text": "Biden"
                     }
                 ]
             },
             "public_metrics": {
-                "retweet_count": 1694,
-                "reply_count": 1704,
-                "like_count": 10819,
-                "quote_count": 124
+                "retweet_count": 43,
+                "reply_count": 33,
+                "like_count": 170,
+                "quote_count": 38
             },
-            "conversation_id": "1376602772116807680",
-            "created_at": "2021-03-29T18:30:51.000Z"
+            "conversation_id": "1380564953409671168",
+            "author_id": "1652541",
+            "created_at": "2021-04-09T16:55:09.000Z",
+            "text": "Biden administration pressed by lawmaker to label white supremacists overseas as terrorists https://t.co/AHYZqzLzA3 https://t.co/SRkEzCRMTE",
+            "attachments": {
+                "media_keys": [
+                    "3_1380564951065108480"
+                ]
+            },
+            "id": "1380564953409671168"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 45,
+                        "end": 68,
+                        "url": "https://t.co/RHpnPBKdDf",
+                        "expanded_url": "http://reut.rs/3wHCa0q",
+                        "display_url": "reut.rs/3wHCa0q"
+                    },
+                    {
+                        "start": 69,
+                        "end": 92,
+                        "url": "https://t.co/02bHlrdSbk",
+                        "expanded_url": "https://twitter.com/Reuters/status/1380563695810527238/photo/1",
+                        "display_url": "pic.twitter.com/02bHlrdSbk"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 23,
+                        "end": 27,
+                        "probability": 0.9109,
+                        "type": "Person",
+                        "normalized_text": "Biden"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 18,
+                "reply_count": 10,
+                "like_count": 61,
+                "quote_count": 3
+            },
+            "conversation_id": "1380563695810527238",
+            "author_id": "1652541",
+            "created_at": "2021-04-09T16:50:09.000Z",
+            "text": "Six takeaways from the Biden budget proposal https://t.co/RHpnPBKdDf https://t.co/02bHlrdSbk",
+            "attachments": {
+                "media_keys": [
+                    "3_1380563693113577477"
+                ]
+            },
+            "id": "1380563695810527238"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 226,
+                        "end": 249,
+                        "url": "https://t.co/366shwmULw",
+                        "expanded_url": "https://twitter.com/Reuters/status/1380563657566851075/video/1",
+                        "display_url": "pic.twitter.com/366shwmULw"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "start": 5,
+                        "end": 19,
+                        "username": "Breakingviews"
+                    },
+                    {
+                        "start": 206,
+                        "end": 220,
+                        "username": "LiamWardProud"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 31,
+                        "end": 39,
+                        "probability": 0.6362,
+                        "type": "Person",
+                        "normalized_text": "Joe Biden"
+                    },
+                    {
+                        "start": 119,
+                        "end": 126,
+                        "probability": 0.8598,
+                        "type": "Organization",
+                        "normalized_text": "Facebook"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 31,
+                "reply_count": 1,
+                "like_count": 66,
+                "quote_count": 2
+            },
+            "conversation_id": "1380563657566851075",
+            "author_id": "1652541",
+            "created_at": "2021-04-09T16:50:00.000Z",
+            "text": "From @Breakingviews: President Joe Biden has proposed allowing other countries to raise more tax from tech giants like Facebook. It’s a concession that could unlock a broader deal on a global minimum levy, @LiamWardProud says https://t.co/366shwmULw",
+            "attachments": {
+                "media_keys": [
+                    "13_1380549444765057029"
+                ]
+            },
+            "id": "1380563657566851075"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 123,
+                        "end": 146,
+                        "url": "https://t.co/KdqgtOpdsP",
+                        "expanded_url": "https://reut.rs/39XEGWV",
+                        "display_url": "reut.rs/39XEGWV"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "start": 5,
+                        "end": 19,
+                        "username": "Breakingviews"
+                    },
+                    {
+                        "start": 93,
+                        "end": 105,
+                        "username": "CGAThompson"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 1,
+                "like_count": 27,
+                "quote_count": 0
+            },
+            "conversation_id": "1380562849681059847",
+            "author_id": "1652541",
+            "created_at": "2021-04-09T16:46:47.000Z",
+            "text": "From @Breakingviews: Tui’s convertible bond points to a make-or-break holiday season, writes @CGAThompson in Capital Calls https://t.co/KdqgtOpdsP",
+            "id": "1380562849681059847"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 48,
+                        "end": 71,
+                        "url": "https://t.co/nFkdZijfHP",
+                        "expanded_url": "http://reut.rs/3uwhh6y",
+                        "display_url": "reut.rs/3uwhh6y"
+                    },
+                    {
+                        "start": 72,
+                        "end": 95,
+                        "url": "https://t.co/K5POVEDtj2",
+                        "expanded_url": "https://twitter.com/Reuters/status/1380562438140092416/photo/1",
+                        "display_url": "pic.twitter.com/K5POVEDtj2"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 27,
+                        "end": 34,
+                        "probability": 0.6586,
+                        "type": "Organization",
+                        "normalized_text": "Facebook"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 15,
+                "reply_count": 6,
+                "like_count": 51,
+                "quote_count": 1
+            },
+            "conversation_id": "1380562438140092416",
+            "author_id": "1652541",
+            "created_at": "2021-04-09T16:45:09.000Z",
+            "text": "Study flags gender bias in Facebook's ads tools https://t.co/nFkdZijfHP https://t.co/K5POVEDtj2",
+            "attachments": {
+                "media_keys": [
+                    "3_1380562436240068613"
+                ]
+            },
+            "id": "1380562438140092416"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 75,
+                        "end": 98,
+                        "url": "https://t.co/DEobzPbaNH",
+                        "expanded_url": "http://reut.rs/3dPy25Z",
+                        "display_url": "reut.rs/3dPy25Z",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380561190800211973/NJkjxbbL?format=jpg&name=orig",
+                                "width": 800,
+                                "height": 533
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380561190800211973/NJkjxbbL?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Brazilian president attacks Supreme Court justice for COVID response probe",
+                        "description": "Brazilian President Jair Bolsonaro on Friday attacked Supreme Court Justice Luis Roberto Barroso after the judge ordered Congress to begin a probe of the federal government's response to COVID.",
+                        "unwound_url": "https://www.reuters.com/article/us-brazil-bolsonaro-covid-idUSKBN2BW1ZE?taid=6070836a4ab4da0001c1877d&utm_campaign=trueAnthem:+Trending+Content&utm_medium=trueAnthem&utm_source=twitter"
+                    },
+                    {
+                        "start": 99,
+                        "end": 122,
+                        "url": "https://t.co/zR4iLOJ8Z8",
+                        "expanded_url": "https://twitter.com/Reuters/status/1380561188770217986/photo/1",
+                        "display_url": "pic.twitter.com/zR4iLOJ8Z8"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 28,
+                        "end": 40,
+                        "probability": 0.5142,
+                        "type": "Organization",
+                        "normalized_text": "Supreme Court"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 35,
+                "reply_count": 25,
+                "like_count": 81,
+                "quote_count": 8
+            },
+            "conversation_id": "1380561188770217986",
+            "author_id": "1652541",
+            "created_at": "2021-04-09T16:40:11.000Z",
+            "text": "Brazilian president attacks Supreme Court justice for COVID response probe https://t.co/DEobzPbaNH https://t.co/zR4iLOJ8Z8",
+            "attachments": {
+                "media_keys": [
+                    "3_1380561186966663180"
+                ]
+            },
+            "id": "1380561188770217986"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 80,
+                        "end": 103,
+                        "url": "https://t.co/QdUVNg8h8v",
+                        "expanded_url": "http://reut.rs/3fXCp1u",
+                        "display_url": "reut.rs/3fXCp1u"
+                    },
+                    {
+                        "start": 104,
+                        "end": 127,
+                        "url": "https://t.co/1GH2bz2mvS",
+                        "expanded_url": "https://twitter.com/Reuters/status/1380559934719426560/photo/1",
+                        "display_url": "pic.twitter.com/1GH2bz2mvS"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "probability": 0.8886,
+                        "type": "Organization",
+                        "normalized_text": "Uber"
+                    },
+                    {
+                        "start": 6,
+                        "end": 9,
+                        "probability": 0.8687,
+                        "type": "Organization",
+                        "normalized_text": "Lyft"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 13,
+                "reply_count": 4,
+                "like_count": 48,
+                "quote_count": 0
+            },
+            "conversation_id": "1380559934719426560",
+            "author_id": "1652541",
+            "created_at": "2021-04-09T16:35:12.000Z",
+            "text": "Uber, Lyft use rides to vaccines to get drivers, customers back on the platform https://t.co/QdUVNg8h8v https://t.co/1GH2bz2mvS",
+            "attachments": {
+                "media_keys": [
+                    "3_1380559931619823616"
+                ]
+            },
+            "id": "1380559934719426560"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 142,
+                        "end": 165,
+                        "url": "https://t.co/sRnJ7Vg9xk",
+                        "expanded_url": "https://reut.rs/39Vbek0",
+                        "display_url": "reut.rs/39Vbek0"
+                    },
+                    {
+                        "start": 166,
+                        "end": 189,
+                        "url": "https://t.co/yXf5ASFpAA",
+                        "expanded_url": "https://twitter.com/Reuters/status/1380559882873544709/video/1",
+                        "display_url": "pic.twitter.com/yXf5ASFpAA"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 23,
+                        "end": 27,
+                        "probability": 0.9985,
+                        "type": "Place",
+                        "normalized_text": "India"
+                    },
+                    {
+                        "start": 31,
+                        "end": 41,
+                        "probability": 0.6827,
+                        "type": "Place",
+                        "normalized_text": "Maharashtra"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 29,
+                "reply_count": 5,
+                "like_count": 75,
+                "quote_count": 4
+            },
+            "conversation_id": "1380559882873544709",
+            "author_id": "1652541",
+            "created_at": "2021-04-09T16:35:00.000Z",
+            "text": "Vaccination centers in India’s Maharashtra were running out of doses as the country reported another record number of new COVID-19 infections https://t.co/sRnJ7Vg9xk https://t.co/yXf5ASFpAA",
+            "attachments": {
+                "media_keys": [
+                    "13_1380510423988899840"
+                ]
+            },
+            "id": "1380559882873544709"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 54,
+                        "end": 77,
+                        "url": "https://t.co/QfKc3RzK1j",
+                        "expanded_url": "http://reut.rs/3uQbwkz",
+                        "display_url": "reut.rs/3uQbwkz"
+                    },
+                    {
+                        "start": 78,
+                        "end": 101,
+                        "url": "https://t.co/kgAG9yXnCW",
+                        "expanded_url": "https://twitter.com/Reuters/status/1380558660934504452/photo/1",
+                        "display_url": "pic.twitter.com/kgAG9yXnCW"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 24,
+                        "end": 34,
+                        "probability": 0.97,
+                        "type": "Person",
+                        "normalized_text": "Lee Delaney"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 22,
+                "reply_count": 7,
+                "like_count": 59,
+                "quote_count": 6
+            },
+            "conversation_id": "1380558660934504452",
+            "author_id": "1652541",
+            "created_at": "2021-04-09T16:30:08.000Z",
+            "text": "BJ's Wholesale Club CEO Lee Delaney dies unexpectedly https://t.co/QfKc3RzK1j https://t.co/kgAG9yXnCW",
+            "attachments": {
+                "media_keys": [
+                    "3_1380558659021897730"
+                ]
+            },
+            "id": "1380558660934504452"
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 77,
+                        "end": 100,
+                        "url": "https://t.co/tfi2FzFzcg",
+                        "expanded_url": "http://reut.rs/3wH75tY",
+                        "display_url": "reut.rs/3wH75tY"
+                    },
+                    {
+                        "start": 101,
+                        "end": 124,
+                        "url": "https://t.co/26GrcO2w8m",
+                        "expanded_url": "https://twitter.com/Reuters/status/1380557404518092803/photo/1",
+                        "display_url": "pic.twitter.com/26GrcO2w8m"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "probability": 0.9853,
+                        "type": "Person",
+                        "normalized_text": "Biden"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 89,
+                "reply_count": 45,
+                "like_count": 345,
+                "quote_count": 14
+            },
+            "conversation_id": "1380557404518092803",
+            "author_id": "1652541",
+            "created_at": "2021-04-09T16:25:09.000Z",
+            "text": "Biden wants money to probe white supremacist beliefs at immigration agencies https://t.co/tfi2FzFzcg https://t.co/26GrcO2w8m",
+            "attachments": {
+                "media_keys": [
+                    "3_1380557402144190464"
+                ]
+            },
+            "id": "1380557404518092803"
+        }
+    ],
+    [
+        {
+            "text": "Grover Norquist, founder and president of Americans for Tax Reform joins The Post to discuss President Biden’s proposed tax increases and his $2 trillion infrastructure plan. https://t.co/MDaoDRbyHC",
+            "author_id": "2467791",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 175,
+                        "end": 198,
+                        "url": "https://t.co/MDaoDRbyHC",
+                        "expanded_url": "https://twitter.com/i/broadcasts/1zqJVXLVbrwKB",
+                        "display_url": "twitter.com/i/broadcasts/1…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 14,
+                        "probability": 0.9519,
+                        "type": "Person",
+                        "normalized_text": "Grover Norquist"
+                    },
+                    {
+                        "start": 56,
+                        "end": 65,
+                        "probability": 0.4866,
+                        "type": "Organization",
+                        "normalized_text": "Tax Reform"
+                    },
+                    {
+                        "start": 93,
+                        "end": 107,
+                        "probability": 0.9251,
+                        "type": "Person",
+                        "normalized_text": "President Biden"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:59:17.000Z",
+            "public_metrics": {
+                "retweet_count": 23,
+                "reply_count": 168,
+                "like_count": 84,
+                "quote_count": 17
+            },
+            "conversation_id": "1380565993836191758",
+            "id": "1380565993836191758"
+        },
+        {
+            "text": "The Biden administration unveiled its budget Friday. See which departments would get the biggest increases in funding. https://t.co/fpDw9TzQ96",
+            "author_id": "2467791",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 119,
+                        "end": 142,
+                        "url": "https://t.co/fpDw9TzQ96",
+                        "expanded_url": "https://wapo.st/3d6cJ14",
+                        "display_url": "wapo.st/3d6cJ14",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380549152753455108/ISJikpK5?format=jpg&name=orig",
+                                "width": 1200,
+                                "height": 801
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380549152753455108/ISJikpK5?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "What’s in Biden’s budget proposal",
+                        "description": "The Biden administration unveiled its budget Friday. See which departments would get the biggest increases in funding.",
+                        "unwound_url": "https://www.washingtonpost.com/politics/interactive/2021/biden-2022-budget-department-breakdown/?utm_medium=social&utm_campaign=wp_main&utm_source=twitter"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 4,
+                        "end": 8,
+                        "probability": 0.7798,
+                        "type": "Person",
+                        "normalized_text": "Biden"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:54:06.000Z",
+            "public_metrics": {
+                "retweet_count": 44,
+                "reply_count": 23,
+                "like_count": 147,
+                "quote_count": 7
+            },
+            "conversation_id": "1380564690120622083",
+            "id": "1380564690120622083"
+        },
+        {
+            "text": "Perspective: Florida is full of invasive species. They’re coming for the rest of us. https://t.co/o9tuwWTljB",
+            "author_id": "2467791",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 85,
+                        "end": 108,
+                        "url": "https://t.co/o9tuwWTljB",
+                        "expanded_url": "https://wapo.st/3mIVupP",
+                        "display_url": "wapo.st/3mIVupP"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 13,
+                        "end": 19,
+                        "probability": 0.9837,
+                        "type": "Place",
+                        "normalized_text": "Florida"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:40:41.000Z",
+            "public_metrics": {
+                "retweet_count": 58,
+                "reply_count": 71,
+                "like_count": 177,
+                "quote_count": 25
+            },
+            "conversation_id": "1380561314041454596",
+            "id": "1380561314041454596"
+        },
+        {
+            "text": "Rapper DMX has died at 50. The platinum-selling artist was known for hits such as ‘Ruff Ryders’ Anthem’ and ‘X Gon’ Give It to Ya.' https://t.co/CkgI5lnzW0",
+            "author_id": "2467791",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 132,
+                        "end": 155,
+                        "url": "https://t.co/CkgI5lnzW0",
+                        "expanded_url": "https://www.washingtonpost.com/local/obituaries/rapper-dmx-dead/2021/04/09/89509a0e-9618-11eb-962b-78c1d8228819_story.html",
+                        "display_url": "washingtonpost.com/local/obituari…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 9,
+                        "probability": 0.8515,
+                        "type": "Person",
+                        "normalized_text": "Rapper DMX"
+                    },
+                    {
+                        "start": 83,
+                        "end": 93,
+                        "probability": 0.6074,
+                        "type": "Other",
+                        "normalized_text": "Ruff Ryders"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:27:15.000Z",
+            "public_metrics": {
+                "retweet_count": 1235,
+                "reply_count": 127,
+                "like_count": 3074,
+                "quote_count": 530
+            },
+            "conversation_id": "1380557932975230976",
+            "id": "1380557932975230976"
+        },
+        {
+            "text": "Southwest Airlines grounds part of 737 Max fleet after Boeing discloses wiring problem https://t.co/839Z8Cqevw",
+            "author_id": "2467791",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 87,
+                        "end": 110,
+                        "url": "https://t.co/839Z8Cqevw",
+                        "expanded_url": "https://wapo.st/3g06fT4",
+                        "display_url": "wapo.st/3g06fT4"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 17,
+                        "probability": 0.9463,
+                        "type": "Organization",
+                        "normalized_text": "Southwest Airlines"
+                    },
+                    {
+                        "start": 55,
+                        "end": 60,
+                        "probability": 0.4636,
+                        "type": "Organization",
+                        "normalized_text": "Boeing"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:27:04.000Z",
+            "public_metrics": {
+                "retweet_count": 49,
+                "reply_count": 10,
+                "like_count": 118,
+                "quote_count": 5
+            },
+            "conversation_id": "1380557887005716494",
+            "id": "1380557887005716494"
+        },
+        {
+            "text": "Perspective: Tucker Carlson’s espousal of \"replacement\" theory is both toxic and ahistoric https://t.co/PFg4W4m3Eo",
+            "author_id": "2467791",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 91,
+                        "end": 114,
+                        "url": "https://t.co/PFg4W4m3Eo",
+                        "expanded_url": "https://wapo.st/2PHejh3",
+                        "display_url": "wapo.st/2PHejh3"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 13,
+                        "end": 26,
+                        "probability": 0.9697,
+                        "type": "Person",
+                        "normalized_text": "Tucker Carlson"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:21:31.000Z",
+            "public_metrics": {
+                "retweet_count": 117,
+                "reply_count": 125,
+                "like_count": 406,
+                "quote_count": 16
+            },
+            "conversation_id": "1380556491493666822",
+            "id": "1380556491493666822"
+        },
+        {
+            "text": "Analysis: The U.S. and British right ramp up the war on \"wokeness\" https://t.co/Zpm2xZDbK7",
+            "author_id": "2467791",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 67,
+                        "end": 90,
+                        "url": "https://t.co/Zpm2xZDbK7",
+                        "expanded_url": "https://wapo.st/2Rb6aBB",
+                        "display_url": "wapo.st/2Rb6aBB"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 14,
+                        "end": 17,
+                        "probability": 0.8434,
+                        "type": "Place",
+                        "normalized_text": "U.S."
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:08:59.000Z",
+            "public_metrics": {
+                "retweet_count": 36,
+                "reply_count": 46,
+                "like_count": 85,
+                "quote_count": 6
+            },
+            "conversation_id": "1380553337196646401",
+            "id": "1380553337196646401"
+        },
+        {
+            "text": "Essential, invisible: Covid has 200,000 merchant sailors stuck at sea https://t.co/fTSNWdDjJe",
+            "author_id": "2467791",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 70,
+                        "end": 93,
+                        "url": "https://t.co/fTSNWdDjJe",
+                        "expanded_url": "https://wapo.st/3t73ovj",
+                        "display_url": "wapo.st/3t73ovj"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T15:54:10.000Z",
+            "public_metrics": {
+                "retweet_count": 67,
+                "reply_count": 7,
+                "like_count": 133,
+                "quote_count": 4
+            },
+            "conversation_id": "1380549606178701315",
+            "id": "1380549606178701315"
+        },
+        {
+            "text": "Olympic karate star hit with anti-Asian rant in California park: \"I didn’t think it would happen to me\" https://t.co/nQQk6AmKrn",
+            "author_id": "2467791",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 104,
+                        "end": 127,
+                        "url": "https://t.co/nQQk6AmKrn",
+                        "expanded_url": "https://wapo.st/2QaSAxy",
+                        "display_url": "wapo.st/2QaSAxy"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 48,
+                        "end": 57,
+                        "probability": 0.9886,
+                        "type": "Place",
+                        "normalized_text": "California"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T15:39:25.000Z",
+            "public_metrics": {
+                "retweet_count": 84,
+                "reply_count": 32,
+                "like_count": 221,
+                "quote_count": 4
+            },
+            "conversation_id": "1380545894832091136",
+            "id": "1380545894832091136"
+        },
+        {
+            "text": "Opinion: The filibuster gives Joe Manchin cover to do nothing https://t.co/P0i9NA98un",
+            "author_id": "2467791",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 62,
+                        "end": 85,
+                        "url": "https://t.co/P0i9NA98un",
+                        "expanded_url": "https://wapo.st/3uBxI1E",
+                        "display_url": "wapo.st/3uBxI1E"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 30,
+                        "end": 40,
+                        "probability": 0.9969,
+                        "type": "Person",
+                        "normalized_text": "Joe Manchin"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T15:25:34.000Z",
+            "public_metrics": {
+                "retweet_count": 113,
+                "reply_count": 68,
+                "like_count": 469,
+                "quote_count": 16
+            },
+            "conversation_id": "1380542411059953668",
+            "id": "1380542411059953668"
+        }
+    ],
+    [
+        {
+            "public_metrics": {
+                "retweet_count": 341,
+                "reply_count": 86,
+                "like_count": 1286,
+                "quote_count": 130
+            },
+            "id": "1380563683097636881",
+            "conversation_id": "1380563683097636881",
+            "text": "DMX, the snarling yet soulful rapper whose string of No. 1 albums electrified audiences and reflected his gritty past, is dead at 50. https://t.co/HvabdAjnxg https://t.co/ONXM51JxEH",
+            "attachments": {
+                "media_keys": [
+                    "3_1380563678920052740"
+                ]
+            },
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "probability": 0.7315,
+                        "type": "Person",
+                        "normalized_text": "DMX"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 134,
+                        "end": 157,
+                        "url": "https://t.co/HvabdAjnxg",
+                        "expanded_url": "https://nyti.ms/2Q5qdkt",
+                        "display_url": "nyti.ms/2Q5qdkt"
+                    },
+                    {
+                        "start": 158,
+                        "end": 181,
+                        "url": "https://t.co/ONXM51JxEH",
+                        "expanded_url": "https://twitter.com/nytimes/status/1380563683097636881/photo/1",
+                        "display_url": "pic.twitter.com/ONXM51JxEH"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:50:06.000Z",
+            "author_id": "807095"
+        },
+        {
+            "public_metrics": {
+                "retweet_count": 49,
+                "reply_count": 27,
+                "like_count": 204,
+                "quote_count": 9
+            },
+            "id": "1380562431680909312",
+            "conversation_id": "1380562431680909312",
+            "text": "In Opinion\n\n\"My journey from 'I don’t even eat hospital pizza' to 'voluntary Pfizer guinea pig' is complicated, but not singular,\" writes Damon Young. \"Existing in America while Black requires a ceaseless assemblage of negotiations and compromises.\"\nhttps://t.co/QnxrzojHan",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 138,
+                        "end": 148,
+                        "probability": 0.7355,
+                        "type": "Person",
+                        "normalized_text": "Damon Young"
+                    },
+                    {
+                        "start": 164,
+                        "end": 170,
+                        "probability": 0.9956,
+                        "type": "Place",
+                        "normalized_text": "America"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 250,
+                        "end": 273,
+                        "url": "https://t.co/QnxrzojHan",
+                        "expanded_url": "https://nyti.ms/2RqpQ4R",
+                        "display_url": "nyti.ms/2RqpQ4R"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:45:07.000Z",
+            "author_id": "807095"
+        },
+        {
+            "public_metrics": {
+                "retweet_count": 242,
+                "reply_count": 31,
+                "like_count": 1181,
+                "quote_count": 33
+            },
+            "id": "1380561159011639296",
+            "conversation_id": "1380561159011639296",
+            "text": "Dr. Katalin Kariko, 66, is known to her colleagues as Kati. She's now also known as one of the heroes of coronavirus vaccine development.\n\nAlongside her collaborator, Dr. Drew Weissman, she laid the groundwork for the Pfizer-BioNTech and Moderna vaccines. https://t.co/50bynGKRY1 https://t.co/sLPtU4yiUK",
+            "attachments": {
+                "media_keys": [
+                    "3_1380561155350003715"
+                ]
+            },
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 17,
+                        "probability": 0.8586,
+                        "type": "Person",
+                        "normalized_text": "Dr. Katalin Kariko"
+                    },
+                    {
+                        "start": 54,
+                        "end": 57,
+                        "probability": 0.7353,
+                        "type": "Person",
+                        "normalized_text": "Kati"
+                    },
+                    {
+                        "start": 167,
+                        "end": 183,
+                        "probability": 0.9583,
+                        "type": "Person",
+                        "normalized_text": "Dr. Drew Weissman"
+                    },
+                    {
+                        "start": 218,
+                        "end": 223,
+                        "probability": 0.4161,
+                        "type": "Organization",
+                        "normalized_text": "Pfizer"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 256,
+                        "end": 279,
+                        "url": "https://t.co/50bynGKRY1",
+                        "expanded_url": "https://nyti.ms/2OxWLDc",
+                        "display_url": "nyti.ms/2OxWLDc"
+                    },
+                    {
+                        "start": 280,
+                        "end": 303,
+                        "url": "https://t.co/sLPtU4yiUK",
+                        "expanded_url": "https://twitter.com/nytimes/status/1380561159011639296/photo/1",
+                        "display_url": "pic.twitter.com/sLPtU4yiUK"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:40:04.000Z",
+            "author_id": "807095"
+        },
+        {
+            "public_metrics": {
+                "retweet_count": 9756,
+                "reply_count": 913,
+                "like_count": 25198,
+                "quote_count": 4539
+            },
+            "id": "1380558416268120064",
+            "conversation_id": "1380558416268120064",
+            "text": "Breaking News: DMX, the snarling yet soulful rapper whose string of No. 1 albums electrified audiences and reflected his gritty past, is dead at 50. https://t.co/3cwuyhytLq",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 15,
+                        "end": 17,
+                        "probability": 0.658,
+                        "type": "Person",
+                        "normalized_text": "DMX"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 149,
+                        "end": 172,
+                        "url": "https://t.co/3cwuyhytLq",
+                        "expanded_url": "https://nyti.ms/3204AVt",
+                        "display_url": "nyti.ms/3204AVt"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:29:10.000Z",
+            "author_id": "807095"
+        },
+        {
+            "public_metrics": {
+                "retweet_count": 333,
+                "reply_count": 51,
+                "like_count": 2367,
+                "quote_count": 44
+            },
+            "id": "1380556574234710016",
+            "conversation_id": "1380556574234710016",
+            "text": "As “the first gentleman in the land,” Prince Philip tried to shepherd into the 20th century a monarchy encrusted with the trappings of the 19th.\n\nWe took a look at his life, in pictures: https://t.co/tQmdJoAbib https://t.co/t4qSTkzDI0",
+            "attachments": {
+                "media_keys": [
+                    "3_1380556559806251013",
+                    "3_1380556563195305989",
+                    "3_1380556567074983938",
+                    "3_1380556571038642179"
+                ]
+            },
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 38,
+                        "end": 50,
+                        "probability": 0.9925,
+                        "type": "Person",
+                        "normalized_text": "Prince Philip"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 187,
+                        "end": 210,
+                        "url": "https://t.co/tQmdJoAbib",
+                        "expanded_url": "https://nyti.ms/2RqL3eZ",
+                        "display_url": "nyti.ms/2RqL3eZ"
+                    },
+                    {
+                        "start": 211,
+                        "end": 234,
+                        "url": "https://t.co/t4qSTkzDI0",
+                        "expanded_url": "https://twitter.com/nytimes/status/1380556574234710016/photo/1",
+                        "display_url": "pic.twitter.com/t4qSTkzDI0"
+                    },
+                    {
+                        "start": 211,
+                        "end": 234,
+                        "url": "https://t.co/t4qSTkzDI0",
+                        "expanded_url": "https://twitter.com/nytimes/status/1380556574234710016/photo/1",
+                        "display_url": "pic.twitter.com/t4qSTkzDI0"
+                    },
+                    {
+                        "start": 211,
+                        "end": 234,
+                        "url": "https://t.co/t4qSTkzDI0",
+                        "expanded_url": "https://twitter.com/nytimes/status/1380556574234710016/photo/1",
+                        "display_url": "pic.twitter.com/t4qSTkzDI0"
+                    },
+                    {
+                        "start": 211,
+                        "end": 234,
+                        "url": "https://t.co/t4qSTkzDI0",
+                        "expanded_url": "https://twitter.com/nytimes/status/1380556574234710016/photo/1",
+                        "display_url": "pic.twitter.com/t4qSTkzDI0"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:21:51.000Z",
+            "author_id": "807095"
+        },
+        {
+            "public_metrics": {
+                "retweet_count": 57,
+                "reply_count": 27,
+                "like_count": 220,
+                "quote_count": 17
+            },
+            "id": "1380554567524491264",
+            "conversation_id": "1380537916515049472",
+            "text": "The defeat at the Alabama warehouse is a crushing blow for organized labor. It could lead organizers to rethink their strategy, including focusing more on backing national policies such as a higher federal minimum wage. https://t.co/H07pyEi11G",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 18,
+                        "end": 24,
+                        "probability": 0.7128,
+                        "type": "Organization",
+                        "normalized_text": "Alabama"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 220,
+                        "end": 243,
+                        "url": "https://t.co/H07pyEi11G",
+                        "expanded_url": "http://nyti.ms/2PS5j8L",
+                        "display_url": "nyti.ms/2PS5j8L"
+                    }
+                ]
+            },
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1380554566102581251"
+                }
+            ],
+            "created_at": "2021-04-09T16:13:53.000Z",
+            "in_reply_to_user_id": "807095",
+            "author_id": "807095"
+        },
+        {
+            "public_metrics": {
+                "retweet_count": 197,
+                "reply_count": 44,
+                "like_count": 396,
+                "quote_count": 32
+            },
+            "id": "1380554566102581251",
+            "conversation_id": "1380537916515049472",
+            "text": "Amazon has repeatedly squashed labor activism. A failed union effort at a warehouse in Virginia five years ago offers one of the fullest pictures yet of what pushes Amazon workers to try to unionize and the tactics the company deploys to shut it down. https://t.co/s4xdATVovU",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "probability": 0.9602,
+                        "type": "Organization",
+                        "normalized_text": "Amazon"
+                    },
+                    {
+                        "start": 87,
+                        "end": 94,
+                        "probability": 0.874,
+                        "type": "Place",
+                        "normalized_text": "Virginia"
+                    },
+                    {
+                        "start": 165,
+                        "end": 170,
+                        "probability": 0.9373,
+                        "type": "Organization",
+                        "normalized_text": "Amazon"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 252,
+                        "end": 275,
+                        "url": "https://t.co/s4xdATVovU",
+                        "expanded_url": "https://nyti.ms/2PIDZd8",
+                        "display_url": "nyti.ms/2PIDZd8"
+                    }
+                ]
+            },
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1380554564877828100"
+                }
+            ],
+            "created_at": "2021-04-09T16:13:52.000Z",
+            "in_reply_to_user_id": "807095",
+            "author_id": "807095"
+        },
+        {
+            "public_metrics": {
+                "retweet_count": 118,
+                "reply_count": 20,
+                "like_count": 399,
+                "quote_count": 20
+            },
+            "id": "1380554564877828100",
+            "conversation_id": "1380537916515049472",
+            "text": "The Retail, Wholesale and Department Store Union, which led the drive, said Amazon engaged in anti-union tactics and that it would call on the National Labor Relations Board to hold the company accountable for \"illegal and egregious behavior.\" https://t.co/H07pyEi11G",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 76,
+                        "end": 81,
+                        "probability": 0.9168,
+                        "type": "Organization",
+                        "normalized_text": "Amazon"
+                    },
+                    {
+                        "start": 143,
+                        "end": 172,
+                        "probability": 0.8572,
+                        "type": "Organization",
+                        "normalized_text": "National Labor Relations Board"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 244,
+                        "end": 267,
+                        "url": "https://t.co/H07pyEi11G",
+                        "expanded_url": "http://nyti.ms/2PS5j8L",
+                        "display_url": "nyti.ms/2PS5j8L"
+                    }
+                ]
+            },
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1380554562868764677"
+                }
+            ],
+            "created_at": "2021-04-09T16:13:52.000Z",
+            "in_reply_to_user_id": "807095",
+            "author_id": "807095"
+        },
+        {
+            "public_metrics": {
+                "retweet_count": 63,
+                "reply_count": 55,
+                "like_count": 162,
+                "quote_count": 108
+            },
+            "id": "1380554562868764677",
+            "conversation_id": "1380537916515049472",
+            "text": "Workers at an Amazon cast more than 1,600 votes against a union, giving Amazon enough votes to defeat the effort. In making its case, the company argued that its workers had access to jobs that pay $15 an hour without needing to involve a union. https://t.co/H07pyEi11G https://t.co/bTkX1HGej4",
+            "attachments": {
+                "media_keys": [
+                    "3_1380553890660294663"
+                ]
+            },
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 14,
+                        "end": 19,
+                        "probability": 0.9336,
+                        "type": "Organization",
+                        "normalized_text": "Amazon"
+                    },
+                    {
+                        "start": 72,
+                        "end": 77,
+                        "probability": 0.9542,
+                        "type": "Organization",
+                        "normalized_text": "Amazon"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 246,
+                        "end": 269,
+                        "url": "https://t.co/H07pyEi11G",
+                        "expanded_url": "http://nyti.ms/2PS5j8L",
+                        "display_url": "nyti.ms/2PS5j8L"
+                    },
+                    {
+                        "start": 270,
+                        "end": 293,
+                        "url": "https://t.co/bTkX1HGej4",
+                        "expanded_url": "https://twitter.com/nytimes/status/1380554562868764677/photo/1",
+                        "display_url": "pic.twitter.com/bTkX1HGej4"
+                    }
+                ]
+            },
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1380537916515049472"
+                }
+            ],
+            "created_at": "2021-04-09T16:13:51.000Z",
+            "in_reply_to_user_id": "807095",
+            "author_id": "807095"
+        },
+        {
+            "public_metrics": {
+                "retweet_count": 59,
+                "reply_count": 17,
+                "like_count": 147,
+                "quote_count": 7
+            },
+            "id": "1380551108435845120",
+            "conversation_id": "1380551108435845120",
+            "text": "India on Friday reported a daily record of new coronavirus cases. The country has turned from a seeming success story to one of the world’s worst-hit places. https://t.co/dMaZDowQHz",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "probability": 0.9488,
+                        "type": "Place",
+                        "normalized_text": "India"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 158,
+                        "end": 181,
+                        "url": "https://t.co/dMaZDowQHz",
+                        "expanded_url": "https://nyti.ms/3d16njp",
+                        "display_url": "nyti.ms/3d16njp"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:00:08.000Z",
+            "author_id": "807095"
+        }
+    ],
+    [
+        {
+            "id": "1380557192596746240",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 249,
+                        "end": 272,
+                        "url": "https://t.co/9JqPU0aqPX",
+                        "expanded_url": "http://apne.ws/3Nek0bR",
+                        "display_url": "apne.ws/3Nek0bR"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 10,
+                        "end": 12,
+                        "probability": 0.7753,
+                        "type": "Person",
+                        "normalized_text": "DMX"
+                    },
+                    {
+                        "start": 71,
+                        "end": 81,
+                        "probability": 0.8336,
+                        "type": "Other",
+                        "normalized_text": "Ruff Ryders"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 21585,
+                "reply_count": 2747,
+                "like_count": 49594,
+                "quote_count": 10679
+            },
+            "conversation_id": "1380557192596746240",
+            "created_at": "2021-04-09T16:24:18.000Z",
+            "text": "BREAKING: DMX, the raspy-voiced hip-hop artist who produced the songs “Ruff Ryders’ Anthem” and “Party Up (Up in Here)\" and who rapped with a trademark delivery that was often paired with growls, barks and “What!” as an ad-lib, has died. He was 50. https://t.co/9JqPU0aqPX",
+            "author_id": "51241574"
+        },
+        {
+            "id": "1380551343430111241",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 213,
+                        "end": 236,
+                        "url": "https://t.co/sEsxNfb1qV",
+                        "expanded_url": "http://apne.ws/ppXCioz",
+                        "display_url": "apne.ws/ppXCioz",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380377193226760192/u_gPEPPH?format=jpg&name=orig",
+                                "width": 3000,
+                                "height": 1808
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380377193226760192/u_gPEPPH?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Expert: Lack of oxygen killed George Floyd, not drugs",
+                        "description": "MINNEAPOLIS (AP) — George Floyd died of a lack of oxygen from being pinned to the pavement with a knee on his neck, medical experts testified at former Officer Derek Chauvin’s murder trial,...",
+                        "unwound_url": "https://apnews.com/article/ap-top-news-trials-minneapolis-death-of-george-floyd-racial-injustice-05458e47134a4934bc38ce28c7543ebb?utm_campaign=SocialFlow&utm_medium=AP&utm_source=Twitter"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 64,
+                        "end": 76,
+                        "probability": 0.9835,
+                        "type": "Person",
+                        "normalized_text": "Derek Chauvin"
+                    },
+                    {
+                        "start": 134,
+                        "end": 145,
+                        "probability": 0.9989,
+                        "type": "Person",
+                        "normalized_text": "George Floyd"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 85,
+                "reply_count": 29,
+                "like_count": 377,
+                "quote_count": 7
+            },
+            "conversation_id": "1380551343430111241",
+            "created_at": "2021-04-09T16:01:04.000Z",
+            "text": "Testimony from a retired forensic pathologist at former Officer Derek Chauvin's murder trial bolstered that of other experts who said George Floyd died of a lack of oxygen from the way he was held down by police. https://t.co/sEsxNfb1qV",
+            "author_id": "51241574"
+        },
+        {
+            "id": "1380543009213779969",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 241,
+                        "end": 264,
+                        "url": "https://t.co/lpkjkfhNmG",
+                        "expanded_url": "http://apne.ws/7aqTpMA",
+                        "display_url": "apne.ws/7aqTpMA",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380450706554040321/i931xqse?format=jpg&name=orig",
+                                "width": 1990,
+                                "height": 1343
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380450706554040321/i931xqse?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Amazon union organizers deflated as vote tilts against them",
+                        "description": "Amazon is heading into the final stretch of a union push in Bessemer, Alabama, with a sizeable lead over labor organizers. With nearly half the ballots counted Thursday night, 1,100...",
+                        "unwound_url": "https://apnews.com/article/amazoncom-inc-alabama-birmingham-5f73ee6c32d179d60540df7ec51b6ac7?utm_medium=AP&utm_campaign=SocialFlow&utm_source=Twitter"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "probability": 0.9511,
+                        "type": "Organization",
+                        "normalized_text": "Amazon"
+                    },
+                    {
+                        "start": 78,
+                        "end": 85,
+                        "probability": 0.8771,
+                        "type": "Place",
+                        "normalized_text": "Bessemer"
+                    },
+                    {
+                        "start": 88,
+                        "end": 94,
+                        "probability": 0.5324,
+                        "type": "Place",
+                        "normalized_text": "Alabama"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 119,
+                "reply_count": 111,
+                "like_count": 245,
+                "quote_count": 116
+            },
+            "conversation_id": "1380543009213779969",
+            "created_at": "2021-04-09T15:27:57.000Z",
+            "text": "Amazon appears to have enough votes to block a union effort at a warehouse in Bessemer, Alabama. The company crossed the threshold to secure a majority of the 3,215 votes cast, with at least 1,700 warehouse workers voting against the union. https://t.co/lpkjkfhNmG",
+            "author_id": "51241574"
+        },
+        {
+            "id": "1380539392075431937",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 255,
+                        "end": 278,
+                        "url": "https://t.co/czThDKPpFV",
+                        "expanded_url": "http://apne.ws/kzxaCXY",
+                        "display_url": "apne.ws/kzxaCXY"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 11,
+                        "probability": 0.8156,
+                        "type": "Organization",
+                        "normalized_text": "Kentucky Gov"
+                    },
+                    {
+                        "start": 14,
+                        "end": 25,
+                        "probability": 0.992,
+                        "type": "Person",
+                        "normalized_text": "Andy Beshear"
+                    },
+                    {
+                        "start": 108,
+                        "end": 121,
+                        "probability": 0.8864,
+                        "type": "Person",
+                        "normalized_text": "Breonna Taylor"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 136,
+                "reply_count": 27,
+                "like_count": 424,
+                "quote_count": 25
+            },
+            "conversation_id": "1380539392075431937",
+            "created_at": "2021-04-09T15:13:34.000Z",
+            "text": "Kentucky Gov. Andy Beshear has signed a partial ban on no-knock warrants a year after the fatal shooting of Breonna Taylor. The bill is not a total ban, but it only permits no-knock warrants if there is “clear and convincing evidence” of a violent crime. https://t.co/czThDKPpFV",
+            "author_id": "51241574"
+        },
+        {
+            "id": "1380537073417981954",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 228,
+                        "end": 251,
+                        "url": "https://t.co/GOdUqVQrC1",
+                        "expanded_url": "http://apne.ws/KSjjFUV",
+                        "display_url": "apne.ws/KSjjFUV",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380528703235616769/BR6GC5qH?format=jpg&name=orig",
+                                "width": 775,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380528703235616769/BR6GC5qH?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Prince Philip",
+                        "description": "News from The Associated Press, the definitive source for independent journalism from every corner of the globe.",
+                        "unwound_url": "https://apnews.com/hub/prince-philip?utm_campaign=SocialFlow&utm_medium=AP&utm_source=Twitter&utm_medium=AP&utm_campaign=SocialFlow&utm_source=Twitter&utm_medium=AP&utm_campaign=SocialFlow&utm_source=Twitter"
+                    },
+                    {
+                        "start": 253,
+                        "end": 276,
+                        "url": "https://t.co/ugaKMvVSQA",
+                        "expanded_url": "http://apne.ws/it85LXJ",
+                        "display_url": "apne.ws/it85LXJ"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 12,
+                        "probability": 0.9811,
+                        "type": "Person",
+                        "normalized_text": "Prince Philip"
+                    },
+                    {
+                        "start": 15,
+                        "end": 18,
+                        "probability": 0.653,
+                        "type": "Person",
+                        "normalized_text": "Duke"
+                    },
+                    {
+                        "start": 23,
+                        "end": 31,
+                        "probability": 0.7539,
+                        "type": "Place",
+                        "normalized_text": "Edinburgh"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 57,
+                "reply_count": 25,
+                "like_count": 249,
+                "quote_count": 9
+            },
+            "conversation_id": "1380537073417981954",
+            "created_at": "2021-04-09T15:04:22.000Z",
+            "text": "Prince Philip, Duke of Edinburgh, married into a role he had to shape for himself. Know as the queen's bedrock, he faithfully promoted British business and science abroad, and was an early promoter of environmental protection.\n\nhttps://t.co/GOdUqVQrC1\n\nhttps://t.co/ugaKMvVSQA",
+            "author_id": "51241574"
+        },
+        {
+            "id": "1380536393668177925",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 172,
+                        "end": 195,
+                        "url": "https://t.co/p8DeQ60dIG",
+                        "expanded_url": "http://apne.ws/UaU5fNH",
+                        "display_url": "apne.ws/UaU5fNH"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 48,
+                        "end": 54,
+                        "probability": 0.418,
+                        "type": "Other",
+                        "normalized_text": "Ramadan"
+                    },
+                    {
+                        "start": 163,
+                        "end": 169,
+                        "probability": 0.4535,
+                        "type": "Person",
+                        "normalized_text": "Muslims"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 120,
+                "reply_count": 12,
+                "like_count": 359,
+                "quote_count": 8
+            },
+            "conversation_id": "1380536393668177925",
+            "created_at": "2021-04-09T15:01:40.000Z",
+            "text": "Islamic leaders are spreading the word ahead of Ramadan that it’s OK to be vaccinated for the coronavirus during fasting for the most sacred month of the year for Muslims. https://t.co/p8DeQ60dIG",
+            "author_id": "51241574"
+        },
+        {
+            "id": "1380521153245163522",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 206,
+                        "end": 229,
+                        "url": "https://t.co/32RTRnyU1i",
+                        "expanded_url": "http://apne.ws/MAzoFly",
+                        "display_url": "apne.ws/MAzoFly"
+                    },
+                    {
+                        "start": 230,
+                        "end": 253,
+                        "url": "https://t.co/6GuQ1e7fsu",
+                        "expanded_url": "https://twitter.com/AP/status/1380521153245163522/video/1",
+                        "display_url": "pic.twitter.com/6GuQ1e7fsu"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 184,
+                        "end": 187,
+                        "probability": 0.8706,
+                        "type": "Place",
+                        "normalized_text": "U.S."
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 34,
+                "reply_count": 21,
+                "like_count": 164,
+                "quote_count": 9
+            },
+            "conversation_id": "1380521153245163522",
+            "created_at": "2021-04-09T14:01:06.000Z",
+            "text": "“There’s got to be a reason.” Catholic sisters whose convents were devastated by COVID-19 deaths search for answers after dark days. The Felician Sisters lost 21 of their own, in four U.S. convents. Story: https://t.co/32RTRnyU1i https://t.co/6GuQ1e7fsu",
+            "attachments": {
+                "media_keys": [
+                    "13_1380504488323260419"
+                ]
+            },
+            "author_id": "51241574"
+        },
+        {
+            "id": "1380517127472447491",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 247,
+                        "end": 270,
+                        "url": "https://t.co/7bCe8TVOUP",
+                        "expanded_url": "http://apne.ws/y4HBTDQ",
+                        "display_url": "apne.ws/y4HBTDQ"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 29,
+                        "end": 40,
+                        "probability": 0.7434,
+                        "type": "Place",
+                        "normalized_text": "La Soufriere"
+                    },
+                    {
+                        "start": 65,
+                        "end": 73,
+                        "probability": 0.4935,
+                        "type": "Place",
+                        "normalized_text": "Caribbean"
+                    },
+                    {
+                        "start": 85,
+                        "end": 95,
+                        "probability": 0.9095,
+                        "type": "Place",
+                        "normalized_text": "St. Vincent"
+                    },
+                    {
+                        "start": 214,
+                        "end": 239,
+                        "probability": 0.5029,
+                        "type": "Place",
+                        "normalized_text": "West Indies Seismic Center"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 288,
+                "reply_count": 19,
+                "like_count": 384,
+                "quote_count": 42
+            },
+            "conversation_id": "1380517127472447491",
+            "created_at": "2021-04-09T13:45:06.000Z",
+            "text": "An explosive eruption rocked La Soufriere volcano on the eastern Caribbean island of St. Vincent following mandatory evacuation orders. The ash column rose at high as 6 miles, the director of the University of the West Indies Seismic Center said. https://t.co/7bCe8TVOUP",
+            "author_id": "51241574"
+        },
+        {
+            "id": "1380513592743755780",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 216,
+                        "end": 239,
+                        "url": "https://t.co/Zxu2VoQtG5",
+                        "expanded_url": "http://apne.ws/yzdYSAr",
+                        "display_url": "apne.ws/yzdYSAr"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 43,
+                "reply_count": 21,
+                "like_count": 142,
+                "quote_count": 16
+            },
+            "conversation_id": "1380513592743755780",
+            "created_at": "2021-04-09T13:31:03.000Z",
+            "text": "A South Korean exhibition company is trying to persuade an acclaimed American graffiti artist not to restore a $440,000 painting after it was accidentally vandalized by a couple who mistook it for participatory art. https://t.co/Zxu2VoQtG5",
+            "author_id": "51241574"
+        },
+        {
+            "id": "1380506047748702208",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 186,
+                        "end": 209,
+                        "url": "https://t.co/9R9poPzf7l",
+                        "expanded_url": "http://apne.ws/GK69FrT",
+                        "display_url": "apne.ws/GK69FrT",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380496124092502020/fkpWXSaV?format=jpg&name=orig",
+                                "width": 3000,
+                                "height": 2000
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380496124092502020/fkpWXSaV?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Prince Philip, husband of Queen Elizabeth II, dies at 99",
+                        "description": "LONDON (AP) — Prince Philip, the irascible and tough-minded husband of Queen Elizabeth II who spent more than seven decades supporting his wife in a role that both defined and constricted his...",
+                        "unwound_url": "https://apnews.com/article/prince-philip-dead-at-99-0143185dc6ad526d4bb6357034972bb3?utm_source=Twitter&utm_campaign=SocialFlow&utm_medium=AP"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 44,
+                        "end": 56,
+                        "probability": 0.8886,
+                        "type": "Person",
+                        "normalized_text": "Prince Philip"
+                    },
+                    {
+                        "start": 117,
+                        "end": 134,
+                        "probability": 0.567,
+                        "type": "Person",
+                        "normalized_text": "Queen Elizabeth II"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 158,
+                "reply_count": 32,
+                "like_count": 558,
+                "quote_count": 23
+            },
+            "conversation_id": "1380506047748702208",
+            "created_at": "2021-04-09T13:01:05.000Z",
+            "text": "An interactive timeline shows key events in Prince Philip’s life, from his birth and naval career to his marriage to Queen Elizabeth II and the births of his children and grandchildren. https://t.co/9R9poPzf7l",
+            "author_id": "51241574"
+        }
+    ],
+    [
+        {
+            "author_id": "11347122",
+            "text": "Tune in now. https://t.co/iCenzScaic",
+            "conversation_id": "1380255545093890048",
+            "id": "1380255545093890048",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1380255172551606273"
+                }
+            ],
+            "entities": {
+                "urls": [
+                    {
+                        "start": 13,
+                        "end": 36,
+                        "url": "https://t.co/iCenzScaic",
+                        "expanded_url": "https://twitter.com/cagovernor/status/1380255172551606273",
+                        "display_url": "twitter.com/cagovernor/sta…"
+                    }
+                ]
+            },
+            "public_metrics": {
+                "retweet_count": 33,
+                "reply_count": 91,
+                "like_count": 278,
+                "quote_count": 7
+            },
+            "created_at": "2021-04-08T20:25:40.000Z"
+        }
+    ],
+    null,
+    [
+        {
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1380215479625605121"
+                }
+            ],
+            "entities": {
+                "urls": [
+                    {
+                        "start": 280,
+                        "end": 303,
+                        "url": "https://t.co/SvAJk7HZOW",
+                        "expanded_url": "https://twitter.com/MyrPressOffice/status/1380215479625605121",
+                        "display_url": "twitter.com/MyrPressOffice…"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 12,
+                        "probability": 0.9216,
+                        "type": "Place",
+                        "normalized_text": "San Francisco"
+                    }
+                ]
+            },
+            "text": "San Francisco just isn't the same without live events, and I'm excited they'll soon be able to return with capacity limits and safety precautions in place.\n\nWe're going to keep up our good progress on vaccinations and everyone should remain vigilant to keep our case numbers low. https://t.co/SvAJk7HZOW",
+            "id": "1380215916307210243",
+            "public_metrics": {
+                "retweet_count": 35,
+                "reply_count": 37,
+                "like_count": 296,
+                "quote_count": 9
+            },
+            "author_id": "2927379996",
+            "created_at": "2021-04-08T17:48:12.000Z",
+            "conversation_id": "1380215916307210243"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1380207444257730561"
+                }
+            ],
+            "in_reply_to_user_id": "2927379996",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 114,
+                        "end": 137,
+                        "url": "https://t.co/ak3AAxaB9j",
+                        "expanded_url": "http://svograntportal.sba.gov",
+                        "display_url": "svograntportal.sba.gov",
+                        "unwound_url": "http://svograntportal.sba.gov"
+                    }
+                ]
+            },
+            "text": "There is going to be high demand so we encourage business owners to apply for this program as soon as possible at https://t.co/ak3AAxaB9j. Spread the word!",
+            "id": "1380207446786863105",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 3,
+                "like_count": 17,
+                "quote_count": 0
+            },
+            "author_id": "2927379996",
+            "created_at": "2021-04-08T17:14:32.000Z",
+            "conversation_id": "1380207444257730561"
+        },
+        {
+            "text": "Today is the launch of the Shuttered Venue Operators Grant program, which provides grants of up to $10 million to many businesses that have been impacted by the pandemic, including live entertainment venues, performing arts organizations, museums, and movie theaters.",
+            "id": "1380207444257730561",
+            "public_metrics": {
+                "retweet_count": 24,
+                "reply_count": 6,
+                "like_count": 107,
+                "quote_count": 2
+            },
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 27,
+                        "end": 57,
+                        "probability": 0.8151,
+                        "type": "Organization",
+                        "normalized_text": "Shuttered Venue Operators Grant"
+                    }
+                ]
+            },
+            "author_id": "2927379996",
+            "created_at": "2021-04-08T17:14:32.000Z",
+            "conversation_id": "1380207444257730561"
+        }
+    ],
+    [
+        {
+            "created_at": "2021-04-09T16:54:31.000Z",
+            "author_id": "10433782",
+            "conversation_id": "1380564797088006147",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 95,
+                        "end": 118,
+                        "url": "https://t.co/lkSB6VQJMb",
+                        "expanded_url": "https://bayareane.ws/3t56IXH",
+                        "display_url": "bayareane.ws/3t56IXH"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 26,
+                        "end": 30,
+                        "probability": 0.7659,
+                        "type": "Person",
+                        "normalized_text": "Leigh"
+                    },
+                    {
+                        "start": 48,
+                        "end": 55,
+                        "probability": 0.9029,
+                        "type": "Organization",
+                        "normalized_text": "Westmont"
+                    },
+                    {
+                        "start": 63,
+                        "end": 69,
+                        "probability": 0.8184,
+                        "type": "Organization",
+                        "normalized_text": "Branham"
+                    },
+                    {
+                        "start": 72,
+                        "end": 78,
+                        "probability": 0.7547,
+                        "type": "Organization",
+                        "normalized_text": "Sobrato"
+                    }
+                ]
+            },
+            "text": "Thursday’s prep football: Leigh stays unbeaten, Westmont beats Branham, Sobrato rallies to win https://t.co/lkSB6VQJMb",
+            "id": "1380564797088006147"
+        },
+        {
+            "created_at": "2021-04-09T16:27:52.000Z",
+            "author_id": "10433782",
+            "conversation_id": "1380558087652794371",
+            "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 1,
+                "like_count": 2,
+                "quote_count": 1
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 55,
+                        "end": 78,
+                        "url": "https://t.co/LOaqMnzEib",
+                        "expanded_url": "https://bayareane.ws/3d0kgyi",
+                        "display_url": "bayareane.ws/3d0kgyi"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "probability": 0.5022,
+                        "type": "Person",
+                        "normalized_text": "Rapper"
+                    },
+                    {
+                        "start": 13,
+                        "end": 15,
+                        "probability": 0.4729,
+                        "type": "Person",
+                        "normalized_text": "DMX"
+                    }
+                ]
+            },
+            "text": "Rapper-actor DMX, known for gruff delivery, dead at 50 https://t.co/LOaqMnzEib",
+            "id": "1380558087652794371"
+        },
+        {
+            "created_at": "2021-04-09T16:03:48.000Z",
+            "author_id": "10433782",
+            "conversation_id": "1380552030146727937",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 52,
+                        "end": 75,
+                        "url": "https://t.co/EIx6qAqCHD",
+                        "expanded_url": "https://bayareane.ws/3t5Jzoh",
+                        "display_url": "bayareane.ws/3t5Jzoh"
+                    }
+                ]
+            },
+            "text": "Rental assistance is on the way. Will it be enough? https://t.co/EIx6qAqCHD",
+            "id": "1380552030146727937"
+        },
+        {
+            "created_at": "2021-04-09T15:48:16.000Z",
+            "author_id": "10433782",
+            "conversation_id": "1380548121588084739",
+            "public_metrics": {
+                "retweet_count": 11,
+                "reply_count": 0,
+                "like_count": 30,
+                "quote_count": 5
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 78,
+                        "end": 101,
+                        "url": "https://t.co/bH2sLDwirW",
+                        "expanded_url": "https://bayareane.ws/3wFSFKD",
+                        "display_url": "bayareane.ws/3wFSFKD"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 17,
+                        "probability": 0.9257,
+                        "type": "Organization",
+                        "normalized_text": "Santa Clara County"
+                    },
+                    {
+                        "start": 33,
+                        "end": 37,
+                        "probability": 0.9666,
+                        "type": "Organization",
+                        "normalized_text": "49ers"
+                    }
+                ]
+            },
+            "text": "Santa Clara County teams up with 49ers to vaccinate Special Olympics athletes https://t.co/bH2sLDwirW",
+            "id": "1380548121588084739"
+        },
+        {
+            "created_at": "2021-04-09T15:31:28.000Z",
+            "author_id": "10433782",
+            "conversation_id": "1380543896971837443",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 109,
+                        "end": 132,
+                        "url": "https://t.co/TbcPbA0dBf",
+                        "expanded_url": "https://bayareane.ws/3wS8TAu",
+                        "display_url": "bayareane.ws/3wS8TAu"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 10,
+                        "probability": 0.7498,
+                        "type": "Person",
+                        "normalized_text": "Tiger Woods"
+                    },
+                    {
+                        "start": 72,
+                        "end": 81,
+                        "probability": 0.9662,
+                        "type": "Place",
+                        "normalized_text": "California"
+                    }
+                ]
+            },
+            "text": "Tiger Woods was disoriented in a manner consistent with shock following California crash, police report says https://t.co/TbcPbA0dBf",
+            "id": "1380543896971837443"
+        },
+        {
+            "created_at": "2021-04-09T15:24:38.000Z",
+            "author_id": "10433782",
+            "conversation_id": "1380542174534713352",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 69,
+                        "end": 92,
+                        "url": "https://t.co/YlJ9b2bOgp",
+                        "expanded_url": "https://bayareane.ws/3dPsc4D",
+                        "display_url": "bayareane.ws/3dPsc4D"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "probability": 0.9366,
+                        "type": "Organization",
+                        "normalized_text": "Amazon"
+                    },
+                    {
+                        "start": 51,
+                        "end": 57,
+                        "probability": 0.5732,
+                        "type": "Organization",
+                        "normalized_text": "Alabama"
+                    }
+                ]
+            },
+            "text": "Amazon gains enough votes to defeat union drive at Alabama warehouse https://t.co/YlJ9b2bOgp",
+            "id": "1380542174534713352"
+        },
+        {
+            "created_at": "2021-04-09T15:17:52.000Z",
+            "author_id": "10433782",
+            "conversation_id": "1380540471659888646",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 93,
+                        "end": 116,
+                        "url": "https://t.co/cx88Py5QNy",
+                        "expanded_url": "https://bayareane.ws/3d1GiR6",
+                        "display_url": "bayareane.ws/3d1GiR6"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "probability": 0.9903,
+                        "type": "Person",
+                        "normalized_text": "Harry"
+                    },
+                    {
+                        "start": 42,
+                        "end": 47,
+                        "probability": 0.8726,
+                        "type": "Person",
+                        "normalized_text": "Philip"
+                    },
+                    {
+                        "start": 62,
+                        "end": 67,
+                        "probability": 0.9932,
+                        "type": "Person",
+                        "normalized_text": "Meghan"
+                    }
+                ]
+            },
+            "text": "Harry wants to be with royal family after Philip’s death, but Meghan’s wishes are less clear https://t.co/cx88Py5QNy",
+            "id": "1380540471659888646"
+        },
+        {
+            "created_at": "2021-04-09T15:13:14.000Z",
+            "author_id": "10433782",
+            "conversation_id": "1380539307480510472",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 62,
+                        "end": 85,
+                        "url": "https://t.co/LfwdJYhYu6",
+                        "expanded_url": "https://bayareane.ws/39VCWgC",
+                        "display_url": "bayareane.ws/39VCWgC"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 14,
+                        "end": 22,
+                        "probability": 0.8661,
+                        "type": "Organization",
+                        "normalized_text": "Starbucks"
+                    },
+                    {
+                        "start": 41,
+                        "end": 47,
+                        "probability": 0.7329,
+                        "type": "Place",
+                        "normalized_text": "Hayward"
+                    }
+                ]
+            },
+            "text": "Drive-through Starbucks planned for busy Hayward neighborhood https://t.co/LfwdJYhYu6",
+            "id": "1380539307480510472"
+        },
+        {
+            "created_at": "2021-04-09T15:03:20.000Z",
+            "author_id": "10433782",
+            "conversation_id": "1380536815912910850",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 56,
+                        "end": 79,
+                        "url": "https://t.co/phUJuYzBgz",
+                        "expanded_url": "https://bayareane.ws/2OyN6fI",
+                        "display_url": "bayareane.ws/2OyN6fI"
+                    }
+                ]
+            },
+            "text": "High school baseball, softball: Friday’s Top 15 roundup https://t.co/phUJuYzBgz",
+            "id": "1380536815912910850"
+        },
+        {
+            "created_at": "2021-04-09T14:03:37.000Z",
+            "author_id": "10433782",
+            "conversation_id": "1380521788883501063",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 59,
+                        "end": 82,
+                        "url": "https://t.co/YAKxSLWPCB",
+                        "expanded_url": "https://bayareane.ws/3mzQcwo",
+                        "display_url": "bayareane.ws/3mzQcwo"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 14,
+                        "probability": 0.8887,
+                        "type": "Place",
+                        "normalized_text": "Monterey County"
+                    }
+                ]
+            },
+            "text": "Monterey County man sentence to 45 years for rape of child https://t.co/YAKxSLWPCB",
+            "id": "1380521788883501063"
+        }
+    ],
+    [
+        {
+            "text": "Rapper DMX, who sealed his success with the single \"Ruff Ryders Anthem,\" has died at 50, his family says. He had been in the hospital since last week when he suffered a heart attack at his home in New York. https://t.co/kTScZXwGbs",
+            "author_id": "759251",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 207,
+                        "end": 230,
+                        "url": "https://t.co/kTScZXwGbs",
+                        "expanded_url": "https://cnn.it/2RnY09e",
+                        "display_url": "cnn.it/2RnY09e"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 9,
+                        "probability": 0.7867,
+                        "type": "Person",
+                        "normalized_text": "Rapper DMX"
+                    },
+                    {
+                        "start": 52,
+                        "end": 62,
+                        "probability": 0.633,
+                        "type": "Person",
+                        "normalized_text": "Ruff Ryders"
+                    },
+                    {
+                        "start": 197,
+                        "end": 204,
+                        "probability": 0.9933,
+                        "type": "Place",
+                        "normalized_text": "New York"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:35:01.000Z",
+            "public_metrics": {
+                "retweet_count": 1750,
+                "reply_count": 440,
+                "like_count": 6048,
+                "quote_count": 657
+            },
+            "conversation_id": "1380559889479647235",
+            "id": "1380559889479647235"
+        },
+        {
+            "text": "A former Trump administration appointee privately boasted last year about influencing CDC's scientific reports about Covid-19 and attacked the agency's guidance while advocating for a herd immunity strategy, according to a House committee. https://t.co/rTRWNYvE7D",
+            "author_id": "759251",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 240,
+                        "end": 263,
+                        "url": "https://t.co/rTRWNYvE7D",
+                        "expanded_url": "https://cnn.it/3uweJp0",
+                        "display_url": "cnn.it/3uweJp0"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 9,
+                        "end": 13,
+                        "probability": 0.9841,
+                        "type": "Person",
+                        "normalized_text": "Trump"
+                    },
+                    {
+                        "start": 86,
+                        "end": 88,
+                        "probability": 0.6333,
+                        "type": "Organization",
+                        "normalized_text": "CDC"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:30:15.000Z",
+            "public_metrics": {
+                "retweet_count": 74,
+                "reply_count": 74,
+                "like_count": 228,
+                "quote_count": 9
+            },
+            "conversation_id": "1380558688138706953",
+            "id": "1380558688138706953"
+        },
+        {
+            "text": "Evacuations are in place and the island of St. Vincent is on red alert as a volcano erupts, shooting ash plumes up to 20,000 feet into the air. https://t.co/0vQXJjBmP1",
+            "author_id": "759251",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 144,
+                        "end": 167,
+                        "url": "https://t.co/0vQXJjBmP1",
+                        "expanded_url": "https://cnn.it/3uHKCLz",
+                        "display_url": "cnn.it/3uHKCLz"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 43,
+                        "end": 53,
+                        "probability": 0.8876,
+                        "type": "Place",
+                        "normalized_text": "St. Vincent"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:16:27.000Z",
+            "public_metrics": {
+                "retweet_count": 140,
+                "reply_count": 38,
+                "like_count": 340,
+                "quote_count": 12
+            },
+            "conversation_id": "1380555215036940291",
+            "id": "1380555215036940291"
+        },
+        {
+            "text": "Russian forces are massing on Ukraine's border. Bluff or not, Putin is playing with fire | Analysis by @npwcnn https://t.co/fI9zuyPH1u https://t.co/evhstYDe5U",
+            "author_id": "759251",
+            "attachments": {
+                "media_keys": [
+                    "3_1380551130506223629"
+                ]
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 111,
+                        "end": 134,
+                        "url": "https://t.co/fI9zuyPH1u",
+                        "expanded_url": "https://cnn.it/3uDsgLs",
+                        "display_url": "cnn.it/3uDsgLs"
+                    },
+                    {
+                        "start": 135,
+                        "end": 158,
+                        "url": "https://t.co/evhstYDe5U",
+                        "expanded_url": "https://twitter.com/CNN/status/1380551132431454218/photo/1",
+                        "display_url": "pic.twitter.com/evhstYDe5U"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 30,
+                        "end": 36,
+                        "probability": 0.9936,
+                        "type": "Place",
+                        "normalized_text": "Ukraine"
+                    },
+                    {
+                        "start": 62,
+                        "end": 66,
+                        "probability": 0.9503,
+                        "type": "Person",
+                        "normalized_text": "Putin"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "start": 103,
+                        "end": 110,
+                        "username": "npwcnn"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:00:14.000Z",
+            "public_metrics": {
+                "retweet_count": 231,
+                "reply_count": 157,
+                "like_count": 657,
+                "quote_count": 42
+            },
+            "conversation_id": "1380551132431454218",
+            "id": "1380551132431454218"
+        },
+        {
+            "text": "Amazon workers at an Alabama warehouse have resoundingly rejected a push to form the company’s first US-based union https://t.co/E1bxMv7lQT",
+            "author_id": "759251",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 116,
+                        "end": 139,
+                        "url": "https://t.co/E1bxMv7lQT",
+                        "expanded_url": "https://cnn.it/3wKjSvs",
+                        "display_url": "cnn.it/3wKjSvs",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380540752913170443/PobFIuHc?format=jpg&name=orig",
+                                "width": 1100,
+                                "height": 619
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380540752913170443/PobFIuHc?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Amazon gains enough votes to defeat union drive at Alabama warehouse",
+                        "description": "Amazon has gained enough votes to defeat a union drive that would have established the company's first US union, according to an ongoing tally of the vote.",
+                        "unwound_url": "https://www.cnn.com/2021/04/09/tech/amazon-bessemer-union-election/index.html?utm_medium=social&utm_source=twCNN&utm_content=2021-04-09T15%3A45%3A08&utm_term=link"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "probability": 0.9331,
+                        "type": "Organization",
+                        "normalized_text": "Amazon"
+                    },
+                    {
+                        "start": 21,
+                        "end": 27,
+                        "probability": 0.6534,
+                        "type": "Organization",
+                        "normalized_text": "Alabama"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T15:45:08.000Z",
+            "public_metrics": {
+                "retweet_count": 47,
+                "reply_count": 163,
+                "like_count": 247,
+                "quote_count": 47
+            },
+            "conversation_id": "1380547336288534530",
+            "id": "1380547336288534530"
+        },
+        {
+            "text": "For seven decades, through ups and downs, the Duke of Edinburgh was the Queen’s companion in the most enduring of special relationships.\n\nAs Prince William said: “He totally put his personal career aside to support her, and he never takes the limelight.” https://t.co/TaT9lWg2AE",
+            "author_id": "759251",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 255,
+                        "end": 278,
+                        "url": "https://t.co/TaT9lWg2AE",
+                        "expanded_url": "https://cnn.it/3uyJ7iH",
+                        "display_url": "cnn.it/3uyJ7iH"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 46,
+                        "end": 62,
+                        "probability": 0.5868,
+                        "type": "Organization",
+                        "normalized_text": "Duke of Edinburgh"
+                    },
+                    {
+                        "start": 141,
+                        "end": 154,
+                        "probability": 0.9762,
+                        "type": "Person",
+                        "normalized_text": "Prince William"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T15:30:06.000Z",
+            "public_metrics": {
+                "retweet_count": 490,
+                "reply_count": 72,
+                "like_count": 2613,
+                "quote_count": 51
+            },
+            "conversation_id": "1380543552564953090",
+            "id": "1380543552564953090"
+        },
+        {
+            "text": "Nike settled a lawsuit with MSCHF, the company behind the Lil Nas X branded shoe that features satanic symbols and a red liquid in the sole that supposedly contains human blood. Now, MSCHF will buy back customers' shoes for a full refund. https://t.co/wMfJiEhiGr",
+            "author_id": "759251",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 239,
+                        "end": 262,
+                        "url": "https://t.co/wMfJiEhiGr",
+                        "expanded_url": "https://cnn.it/3wKdFQa",
+                        "display_url": "cnn.it/3wKdFQa"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "probability": 0.4749,
+                        "type": "Organization",
+                        "normalized_text": "Nike"
+                    },
+                    {
+                        "start": 28,
+                        "end": 32,
+                        "probability": 0.3723,
+                        "type": "Organization",
+                        "normalized_text": "MSCHF"
+                    },
+                    {
+                        "start": 58,
+                        "end": 66,
+                        "probability": 0.5881,
+                        "type": "Product",
+                        "normalized_text": "Lil Nas X"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T15:15:10.000Z",
+            "public_metrics": {
+                "retweet_count": 105,
+                "reply_count": 140,
+                "like_count": 443,
+                "quote_count": 55
+            },
+            "conversation_id": "1380539792203657227",
+            "id": "1380539792203657227"
+        },
+        {
+            "text": "British Members of Parliament will pay tribute to Prince Philip in a special session on Monday, April 12, the House of Commons announced. https://t.co/6GV6yeOFgi",
+            "author_id": "759251",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 138,
+                        "end": 161,
+                        "url": "https://t.co/6GV6yeOFgi",
+                        "expanded_url": "https://cnn.it/3mvYyW7",
+                        "display_url": "cnn.it/3mvYyW7"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 28,
+                        "probability": 0.2765,
+                        "type": "Organization",
+                        "normalized_text": "British Members of Parliament"
+                    },
+                    {
+                        "start": 50,
+                        "end": 62,
+                        "probability": 0.9662,
+                        "type": "Person",
+                        "normalized_text": "Prince Philip"
+                    },
+                    {
+                        "start": 110,
+                        "end": 125,
+                        "probability": 0.8282,
+                        "type": "Organization",
+                        "normalized_text": "House of Commons"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T15:00:14.000Z",
+            "public_metrics": {
+                "retweet_count": 95,
+                "reply_count": 62,
+                "like_count": 680,
+                "quote_count": 4
+            },
+            "conversation_id": "1380536034224660487",
+            "id": "1380536034224660487"
+        },
+        {
+            "text": "Neuralink, the implant company owned by SpaceX and Tesla CEO Elon Musk, has released a video in which a monkey appears to play the computer game Pong using only its mind. https://t.co/QZyoiWlhQW",
+            "author_id": "759251",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 171,
+                        "end": 194,
+                        "url": "https://t.co/QZyoiWlhQW",
+                        "expanded_url": "https://cnn.it/39XJcEH",
+                        "display_url": "cnn.it/39XJcEH"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 40,
+                        "end": 45,
+                        "probability": 0.8746,
+                        "type": "Organization",
+                        "normalized_text": "SpaceX"
+                    },
+                    {
+                        "start": 51,
+                        "end": 55,
+                        "probability": 0.63,
+                        "type": "Organization",
+                        "normalized_text": "Tesla"
+                    },
+                    {
+                        "start": 61,
+                        "end": 69,
+                        "probability": 0.6561,
+                        "type": "Person",
+                        "normalized_text": "Elon Musk"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T14:45:36.000Z",
+            "public_metrics": {
+                "retweet_count": 141,
+                "reply_count": 94,
+                "like_count": 495,
+                "quote_count": 56
+            },
+            "conversation_id": "1380532351319609348",
+            "id": "1380532351319609348"
+        },
+        {
+            "text": "Taylor Swift has released the re-recording of her sophomore album, which she originally recorded in 2008. The new recordings come two years after she failed to acquire the rights to her early albums. https://t.co/fDohfYIexC",
+            "author_id": "759251",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 200,
+                        "end": 223,
+                        "url": "https://t.co/fDohfYIexC",
+                        "expanded_url": "https://cnn.it/3wGKAFw",
+                        "display_url": "cnn.it/3wGKAFw"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 11,
+                        "probability": 0.9978,
+                        "type": "Person",
+                        "normalized_text": "Taylor Swift"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T14:30:09.000Z",
+            "public_metrics": {
+                "retweet_count": 96,
+                "reply_count": 46,
+                "like_count": 744,
+                "quote_count": 15
+            },
+            "conversation_id": "1380528463535296512",
+            "id": "1380528463535296512"
+        }
+    ],
+    [
+        {
+            "id": "1380301939536134144",
+            "entities": {
+                "hashtags": [
+                    {
+                        "start": 195,
+                        "end": 206,
+                        "tag": "NeverAgain"
+                    },
+                    {
+                        "start": 207,
+                        "end": 231,
+                        "tag": "HolocaustRemembranceDay"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 87,
+                        "end": 90,
+                        "probability": 0.532,
+                        "type": "Organization",
+                        "normalized_text": "Nazi"
+                    }
+                ]
+            },
+            "author_id": "803694179079458816",
+            "conversation_id": "1380301939536134144",
+            "created_at": "2021-04-08T23:30:01.000Z",
+            "text": "Today we remember the six million Jews and millions of others who were murdered by the Nazi regime and its collaborators. We must continue to stand up against anti-Semitism and hate of any kind. #NeverAgain #HolocaustRemembranceDay",
+            "public_metrics": {
+                "retweet_count": 5300,
+                "reply_count": 918,
+                "like_count": 38522,
+                "quote_count": 198
+            }
+        },
+        {
+            "id": "1380264186119344130",
+            "author_id": "803694179079458816",
+            "conversation_id": "1380264186119344130",
+            "created_at": "2021-04-08T21:00:00.000Z",
+            "text": "The American Jobs Plan will create good-paying, union jobs that will fix our roads and bridges, modernize our electric grid, replace lead service lines for clean water, and expand access to high-speed internet.",
+            "public_metrics": {
+                "retweet_count": 1554,
+                "reply_count": 604,
+                "like_count": 11545,
+                "quote_count": 49
+            }
+        },
+        {
+            "id": "1380234475993436169",
+            "author_id": "803694179079458816",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 229,
+                        "end": 252,
+                        "url": "https://t.co/AbSHa9SDzP",
+                        "expanded_url": "https://go.usa.gov/xHg7d",
+                        "display_url": "go.usa.gov/xHg7d",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1379947452158119938/gccLnVNr?format=jpg&name=orig",
+                                "width": 1100,
+                                "height": 740
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1379947452158119938/gccLnVNr?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "FACT SHEET: Biden-Harris Administration Announces Initial Actions to Address the Gun Violence Public Health Epidemic | The White House",
+                        "description": "Today, the Biden-Harris Administration is announcing six initial actions to address the gun violence public health epidemic. The recent high-profile mass shootings in Boulder – taking the lives of 10 individuals – and Atlanta – taking the lives of eight individuals, including six Asian American women – underscored the relentlessness of this epidemic. Gun violence…",
+                        "unwound_url": "https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/07/fact-sheet-biden-harris-administration-announces-initial-actions-to-address-the-gun-violence-public-health-epidemic/"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "start": 83,
+                        "end": 89,
+                        "username": "POTUS"
+                    }
+                ]
+            },
+            "conversation_id": "1380234475993436169",
+            "created_at": "2021-04-08T19:01:57.000Z",
+            "text": "Gun violence is a public health epidemic, and we cannot wait to address it. Today, @POTUS announced a set of initial actions to reduce gun violence of all forms—community violence, mass shootings, domestic violence, and suicide. https://t.co/AbSHa9SDzP",
+            "public_metrics": {
+                "retweet_count": 1145,
+                "reply_count": 545,
+                "like_count": 6691,
+                "quote_count": 55
+            }
+        },
+        {
+            "id": "1380229157670563845",
+            "author_id": "803694179079458816",
+            "conversation_id": "1380229157670563845",
+            "created_at": "2021-04-08T18:40:49.000Z",
+            "text": "I want all those who have lost a loved one to gun violence to know: @POTUS and I will never, ever give up on this fight.",
+            "public_metrics": {
+                "retweet_count": 6202,
+                "reply_count": 1843,
+                "like_count": 63948,
+                "quote_count": 250
+            },
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 68,
+                        "end": 74,
+                        "username": "POTUS"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1380219793790414848",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 117,
+                        "end": 125,
+                        "probability": 0.5478,
+                        "type": "Person",
+                        "normalized_text": "Joe Biden"
+                    }
+                ]
+            },
+            "author_id": "803694179079458816",
+            "conversation_id": "1380219793790414848",
+            "created_at": "2021-04-08T18:03:36.000Z",
+            "text": "The solutions to curb gun violence already exist. All that is left is the will and the courage to act. And President Joe Biden has the will and the courage to act.",
+            "public_metrics": {
+                "retweet_count": 3959,
+                "reply_count": 1375,
+                "like_count": 32328,
+                "quote_count": 153
+            }
+        }
+    ],
+    [
+        {
+            "author_id": "20097362",
+            "text": "JUST IN: Grammy-nominated rapper DMX, who had been on life support since suffering a heart attack April 2, has died at 50, according to a statement his family. https://t.co/QeK44k7UxW https://t.co/SEIsiNGeDD",
+            "public_metrics": {
+                "retweet_count": 7,
+                "reply_count": 0,
+                "like_count": 10,
+                "quote_count": 1
+            },
+            "id": "1380562419269914631",
+            "conversation_id": "1380562419269914631",
+            "attachments": {
+                "media_keys": [
+                    "3_1380562417537724419"
+                ]
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 160,
+                        "end": 183,
+                        "url": "https://t.co/QeK44k7UxW",
+                        "expanded_url": "http://nbcbay.com/730zp6j",
+                        "display_url": "nbcbay.com/730zp6j"
+                    },
+                    {
+                        "start": 184,
+                        "end": 207,
+                        "url": "https://t.co/SEIsiNGeDD",
+                        "expanded_url": "https://twitter.com/nbcbayarea/status/1380562419269914631/photo/1",
+                        "display_url": "pic.twitter.com/SEIsiNGeDD"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 33,
+                        "end": 35,
+                        "probability": 0.8194,
+                        "type": "Person",
+                        "normalized_text": "DMX"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:45:05.000Z"
+        },
+        {
+            "author_id": "20097362",
+            "text": "Two private security guards who deployed pepper spray at pro-abortion rights demonstrators during an East Bay Planned Parenthood protest last fall have been charged in the incident, the Contra Costa County DA's Office says. https://t.co/TlWj41qJXO https://t.co/MAQpXO09Rs",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 4,
+                "quote_count": 0
+            },
+            "id": "1380558671978102790",
+            "conversation_id": "1380558671978102790",
+            "attachments": {
+                "media_keys": [
+                    "3_1380558670203863050"
+                ]
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 224,
+                        "end": 247,
+                        "url": "https://t.co/TlWj41qJXO",
+                        "expanded_url": "http://nbcbay.com/wPloIe9",
+                        "display_url": "nbcbay.com/wPloIe9"
+                    },
+                    {
+                        "start": 248,
+                        "end": 271,
+                        "url": "https://t.co/MAQpXO09Rs",
+                        "expanded_url": "https://twitter.com/nbcbayarea/status/1380558671978102790/photo/1",
+                        "display_url": "pic.twitter.com/MAQpXO09Rs"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 101,
+                        "end": 127,
+                        "probability": 0.6079,
+                        "type": "Organization",
+                        "normalized_text": "East Bay Planned Parenthood"
+                    },
+                    {
+                        "start": 186,
+                        "end": 207,
+                        "probability": 0.3354,
+                        "type": "Place",
+                        "normalized_text": "Contra Costa County DA"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:30:11.000Z"
+        },
+        {
+            "author_id": "20097362",
+            "text": "Verizon is recalling 2.5 million hotspot devices after discovering that the lithium ion battery can overheat, creating a fire and burning hazard. https://t.co/iX0OxTDypV",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0
+            },
+            "id": "1380551159908286466",
+            "conversation_id": "1380551159908286466",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 146,
+                        "end": 169,
+                        "url": "https://t.co/iX0OxTDypV",
+                        "expanded_url": "http://nbcbay.com/ywNpWjp",
+                        "display_url": "nbcbay.com/ywNpWjp"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 6,
+                        "probability": 0.9426,
+                        "type": "Organization",
+                        "normalized_text": "Verizon"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T16:00:20.000Z"
+        },
+        {
+            "author_id": "20097362",
+            "text": "With a wider eligibility pool and a shortage of supply, some Bay Area residents are looking at possible road trips as far as Fresno or Bakersfield to get their COVID-19 vaccine. https://t.co/Nm5oVrPccS https://t.co/HgHKynjMpA",
+            "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 2,
+                "like_count": 6,
+                "quote_count": 1
+            },
+            "id": "1380543563331731456",
+            "conversation_id": "1380543563331731456",
+            "attachments": {
+                "media_keys": [
+                    "3_1380543561452691456"
+                ]
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 178,
+                        "end": 201,
+                        "url": "https://t.co/Nm5oVrPccS",
+                        "expanded_url": "http://nbcbay.com/sbPYpzw",
+                        "display_url": "nbcbay.com/sbPYpzw"
+                    },
+                    {
+                        "start": 202,
+                        "end": 225,
+                        "url": "https://t.co/HgHKynjMpA",
+                        "expanded_url": "https://twitter.com/nbcbayarea/status/1380543563331731456/photo/1",
+                        "display_url": "pic.twitter.com/HgHKynjMpA"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 61,
+                        "end": 68,
+                        "probability": 0.4007,
+                        "type": "Place",
+                        "normalized_text": "Bay Area"
+                    },
+                    {
+                        "start": 125,
+                        "end": 130,
+                        "probability": 0.9671,
+                        "type": "Place",
+                        "normalized_text": "Fresno"
+                    },
+                    {
+                        "start": 135,
+                        "end": 145,
+                        "probability": 0.9643,
+                        "type": "Place",
+                        "normalized_text": "Bakersfield"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T15:30:09.000Z"
+        },
+        {
+            "author_id": "20097362",
+            "text": "Authorities say an active volcano in the eastern Caribbean island of St. Vincent has erupted and mandatory evacuations have been ordered. https://t.co/y5axZYaWUG https://t.co/fzpCkWL6Pw",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 1,
+                "like_count": 7,
+                "quote_count": 1
+            },
+            "id": "1380536250936000517",
+            "conversation_id": "1380536250936000517",
+            "attachments": {
+                "media_keys": [
+                    "13_1380535764769996803"
+                ]
+            },
+            "entities": {
+                "urls": [
+                    {
+                        "start": 138,
+                        "end": 161,
+                        "url": "https://t.co/y5axZYaWUG",
+                        "expanded_url": "http://nbcbay.com/1dLVPr1",
+                        "display_url": "nbcbay.com/1dLVPr1"
+                    },
+                    {
+                        "start": 162,
+                        "end": 185,
+                        "url": "https://t.co/fzpCkWL6Pw",
+                        "expanded_url": "https://twitter.com/nbcbayarea/status/1380536250936000517/video/1",
+                        "display_url": "pic.twitter.com/fzpCkWL6Pw"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 49,
+                        "end": 57,
+                        "probability": 0.6197,
+                        "type": "Place",
+                        "normalized_text": "Caribbean"
+                    },
+                    {
+                        "start": 69,
+                        "end": 79,
+                        "probability": 0.9156,
+                        "type": "Place",
+                        "normalized_text": "St. Vincent"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T15:01:06.000Z"
+        },
+        {
+            "author_id": "20097362",
+            "text": "Amazon is heading into the final stretch of a union push in Bessemer, Alabama, with a sizeable lead over labor organizers. https://t.co/3onv64h7U5",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "id": "1380528689750945793",
+            "conversation_id": "1380528689750945793",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 123,
+                        "end": 146,
+                        "url": "https://t.co/3onv64h7U5",
+                        "expanded_url": "http://nbcbay.com/XfnzkDb",
+                        "display_url": "nbcbay.com/XfnzkDb"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "probability": 0.967,
+                        "type": "Organization",
+                        "normalized_text": "Amazon"
+                    },
+                    {
+                        "start": 60,
+                        "end": 67,
+                        "probability": 0.626,
+                        "type": "Place",
+                        "normalized_text": "Bessemer"
+                    },
+                    {
+                        "start": 70,
+                        "end": 76,
+                        "probability": 0.5484,
+                        "type": "Organization",
+                        "normalized_text": "Alabama"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T14:31:03.000Z"
+        },
+        {
+            "author_id": "20097362",
+            "text": "Kevin Seefried, who was photographed carrying a Confederate flag in the U.S. Capitol during the Jan. 6 riots in Washington, has been indicted by a grand jury on five counts related to obstruction, entering restricted property and disorderly conduct. https://t.co/WaQ4ZSqgM4",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 21,
+                "quote_count": 0
+            },
+            "id": "1380520957513768963",
+            "conversation_id": "1380520957513768963",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 250,
+                        "end": 273,
+                        "url": "https://t.co/WaQ4ZSqgM4",
+                        "expanded_url": "http://nbcbay.com/HCrQIh6",
+                        "display_url": "nbcbay.com/HCrQIh6",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380520968276344836/9cHV6HoH?format=jpg&name=orig",
+                                "width": 1200,
+                                "height": 675
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1380520968276344836/9cHV6HoH?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Man Who Carried Confederate Flag to Capitol During Jan. 6 Riot Indicted",
+                        "description": "Kevin Seefried, who was photographed carrying a Confederate flag in the U.S. Capitol during the Jan. 6 riots in Washington, has been indicted by a grand jury,",
+                        "unwound_url": "https://www.nbcbayarea.com/news/business/money-report/man-who-carried-confederate-flag-to-capitol-during-jan-6-riot-indicted/2513575/?_osource=SocialFlowTwt_BAYBrand"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 13,
+                        "probability": 0.9932,
+                        "type": "Person",
+                        "normalized_text": "Kevin Seefried"
+                    },
+                    {
+                        "start": 72,
+                        "end": 83,
+                        "probability": 0.873,
+                        "type": "Place",
+                        "normalized_text": "U.S. Capitol"
+                    },
+                    {
+                        "start": 112,
+                        "end": 121,
+                        "probability": 0.9943,
+                        "type": "Place",
+                        "normalized_text": "Washington"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T14:00:19.000Z"
+        },
+        {
+            "author_id": "20097362",
+            "text": "LIVE VIDEO: @KrisNBC is live at 6:32 with the latest on some Bay Area residents looking at possible road trips out of the area to get their COVID-19 vaccine. https://t.co/2eILJO8nQq",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "id": "1380513349981638657",
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 12,
+                        "end": 20,
+                        "username": "KrisNBC"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 158,
+                        "end": 181,
+                        "url": "https://t.co/2eILJO8nQq",
+                        "expanded_url": "http://nbcbay.com/kkfCjz9",
+                        "display_url": "nbcbay.com/kkfCjz9"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 61,
+                        "end": 68,
+                        "probability": 0.5501,
+                        "type": "Place",
+                        "normalized_text": "Bay Area"
+                    }
+                ]
+            },
+            "conversation_id": "1380513349981638657",
+            "created_at": "2021-04-09T13:30:05.000Z"
+        },
+        {
+            "author_id": "20097362",
+            "text": "The CDC says racism is a “serious threat” to public health, saying it has a “profound and negative impact on communities of color” and contributes to disproportionate mortality rates among people of color, NBC News reports. https://t.co/CG1WIUD3Ot",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 4,
+                "like_count": 10,
+                "quote_count": 1
+            },
+            "id": "1380512848078573572",
+            "conversation_id": "1380512848078573572",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 224,
+                        "end": 247,
+                        "url": "https://t.co/CG1WIUD3Ot",
+                        "expanded_url": "http://nbcbay.com/YozaydP",
+                        "display_url": "nbcbay.com/YozaydP"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 4,
+                        "end": 6,
+                        "probability": 0.7333,
+                        "type": "Organization",
+                        "normalized_text": "CDC"
+                    },
+                    {
+                        "start": 206,
+                        "end": 213,
+                        "probability": 0.9411,
+                        "type": "Organization",
+                        "normalized_text": "NBC News"
+                    }
+                ]
+            },
+            "created_at": "2021-04-09T13:28:06.000Z"
+        },
+        {
+            "entities": {
+                "hashtags": [
+                    {
+                        "start": 72,
+                        "end": 81,
+                        "tag": "SFGiants"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 189,
+                        "end": 212,
+                        "url": "https://t.co/sGCN5OvZ9X",
+                        "expanded_url": "http://nbcbay.com/oYGZzcp",
+                        "display_url": "nbcbay.com/oYGZzcp",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1379404291815923713/TRPYiXVi?format=jpg&name=orig",
+                                "width": 1200,
+                                "height": 675
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1379404291815923713/TRPYiXVi?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Watch NBC Bay Area News",
+                        "description": "You’re watching live streaming news coverage from NBC Bay Area.",
+                        "unwound_url": "https://www.nbcbayarea.com/news/local/nbc-bay-area-news-live-stream-newscasts/2153541/?_osource=SocialFlowTwt_BAYBrand"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 130,
+                        "end": 140,
+                        "probability": 0.8342,
+                        "type": "Organization",
+                        "normalized_text": "Oracle Park"
+                    }
+                ]
+            },
+            "author_id": "20097362",
+            "text": "LIVE VIDEO: @CierraJonhsonTV is live at 6:04 with the latest on today's #SFGiants home opener, the first time fans will return to Oracle Park for baseball since the end of the 2019 season. https://t.co/sGCN5OvZ9X",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "id": "1380506291404210181",
+            "conversation_id": "1380506291404210181",
+            "created_at": "2021-04-09T13:02:03.000Z"
+        }
+    ],
+    [
+        {
+            "id": "1380544282029883394",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 0,
+                        "end": 12,
+                        "probability": 0.9746,
+                        "type": "Person",
+                        "normalized_text": "Prince Philip"
+                    },
+                    {
+                        "start": 112,
+                        "end": 115,
+                        "probability": 0.9737,
+                        "type": "Person",
+                        "normalized_text": "Jill"
+                    },
+                    {
+                        "start": 149,
+                        "end": 161,
+                        "probability": 0.979,
+                        "type": "Person",
+                        "normalized_text": "Prince Philip"
+                    },
+                    {
+                        "start": 233,
+                        "end": 246,
+                        "probability": 0.5838,
+                        "type": "Place",
+                        "normalized_text": "United Kingdom"
+                    }
+                ]
+            },
+            "author_id": "1349149096909668363",
+            "conversation_id": "1380544282029883394",
+            "created_at": "2021-04-09T15:33:00.000Z",
+            "text": "Prince Philip’s legacy will live on not only through his family, but in all the charitable endeavors he shaped. Jill and I are keeping the Queen and Prince Philip’s children, grandchildren, great-grandchildren, and the people of the United Kingdom in our hearts during this time.",
+            "public_metrics": {
+                "retweet_count": 8405,
+                "reply_count": 1787,
+                "like_count": 100782,
+                "quote_count": 683
+            }
+        },
+        {
+            "id": "1380319248506044416",
+            "author_id": "1349149096909668363",
+            "entities": {
+                "urls": [
+                    {
+                        "start": 160,
+                        "end": 183,
+                        "url": "https://t.co/ZtN0Zr0rBf",
+                        "expanded_url": "https://twitter.com/POTUS/status/1380319248506044416/video/1",
+                        "display_url": "pic.twitter.com/ZtN0Zr0rBf"
+                    }
+                ]
+            },
+            "conversation_id": "1380319248506044416",
+            "attachments": {
+                "media_keys": [
+                    "13_1380319158928293888"
+                ]
+            },
+            "created_at": "2021-04-09T00:38:48.000Z",
+            "text": "I know that the conversation about guns in this country can be a difficult one. But even here, there’s much more common ground than some would have us believe. https://t.co/ZtN0Zr0rBf",
+            "public_metrics": {
+                "retweet_count": 2250,
+                "reply_count": 2454,
+                "like_count": 15078,
+                "quote_count": 213
+            }
+        },
+        {
+            "id": "1380301939783708672",
+            "author_id": "1349149096909668363",
+            "conversation_id": "1380301939783708672",
+            "created_at": "2021-04-08T23:30:01.000Z",
+            "text": "We need to ban assault weapons and high-capacity magazines in this country. \n\nThere’s no reason somebody needs a weapon of war with 100 rounds in a magazine. None.",
+            "public_metrics": {
+                "retweet_count": 22153,
+                "reply_count": 6919,
+                "like_count": 165269,
+                "quote_count": 2194
+            }
+        },
+        {
+            "id": "1380291160296587265",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 46,
+                        "end": 53,
+                        "probability": 0.4416,
+                        "type": "Organization",
+                        "normalized_text": "Congress"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 74,
+                        "end": 97,
+                        "url": "https://t.co/BT4VQlyYsD",
+                        "expanded_url": "https://twitter.com/POTUS/status/1380291160296587265/video/1",
+                        "display_url": "pic.twitter.com/BT4VQlyYsD"
+                    }
+                ]
+            },
+            "author_id": "1349149096909668363",
+            "conversation_id": "1380291160296587265",
+            "attachments": {
+                "media_keys": [
+                    "13_1380291116050829321"
+                ]
+            },
+            "created_at": "2021-04-08T22:47:11.000Z",
+            "text": "We need more than “thoughts and prayers” from Congress. It’s time to act. https://t.co/BT4VQlyYsD",
+            "public_metrics": {
+                "retweet_count": 5672,
+                "reply_count": 1986,
+                "like_count": 37983,
+                "quote_count": 522
+            }
+        },
+        {
+            "id": "1380258362416365577",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 8,
+                        "end": 32,
+                        "probability": 0.8702,
+                        "type": "Other",
+                        "normalized_text": "Holocaust Remembrance Day"
+                    }
+                ]
+            },
+            "author_id": "1349149096909668363",
+            "conversation_id": "1380258362416365577",
+            "created_at": "2021-04-08T20:36:52.000Z",
+            "text": "On this Holocaust Remembrance Day, we remember the precious lives we lost and honor those who survived to bear witness. We must all give anti-Semitism and hate no safe harbor and ensure the atrocities of the Holocaust never occur again.",
+            "public_metrics": {
+                "retweet_count": 6911,
+                "reply_count": 1408,
+                "like_count": 48216,
+                "quote_count": 295
+            }
+        },
+        {
+            "id": "1380244052239605764",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 4,
+                        "end": 9,
+                        "probability": 0.7114,
+                        "type": "Organization",
+                        "normalized_text": "Senate"
+                    }
+                ]
+            },
+            "author_id": "1349149096909668363",
+            "conversation_id": "1380244052239605764",
+            "created_at": "2021-04-08T19:40:00.000Z",
+            "text": "The Senate should immediately pass the three House-passed bills to close loopholes in the gun background check system.\n\nThat is one of the best tools we have right now to prevent gun violence and save lives.",
+            "public_metrics": {
+                "retweet_count": 6428,
+                "reply_count": 2297,
+                "like_count": 45910,
+                "quote_count": 273
+            }
+        },
+        {
+            "id": "1380237838579564546",
+            "author_id": "1349149096909668363",
+            "conversation_id": "1380237838579564546",
+            "created_at": "2021-04-08T19:15:18.000Z",
+            "text": "My Administration is taking initial steps to reduce gun violence, including:\n\n- Stopping the proliferation of ghost guns\n- Regulating pistols modified with a stabilizing brace\n- Helping states adopt red flag laws\n- Supporting community violence interventions",
+            "public_metrics": {
+                "retweet_count": 5693,
+                "reply_count": 4554,
+                "like_count": 41018,
+                "quote_count": 622
+            }
         }
     ]
 ]

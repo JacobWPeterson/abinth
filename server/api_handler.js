@@ -5,7 +5,23 @@ axios.defaults.headers.common.Authorization = BEARER_TOKEN.BEARER_TOKEN;
 
 const API_BASE_URL = 'https://api.twitter.com/2/users/';
 
-const fetchUsers = (userID, callback) => {
+const today = new Date();
+let yesterday = new Date(today);
+let twoDaysAgo = new Date(today);
+yesterday.setDate(yesterday.getDate() - 1);
+yesterday.toTimeString();
+yesterday = yesterday.toISOString().substring(0, 10);
+
+twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
+twoDaysAgo.toTimeString();
+twoDaysAgo = twoDaysAgo.toISOString().substring(0, 10);
+
+const PDTStartTime = `${twoDaysAgo}T17:00:00Z`;
+const PDTEndTime = `${yesterday}T16:59:59Z`;
+
+const feedParams = `?media.fields=url,type&start_time=${PDTStartTime}&end_time=${PDTEndTime}&exclude=retweets,replies&max_results=10&tweet.fields=attachments,author_id,conversation_id,created_at,entities,geo,id,public_metrics,referenced_tweets,text,withheld&user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld&expansions=author_id,referenced_tweets.id,referenced_tweets.id.author_id,entities.mentions.username,attachments.poll_ids,attachments.media_keys,in_reply_to_user_id,geo.place_id&place.fields=contained_within,country,country_code,full_name,geo,id,name,place_type`;
+
+const getFollowedAccounts = (userID, callback) => {
   axios.get(`${API_BASE_URL}${userID}/following?user.fields=id,location,profile_image_url`)
     .then((data) => {
       callback(data.data);
@@ -15,34 +31,16 @@ const fetchUsers = (userID, callback) => {
     });
 };
 
-const today = new Date();
-let yesterday = new Date(today);
-let twoDaysAgo = new Date(today);
-yesterday.setDate(yesterday.getDate() - 3);
-yesterday.toTimeString();
-yesterday = yesterday.toISOString().substring(0, 10);
+async function getUserTweets(userID) {
+  try {
+    const response = await axios.get(`${API_BASE_URL}${userID}/tweets${feedParams}`);
+    return response.data.data;
+  } catch (error) {
+    return error;
+  }
+}
 
-twoDaysAgo.setDate(twoDaysAgo.getDate() - 4);
-twoDaysAgo.toTimeString();
-twoDaysAgo = twoDaysAgo.toISOString().substring(0, 10);
-
-const PDTStartTime = `${twoDaysAgo}T17:00:00Z`;
-const PDTEndTime = `${yesterday}T16:59:59Z`;
-
-const feedParams = `?media.fields=url,type&start_time=${PDTStartTime}&end_time=${PDTEndTime}&exclude=retweets,replies&max_results=10&tweet.fields=attachments,author_id,conversation_id,created_at,entities,geo,id,possibly_sensitive,public_metrics,referenced_tweets,text,withheld&user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld&expansions=author_id,referenced_tweets.id,referenced_tweets.id.author_id,entities.mentions.username,attachments.poll_ids,attachments.media_keys,in_reply_to_user_id,geo.place_id&place.fields=contained_within,country,country_code,full_name,geo,id,name,place_type`;
-
-const fetchUserTweets = (userID, callback) => {
-  axios.get(`${API_BASE_URL}${userID}/tweets${feedParams}`)
-    .then((data) => {
-      // console.log(data.data.data);
-      callback(data.data.data);
-    })
-    .catch((err) => {
-      console.log(err.response);
-    });
-};
-
-// Twitter does not allow me access to this endpoint
+// Twitter does not allow me access to this media object endpoint to get picture URLs
 // const getMedia = (userID, callback) => {
 //   axios.get(`https://ads-api.twitter.com/9/accounts/${userID}/media_library/3_1376710056180391944`)
 //     .then((data) => {
@@ -54,72 +52,6 @@ const fetchUserTweets = (userID, callback) => {
 //     });
 // };
 
-const tweetParams = `?media.fields=url,type&tweet.fields=attachments,author_id,conversation_id,created_at,entities,geo,id,possibly_sensitive,public_metrics,referenced_tweets,text,withheld&user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld&expansions=author_id,referenced_tweets.id,referenced_tweets.id.author_id,entities.mentions.username,attachments.poll_ids,attachments.media_keys,in_reply_to_user_id,geo.place_id&place.fields=contained_within,country,country_code,full_name,geo,id,name,place_type`;
-
-// Get polish tweet for Rob
-const getPolishTweet = (tweetID, callback) => {
-  axios.get(`https://api.twitter.com/2/tweets/${tweetID}${tweetParams}`)
-    .then((data) => {
-      // console.log(data.data.data);
-      callback(data.data.data);
-    })
-    .catch((err) => {
-      console.log(err.response);
-    });
-};
-
-// const responseTweetsArray = [];
-
-// const fetchTweets = (userID, callback) => {
-//   axios.get(`${API_BASE_URL}${userID}/following`)
-//     .then(async (data) => {
-//       const tweetsArray = data.data.data;
-//       // const responseTweetsArray = await Promise.all(tweetsArray.map((user) => {
-//       //   // console.log('user.id', user.id)
-//       //   return axios.get(`${API_BASE_URL}${user.id}/tweets${feedParams}`)
-//       //     // .then((tweets) => {
-//       //     //   // console.log('tweetdata ', tweets.data.data);
-//       //     //   return tweets.data.data;
-//       //     // })
-//       //     // .catch((err) => {
-//       //     //   console.log(err.response);
-//       //     // });
-//       // }));
-//       tweetsArray.forEach((user) => {
-//         getUserTweets(user.id);
-//       });
-//     })
-//     .catch((err) => {
-//       console.log(err.response);
-//     })
-//     .then(() => {
-//       callback(responseTweetsArray);
-//     });
-// };
-
-async function getUserTweets(userID) {
-  try {
-    const response = await axios.get(`${API_BASE_URL}${userID}/tweets${feedParams}`);
-    return response.data.data;
-  } catch (error) {
-    return error;
-  }
-}
-
-// const fetchTweets = (userID, callback) => {
-//   axios.get(`${API_BASE_URL}${userID}/tweets${feedParams}`)
-//     .then((data) => {
-//       // console.log(data.data.data);
-//       callback(data.data.data);
-//     })
-//     .catch((err) => {
-//       console.log(err.response);
-//     });
-// };
-
-module.exports.fetchUsers = fetchUsers;
-module.exports.fetchUserTweets = fetchUserTweets;
-module.exports.getUserTweets = getUserTweets;
-// module.exports.fetchTweets = fetchTweets;
-// module.exports.getMedia = getMedia;
-module.exports.getPolishTweet = getPolishTweet;
+module.exports = { getFollowedAccounts };
+module.exports = { getUserTweets };
+// module.exports = { getMedia };

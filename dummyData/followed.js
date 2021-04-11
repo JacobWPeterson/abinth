@@ -1,12 +1,5 @@
 const followed = [
     {
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1311634323896971268/6f-Qxbev_400x400.jpg",
-        "name": "Gazeta Wyborcza.pl",
-        "id": "19179390",
-        "username": "gazeta_wyborcza",
-        "location": "Warszawa + 20 miast"
-    },
-    {
         "profile_image_url": "https://pbs.twimg.com/profile_images/1170690523201527808/FriNRiir_400x400.png",
         "name": "ESPN",
         "id": "2557521",
@@ -27,7 +20,7 @@ const followed = [
         "location": "San Jose, CA"
     },
     {
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1377711278848757762/QAWArhhs_400x400.jpg",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1380554687066165250/nQRxkYHM_400x400.jpg",
         "name": "San Jose Sharks",
         "id": "27961547",
         "username": "SanJoseSharks",
