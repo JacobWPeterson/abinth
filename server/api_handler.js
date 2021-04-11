@@ -52,6 +52,6 @@ async function getUserTweets(userID) {
 //     });
 // };
 
-module.exports = { getFollowedAccounts };
-module.exports = { getUserTweets };
-// module.exports = { getMedia };
+module.exports.getFollowedAccounts = getFollowedAccounts;
+module.exports.getUserTweets = getUserTweets;
+// module.exports.getMedia = getMedia;
