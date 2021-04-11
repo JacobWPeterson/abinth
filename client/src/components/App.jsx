@@ -41,7 +41,7 @@ const Message = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 0 2vh 0;
+  padding: 0 0 1.5vh 0;
 `;
 
 const Greeting = styled.p`
@@ -59,6 +59,7 @@ const DeckInfo = styled.p`
 
   @media (min-width: 313px) {
     font-size: 1.1rem;
+    margin: .5vh auto;
   }
 `;
 
@@ -79,7 +80,6 @@ const ring = keyframes`
 
 const Button = styled.button`
   margin: auto;
-  animation: none;
   width: 70vw;
   min-height: 7vh;
   font: inherit;
@@ -91,7 +91,6 @@ const Button = styled.button`
   border: none;
   border-radius: 100px;
   box-shadow: 12px 12px 24px rgba(29,161,242,.64);
-  transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
   outline: none;
   position: relative;
@@ -105,7 +104,6 @@ const Button = styled.button`
 
     &:hover, .button:focus {
       color: #313133;
-      transform: translateY(-6px);
     }
 
     &:after {
@@ -118,7 +116,6 @@ const Button = styled.button`
       left: 50%;
       transform: translate(-50%, -50%);
       animation: 1.5s 3 both ${ring};
-      // animation-play-state: ${(props) => (props.ringIt ? 'running' : 'paused')};
       display: ${(props) => (props.ringIt ? 'inline' : 'none')};
     };
   }
