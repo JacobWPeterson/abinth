@@ -51,13 +51,13 @@ class TweetBody extends React.Component {
       words.push(word2);
     }
     words = words.map((word) => {
-      if (word.match(urlPattern)) {
-        console.log('word ', word);
+      if (word.match(urlPattern) && word === lastWord) {
         const altURLSAndIndex = this.findAltURLsForLink(word);
-        // console.log('alt ', altURLSAndIndex);
         if (this.isOutsideLinkWithoutAssociatedImages(altURLSAndIndex.index)) {
           return word;
         }
+      } else if (word === '&amp;') {
+        return '&';
       } else {
         return word;
       }
@@ -69,7 +69,6 @@ class TweetBody extends React.Component {
     if (url[url.length - 1] === '.') {
       url = url.slice(0, url.length - 1);
     }
-    console.log(url)
     const urlArray = this.props.tweet.entities.urls;
     for (let i = 0; i < urlArray.length; i += 1) {
       if (url === urlArray[i].url) {
