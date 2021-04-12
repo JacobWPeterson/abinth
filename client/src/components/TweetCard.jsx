@@ -5,8 +5,6 @@ import TweetBody from './TweetBody.jsx';
 import Images from './Images.jsx';
 import LinkPreview from './LinkPreview.jsx';
 
-// import followed from '../../../dummyData/followed.js';
-
 const fadeIn = keyframes`
   from {
     transform: scale(.25);
@@ -127,7 +125,6 @@ class TweetCard extends React.Component {
   render() {
     const { tweet: { bestTweet, user }, screenSize } = this.props;
     const { visible } = this.state;
-    console.log(bestTweet.text);
     return (
       <Wrapper out={!visible} onClick={(event) => event.stopPropagation()}>
         <Card>

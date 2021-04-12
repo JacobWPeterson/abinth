@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import TweetCard from './TweetCard.jsx';
 
@@ -11,30 +11,22 @@ const ClickArea = styled.div`
   height: 82vh;
 `;
 
-class CardStack extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      index: 14,
-    };
-    this.changeIndex = this.changeIndex.bind(this);
-  }
+const CardStack = ({ screenSize, closeDeck, tweets }) => {
+  const [index, setIndex] = useState(0);
 
-  changeIndex() {
-    if (this.state.index + 1 === this.props.tweets.length) {
-      this.props.closeDeck();
+  const changeIndex = () => {
+    if (index + 1 === tweets.length) {
+      closeDeck();
     } else {
-      this.setState((prevState) => ({ index: prevState.index + 1 }));
+      setIndex(index + 1);
     }
-  }
+  };
 
-  render() {
-    return (
-      <ClickArea onClick={this.changeIndex}>
-        <TweetCard screenSize={this.props.screenSize} tweet={this.props.tweets[this.state.index]} />
-      </ClickArea>
-    );
-  }
-}
+  return (
+    <ClickArea onClick={changeIndex}>
+      <TweetCard screenSize={screenSize} tweet={tweets[index]} />
+    </ClickArea>
+  );
+};
 
 export default CardStack;
