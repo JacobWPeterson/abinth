@@ -17,24 +17,11 @@ const fadeIn = keyframes`
   }
 `;
 
-const fadeOut = keyframes`
-  from {
-    transform: scale(1);
-    opacity: 1;
-  }
-
-  to {
-    transform: scale(.25);
-    opacity: 0;
-  }
-`;
-
 const Wrapper = styled.div`
   margin: 5vh auto 0 auto;
   position: relative;
   display: flex;
   align-items: center;
-  // width: max(30vw, 450px);
   width: 95%;
   min-height: 20vh;
   padding-top: max(10px, 2vh);
@@ -42,9 +29,7 @@ const Wrapper = styled.div`
   border-radius: 10px;
   background: #fff;
   box-shadow: 0 3px 10px rgba(0,0,0,0.16), 0 3px 10px rgba(0,0,0,0.23);
-
-  visibility: ${(props) => (props.out ? 'hidden' : 'visible')};
-  animation: ${(props) => (props.out ? fadeOut : fadeIn)} 1s linear;
+  animation: ${fadeIn} 1s linear;
   transition: visibility 1s linear;
 
   @media (min-width: 313px) {
@@ -84,7 +69,6 @@ const User = styled.div`
 const ProfilePhoto = styled.img`
   border-radius: 50%;
   height: 8vh;
-  // transform: scale(1.5);
   margin-right: .5vw;
   border: 3px solid #e0e0e0;
   &:hover { border: 3px solid #cccccc; };
@@ -109,43 +93,26 @@ const Username = styled.a`
   &:hover { color: #1DA1F2; };
 `;
 
-class TweetCard extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      visible: true,
-    };
-    this.clickHandler = this.clickHandler.bind(this);
-  }
-
-  clickHandler(event) {
-    this.props.navigate(Number(event.target.id));
-  }
-
-  render() {
-    const { tweet: { bestTweet, user }, screenSize } = this.props;
-    const { visible } = this.state;
-    return (
-      <Wrapper out={!visible} onClick={(event) => event.stopPropagation()}>
-        <Card>
-          <Box>
-
-            <User>
-              <ProfilePhoto src={user.profile_image_url.replace('normal', '200x200')} alt={`${user.name}`} />
-              <Handles>
-                {screenSize > 313
+const TweetCard = ({ tweet: { bestTweet, user }, screenSize }) => (
+  <Wrapper onClick={(event) => event.stopPropagation()}>
+    <Card>
+      <Box>
+        <User>
+          <ProfilePhoto src={user.profile_image_url.replace('normal', '200x200')} alt={`${user.name}`} />
+          <Handles>
+            {screenSize > 313
                    && <Name>{user.name}</Name> }
-                <Username target="_blank" rel="noreferrer" href={`https://twitter.com/${user.username}`}>{`@${user.username}`}</Username>
-              </Handles>
-            </User>
+            <Username target="_blank" rel="noreferrer" href={`https://twitter.com/${user.username}`}>{`@${user.username}`}</Username>
+          </Handles>
+        </User>
 
-            <TweetBody tweet={bestTweet} />
+        <TweetBody tweet={bestTweet} />
 
-            {screenSize > 313 && bestTweet.entities
+        {screenSize > 313 && bestTweet.entities
               && bestTweet.entities.urls && bestTweet.entities.urls[0].expanded_url.includes('https://twitter.com/')
               && <Images images={bestTweet} />}
 
-            {screenSize > 313 && bestTweet.entities
+        {screenSize > 313 && bestTweet.entities
               && bestTweet.entities.urls && bestTweet.entities.urls[0].images
               && (
               <LinkPreview
@@ -155,11 +122,9 @@ class TweetCard extends React.Component {
                 link={bestTweet.entities.urls[0].unwound_url}
               />
               )}
-          </Box>
-        </Card>
-      </Wrapper>
-    );
-  }
-}
+      </Box>
+    </Card>
+  </Wrapper>
+);
 
 export default TweetCard;
