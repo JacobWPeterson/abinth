@@ -131,7 +131,7 @@ class TweetCard extends React.Component {
           <Box>
 
             <User>
-              <ProfilePhoto src={user.profile_image_url} alt={`${user.name}`} />
+              <ProfilePhoto src={user.profile_image_url.replace('normal', '200x200')} alt={`${user.name}`} />
               <Handles>
                 {screenSize > 313
                    && <Name>{user.name}</Name> }
