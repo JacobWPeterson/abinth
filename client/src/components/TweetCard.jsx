@@ -93,7 +93,9 @@ const Username = styled.a`
   &:hover { color: #1DA1F2; };
 `;
 
-const TweetCard = ({ tweet: { bestTweet, user }, screenSize }) => (
+const TweetCard = (
+  { tweet: { bestTweet: { entities } }, tweet: { bestTweet, user }, screenSize },
+) => (
   <Wrapper onClick={(event) => event.stopPropagation()}>
     <Card>
       <Box>
@@ -108,18 +110,18 @@ const TweetCard = ({ tweet: { bestTweet, user }, screenSize }) => (
 
         <TweetBody tweet={bestTweet} />
 
-        {screenSize > 313 && bestTweet.entities
-              && bestTweet.entities.urls && bestTweet.entities.urls[0].expanded_url.includes('https://twitter.com/')
+        {screenSize > 313 && entities
+              && entities.urls && entities.urls[0].expanded_url.includes('https://twitter.com/')
               && <Images images={bestTweet} />}
 
-        {screenSize > 313 && bestTweet.entities
-              && bestTweet.entities.urls && bestTweet.entities.urls[0].images
+        {screenSize > 313 && entities
+              && entities.urls && entities.urls[0].images
               && (
               <LinkPreview
-                imageUrl={bestTweet.entities.urls[0].images[0].url}
-                title={bestTweet.entities.urls[0].title}
-                description={bestTweet.entities.urls[0].description}
-                link={bestTweet.entities.urls[0].unwound_url}
+                imageUrl={entities.urls[0].images[0].url}
+                title={entities.urls[0].title}
+                description={entities.urls[0].description}
+                link={entities.urls[0].unwound_url}
               />
               )}
       </Box>
