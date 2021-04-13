@@ -19,7 +19,7 @@ The news sources are automated based on the follows of [@Abinth_News](https://tw
 1. React.js
 2. Node
 3. Express.js
-4. Postgres
+4. PostgreSQL
 5. Styled-Components
 6. Jest (to-come)
 7. Enzyme (to-come)
