@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Linkify from 'react-linkify';
-
 import styled from 'styled-components';
 
 const urlPattern = /^(https?|ftp|torrent|image|irc):\/\/(-\.)?([^\s/?.#]+\.?)+(\/[^\s]*)?$/i;
@@ -16,32 +15,28 @@ const Text = styled.p`
   }
 `;
 
-class TweetBody extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      textToRender: null,
-    };
-    this.dissectTweet = this.dissectTweet.bind(this);
-    this.findAltURLsForLink = this.findAltURLsForLink.bind(this);
-    this.isOutsideLinkWithoutRelatedImages = this.isOutsideLinkWithoutRelatedImages.bind(this);
-  }
+const TweetBody = ({ tweet: { text, entities } }) => {
+  const [textToRender, setTextToRender] = useState(null);
 
-  componentDidMount() {
-    this.dissectTweet(this.props.tweet.text, (words) => this.setState({
-      textToRender: words,
-    }));
-  }
-
-  componentDidUpdate(prevProps) {
-    if (prevProps !== this.props) {
-      this.dissectTweet(this.props.tweet.text, (words) => this.setState({
-        textToRender: words,
-      }));
+  const findAltURLsForLink = (url) => {
+    if (url[url.length - 1] === '.') {
+      url = url.slice(0, url.length - 1);
     }
-  }
+    const urlArray = entities.urls;
+    for (let i = 0; i < urlArray.length; i += 1) {
+      if (url === urlArray[i].url) {
+        return { index: i, altURLS: urlArray[i] };
+      }
+    }
+    return null;
+  };
 
-  async dissectTweet(text, callback) {
+  const isOutsideLinkWithoutRelatedImages = (index) => {
+    const urlAttributes = entities.urls[index];
+    return !urlAttributes.expanded_url.includes('https://twitter.com/') && !urlAttributes.images;
+  };
+
+  const dissectTweet = async (callback) => {
     let words = text.split(' ');
     const lastWord = words[words.length - 1];
     if (lastWord.includes('http') && lastWord.indexOf('http') !== 0) {
@@ -52,8 +47,8 @@ class TweetBody extends React.Component {
     }
     words = words.map((word) => {
       if (word.match(urlPattern) && word === lastWord) {
-        const altURLSAndIndex = this.findAltURLsForLink(word);
-        if (this.isOutsideLinkWithoutRelatedImages(altURLSAndIndex.index)) {
+        const altURLSAndIndex = findAltURLsForLink(word);
+        if (isOutsideLinkWithoutRelatedImages(altURLSAndIndex.index)) {
           return word;
         }
       } else if (word === '&amp;') {
@@ -63,41 +58,25 @@ class TweetBody extends React.Component {
       }
     });
     callback(words.join(' '));
-  }
+  };
 
-  findAltURLsForLink(url) {
-    if (url[url.length - 1] === '.') {
-      url = url.slice(0, url.length - 1);
-    }
-    const urlArray = this.props.tweet.entities.urls;
-    for (let i = 0; i < urlArray.length; i += 1) {
-      if (url === urlArray[i].url) {
-        return { index: i, altURLS: urlArray[i] };
-      }
-    }
-    return null;
-  }
+  useEffect(() => {
+    dissectTweet((words) => setTextToRender(words));
+  });
 
-  isOutsideLinkWithoutRelatedImages(index) {
-    const urlAttributes = this.props.tweet.entities.urls[index];
-    return !urlAttributes.expanded_url.includes('https://twitter.com/') && !urlAttributes.images;
+  if (textToRender) {
+    return (
+      <Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
+        <a target="blank" style={{ color: '#1DA1F2' }} href={decoratedHref} key={key}>
+          {decoratedText}
+        </a>
+      )}
+      >
+        <Text>{textToRender}</Text>
+      </Linkify>
+    );
   }
-
-  render() {
-    if (this.state.textToRender) {
-      return (
-        <Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
-          <a target="blank" style={{ color: '#1DA1F2' }} href={decoratedHref} key={key}>
-            {decoratedText}
-          </a>
-        )}
-        >
-          <Text>{this.state.textToRender}</Text>
-        </Linkify>
-      );
-    }
-    return <div />;
-  }
-}
+  return <div />;
+};
 
 export default TweetBody;
