@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import axios from 'axios';
 import styled, { keyframes } from 'styled-components';
 
@@ -96,7 +96,6 @@ const Button = styled.button`
   position: relative;
   padding: 10px;
 
-
   @media (min-width: 313px) {
     width: 300px;
     font-size: 22px;
@@ -131,110 +130,95 @@ const Closing = styled.p`
     font-size: 1.75rem;
     padding: 0 0 2vh 0;
   }
-`
+`;
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      tweets: null,
-      screenSize: null,
-      greetingOn: true,
-      deckOpen: false,
-      deckFinished: false,
-      greeting: 'Good morning!',
-    };
-    this.getTweets = this.getTweets.bind(this);
-    this.updateScreenSize = this.updateScreenSize.bind(this);
-    this.closeDeck = this.closeDeck.bind(this);
-  }
+const App = () => {
+  const [tweets, setTweets] = useState(null);
+  const [screenSize, setScreenSize] = useState(null);
+  const [greetingOn, setGreetingOn] = useState(true);
+  const [deckOpen, setDeckOpen] = useState(false);
+  const [deckFinished, setDeckFinished] = useState(false);
+  const [greeting, setGreeting] = useState('Good morning!')
 
-  componentDidMount() {
-    this.getTweets();
-    this.updateScreenSize();
-    window.addEventListener('resize', this.updateScreenSize);
+  useEffect(() => {
+    getTweets();
+    updateScreenSize();
+    window.addEventListener('resize', updateScreenSize);
     const hour = new Date().getHours();
     if (hour >= 12 && hour < 16) {
-      this.setState({ greeting: 'Good afternoon!' });
+      setGreeting('Good afternoon!');
     } else if (hour >= 16 && hour < 20) {
-      this.setState({ greeting: 'Good evening!' });
+      setGreeting('Good evening!');
     } else if (hour >= 20 && hour <= 24) {
-      this.setState({ greeting: 'Hey there!' });
+      setGreeting('Hey there!');
     }
+  })
+
+  const updateScreenSize = () => {
+    setScreenSize(window.innerWidth);
   }
 
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.updateScreenSize);
-  }
-
-  updateScreenSize() {
-    this.setState({ screenSize: window.innerWidth });
-  }
-
-  getTweets() {
+  const getTweets = () => {
     axios.get('/tweets')
       .then((response) => {
-        this.setState({ tweets: response.data });
+        setTweets(response.data);
       })
       .catch((error) => {
         throw error;
       });
   }
 
-  closeDeck() {
-    this.setState({ deckOpen: false, deckFinished: true });
+  const closeDeck = () => {
+    setDeckOpen(false);
+    setDeckFinished(true);
   }
 
-  render() {
-    const {
-      greeting, screenSize, tweets, greetingOn, deckOpen, deckFinished,
-    } = this.state;
-    return (
-      <Main>
-        {screenSize <= 313 &&
-        <Banner src="./images/abinth_watch_banner.png" alt="abinth: all news, no comments banner" height="37" width="162"/> }
-        {screenSize > 313 && screenSize < 897  &&
-        <Banner src="./images/abinth_stacked_banner.png" alt="abinth: all news, no comments banner" height="137" width="313" /> }
-        {screenSize > 897 &&
-        <Banner src="./images/alt_abinth_banner.png" alt="abinth: all news, no comments banner" height="137" width="897" /> }
-        {tweets && greetingOn && !deckOpen && (
+  return (
+    <Main>
+      {screenSize <= 313 &&
+      <Banner src="./images/abinth_watch_banner.png" alt="abinth: all news, no comments banner" height="37" width="162"/> }
+      {screenSize > 313 && screenSize < 897  &&
+      <Banner src="./images/abinth_stacked_banner.png" alt="abinth: all news, no comments banner" height="137" width="313" /> }
+      {screenSize > 897 &&
+      <Banner src="./images/alt_abinth_banner.png" alt="abinth: all news, no comments banner" height="137" width="897" /> }
+
+      {tweets && greetingOn && !deckOpen && (
+      <Display>
+        <Message>
+          <Greeting>{greeting}</Greeting>
+          <DeckInfo>
+            You have
+            {' '}
+            {tweets.length}
+            {' '}
+            cards today
+          </DeckInfo>
+        </Message>
+        <Button
+          ringIt={greetingOn}
+          onClick={() => { setGreetingOn(false); setDeckOpen(true)}}
+        >
+          Get caught up
+        </Button>
+      </Display>
+      )}
+      <Suspense fallback={<div>Loading...</div>}>
+        {deckOpen && (
+        <CardStack screenSize={screenSize} closeDeck={closeDeck} tweets={tweets} />
+        )}
+      </Suspense>
+      <Suspense fallback={<div>Loading...</div>}>
+        {deckFinished && (
         <Display>
-          <Message>
-            <Greeting>{greeting}</Greeting>
-            <DeckInfo>
-              You have
-              {' '}
-              {tweets.length}
-              {' '}
-              cards today
-            </DeckInfo>
-          </Message>
-          <Button
-            ringIt={greetingOn}
-            onClick={() => this.setState({ greetingOn: false, deckOpen: true })}
-          >
-            Get caught up
+          <Closing>All caught up!</Closing>
+          <Button onClick={() => {setDeckFinished(false); setDeckOpen(true)}}>
+            Start Over?
           </Button>
         </Display>
         )}
-        <Suspense fallback={<div>Loading...</div>}>
-          {deckOpen && (
-          <CardStack screenSize={screenSize} closeDeck={this.closeDeck} tweets={tweets} />
-          )}
-        </Suspense>
-        <Suspense fallback={<div>Loading...</div>}>
-          {deckFinished && (
-          <Display>
-            <Closing>All caught up!</Closing>
-            <Button onClick={() => this.setState({ deckFinished: false, deckOpen: true })}>
-              Start Over?
-            </Button>
-          </Display>
-          )}
-        </Suspense>
-      </Main>
-    );
-  }
+      </Suspense>
+    </Main>
+  );
 }
 
 export default App;

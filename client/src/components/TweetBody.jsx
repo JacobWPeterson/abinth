@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Linkify from 'react-linkify';
 
 import styled from 'styled-components';
@@ -24,7 +24,7 @@ class TweetBody extends React.Component {
     };
     this.dissectTweet = this.dissectTweet.bind(this);
     this.findAltURLsForLink = this.findAltURLsForLink.bind(this);
-    this.isOutsideLinkWithoutAssociatedImages = this.isOutsideLinkWithoutAssociatedImages.bind(this);
+    this.isOutsideLinkWithoutRelatedImages = this.isOutsideLinkWithoutRelatedImages.bind(this);
   }
 
   componentDidMount() {
@@ -53,7 +53,7 @@ class TweetBody extends React.Component {
     words = words.map((word) => {
       if (word.match(urlPattern) && word === lastWord) {
         const altURLSAndIndex = this.findAltURLsForLink(word);
-        if (this.isOutsideLinkWithoutAssociatedImages(altURLSAndIndex.index)) {
+        if (this.isOutsideLinkWithoutRelatedImages(altURLSAndIndex.index)) {
           return word;
         }
       } else if (word === '&amp;') {
@@ -78,7 +78,7 @@ class TweetBody extends React.Component {
     return null;
   }
 
-  isOutsideLinkWithoutAssociatedImages(index) {
+  isOutsideLinkWithoutRelatedImages(index) {
     const urlAttributes = this.props.tweet.entities.urls[index];
     return !urlAttributes.expanded_url.includes('https://twitter.com/') && !urlAttributes.images;
   }
