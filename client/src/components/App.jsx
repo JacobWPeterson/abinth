@@ -152,7 +152,7 @@ const App = () => {
     } else if (hour >= 20 && hour <= 24) {
       setGreeting('Hey there!');
     }
-  })
+  }, []);
 
   const updateScreenSize = () => {
     setScreenSize(window.innerWidth);
