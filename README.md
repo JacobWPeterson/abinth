@@ -24,8 +24,8 @@ The news sources are automated based on the follows of [@Abinth_News](https://tw
 6. Jest
 7. Enzyme
 
-## Video Demo
-<img src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/AbtinthDemo.gif" width="550">
+## Demo of Desktop, Mobile, and Watch Formats
+<img src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/AbtinthDemo.gif" width="1100">
 
 ## Screengrabs
 ### Landing Page
