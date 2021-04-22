@@ -21,9 +21,11 @@ The news sources are automated based on the follows of [@Abinth_News](https://tw
 3. Express.js
 4. PostgreSQL
 5. Styled-Components
-6. Jest (to-come)
-7. Enzyme (to-come)
+6. Jest
+7. Enzyme
 
+## Demo of Desktop, Mobile, and Watch Formats
+<img src="https://github.com/JacobWPeterson/abinth/blob/main/README_images/AbtinthDemo.gif" width="1100">
 
 ## Screengrabs
 ### Landing Page
