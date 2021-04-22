@@ -12,7 +12,7 @@ const ClickArea = styled.div`
 `;
 
 const CardStack = ({ screenSize, closeDeck, tweets }) => {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(10);
 
   const changeIndex = () => {
     if (index + 1 === tweets.length) {
