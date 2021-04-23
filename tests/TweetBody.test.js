@@ -1,11 +1,11 @@
 /* eslint-disable no-undef */
 import React from 'react';
 import { shallow } from 'enzyme';
-import TweetCard from '../client/src/components/TweetCard.jsx';
+import CardStack from '../client/src/components/CardStack.jsx';
 
-describe('TweetCard', () => {
+describe('CardStack', () => {
   it('should render correctly in "debug" mode', () => {
-    const component = shallow(<TweetCard debug />);
+    const component = shallow(<CardStack debug />);
 
     expect(component).toMatchSnapshot();
   });
