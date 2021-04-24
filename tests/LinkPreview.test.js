@@ -1,11 +1,15 @@
 /* eslint-disable no-undef */
 import React from 'react';
 import { shallow } from 'enzyme';
-import CardStack from '../client/src/components/CardStack.jsx';
+import LinkPreview from '../client/src/components/LinkPreview.jsx';
 
-describe('CardStack', () => {
+const props = {
+  imageUrl: 'www.yahoo.com/12313123123', title: 'Hello World', description: 'This is a news story', link: 'www.yahoo.com/12313123123',
+};
+
+describe('LinkPreview', (props) => {
   it('should render correctly in "debug" mode', () => {
-    const component = shallow(<CardStack debug />);
+    const component = shallow(<LinkPreview debug />);
 
     expect(component).toMatchSnapshot();
   });
