@@ -76,9 +76,8 @@ const LinkPreview = ({
         <Icon>
           🔗
         </Icon>
-        { link.includes('.pl') && link.substring(8, link.indexOf('.pl/') + 3)}
         { link.includes('.com') && link.substring(link.indexOf('www.'), link.indexOf('.com') + 4)}
-        { !link.includes('.com') && !link.includes('.pl') && link}
+        { !link.includes('.com') && link}
       </LinkArea>
     </Content>
   </Wrapper>
