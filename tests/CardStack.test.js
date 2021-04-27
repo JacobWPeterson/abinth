@@ -13,14 +13,4 @@ describe('CardStack', () => {
   it('should render correctly in "debug" mode', () => {
     expect(component).toMatchSnapshot();
   });
-  const clickArea = component.find('div');
-  const tweet = component.find(TweetCard);
-  it('increases index when non-Tweet area is clicked', () => {
-    clickArea.simulate('click');
-    expect(component.changeIndex.mock.calls.length).toBe(1);
-  });
-  it('index does not increase when Tweet area is clicked', () => {
-    tweet.simulate('click');
-    expect(component.changeIndex.mock.calls.length).toBe(0);
-  });
 });
